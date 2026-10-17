@@ -4,6 +4,30 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.7.0 (2026-10-17)
+
+- Radio-App: über 90 Sender in den Kategorien Deutsch, Englisch, I LOVE RADIO, ETS2 (deine Sender aus dem Spiel) und Eigene – mit Titel und Cover zum laufenden Song, Kachel- oder Listenansicht, Lautstärke in feinen Schritten (gedrückt halten für große Sprünge) und Lenkrad-Tasten. Radio und Spotify stoppen sich gegenseitig, das Dashboard zeigt, was gerade läuft
+- Songtexte in der Musik-App: laufen synchron zum Song mit, daneben das Cover
+- Spotify ohne Spiel: „läuft gerade“ und die Wiedergabe-Knöpfe funktionieren jetzt auch, wenn ETS2 nicht läuft
+- Karte: Brücken und Überführungen liegen sichtbar über den Straßen darunter (mit weichem Schatten), Straßen sind so breit wie ihre Spuren und schließen sauber an Kreuzungen an, Einbahnstraßen und Auffahrten bekommen Pfeile, nah herangezoomt gibt es Fahrbahnmarkierungen (abschaltbar)
+- Karte: versteckte Straßen (meist Kulisse oder nur für den KI-Verkehr) und geheime Abkürzungen lassen sich einzeln einblenden – beide sind standardmäßig aus, Gleise und Gehwege erscheinen nie als Straße
+- Neues dunkles Kartendesign für den Apple-Stil: Schieferblau, Grün in Petrol, tiefblaues Wasser
+- Deutlich weniger Prozessorlast: im Ruhezustand nur noch ein Bruchteil, die GPU-Übertragung ist jetzt ab Werk an und fällt bei Problemen von selbst zurück; der Editor rechnet nicht mehr, solange er minimiert oder hinter dem Spiel ist
+- Einstellungen aufgeräumt: Karteninhalt in Landschaft, Straßen und Orte gegliedert, „Bearbeiten“ direkt bei Home-Bildschirm und Dashboard
+- Korrekturen: Anrufe brachen sofort ab, Tempo-Anzeige sprang, gefahrene Strecke abschaltbar, Wetter lädt zuverlässiger (Ausweichdienst), Senderlogos ohne Umbruch mitten im Wort, Zurück-Knopf über den Songtexten
+
+*English:*
+
+- Radio app: more than 90 stations in the categories German, English, I LOVE RADIO, ETS2 (your stations from the game) and Own – with title and cover of the current song, tile or list view, fine volume steps (hold for big jumps) and steering wheel keys. Radio and Spotify stop each other, and the dashboard shows what is playing
+- Lyrics in the music app: synced to the song, with the cover next to them
+- Spotify without the game: “now playing” and the playback buttons now also work when ETS2 is not running
+- Map: bridges and overpasses visibly lie above the roads below (with a soft shadow), roads are as wide as their lanes and connect cleanly to junctions, one-way roads and ramps get arrows, and close up there are lane markings (can be switched off)
+- Map: hidden roads (mostly scenery or only for AI traffic) and secret shortcuts can be shown separately – both are off by default, and railway tracks and footpaths never appear as roads
+- New dark map design for the Apple style: slate blue, petrol green, deep blue water
+- Much lower CPU load: only a fraction at idle, GPU transfer is now on by default and falls back by itself if there are problems; the editor no longer works while it is minimised or behind the game
+- Settings tidied up: map content grouped into landscape, roads and places, “Edit” right next to home screen and dashboard
+- Fixes: calls ended immediately, speed display jumped, driven route can be switched off, weather loads more reliably (fallback service), station logos no longer break mid-word, back button above the lyrics
+
 ## 1.6.0 (2026-10-17)
 
 - AI-Sprachassistent (optional): Halte den Home-Knopf gedrückt und sprich einfach frei, zum Beispiel „Schaffe ich die Lieferung noch?“, „Spiel was von AC/DC“ oder „Ruf die Pannenhilfe an“. Die Antworten kommen aus deinen Spieldaten (Auftrag, Route, Tank, Pause, Wetter), dazu kann der Assistent Apps öffnen, Musik steuern und anrufen. Er versteht Deutsch und Englisch und antwortet in der App-Sprache
