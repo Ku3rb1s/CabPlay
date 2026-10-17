@@ -4,6 +4,26 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.6.0 (2026-10-17)
+
+- AI-Sprachassistent (optional): Halte den Home-Knopf gedrückt und sprich einfach frei, zum Beispiel „Schaffe ich die Lieferung noch?“, „Spiel was von AC/DC“ oder „Ruf die Pannenhilfe an“. Die Antworten kommen aus deinen Spieldaten (Auftrag, Route, Tank, Pause, Wetter), dazu kann der Assistent Apps öffnen, Musik steuern und anrufen. Er versteht Deutsch und Englisch und antwortet in der App-Sprache
+- Telefonate mit AI: Disponent, Verkehrsfunk, Pannenhilfe & Co. reden mit dir. Tippe nach der Ansage auf das Mikrofon und frag einfach nach
+- Alles läuft auf deinem PC: kostenlos, ohne Konto und nach dem Download ohne Internet. Geladen wird nur, wenn du es willst (Einstellungen › Sprachassistent): Standard etwa 3 GB, Kompakt für schwächere PCs etwa 1,5 GB. Du kannst es jederzeit wieder entfernen
+- Natürliche Stimme „Kerstin“ (optional, etwa 150 MB): liest Disponent, Navi-Hinweise und Antworten vor und klingt natürlicher als die Windows-Stimmen. Sie funktioniert auch ohne das Sprachmodell und ist jederzeit wieder entfernbar
+- Neuer Anrufbildschirm wie bei CarPlay: großes Bild, Gesprächsdauer, Ton aus, Auflegen und bei AI-Gesprächen die Mitschrift. Ein eingehender Anruf erscheint als Pille unten und öffnet sich per Tipp, der Home-Knopf macht ihn wieder klein
+- Feste Sprachbefehle erweitert: mehr Formulierungen, dazu Uhrzeit, Tankinhalt, Lieferfrist, Kontakte anrufen und „Wiederholen“
+- Home-Bildschirm bearbeiten: Halte die Seitenpunkte unten gedrückt, dann wackeln die Icons wie auf dem iPhone. Das geht jetzt auch im Spiel und im Touch-Fenster
+
+*English:*
+
+- AI voice assistant (optional): hold the Home button and just talk, e.g. “Will I make the delivery?”, “Play something by AC/DC” or “Call roadside assistance”. Answers come from your game data (job, route, fuel, breaks, weather), and the assistant can open apps, control music and make calls. It understands German and English and answers in the app language
+- AI phone calls: the dispatcher, traffic radio, roadside assistance and co. talk to you. Tap the microphone after the greeting and just ask
+- Everything runs on your PC: free, no account and no internet after the download. It is only downloaded if you want it (Settings › Voice assistant): standard about 3 GB, compact about 1.5 GB for weaker PCs. You can remove it at any time
+- Natural voice “Kerstin” (optional, about 150 MB): reads out the dispatcher, navigation hints and answers and sounds more natural than the Windows voices. Works without the language model too and can be removed at any time
+- New call screen like CarPlay: large picture, call duration, mute, hang up and, for AI calls, a transcript. An incoming call appears as a pill at the bottom and opens with a tap; the Home button makes it small again
+- More fixed voice commands: more phrasings, plus time, fuel level, delivery deadline, calling contacts and “Repeat”
+- Edit the home screen: hold the page dots at the bottom and the icons jiggle like on the iPhone. This now also works in the game and in the touch window
+
 ## 1.5.1 (2026-10-17)
 
 - Karte: „Meer“ und „Flüsse & Seen“ getrennt schaltbar, mit eigenen Symbolen. „Flüsse & Seen“ ist als experimentell markiert, weil die Wasserdaten des Spiels lückenhaft sind
