@@ -4,6 +4,10 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.1 (2026-10-18)
+
+- Behoben: Nach dem Antippen eines Treffers in der Einstellungs-Suche war das ganze Bild verschoben. Das konnte auch passieren, wenn man in einer langen Liste weit unten etwas umgeschaltet hat
+
 ## 1.9.0 (2026-10-18)
 
 **Stimme**
