@@ -152,7 +152,7 @@ YouTube- und Twitch-Links laufen auf dem Display im Truck. Link kopieren und in 
 
 ### Sprachbefehle und Ansagen
 
-Strg + Alt + V (oder den Home-Knopf gedrückt halten) startet einen Sprachbefehl, zum Beispiel „Nächste Tankstelle“, „Wie weit noch“, „Wetter“, „Disponent anrufen“ oder „Nächster Titel“. Ohne Sprachassistent erkennt die Windows-Spracherkennung feste Befehle, mit Sprachassistent kannst du frei reden. Navi-Ansagen sprechen die Windows-Stimmen oder die zusätzliche Stimme „Kerstin“, die Lautstärke ist für Ansagen und Warntöne getrennt einstellbar.
+Strg + Alt + V (oder den Home-Knopf gedrückt halten) startet einen Sprachbefehl, zum Beispiel „Nächste Tankstelle“, „Wie weit noch“, „Wetter“, „Disponent anrufen“ oder „Nächster Titel“. Ohne Sprachassistent erkennt die Windows-Spracherkennung feste Befehle, mit Sprachassistent kannst du frei reden. Navi-Ansagen sprechen die Windows-Stimmen oder eine der zehn zusätzlichen AI-Stimmen (zum Beispiel Olivia). Die laufen direkt in der App auf dem Prozessor, auch auf mittleren PCs, und werden nur auf Wunsch geladen (etwa 400 MB). Die Lautstärke ist für Ansagen und Warntöne getrennt einstellbar.
 
 ### Auftrag, Fahrzeug und Bus
 
@@ -211,6 +211,6 @@ Entfernt werden das Plugin im Spiel, die Platzhalter in `Dokumente\Euro Truck Si
 - Die Kartendaten liest der [TruckSim-Kartenparser](https://github.com/truckermudgeon/maps) (GPL-3.0) aus den Spieldateien. Der Quellcode liegt jedem Paket bei (`resources/mapdata/parser/QUELLE.txt`).
 - Meeresflächen: [Natural Earth](https://www.naturalearthdata.com/) (gemeinfrei).
 - Radiosender: [radio-browser.info](https://www.radio-browser.info/), Songtexte: [LRCLIB](https://lrclib.net/), Wetter: [Open-Meteo](https://open-meteo.com/) und MET Norway.
-- Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimme Piper (MIT).
+- Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT).
 - Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1).
 - Gebaut mit [Electron](https://www.electronjs.org/).

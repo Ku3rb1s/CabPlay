@@ -154,7 +154,7 @@ YouTube and Twitch links play on the display in the truck. Copy a link and paste
 
 ### Voice commands and announcements
 
-Ctrl + Alt + V (or holding the Home button) starts a voice command, for example "Next fuel station", "How far", "Weather", "Call dispatcher" or "Next track". Without the voice assistant the Windows speech recognition understands fixed commands, with it you can talk freely. Navigation announcements use the Windows voices or the extra voice "Kerstin", with separate volumes for announcements and warning sounds.
+Ctrl + Alt + V (or holding the Home button) starts a voice command, for example "Next fuel station", "How far", "Weather", "Call dispatcher" or "Next track". Without the voice assistant the Windows speech recognition understands fixed commands, with it you can talk freely. Navigation announcements use the Windows voices or one of ten extra AI voices (for example Olivia). They run right inside the app on the processor, also on mid-range PCs, and are only downloaded if you want them (about 400 MB). Announcements and warning sounds have separate volumes.
 
 ### Job, truck and bus
 
@@ -213,6 +213,6 @@ This removes the plugin from the game, the placeholders in `Documents\Euro Truck
 - Map data is read from the game files with the [TruckSim map parser](https://github.com/truckermudgeon/maps) (GPL-3.0). Its source code ships with every package (`resources/mapdata/parser/QUELLE.txt`).
 - Sea areas: [Natural Earth](https://www.naturalearthdata.com/) (public domain).
 - Radio stations: [radio-browser.info](https://www.radio-browser.info/), lyrics: [LRCLIB](https://lrclib.net/), weather: [Open-Meteo](https://open-meteo.com/) and MET Norway.
-- Voice assistant: whisper.cpp and llama.cpp (MIT), Qwen language model (Apache 2.0), Piper voice (MIT).
+- Voice assistant: whisper.cpp and llama.cpp (MIT), Qwen language model (Apache 2.0), Supertonic 3 voices by Supertone (OpenRAIL-M) via ONNX Runtime (MIT).
 - Font: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1).
 - Built with [Electron](https://www.electronjs.org/).

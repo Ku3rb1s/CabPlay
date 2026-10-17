@@ -4,6 +4,48 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.8.0 (2026-10-17)
+
+**Navi**
+- Kreisverkehre werden mit der Ausfahrt angesagt („Im Kreisverkehr 2. Ausfahrt“)
+- Weniger falsche Abbiegehinweise: Kurven und Auffahrtschleifen gelten nicht mehr als Abbiegen. Die App nutzt dafür die Blinker-Angaben der Kreuzungen aus den Spieldaten
+- Autobahnausfahrten heißen jetzt „Ausfahrt rechts/links“, Gabelungen weiter „Rechts/Links halten“
+- Die Routenlinie liegt auf der eigenen Fahrbahn und ist glatter, ohne Sprünge zur Straßenmitte
+- Ein abgekuppelter Anhänger wird auf der Karte angezeigt
+
+**Karte**
+- Wasser stimmt an vielen Stellen besser, unter anderem in Amsterdam. Die Bodendaten des Spiels wurden bisher falsch gelesen
+- Neu: „Beim Fahren dazulernen“. Fährst du irgendwo, wo die Karte Wasser zeigt (Hafen, Firmengelände), wird es beim nächsten Erneuern der Karte zu Land. Die Daten bleiben auf deinem PC
+- Kartenmenü: „Zurück“ springt nicht mehr zum Dashboard, klarere Auswahl bei „Fehler auf der Karte melden“, Ankunftszeit im selben Glas wie die Seitenleiste
+
+**Stimme**
+- Zehn neue Stimmen für Ansagen, Disponent und Assistent, zum Beispiel Olivia. Sie laufen direkt in der App auf dem Prozessor, auch auf mittleren PCs ohne starke Grafikkarte. Laden unter Einstellungen › Sprachassistent › Stimme (etwa 400 MB)
+
+**Sonstiges**
+- Video: Twitch-Links funktionieren, eigene Knöpfe für Pause, Spulen und Lautstärke
+- Touch-Modus: Der Mauszeiger verschwindet nach 3 Sekunden ohne Bewegung (Plugin 1.6.0, wird von der App selbst eingespielt)
+
+*English:*
+
+**Navigation**
+- Roundabouts are announced with the exit number ("Roundabout, exit 2")
+- Fewer false turn prompts: bends and loop ramps no longer count as turns. The app uses the turn signal data of junctions from the game files for this
+- Motorway exits now say "Exit right/left", forks still say "Keep right/left"
+- The route line stays on your own carriageway and is smoother, without jumps to the middle of the road
+- An uncoupled trailer is shown on the map
+
+**Map**
+- Water is more accurate in many places, Amsterdam among them. The game's ground data was read the wrong way before
+- New: "Learn while driving". If you drive where the map shows water (ports, company yards), it becomes land the next time the map is rebuilt. The data stays on your PC
+- Map menu: "Back" no longer jumps to the dashboard, clearer choices in "Report a map error", arrival time in the same glass as the sidebar
+
+**Voice**
+- Ten new voices for announcements, dispatcher and assistant, for example Olivia. They run right inside the app on the processor, also on mid-range PCs without a strong graphics card. Download under Settings › Voice assistant › Voice (about 400 MB)
+
+**Other**
+- Video: Twitch links work, own buttons for pause, seeking and volume
+- Touch mode: the mouse pointer hides after 3 seconds without movement (plugin 1.6.0, installed by the app)
+
 ## 1.7.1 (2026-10-17)
 
 - Google-Kartenstil: Der Positionspfeil ist größer, und die weiße Scheibe darum ist leicht durchsichtig wie bei Google Maps, damit man die Straße darunter noch sieht
