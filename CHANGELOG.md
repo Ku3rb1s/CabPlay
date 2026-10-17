@@ -6,27 +6,27 @@ All versions of ETS2 CarPlay. Get the current version from [Releases](../../rele
 
 ## 1.7.0 (2026-10-17)
 
-- Radio-App: über 90 Sender in den Kategorien Deutsch, Englisch, I LOVE RADIO, ETS2 (deine Sender aus dem Spiel) und Eigene – mit Titel und Cover zum laufenden Song, Kachel- oder Listenansicht, Lautstärke in feinen Schritten (gedrückt halten für große Sprünge) und Lenkrad-Tasten. Radio und Spotify stoppen sich gegenseitig, das Dashboard zeigt, was gerade läuft
-- Songtexte in der Musik-App: laufen synchron zum Song mit, daneben das Cover
-- Spotify ohne Spiel: „läuft gerade“ und die Wiedergabe-Knöpfe funktionieren jetzt auch, wenn ETS2 nicht läuft
-- Karte: Brücken und Überführungen liegen sichtbar über den Straßen darunter (mit weichem Schatten), Straßen sind so breit wie ihre Spuren und schließen sauber an Kreuzungen an, Einbahnstraßen und Auffahrten bekommen Pfeile, nah herangezoomt gibt es Fahrbahnmarkierungen (abschaltbar)
-- Karte: versteckte Straßen (meist Kulisse oder nur für den KI-Verkehr) und geheime Abkürzungen lassen sich einzeln einblenden – beide sind standardmäßig aus, Gleise und Gehwege erscheinen nie als Straße
-- Neues dunkles Kartendesign für den Apple-Stil: Schieferblau, Grün in Petrol, tiefblaues Wasser
-- Deutlich weniger Prozessorlast: im Ruhezustand nur noch ein Bruchteil, die GPU-Übertragung ist jetzt ab Werk an und fällt bei Problemen von selbst zurück; der Editor rechnet nicht mehr, solange er minimiert oder hinter dem Spiel ist
-- Einstellungen aufgeräumt: Karteninhalt in Landschaft, Straßen und Orte gegliedert, „Bearbeiten“ direkt bei Home-Bildschirm und Dashboard
-- Korrekturen: Anrufe brachen sofort ab, Tempo-Anzeige sprang, gefahrene Strecke abschaltbar, Wetter lädt zuverlässiger (Ausweichdienst), Senderlogos ohne Umbruch mitten im Wort, Zurück-Knopf über den Songtexten
+- Radio-App mit über 90 Sendern: deutsche, englische, I LOVE RADIO, die Sender aus deinem Spiel und eigene. Zum laufenden Song gibt es Titel und Cover, die Lautstärke geht in kleinen Schritten (gedrückt halten für große), und die Lenkrad-Tasten wechseln den Sender. Radio und Spotify stoppen sich gegenseitig
+- Songtexte in der Musik-App, sie laufen mit dem Song mit
+- Spotify zeigt auch ohne laufendes Spiel, was gerade spielt, und lässt sich steuern
+- Karte: Brücken liegen sichtbar über den Straßen darunter, Straßen sind so breit wie ihre Spuren, Einbahnstraßen und Auffahrten haben Pfeile, und ganz nah gibt es Fahrbahnmarkierungen
+- Versteckte Straßen und geheime Abkürzungen kannst du einzeln einblenden. Beides ist ab Werk aus, Gleise und Gehwege werden nie als Straße gezeichnet
+- Neues dunkles Design für den Apple-Kartenstil
+- Die App braucht deutlich weniger Prozessor. Die GPU-Übertragung ist jetzt ab Werk an, und der Editor rechnet nicht mehr, wenn er minimiert oder hinter dem Spiel liegt
+- Einstellungen aufgeräumt, die Karten-Einstellungen sind jetzt in Gruppen sortiert
+- Behoben: Anrufe brachen sofort ab, die Tempo-Anzeige sprang, das Wetter lud manchmal nicht, Senderlogos wurden mitten im Wort umbrochen
 
 *English:*
 
-- Radio app: more than 90 stations in the categories German, English, I LOVE RADIO, ETS2 (your stations from the game) and Own – with title and cover of the current song, tile or list view, fine volume steps (hold for big jumps) and steering wheel keys. Radio and Spotify stop each other, and the dashboard shows what is playing
-- Lyrics in the music app: synced to the song, with the cover next to them
-- Spotify without the game: “now playing” and the playback buttons now also work when ETS2 is not running
-- Map: bridges and overpasses visibly lie above the roads below (with a soft shadow), roads are as wide as their lanes and connect cleanly to junctions, one-way roads and ramps get arrows, and close up there are lane markings (can be switched off)
-- Map: hidden roads (mostly scenery or only for AI traffic) and secret shortcuts can be shown separately – both are off by default, and railway tracks and footpaths never appear as roads
-- New dark map design for the Apple style: slate blue, petrol green, deep blue water
-- Much lower CPU load: only a fraction at idle, GPU transfer is now on by default and falls back by itself if there are problems; the editor no longer works while it is minimised or behind the game
-- Settings tidied up: map content grouped into landscape, roads and places, “Edit” right next to home screen and dashboard
-- Fixes: calls ended immediately, speed display jumped, driven route can be switched off, weather loads more reliably (fallback service), station logos no longer break mid-word, back button above the lyrics
+- Radio app with more than 90 stations: German, English, I LOVE RADIO, the stations from your game and your own. The current song shows title and cover, volume goes in small steps (hold for big ones), and the steering wheel buttons switch stations. Radio and Spotify stop each other
+- Lyrics in the music app, scrolling along with the song
+- Spotify shows what's playing and can be controlled even when the game isn't running
+- Map: bridges visibly sit above the roads below, roads are as wide as their lanes, one-way roads and ramps have arrows, and close up there are lane markings
+- Hidden roads and secret shortcuts can be shown separately. Both are off by default, and railway tracks and footpaths are never drawn as roads
+- New dark design for the Apple map style
+- The app uses a lot less CPU. GPU transfer is now on by default, and the editor stops working while it's minimised or behind the game
+- Settings tidied up, the map settings are now sorted into groups
+- Fixed: calls ended right away, the speed display jumped, the weather sometimes didn't load, station logos broke in the middle of a word
 
 ## 1.6.0 (2026-10-17)
 
