@@ -4,6 +4,30 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.0 (2026-10-18)
+
+**Stimme**
+- Olivia und die anderen AI-Stimmen sprechen sauberer (mehr Rechenschritte, trotzdem unter einer halben Sekunde je Navi-Satz)
+- Aussprache-Liste: Zahlen, Uhrzeiten und Geldbeträge werden richtig gesprochen („ein Euro neunundsechzig“, „vierzehn Uhr dreißig“, „die zweite Ausfahrt“), Abkürzungen wie z. B., ca., GmbH oder ADR ausgeschrieben, Straßennummern als „A zehn“
+- Orte heißen wie in einem deutschen Navi (München, Köln, Kopenhagen, Danzig …), ausländische Orte und die Firmen aus dem Spiel klingen verständlicher. Geprüft wurden alle Städte und Firmen des Spiels
+- Stimmenauswahl aufgeräumt: die alte Stimme Kerstin ist raus (wer sie hatte, bekommt Olivia), die Windows-Stimmen heißen jetzt „Katja (Windows)“ usw.
+
+**Einstellungen**
+- Neue Suche oben in den Einstellungen: findet jede Option, auch in Unterseiten. Ein Treffer öffnet die Seite und markiert die Zeile
+- Auf dem Truck-Bildschirm gibt es dafür eine Bildschirmtastatur, unten angedockt wie bei CarPlay, mit Umlauten, Ziffern und Zeichen
+
+*English:*
+
+**Voice**
+- Olivia and the other AI voices sound cleaner (more processing steps, still under half a second per navigation sentence)
+- Pronunciation list: numbers, times and prices are spoken correctly ("one euro sixty-nine", "fourteen thirty", "the second exit"), abbreviations are spelled out, road numbers read properly
+- Places use the names a German navigation system uses (München, Köln, Kopenhagen …), foreign places and the game's companies are easier to understand. All cities and companies in the game were checked
+- Voice list tidied up: the old voice Kerstin is gone (if you used it, you now get Olivia), the Windows voices are now labelled "Katja (Windows)" etc.
+
+**Settings**
+- New search at the top of the settings: finds every option, including sub-pages. A result opens the page and highlights the row
+- On the truck screen there is an on-screen keyboard for it, docked at the bottom like in CarPlay, with umlauts, numbers and symbols
+
 ## 1.8.0 (2026-10-17)
 
 **Navi**
