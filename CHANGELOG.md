@@ -4,6 +4,20 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.3 (2026-10-18)
+
+- Twitch-Streams starten jetzt von selbst. Pause und Lautstärke funktionieren auch bei Twitch
+- Video-Lautstärke: Die Prozentanzeige war nach dem Tippen leer, und neue Videos starteten mit voller Lautstärke statt mit der eingestellten
+- Handy-Steuerung: Das Bild kommt jetzt deutlich flüssiger an (vorher teils nur 2 Bilder pro Sekunde)
+- Kreisverkehr: Die Anzeige bleibt nach der Einfahrt stehen und zählt bis zur Ausfahrt herunter
+- Tempo im Navi wird orange, sobald du über deiner eingestellten Tempo-Warnung fährst. Im Google-Stil blieb es vorher immer weiß
+- „Nach Scheinwerfer“ funktioniert jetzt auch mit dem automatischen Licht im Spiel
+- Kartenstil und Symbole gehören zusammen: Apple Karten bringt die Apple-Symbole mit, Google die von Google Maps und Spotify
+- Behoben: Hell/Dunkel brauchte zwei Klicks
+- Behoben: Im Karten-Menü führte Zurück nach „Mehr …“ in die Einstellungen statt zur Karte
+- Behoben: Einstellungen und Listen (Radio, Mitteilungen, Orte, Kalender, Video) sprangen nach jeder Änderung und während eines Downloads nach oben
+- Die Karte zeichnet nach dem Umstellen einer Einstellung nicht mehr alles neu und braucht dabei weniger Speicher
+
 ## 1.9.2 (2026-10-18)
 
 - Behoben: Nach dem Antippen eines Treffers in der Einstellungs-Suche war das ganze Bild verschoben. Das konnte auch passieren, wenn man in einer langen Liste weit unten etwas umgeschaltet hat
