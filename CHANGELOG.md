@@ -4,6 +4,19 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.5 (2026-10-18)
+
+- Abbiegungen kommen jetzt aus den Kreuzungsdaten des Spiels (Richtung der Fahrspuren und Blinker der KI). Stadtabbiegungen, dicht aufeinanderfolgende Kreuzungen und die letzte Abbiegung vor dem Ziel fehlen nicht mehr
+- Wegweiser: Ausfahrten zeigen die Straßennummer als Schild und das Ziel von den echten Schildern, z. B. „Ausfahrt rechts · A1 Richtung Linz“. Die Ansage sagt es genauso
+- Einfahrt aufs Firmengelände: „Links abbiegen · aufs Gelände: Firma“, das Ziel zeigt den Firmennamen
+- Spurhinweise erscheinen nur noch, wenn die Spuren bis zu dir reichen. Auf Rastplatz, Rampe oder Beschleunigungsstreifen siehst du nicht mehr die Spuren der Autobahn dahinter
+- Die Linie wechselt früher auf die Spur, die du brauchst. Die übrigen Spuren zeigen ihre echte Richtung (Hauptfahrbahn geradeaus statt schräg)
+- Marker unter der Spur, auf der du gerade fährst: blau = richtig, orange = wechseln. Abschaltbar unter Einstellungen › Karten
+- Neue App „Sport“: Bundesliga, 2. und 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga und Formel 1, mit Live-Spielständen, Tabellen und WM-Stand. Lieblingsteams bekommen einen Live-Ticker als Mitteilung
+- Das Fahrzeug-Icon zeigt das Logo der Marke, die du fährst (in Farbe, Dunkel und Klar). Abschaltbar unter Einstellungen › App-Icons
+- Optional: Spurempfehlung verbessern. Die App merkt sich Stellen, an denen die Empfehlung nicht passt, und du kannst sie auf GitHub teilen
+- Behoben: Mitteilungen im Symbolstil „Klar“ hatten ein unsichtbares App-Icon
+
 ## 1.9.4 (2026-10-18)
 
 - Routenlinie folgt in Kreisverkehren und an Auf- und Abfahrten der echten Fahrspur und liegt auf der Spur, die du brauchst
