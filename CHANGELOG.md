@@ -4,6 +4,21 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.6 (2026-10-18)
+
+- Karte: Felder, Fels, Sand und Schnee aus dem Gelände des Spiels, mit runden, ruhigen Kanten. Im Google-Stil dezent wie bei Google Maps. Abschaltbar unter Einstellungen › Karten („Felder, Fels & Sand“)
+- Karte: Wälder entstehen jetzt auch aus dicht stehenden Baumgruppen. Einzelne Bäume an Straßen und in Gärten bleiben weg
+- Karte: Rastplätze und Parkreihen an der Autobahn werden gezeichnet
+- Nah herangezoomt: Richtungspfeile auf den Spuren vor Kreuzungen, wie aufgemalt. Vor Kreuzungen und Ausfahrten sind die Spurlinien durchgezogen statt gestrichelt
+- Navi: Kleeblatt- und Überflieger-Ausfahrten heißen jetzt „Ausfahrt rechts“ statt „Scharf rechts“. Die Spuranzeige ordnet Abzweige nach der Lage der Spuren (keine falschen Pfeile mehr bei Gabelungen)
+- Navi: Ansage „Bitte rechts/links einordnen“, die Zielanzeige ist zweizeilig wie die Abbiegungen
+- Optional: Kurvenwarnung bei zu hohem Tempo vor engen Kurven (Einstellungen › Karten)
+- Straßenbahngleise zählen nicht mehr als Fahrspur
+- Sport: 12 weitere Ligen: Frauen-Bundesliga, Europa League, Conference League, Championship, Serie A, Ligue 1, Eredivisie, Liga Portugal, Österreich, Schweiz, Süper Lig und die NFL. Premier League und LaLiga kommen jetzt aus aktuelleren Daten. Mit Live-Uhr, Torschützen und Tabellen
+- Sport: Ein Spiel antippen = Live-Ticker nur für dieses Spiel, nochmal antippen schaltet ihn aus
+- Sport: Ligen sortieren per Ziehen (in der App eine Liga kurz halten, in den Einstellungen am Griff ≡) und einzeln ausblenden
+- „Navi verbessern“ sammelt auf Wunsch Fahrdaten (Route, Spurwahl, Abbiegungen) als Grundlage für bessere Spurempfehlungen
+
 ## 1.9.5 (2026-10-18)
 
 - Abbiegungen kommen jetzt aus den Kreuzungsdaten des Spiels (Richtung der Fahrspuren und Blinker der KI). Stadtabbiegungen, dicht aufeinanderfolgende Kreuzungen und die letzte Abbiegung vor dem Ziel fehlen nicht mehr
