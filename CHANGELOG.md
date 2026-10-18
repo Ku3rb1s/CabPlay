@@ -4,6 +4,23 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.4 (2026-10-18)
+
+- Routenlinie folgt in Kreisverkehren und an Auf- und Abfahrten der echten Fahrspur und liegt auf der Spur, die du brauchst
+- Spurempfehlung schaut wie das Spiel über mehrere Kreuzungen voraus. Spuren werden jetzt auch angezeigt, wo es geradeaus weitergeht und sich die Spuren teilen, die anderen Spuren zeigen ihre eigene Richtung
+- Ist die nächste Abbiegung weiter als 2 km weg, zeigt das Navi „Geradeaus“, die Abbiegung steht klein daneben
+- Hinweis vor Grenzen: Lkw-Tempolimits, Maut, Dieselpreis und Zeitzone des nächsten Landes
+- Hinweis vor Steigungen und Gefällen mit Höhenprofil und Rat je nach Gewicht
+- Beides erscheint im Navi und im Dashboard und lässt sich unter Einstellungen › Karten abschalten, auch mit oder ohne Ansage
+- Abbiegungen auf Wunsch selbst ansagen (Einstellungen › Karten), auf der Autobahn früher, in der Stadt später
+- Route verlassen: „Route wird neu berechnet“, bis das Spiel die neue Route schickt
+- Blitzer, Waagen und Mautstellen kommen als normale Mitteilung
+- Einrichtung beim ersten Start: Spiel und Plugin, Bedienung, Stimme, Karte
+- Aussprache: Kilometer, Kommazahlen und große Zahlen klingen natürlicher, dazu eine Liste für die englische Stimme. Olivia ist als empfohlene Stimme gekennzeichnet
+- Mehr Abwechslung bei Anrufen, dazu ein paar neue geheime Nummern
+- Schneller: Die Sprachausgabe rechnet in einem eigenen Thread, das Display ruckelt beim Sprechen nicht mehr. Kartendaten laden beim Start deutlich schneller
+- Behoben: Einstellungen und Listen sprangen nach Änderungen nach oben, Hell/Dunkel brauchte zwei Klicks, Video-Lautstärke und Twitch, Zurück im Karten-Menü
+
 ## 1.9.3 (2026-10-18)
 
 - Twitch-Streams starten jetzt von selbst. Pause und Lautstärke funktionieren auch bei Twitch
