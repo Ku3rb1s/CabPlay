@@ -184,7 +184,7 @@ Einmal am Tag schaut die App nach einer neuen Version (Einstellungen › Allgeme
 Die Programmdatei ist nicht digital signiert, deshalb kennt Windows den Herausgeber nicht. Auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken. Wer sichergehen will, vergleicht die Prüfsumme mit der `SHA256SUMS.txt` im Release:
 
 ```powershell
-Get-FileHash .\ETS2-CarPlay-Setup-1.7.0.exe -Algorithm SHA256
+Get-FileHash .\ETS2-CarPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CarPlay erscheint nicht im Spiel.**

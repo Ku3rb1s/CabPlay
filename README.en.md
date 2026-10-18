@@ -186,7 +186,7 @@ Once a day the app checks for a new version (Settings › General › Software u
 The program isn't digitally signed, so Windows doesn't know the publisher. Click "More info" and then "Run anyway". If you want to be sure, compare the checksum with `SHA256SUMS.txt` in the release:
 
 ```powershell
-Get-FileHash .\ETS2-CarPlay-Setup-1.7.0.exe -Algorithm SHA256
+Get-FileHash .\ETS2-CarPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CarPlay doesn't show up in the game.**
