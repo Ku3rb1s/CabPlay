@@ -4,6 +4,11 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.10.0 (2026-10-19)
+
+- Nacht: Die App lernt Sonnenauf- und -untergang vom Spiel. Mit Lichtautomatik merkt sie sich, wann das Licht morgens aus- und abends angeht, und nutzt diese Zeiten statt fester Uhrzeiten. Passt sich damit auch an Mods mit anderen Sonnenzeiten an
+- Musik: Der Lautstärkeregler für Spotify (Windows-Mixer) ist wieder entfernt. Falls du ihn benutzt hast: im Windows-Lautstärkemixer Spotify wieder auf 100 % stellen
+
 ## 1.9.9 (2026-10-19)
 
 - Karte: Gebäude haben ihre echte Grundfläche aus den Modellen des Spiels (Anbauten, Ecken, runde Silos) statt eines Rechtecks und stehen an der richtigen Stelle. Vorher lagen manche bis zu 40 m daneben, etwa quer über einer Straße. Auch die 3D-Gebäude nutzen die echten Umrisse
