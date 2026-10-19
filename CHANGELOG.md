@@ -4,6 +4,13 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.10.1 (2026-10-19)
+
+- Spurempfehlung: Der Punkt unter der aktuellen Spur stimmt jetzt. Die App hat die Breite des Mittelstreifens bisher aus dem Straßentyp geschätzt und lag damit oft einen halben Fahrstreifen daneben, so stand der Punkt links, obwohl du rechts gefahren bist. Jetzt wird der Mittelstreifen beim Kartenbau an den Kreuzungen gemessen. Auch die Routenlinie liegt dadurch genauer auf der Spur
+- Radio: Die Lautstärke folgt jetzt dem Gehör. Kleine Werte sind wirklich leise (1 % ist praktisch stumm), der Regler lässt sich über den ganzen Weg fein einstellen. Wer bisher eher leise gehört hat, muss etwas höher drehen
+- Beenden: Nach dem Spielende schließt sich die App sofort. Steam zeigt ETS2 dadurch nicht mehr fast eine Minute lang als „wird ausgeführt“ an
+- Sprachbefehl „Nächste Tankstelle“: nennt die Entfernung jetzt in Spiel-Kilometern, wie die Tank-App
+
 ## 1.10.0 (2026-10-19)
 
 - Nacht: Die App lernt Sonnenauf- und -untergang vom Spiel. Mit Lichtautomatik merkt sie sich, wann das Licht morgens aus- und abends angeht, und nutzt diese Zeiten statt fester Uhrzeiten. Passt sich damit auch an Mods mit anderen Sonnenzeiten an
