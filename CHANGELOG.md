@@ -4,6 +4,23 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.7 (2026-10-19)
+
+- Karte im Google-Stil: Straßenfarben je Art wie Google Maps in CarPlay. Stadtstraßen weiß mit grauem Rand, Landstraßen, mehrspurige Straßen und Autobahnen graublau
+- Karte: Autobahnkreuze sehen herausgezoomt ruhiger aus. Eng nebeneinander liegende Fahrbahnen verschmelzen zu einem Band statt dünner Streifen
+- Karte: Firmengelände, Tankstellen, Rastplätze und Kreuzungsinseln zeigen ihre Teilflächen wie die Spielkarte (Hof, Parkflächen, Grün)
+- Optional: 3D-Gebäude in der geneigten Ansicht (Einstellungen › Karten)
+- Optional: Aussichtspunkte des Spiels und kleine Orte auf der Karte (Einstellungen › Karten)
+- Navi: Kleine Orte helfen beim Abgleich mit den Wegweisern, die Richtung stimmt öfter mit dem Schild überein
+- Navi: Abbiegepfeile auf der Fahrbahn nur noch dort, wo jeder Pfeil sicher auf einer eigenen Spur liegt
+- Navi: Blinkst du schon zur richtigen Spur, kommt kein „Bitte einordnen“ mehr
+- Fahrzeug-App: Kontrollleuchten wie im Cockpit (Blinker, Warnblinker, Licht, Fernlicht, Rundumleuchte, Wischer, Retarder) und Warnlampen mit Messwert (Bremsdruck, Öldruck, Motor heiß, Batterie, AdBlue). Bei echten Problemen während der Fahrt kommt eine Mitteilung
+- Neues Widget „Live-Ticker“: das verfolgte Spiel oder ein Spiel deiner Lieblingsteams direkt auf dem Dashboard
+- Sport: Anstoßzeit mit Datum („Heute 18:30“, „Di 21.10. 18:45“)
+- Musik: Ein Tipp aufs Cover im Dashboard öffnet immer „Läuft gerade“
+- Softwareupdate zeigt jetzt alle Neuerungen der installierten Version und frühere Versionen. Nach Updates wird bei jedem Start gesucht (höchstens alle drei Stunden)
+- Schneller: Das Farbschema wird nicht mehr 20-mal pro Sekunde komplett neu berechnet. Dazu kleinere Aufräumarbeiten
+
 ## 1.9.6 (2026-10-18)
 
 - Karte: Felder, Fels, Sand und Schnee aus dem Gelände des Spiels, mit runden, ruhigen Kanten. Im Google-Stil dezent wie bei Google Maps. Abschaltbar unter Einstellungen › Karten („Felder, Fels & Sand“)

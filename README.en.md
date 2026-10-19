@@ -2,7 +2,7 @@
 
 [Deutsch](README.md) · English
 
-A CarPlay interface for the navigation display in Euro Truck Simulator 2. The screen in your truck then shows a map with turn-by-turn directions, Spotify, radio, your job, truck data, speed camera warnings, a phone and a few more apps. You control it with the mouse, with hotkeys or from your phone.
+Apple CarPlay for the navigation display in Euro Truck Simulator 2. The screen in your cab runs real navigation with lane guidance and signposts, plus Spotify, radio, live football, your job, truck data with indicator lights, a speed camera warner and more. The map is built from your own game files, including every DLC. You control it with the mouse right on the display, with hotkeys, steering wheel buttons or from your phone.
 
 ![Dashboard](bilder/dashboard-dunkel.png)
 
@@ -25,22 +25,34 @@ Fan project, not affiliated with SCS Software, Apple, Google or Spotify. All tra
 
 ## What it does
 
-### Map and navigation
+### Navigation like in a real car
 
-The map is built from your own game files, so it includes every DLC you own. It shows roads, junctions, bridges, buildings, water, forests, company sites and fuel stations. There are two styles, based on Google Maps and Apple Maps, each in light and dark, either flat or tilted.
+- The route comes from the game's navigation. The app detects turns from the game's junction data, so it turns exactly like the game does
+- Lane guidance: before every junction and exit you see which lane you need. A marker shows the lane you are in right now
+- Signposts: "Exit right · A1 towards Linz" with the road number and the destination from the real signs
+- Traffic lights with remaining time, speed limit, arrival time, rest areas along the route, notes about borders and steep grades
+- Announcements in German or English, also with natural-sounding AI voices. If you already indicate towards the right lane, nobody nags you
+- Optional: a warning before tight curves when you are too fast
 
-The app takes the route from the game's own navigation. You get turn directions with lane guidance, traffic lights with remaining time, the speed limit, arrival time and rest areas along the route. Announcements are available in German or English.
+### A map from your game
+
+- Built from your game files, including every DLC. After game updates the app rebuilds it by itself
+- Roads as wide as their lanes, bridges above the roads below, and when zoomed in lane markings and painted turn arrows
+- Buildings, water, forests, fields, rock and sand, company sites with yards and parking
+- Two styles like Google Maps and Apple Maps, light and dark, flat or tilted. In Google style the roads have the same colors as Google Maps in CarPlay
+- Optional: 3D buildings, small towns, viewpoints, hidden roads and secret shortcuts
 
 ### Apps
 
-- Spotify with cover art, controls, queue and synced lyrics. It also works when the game isn't running
-- Radio with more than 90 stations (German, English, I LOVE RADIO and the stations from your game), plus your own
-- Job: route, deadline, time buffer, pay and when your next break is due
-- Truck: speed, gear, rpm, fuel, AdBlue and the condition of truck and trailer
-- Speed cameras, weigh stations and toll gates with a warning sound. The app remembers every camera that caught you
-- Weather for the place you're driving through
-- Phone with dispatcher, roadside assistance and others, messages, calendar, logbook, fuel & rest, videos
-- A dashboard with widgets you arrange yourself, plus your own wallpapers and icons
+- **Spotify** with cover art, controls, library, queue and synced lyrics. It also works when the game isn't running
+- **Radio** with more than 90 stations (German, English, I LOVE RADIO and the stations from your game), plus your own
+- **Sports** with live scores, goal scorers and tables: Bundesliga down to 3. Liga, DFB Cup, Champions League, Premier League, LaLiga, Serie A and more leagues, the NFL and Formula 1. Favourite teams and single matches get a live ticker as notifications
+- **Job**: route, deadline, time buffer, pay, costs on the road and when your next break is due
+- **Truck**: speed, gear, fuel, AdBlue, condition of truck and trailer, plus indicator lights like in the cab (indicators, lights, high beam, retarder) and warning lights for air pressure, oil pressure, engine temperature and battery
+- **Speed cameras**, weigh stations and toll gates with a warning sound. The app remembers every camera that caught you
+- **Weather** for the place you're driving through
+- Phone with dispatcher and roadside assistance, messages, calendar, logbook, fuel & rest, videos from YouTube and Twitch
+- A dashboard with widgets you arrange yourself (for example navigation, music or the live ticker), plus your own wallpapers and icons
 
 ### Voice assistant (optional)
 
@@ -64,15 +76,19 @@ Hold the Home button and talk, for example "Will I make the delivery?" or "Play 
 | | |
 |---|---|
 | ![Navigation light](bilder/navi-hell.png) | ![Navigation dark](bilder/navi-dunkel.png) |
-| Navigation, Google style, light | Navigation, Google style, dark |
+| Navigation in Google style with lane guidance, light | Navigation in Google style, dark |
 | ![Apple style dark](bilder/karte-apple-dunkel.png) | ![Dashboard light](bilder/dashboard-hell.png) |
-| Navigation, Apple style, dark | Dashboard |
-| ![Radio](bilder/radio.png) | ![Home](bilder/home.png) |
-| Radio | Home screen |
-| ![Job](bilder/auftrag.png) | ![Truck](bilder/fahrzeug.png) |
-| Job | Truck |
-| ![Speed cameras](bilder/blitzer.png) | ![Weather](bilder/wetter.png) |
-| Speed cameras | Weather |
+| Navigation in Apple style, dark | Dashboard, light |
+| ![3D buildings](bilder/karte-3d.png) | ![Terrain](bilder/karte-gelaende.png) |
+| 3D buildings and company sites (optional) | Forests, rock and hairpins |
+| ![Sports](bilder/sport.png) | ![Home](bilder/home.png) |
+| Sports with live scores | Home screen |
+| ![Truck](bilder/fahrzeug.png) | ![Job](bilder/auftrag.png) |
+| Truck with indicator lights | Job |
+| ![Radio](bilder/radio.png) | ![Weather](bilder/wetter.png) |
+| Radio | Weather |
+| ![Speed cameras](bilder/blitzer.png) | |
+| Speed cameras | |
 
 The screenshots show the German interface. English can be switched on in the settings.
 
@@ -118,11 +134,14 @@ For the phone, turn on phone control in the settings and scan the QR code. Phone
 
 ## The map
 
-The app reads the map from your game files and rebuilds it after game updates. What it shows is up to you in the map settings: green areas, forests, water, buildings, company sites, road numbers, lane markings and so on.
+The app reads the map from your game files and rebuilds it after game updates. What it shows is up to you in the map settings: green areas, forests, meadows, fields, rock and sand, water, buildings, company sites, road numbers, lane markings and so on.
 
-Bridges and overpasses visibly sit above the roads below. Roads are as wide as their lanes, and one-way roads and ramps get arrows.
+Bridges and overpasses visibly sit above the roads below. Roads are as wide as their lanes, and one-way roads and ramps get arrows. Zoomed in you see lane markings, solid before junctions, and the painted turn arrows on the lanes. Company sites, fuel stations and rest areas show their sub-areas like the game map.
 
-Two switches are off by default:
+Off by default, but can be switched on any time:
+- 3D buildings: blocks in the tilted view, with the height from the game
+- Small towns: villages and scenery towns that are not a city in the game. Navigation always uses them to match the direction with the signposts
+- Viewpoints: the viewpoints you can discover in the game
 - Hidden roads: roads the game doesn't show on its own map. Mostly scenery or only for AI traffic
 - Secret shortcuts: the routes you have to discover in the game first
 
@@ -147,6 +166,10 @@ The login stays on your PC (`%APPDATA%\ETS2 CarPlay`), nothing goes through thir
 ### Radio
 
 Stations are sorted into German, English, I LOVE RADIO, ETS2 and Own. ETS2 lists the stations you added in the game. You add your own in the editor window with "+ Station": search by name (radio-browser.info directory) or enter a stream address. Radio and Spotify stop each other, and the steering wheel buttons switch stations.
+
+### Sports
+
+Scores, goal scorers, tables and Formula 1 without an account. Pick favourite teams by tapping a club in the table, follow a single match by tapping it. You then get a notification at kick-off, for goals, at half time and at full time. Reorder leagues by dragging and hide the ones you don't care about. As a widget, the live ticker shows your match right on the dashboard.
 
 ### Video
 
@@ -178,7 +201,7 @@ Settings › General › "Back up settings …" writes all settings, learned spe
 
 ## Updates
 
-Once a day the app checks for a new version (Settings › General › Software update). It downloads the update and installs it when you close the app, plugin included. Your settings are kept. Every file is checked via SHA-256 first.
+The app checks for a new version every time it starts (at most every three hours, Settings › General › Software update). It downloads the update and installs it when you close the app, plugin included. Your settings are kept. Every file is checked via SHA-256 first. After an update, Software update lists what is new, with earlier versions right below.
 
 ## FAQ
 
@@ -211,7 +234,8 @@ This removes the plugin from the game, the placeholders in `Documents\Euro Truck
 
 - Parts of the game plugin come from the [ETS2LA plugin](https://github.com/ETS2LA/plugin) (MIT).
 - Map data is read from the game files with the [TruckSim map parser](https://github.com/truckermudgeon/maps) (GPL-3.0). Its source code ships with every package (`resources/mapdata/parser/QUELLE.txt`).
-- Sea areas: [Natural Earth](https://www.naturalearthdata.com/) (public domain).
+- Sea areas: [Natural Earth](https://www.naturalearthdata.com/) (public domain). List of villages in the game: krmarci, from the TruckSim map parser.
+- Sports: [OpenLigaDB](https://www.openligadb.de/) (German leagues), ESPN (more leagues, NFL), [Jolpica](https://jolpi.ca/) (Formula 1). Truck brand logos: Wikimedia Commons.
 - Radio stations: [radio-browser.info](https://www.radio-browser.info/), lyrics: [LRCLIB](https://lrclib.net/), weather: [Open-Meteo](https://open-meteo.com/) and MET Norway.
 - Voice assistant: whisper.cpp and llama.cpp (MIT), Qwen language model (Apache 2.0), Supertonic 3 voices by Supertone (OpenRAIL-M) via ONNX Runtime (MIT).
 - Font: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1).

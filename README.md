@@ -2,7 +2,7 @@
 
 Deutsch · [English](README.en.md)
 
-Eine CarPlay-Oberfläche für das Navi-Display in Euro Truck Simulator 2. Auf dem Bildschirm im Truck laufen dann Karte mit Abbiegehinweisen, Spotify, Radio, Auftrag, Fahrzeugdaten, Blitzerwarner, Telefon und ein paar Apps mehr. Bedient wird mit der Maus, über Tastenkürzel oder vom Handy aus.
+Apple CarPlay für das Navi-Display in Euro Truck Simulator 2. Auf dem Bildschirm im Cockpit läuft eine echte Navigation mit Spurempfehlung und Wegweisern, dazu Spotify, Radio, Live-Fußball, dein Auftrag, Fahrzeugdaten mit Kontrollleuchten, ein Blitzerwarner und mehr. Die Karte entsteht aus deinen eigenen Spieldateien, mit allen DLCs. Bedient wird mit der Maus direkt auf dem Display, über Tastenkürzel, Lenkrad-Tasten oder vom Handy aus.
 
 ![Dashboard](bilder/dashboard-dunkel.png)
 
@@ -25,22 +25,34 @@ Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die M
 
 ## Was es kann
 
-### Karte und Navi
+### Navigation wie im echten Auto
 
-Die Karte wird aus deinen eigenen Spieldateien gebaut, also mit allen DLCs, die du hast. Drauf sind Straßen, Kreuzungen, Brücken, Gebäude, Wasser, Wald, Firmengelände und Tankstellen. Es gibt zwei Stile, angelehnt an Google Maps und Apple Karten, jeweils hell und dunkel, flach oder schräg von hinten.
+- Die Route kommt aus dem Navi des Spiels. Abbiegungen erkennt die App aus den Kreuzungsdaten des Spiels, also so, wie das Spiel selbst abbiegt
+- Spurempfehlung: Welche Spur du brauchst, siehst du vor jeder Kreuzung und Ausfahrt. Ein Marker zeigt, auf welcher Spur du gerade fährst
+- Wegweiser: „Ausfahrt rechts · A1 Richtung Linz“ mit Straßennummer und Ziel von den echten Schildern
+- Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise zu Grenzen und Steigungen
+- Ansagen auf Deutsch oder Englisch, auch mit natürlich klingenden KI-Stimmen. Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
+- Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
-Die Route übernimmt die App aus dem Navi des Spiels. Du bekommst Abbiegehinweise mit Spurempfehlung, Ampeln mit Restzeit, Tempolimit, Ankunftszeit und Rastplätze entlang der Strecke. Ansagen gibt es auf Deutsch oder Englisch.
+### Eine Karte aus deinem Spiel
+
+- Gebaut aus deinen Spieldateien, mit allen DLCs. Nach Spiel-Updates baut die App sie selbst neu
+- Straßen so breit, wie sie Spuren haben, Brücken über den Straßen darunter, nah herangezoomt Fahrbahnmarkierungen und Abbiegepfeile
+- Gebäude, Wasser, Wälder, Felder, Fels und Sand, Firmengelände mit Hof- und Parkflächen
+- Zwei Stile wie Google Maps und Apple Karten, hell und dunkel, flach oder schräg von hinten. Im Google-Stil haben die Straßen dieselben Farben wie Google Maps in CarPlay
+- Optional: 3D-Gebäude, kleine Orte, Aussichtspunkte, versteckte Straßen und geheime Abkürzungen
 
 ### Apps
 
-- Spotify mit Cover, Steuerung, Warteschlange und mitlaufenden Songtexten. Geht auch, wenn das Spiel gerade nicht läuft
-- Radio mit über 90 Sendern (deutsche, englische, I LOVE RADIO und die Sender aus deinem Spiel), dazu eigene Sender
-- Auftrag: Strecke, Lieferfrist, Puffer, Lohn und wann die nächste Pause fällig ist
-- Fahrzeug: Tempo, Gang, Drehzahl, Tank, AdBlue und der Zustand von Zugmaschine und Anhänger
-- Blitzer, Waagen und Mautstellen mit Warnton. Blitzer, die dich erwischt haben, merkt sich die App
-- Wetter für den Ort, an dem du gerade bist
-- Telefon mit Disponent, Pannenhilfe und Co., Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos
-- Ein Dashboard mit Widgets, das du dir selbst zusammenstellst, dazu eigene Hintergründe und Symbole
+- **Spotify** mit Cover, Steuerung, Mediathek, Warteschlange und mitlaufenden Songtexten. Geht auch, wenn das Spiel gerade nicht läuft
+- **Radio** mit über 90 Sendern (deutsche, englische, I LOVE RADIO und die Sender aus deinem Spiel), dazu eigene Sender
+- **Sport** mit Live-Spielständen, Torschützen und Tabellen: Bundesliga bis 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga, Serie A und weitere Ligen, NFL und Formel 1. Für Lieblingsteams und einzelne Spiele gibt es einen Live-Ticker als Mitteilung
+- **Auftrag**: Strecke, Lieferfrist, Puffer, Lohn, Kosten unterwegs und wann die nächste Pause fällig ist
+- **Fahrzeug**: Tempo, Gang, Tank, AdBlue, Zustand von Zugmaschine und Anhänger, dazu Kontrollleuchten wie im Cockpit (Blinker, Licht, Fernlicht, Retarder) und Warnlampen für Bremsdruck, Öldruck, Motortemperatur und Batterie
+- **Blitzer**, Waagen und Mautstellen mit Warnton. Blitzer, die dich erwischt haben, merkt sich die App
+- **Wetter** für den Ort, an dem du gerade bist
+- Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos von YouTube und Twitch
+- Ein Dashboard mit Widgets, das du dir selbst zusammenstellst (zum Beispiel Navi, Musik oder der Live-Ticker), dazu eigene Hintergründe und Symbole
 
 ### Sprachassistent (optional)
 
@@ -64,15 +76,19 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 | | |
 |---|---|
 | ![Navi hell](bilder/navi-hell.png) | ![Navi dunkel](bilder/navi-dunkel.png) |
-| Navi im Google-Stil, hell | Navi im Google-Stil, dunkel |
+| Navi im Google-Stil mit Spurempfehlung, hell | Navi im Google-Stil, dunkel |
 | ![Apple-Stil dunkel](bilder/karte-apple-dunkel.png) | ![Dashboard hell](bilder/dashboard-hell.png) |
-| Navi im Apple-Stil, dunkel | Dashboard |
-| ![Radio](bilder/radio.png) | ![Home](bilder/home.png) |
-| Radio | Home-Bildschirm |
-| ![Auftrag](bilder/auftrag.png) | ![Fahrzeug](bilder/fahrzeug.png) |
-| Auftrag | Fahrzeug |
-| ![Blitzer](bilder/blitzer.png) | ![Wetter](bilder/wetter.png) |
-| Blitzer | Wetter |
+| Navi im Apple-Stil, dunkel | Dashboard, hell |
+| ![3D-Gebäude](bilder/karte-3d.png) | ![Gelände](bilder/karte-gelaende.png) |
+| 3D-Gebäude und Firmengelände (Option) | Wälder, Fels und Serpentinen |
+| ![Sport](bilder/sport.png) | ![Home](bilder/home.png) |
+| Sport mit Live-Spielständen | Home-Bildschirm |
+| ![Fahrzeug](bilder/fahrzeug.png) | ![Auftrag](bilder/auftrag.png) |
+| Fahrzeug mit Kontrollleuchten | Auftrag |
+| ![Radio](bilder/radio.png) | ![Wetter](bilder/wetter.png) |
+| Radio | Wetter |
+| ![Blitzer](bilder/blitzer.png) | |
+| Blitzer | |
 
 ## Voraussetzungen
 
@@ -116,11 +132,14 @@ Fürs Handy schaltest du in den Einstellungen die Handy-Steuerung ein und scanns
 
 ## Die Karte
 
-Die App liest die Karte aus den Dateien deines Spiels und baut sie nach Spiel-Updates neu. Was angezeigt wird, stellst du in den Karten-Einstellungen ein: Grünflächen, Wald, Wasser, Gebäude, Firmengelände, Straßennummern, Fahrbahnmarkierungen und so weiter.
+Die App liest die Karte aus den Dateien deines Spiels und baut sie nach Spiel-Updates neu. Was angezeigt wird, stellst du in den Karten-Einstellungen ein: Grünflächen, Wald, Wiesen, Felder, Fels und Sand, Wasser, Gebäude, Firmengelände, Straßennummern, Fahrbahnmarkierungen und so weiter.
 
-Brücken und Überführungen liegen sichtbar über den Straßen darunter. Straßen sind so breit, wie sie Spuren haben, Einbahnstraßen und Auffahrten bekommen Pfeile.
+Brücken und Überführungen liegen sichtbar über den Straßen darunter. Straßen sind so breit, wie sie Spuren haben, Einbahnstraßen und Auffahrten bekommen Pfeile. Nah herangezoomt siehst du Fahrbahnmarkierungen, vor Kreuzungen durchgezogen, und die aufgemalten Abbiegepfeile auf den Spuren. Firmengelände, Tankstellen und Rastplätze zeigen ihre Teilflächen wie die Spielkarte.
 
-Zwei Schalter sind ab Werk aus:
+Ab Werk aus, aber jederzeit einschaltbar:
+- 3D-Gebäude: in der geneigten Ansicht als Klötze mit der Höhe aus dem Spiel
+- Kleine Orte: Dörfer und Kulissenorte, die im Spiel keine eigene Stadt sind. Fürs Navi nutzt die App sie immer, um die Richtung mit den Wegweisern abzugleichen
+- Aussichtspunkte: die Aussichten, die man im Spiel entdecken kann
 - Versteckte Straßen: Straßen, die das Spiel auf seiner eigenen Karte nicht zeigt. Meist Kulisse oder nur für den KI-Verkehr
 - Geheime Abkürzungen: die Strecken, die man im Spiel erst entdecken muss
 
@@ -145,6 +164,10 @@ Die Anmeldung bleibt auf deinem PC (`%APPDATA%\ETS2 CarPlay`), es läuft nichts 
 ### Radio
 
 Die Sender sind nach Deutsch, Englisch, I LOVE RADIO, ETS2 und Eigene sortiert. Unter ETS2 stehen die Sender, die du im Spiel eingetragen hast. Eigene Sender fügst du im Editor-Fenster mit „+ Sender“ hinzu: Namen suchen (Senderverzeichnis radio-browser.info) oder eine Stream-Adresse eintragen. Radio und Spotify stoppen sich gegenseitig, und mit den Lenkrad-Tasten wechselst du den Sender.
+
+### Sport
+
+Spielstände, Torschützen, Tabellen und Formel 1 ohne Konto. Lieblingsteams wählst du in der Tabelle mit einem Tipp auf den Verein, einzelne Spiele verfolgst du mit einem Tipp auf das Spiel. Bei Anpfiff, Toren, Halbzeit und Abpfiff kommt dann eine Mitteilung. Die Ligen sortierst du per Ziehen und blendest aus, was dich nicht interessiert. Als Widget zeigt der Live-Ticker dein Spiel direkt auf dem Dashboard.
 
 ### Video
 
@@ -176,7 +199,7 @@ Unter Einstellungen › Allgemein › „Einstellungen sichern …“ schreibst 
 
 ## Updates
 
-Einmal am Tag schaut die App nach einer neuen Version (Einstellungen › Allgemein › Softwareupdate). Sie lädt das Update und installiert es beim Beenden, das Plugin gleich mit. Deine Einstellungen bleiben erhalten. Jede Datei wird vorher per SHA-256 geprüft.
+Bei jedem Start schaut die App nach einer neuen Version (höchstens alle drei Stunden, Einstellungen › Allgemein › Softwareupdate). Sie lädt das Update und installiert es beim Beenden, das Plugin gleich mit. Deine Einstellungen bleiben erhalten. Jede Datei wird vorher per SHA-256 geprüft. Was neu ist, steht nach dem Update unter Softwareupdate, frühere Versionen gleich darunter.
 
 ## Häufige Fragen
 
@@ -209,7 +232,8 @@ Entfernt werden das Plugin im Spiel, die Platzhalter in `Dokumente\Euro Truck Si
 
 - Teile des Spielplugins stammen aus dem [ETS2LA-Plugin](https://github.com/ETS2LA/plugin) (MIT).
 - Die Kartendaten liest der [TruckSim-Kartenparser](https://github.com/truckermudgeon/maps) (GPL-3.0) aus den Spieldateien. Der Quellcode liegt jedem Paket bei (`resources/mapdata/parser/QUELLE.txt`).
-- Meeresflächen: [Natural Earth](https://www.naturalearthdata.com/) (gemeinfrei).
+- Meeresflächen: [Natural Earth](https://www.naturalearthdata.com/) (gemeinfrei). Liste der Dörfer im Spiel: krmarci, aus dem TruckSim-Kartenparser.
+- Sport: [OpenLigaDB](https://www.openligadb.de/) (deutsche Ligen), ESPN (weitere Ligen, NFL), [Jolpica](https://jolpi.ca/) (Formel 1). Markenlogos der Trucks: Wikimedia Commons.
 - Radiosender: [radio-browser.info](https://www.radio-browser.info/), Songtexte: [LRCLIB](https://lrclib.net/), Wetter: [Open-Meteo](https://open-meteo.com/) und MET Norway.
 - Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT).
 - Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1).
