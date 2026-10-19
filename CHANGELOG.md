@@ -4,6 +4,12 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.8 (2026-10-19)
+
+- Direkt-Touch: Die Maus gehört wieder dem Spiel, solange es pausiert (Esc-Menü, Vollbildkarte, Frachtmarkt) oder eine Außenkamera aktiv ist. Danach ist Touch von selbst wieder da. Abschaltbar in der Leiste des Direkt-Touch-Modus („Maus frei“)
+- Optional: Spotify und Radio halten an, solange das Spiel pausiert, und laufen danach weiter (Einstellungen › Musik › „Bei Spielpause anhalten“)
+- Optional: Das Display im Truck wird nachts gedimmt wie in einem echten Auto (Einstellungen › Anzeige & Helligkeit › „Nachts dunkler“)
+
 ## 1.9.7 (2026-10-19)
 
 - Karte im Google-Stil: Straßenfarben je Art wie Google Maps in CarPlay. Stadtstraßen weiß mit grauem Rand, Landstraßen, mehrspurige Straßen und Autobahnen graublau
