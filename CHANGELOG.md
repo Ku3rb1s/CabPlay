@@ -4,6 +4,18 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.9.9 (2026-10-19)
+
+- Karte: Gebäude haben ihre echte Grundfläche aus den Modellen des Spiels (Anbauten, Ecken, runde Silos) statt eines Rechtecks und stehen an der richtigen Stelle. Vorher lagen manche bis zu 40 m daneben, etwa quer über einer Straße. Auch die 3D-Gebäude nutzen die echten Umrisse
+- Karte: Gebäude sind im dunklen Google-Stil klar zu erkennen, Firmengelände wirken nicht mehr wie ein grauer Schleier, 3D-Gebäude bleiben ruhig (Silos und Türme keine Riesenklötze)
+- Tanken & Rasten: Entfernungen in Spiel-Kilometern wie im Navi und bei der Reichweite (ETS2 staucht die Welt, der Maßstab wird live gemessen). Auch Uhrzeiten an Tankstellen und Rastplätzen stimmen besser
+- Navi: Wegweiser zeigen keine Spielkennungen mehr („traffic_rule…“)
+- Licht: Mit Lichtautomatik im Spiel erkennt die App, ob die Scheinwerfer wirklich brennen (über die Armaturenbeleuchtung). Wichtig für „Nach Scheinwerfer“, „Nachts dunkler“ und die Kontrollleuchte. Nacht nach Uhrzeit jetzt 20:30–5:00
+- Musik: Spotify-Lautstärke direkt in der Musik-App (Lautsprecher-Symbol antippen). Geht über den Windows-Mixer, ohne Spotify-Konto
+- Telefon und Nachrichten zeigen einen roten Zähler auf dem Symbol. Verpasste Anrufe zählen nur neue, bis du die Anrufliste öffnest
+- Bildkorrektur „Ausgewogen“ dimmt Weiß stärker, damit das Display im Cockpit nicht überstrahlt
+- Das Plugin wird nach Spielende jetzt sicher aktualisiert (vorher blieb manchmal das alte liegen)
+
 ## 1.9.8 (2026-10-19)
 
 - Direkt-Touch: Die Maus gehört wieder dem Spiel, solange es pausiert (Esc-Menü, Vollbildkarte, Frachtmarkt) oder eine Außenkamera aktiv ist. Danach ist Touch von selbst wieder da. Abschaltbar in der Leiste des Direkt-Touch-Modus („Maus frei“)
