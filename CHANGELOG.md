@@ -4,6 +4,19 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.11.0 (2026-10-20)
+
+- Neue Sprachen: Polnisch und Türkisch (Einstellungen › Allgemein › Sprache) – Oberfläche, Disponent, Navi-Ansagen und AI-Sprachassistent. Olivia und die anderen AI-Stimmen sprechen auch Polnisch und Türkisch
+- Installer auf Deutsch, Englisch, Polnisch und Türkisch; die App startet in der Sprache, die im Setup gewählt wurde
+- Bei einer anderen Sprache als Deutsch ist das Plugin-Menü im Spiel englisch
+- Englisch: Abbiege-Ansagen und Auftragsmeldungen werden jetzt vollständig auf Englisch vorgelesen, Ländernamen auf Englisch, fehlende Texte ergänzt
+- Home bearbeiten: Icons lassen sich über den Rand auf eine andere Seite ziehen und auf freie Stellen ablegen
+- Sport-Einstellungen: Lieblingsteams mit Name und Wappen, verfolgte Spiele lassen sich dort entfernen
+- Radio: neue Sender KIIS FM, Power 105.1, Q104.3, YOU FM, Antenne Bayern Top 40 und Radio Bollerwagen; I LOVE-Sender mit lesbaren Namen
+- Weniger Arbeitsspeicher: Sprachmodell auf der Grafikkarte braucht etwa 0,8 statt 2,9 GB, die AI-Stimme wird nach 10 Minuten ohne Sprechen entladen
+- Das Spiel schließt sich über Steam wieder ohne Verzögerung
+- App-Icons: das Dashboard steht nicht mehr in der Liste
+
 ## 1.10.2 (2026-10-20)
 
 - Karte: Firmengelände, Häfen, Autohäuser und Tankstellen zeigen ihre Hallen und Gebäude (vorher oft leere Flächen), mit passender Höhe für die 3D-Ansicht
