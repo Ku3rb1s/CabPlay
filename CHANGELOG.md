@@ -4,6 +4,16 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.10.2 (2026-10-20)
+
+- Karte: Firmengelände, Häfen, Autohäuser und Tankstellen zeigen ihre Hallen und Gebäude (vorher oft leere Flächen), mit passender Höhe für die 3D-Ansicht
+- Karte: Bahnlinien als Option (Einstellungen › Karten › Karteninhalt)
+- Karte: „Straßen nach Art einfärben“ als Schalter, Standard aus – im Google-Stil sind dann alle Straßen einheitlich. Wer die weißen Stadtstraßen mag, schaltet ihn ein
+- Karte: Straßenbreite mit dem echten Mittelstreifen (vorher teils zu breit oder zu schmal), Hafenanlagen und Schiffe an der richtigen Stelle (bessere Wasserlinie in Häfen)
+- Spurempfehlung: noch genauer auf Straßen ohne gemessene Kreuzung
+- Einstellungen übersichtlicher: Karten aufgeteilt in „Karteninhalt“ und „Navigation & Hinweise“, eigene Seite „Fahrdaten & Kartenfehler“
+- Die GitHub-Knöpfe sagen jetzt dazu, dass ein GitHub-Konto nötig ist
+
 ## 1.10.1 (2026-10-19)
 
 - Spurempfehlung: Der Punkt unter der aktuellen Spur stimmt jetzt. Die App hat die Breite des Mittelstreifens bisher aus dem Straßentyp geschätzt und lag damit oft einen halben Fahrstreifen daneben, so stand der Punkt links, obwohl du rechts gefahren bist. Jetzt wird der Mittelstreifen beim Kartenbau an den Kreuzungen gemessen. Auch die Routenlinie liegt dadurch genauer auf der Spur
