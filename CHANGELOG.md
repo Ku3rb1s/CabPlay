@@ -4,6 +4,11 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.11.1 (2026-10-20)
+
+- Grenzübertritt: „Willkommen in …“ kommt jetzt erst an der echten Grenze – nicht mehr zu früh, mit dem falschen Land oder zwischendurch zufällig. Die App nimmt das Land der Straße, auf der du fährst, statt das der nächsten Stadt (die liegt in Grenznähe oft im Nachbarland)
+- Tanken & Rasten: Der Dieselpreis zeigt dadurch auch in Grenznähe das richtige Land
+
 ## 1.11.0 (2026-10-20)
 
 - Neue Sprachen: Polnisch und Türkisch (Einstellungen › Allgemein › Sprache) – Oberfläche, Disponent, Navi-Ansagen und AI-Sprachassistent. Olivia und die anderen AI-Stimmen sprechen auch Polnisch und Türkisch
