@@ -31,7 +31,7 @@ Fan project, not affiliated with SCS Software, Apple, Google or Spotify. All tra
 - Lane guidance: before every junction and exit you see which lane you need. A marker shows the lane you are in right now
 - Signposts: "Exit right · A1 towards Linz" with the road number and the destination from the real signs
 - Traffic lights with remaining time, speed limit, arrival time, rest areas along the route, notes about borders and steep grades
-- Announcements in German or English, also with natural-sounding AI voices. If you already indicate towards the right lane, nobody nags you
+- Announcements in German, English, Polish or Turkish, also with natural-sounding AI voices. If you already indicate towards the right lane, nobody nags you
 - Optional: a warning before tight curves when you are too fast
 
 ### A map from your game
@@ -108,7 +108,7 @@ The screenshots show the German interface. English can be switched on in the set
 
 1. Start ETS2. The first time, the game asks whether it may load SDK plugins. Confirm with OK. From then on the game starts the app by itself.
 2. Get into a truck with a navigation screen. CarPlay appears on the display.
-3. Ctrl + F8 opens the CarPlay menu in the game. Pick the screens CarPlay should run on and press Apply.
+3. F8 opens the CarPlay menu in the game. It shows the status, lets you set resolution and touch, and Apply reloads the display if needed.
 4. For navigation, set a destination in the game's navigation or take a job.
 
 On the very first start the app builds the map from your game files. That takes a minute or two and runs in the background.
@@ -117,7 +117,7 @@ On the very first start the app builds the map from your game files. That takes 
 
 | Keys | What happens |
 |---|---|
-| Ctrl + F8 | CarPlay menu in the game (screens, touch, status) |
+| F8 | CarPlay menu in the game (status, GPS display, touch) |
 | Ctrl + Alt + M | Touch mode on or off, then CarPlay works with the mouse |
 | Ctrl + Alt + E | Editor window on the PC |
 | Ctrl + Alt + P | Play or pause music |
@@ -213,7 +213,7 @@ Get-FileHash .\ETS2-CarPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CarPlay doesn't show up in the game.**
-Close ETS2 completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then pick the screen in the game with Ctrl + F8 and press Apply.
+Close ETS2 completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with F8 and press Apply.
 
 **The map is empty or outdated.**
 Settings › About › Rebuild map. After game updates the app does this by itself.
@@ -226,7 +226,7 @@ No, only with Euro Truck Simulator 2.
 
 ## Uninstalling
 
-Either through Windows under Settings › Apps (if you used the installer), in the app under Settings › General › Uninstall ETS2 CarPlay, or for the ZIP version with `Deinstallieren.cmd` in the program folder.
+Either through Windows under Settings › Apps (if you used the installer), in the app under Settings › General › Uninstall ETS2 CarPlay, or for the ZIP version with `Deinstallieren.exe` in the program folder.
 
 This removes the plugin from the game, the placeholders in `Documents\Euro Truck Simulator 2\ETS2CarPlay` and the program folder. Your settings (`%APPDATA%\ETS2 CarPlay`) only if you want. The game itself stays exactly as it was.
 

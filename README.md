@@ -31,7 +31,7 @@ Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die M
 - Spurempfehlung: Welche Spur du brauchst, siehst du vor jeder Kreuzung und Ausfahrt. Ein Marker zeigt, auf welcher Spur du gerade fährst
 - Wegweiser: „Ausfahrt rechts · A1 Richtung Linz“ mit Straßennummer und Ziel von den echten Schildern
 - Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise zu Grenzen und Steigungen
-- Ansagen auf Deutsch oder Englisch, auch mit natürlich klingenden KI-Stimmen. Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
+- Ansagen auf Deutsch, Englisch, Polnisch oder Türkisch, auch mit natürlich klingenden KI-Stimmen. Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
 - Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
 ### Eine Karte aus deinem Spiel
@@ -106,7 +106,7 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 
 1. ETS2 starten. Beim ersten Mal fragt das Spiel, ob es SDK-Plugins laden darf. Mit OK bestätigen. Ab dann startet das Spiel die App von selbst mit.
 2. In einen Truck mit Navi-Bildschirm steigen. CarPlay erscheint auf dem Display.
-3. Mit Strg + F8 öffnest du das CarPlay-Menü im Spiel. Dort wählst du, auf welchen Bildschirmen CarPlay laufen soll, und drückst Anwenden.
+3. Mit F8 öffnest du das CarPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
 4. Für die Navigation ein Ziel im Spiel-Navi setzen oder einen Auftrag annehmen.
 
 Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauert ein, zwei Minuten und läuft im Hintergrund.
@@ -115,7 +115,7 @@ Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauer
 
 | Tasten | Was passiert |
 |---|---|
-| Strg + F8 | CarPlay-Menü im Spiel (Bildschirme, Touch, Status) |
+| F8 | CarPlay-Menü im Spiel (Status, GPS-Display, Touch) |
 | Strg + Alt + M | Touch-Modus an oder aus, dann geht CarPlay mit der Maus |
 | Strg + Alt + E | Editor-Fenster am PC |
 | Strg + Alt + P | Musik abspielen oder pausieren |
@@ -211,7 +211,7 @@ Get-FileHash .\ETS2-CarPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CarPlay erscheint nicht im Spiel.**
-ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg + F8 den Bildschirm auswählen und Anwenden drücken.
+ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit F8 das Menü öffnen und Anwenden drücken.
 
 **Die Karte ist leer oder alt.**
 Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht die App das von selbst.
@@ -224,7 +224,7 @@ Nein, nur mit Euro Truck Simulator 2.
 
 ## Deinstallieren
 
-Entweder über Windows unter Einstellungen › Apps (wenn du den Installer benutzt hast), in der App unter Einstellungen › Allgemein › ETS2 CarPlay deinstallieren, oder bei der ZIP-Version mit `Deinstallieren.cmd` im Programmordner.
+Entweder über Windows unter Einstellungen › Apps (wenn du den Installer benutzt hast), in der App unter Einstellungen › Allgemein › ETS2 CarPlay deinstallieren, oder bei der ZIP-Version mit `Deinstallieren.exe` im Programmordner.
 
 Entfernt werden das Plugin im Spiel, die Platzhalter in `Dokumente\Euro Truck Simulator 2\ETS2CarPlay` und der Programmordner. Deine Einstellungen (`%APPDATA%\ETS2 CarPlay`) nur, wenn du das willst. Am Spiel selbst bleibt alles, wie es war.
 
