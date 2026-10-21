@@ -4,6 +4,17 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.12.0 (2026-10-21)
+
+- Neues Plugin-Menü im Spiel im CarPlay-Stil: Status, GPS-Display (Auflösung und Bilder pro Sekunde zum Antippen), Touch, Tastenkürzel und Start auf einen Blick. Änderungen gelten und speichern sofort
+- Das Menü öffnet jetzt mit F8 (die einzige F-Taste, die das Spiel nicht belegt). Strg+F8 geht weiterhin
+- Plugin aufgeräumt: Dashboard- und eigene Bildschirme, Fenster als Quelle und die Fingerprint-Suche aus dem Vorgänger-Plugin sind entfernt – CarPlay läuft wie bisher auf dem GPS-Display
+- Neues App-Symbol im Stil des Startbilds, das Startbild selbst mit größerem Zeichen
+- Sport: Der Live-Ticker meldet Anpfiff und Tore schneller – während des Spiels wird alle 15 Sekunden nachgeschaut (vorher bis zu 5 Minuten)
+- Neue Einstellung „Logos“ (Allgemein): Vereinswappen und Lkw-Marken auf dem PC speichern (nach 30 Tagen ohne Anzeige gelöscht, höchstens 40 MB) oder nur laden. Der Zwischenspeicher der App wächst nicht mehr auf Hunderte MB
+- ZIP-Version: „Deinstallieren.exe“ statt der .cmd-Datei, mit Rückfragen in normalen Fenstern
+- Übersetzungen: „Geradeaus“ im Navi-Banner, „Autobahn“ am Tempolimit-Schild, „Tor“ im Sport-Widget, „Pannenhilfe“ und „An der Route“ in den Karteneinstellungen sind jetzt auch auf Englisch, Polnisch und Türkisch übersetzt; „Euro Truck Simulator“ wird nicht mehr zu „euros Truck Simulator“
+
 ## 1.11.1 (2026-10-20)
 
 - Grenzübertritt: „Willkommen in …“ kommt jetzt erst an der echten Grenze – nicht mehr zu früh, mit dem falschen Land oder zwischendurch zufällig. Die App nimmt das Land der Straße, auf der du fährst, statt das der nächsten Stadt (die liegt in Grenznähe oft im Nachbarland)
