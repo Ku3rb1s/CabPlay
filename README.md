@@ -94,6 +94,7 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 
 - Windows 10 oder 11, 64 Bit
 - Euro Truck Simulator 2 in der aktuellen Version (Steam), DirectX 11
+- Die originale Karte des Spiels (mit allen DLCs). Karten-Mods wie ProMods oder RPM (Rheinland-Pfalz 1:1) werden nicht unterstützt
 - Etwa 350 MB Platz, mit Sprachassistent entsprechend mehr
 
 ## Installieren
@@ -188,6 +189,8 @@ Das echte Wetter der Stadt, durch die du gerade fährst. Es kommt von Open-Meteo
 ### Mods
 
 Firmen- und Städtenamen aus Mods, die im Spiel eingeschaltet sind (zum Beispiel echte Firmennamen), erscheinen auch auf der Karte. Die App liest dafür nur die Namensdateien. Abschaltbar unter Einstellungen › Karten.
+
+Karten-Mods gehen nicht: Die App baut ihre Karte nur aus der originalen Karte des Spiels und deinen DLCs. Mit ProMods fehlen die zusätzlichen und umgebauten Straßen, dort stimmen Karte, Navi und Spurhinweise nicht. RPM (Rheinland-Pfalz 1:1) und andere eigenständige Karten sind eine eigene Welt – darauf passen Karte und Navi der App gar nicht. Alles andere (Spotify, Radio, Auftrag, Fahrzeug, Sport …) funktioniert auch mit Karten-Mods.
 
 ### Kartenfehler melden
 

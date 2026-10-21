@@ -96,6 +96,7 @@ The screenshots show the German interface. English can be switched on in the set
 
 - Windows 10 or 11, 64 bit
 - Euro Truck Simulator 2, current version (Steam), DirectX 11
+- The game's original map (with all DLCs). Map mods such as ProMods or RPM (Rheinland-Pfalz 1:1) are not supported
 - About 350 MB of disk space, more with the voice assistant
 
 ## Installation
@@ -190,6 +191,8 @@ The real weather of the city you're driving through. It comes from Open-Meteo, w
 ### Mods
 
 Company and city names from mods enabled in the game (real company names, for example) also show up on the map. The app only reads the name files. You can turn this off under Settings › Maps.
+
+Map mods don't work: the app builds its map only from the game's original map and your DLCs. With ProMods, the added and rebuilt roads are missing, so the map, navigation and lane guidance are wrong there. RPM (Rheinland-Pfalz 1:1) and other standalone maps are a separate world – the app's map and navigation don't fit them at all. Everything else (Spotify, radio, job, truck, sports …) also works with map mods.
 
 ### Reporting map errors
 
