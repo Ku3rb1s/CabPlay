@@ -4,6 +4,15 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.12.2 (2026-10-21)
+
+- Licht: Die App erkennt bei Lichtautomatik wieder richtig, ob es dunkel ist. Die Armaturenbeleuchtung wird im Spiel nachts nur gedimmt (tagsüber 1,0, nachts etwa 0,8) und galt deshalb immer als „Licht an“ – „Nach Scheinwerfer“, die Licht-Kontrollleuchte und „Nachts dunkler“ waren dadurch auch tagsüber im Nachtmodus
+- „Nachts dunkler“ dimmt jetzt in jedem Farbschema (mit „Hell“ tat der Schalter nichts), bei „Hell“ etwas stärker, und ist auch im Fenster am PC zu sehen
+- Formel 1: Ist der bisherige Datendienst (Jolpica) nicht erreichbar, kommen Kalender, Ergebnisse und WM-Stand automatisch von OpenF1 – statt „Keine Verbindung zum Sportdienst“
+- Navi-Einstellungen und README: Hinweis, dass Entfernungen bei Abbiegungen, Spuren und Ampeln die echte Strecke sind – das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19)
+- Weniger Last bei Monitoren mit hoher Bildwiederholrate: Das Fenster am PC fragt nur noch so oft nach einem Bild, wie die Karte zeichnet (vorher bei 540 Hz über 500-mal pro Sekunde)
+- Plugin 1.8.1: Reste der entfernten Dashboard- und eigenen Bildschirme ausgebaut (keine Warnung „Custom-Render-Patch nicht gefunden“ mehr im Spiel-Log)
+
 ## 1.12.1 (2026-10-21)
 
 - Symbol-Set „Apple“: neues Musik-Icon im Stil von iOS 27.2 – schwarze Note auf Weiß, im Symbolstil „Dunkel“ weiße Note auf Schwarz. Die Note ist nach Apples Vorbild gezeichnet (geneigte ovale Notenköpfe, schlanke Hälse, kräftiger Balken)
