@@ -216,6 +216,9 @@ ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der Ap
 **Die Karte ist leer oder alt.**
 Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht die App das von selbst.
 
+**Die Entfernungen bei Abbiegungen und Spurhinweisen passen nicht zum Navi im Spiel.**
+Das ist so gewollt. ETS2 staucht die Welt: Auf dem Land ist sie etwa 1:19 verkleinert, in Städten etwa 1:3. Das Navi des Spiels rechnet in diesen gestauchten Spielkilometern. Die App zeigt bei Abbiegungen, Spurhinweisen, Ampeln, engen Kurven, Steigungen und Grenzen dagegen die echte Strecke auf der Straße vor dir. „In 300 m rechts“ heißt also: nach 300 m, die du wirklich fährst. Deshalb liegen die Zahlen von App und Spiel-Navi oft weit auseinander. Restkilometer, Ankunftszeit und die Abstände zu Tankstellen, Rastplätzen und Werkstätten rechnet die App dagegen in Spielkilometer um, damit sie zum Spiel passen.
+
 **Kostet das Leistung?**
 Kaum. Die App zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel. Auf einem normalen Spiele-PC merkt man keinen Unterschied.
 

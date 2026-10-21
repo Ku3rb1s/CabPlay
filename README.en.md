@@ -218,6 +218,9 @@ Close ETS2 completely, start it again and confirm the SDK prompt. In the app, ch
 **The map is empty or outdated.**
 Settings › About › Rebuild map. After game updates the app does this by itself.
 
+**The distances for turns and lane guidance don't match the game's navigation.**
+That's on purpose. ETS2 compresses the world: about 1:19 in the countryside and about 1:3 in cities. The game's navigation counts in these compressed game kilometres. For turns, lane guidance, traffic lights, sharp bends, gradients and borders, the app shows the real distance on the road ahead instead. "Turn right in 300 m" means after 300 m you actually drive. That's why the numbers in the app and the game's navigation are often far apart. Remaining distance, arrival time and the distances to fuel stations, rest areas and service shops, on the other hand, are converted to game kilometres so they match the game.
+
 **Does it cost performance?**
 Hardly. The app only redraws what changes and hands the picture to the game through the graphics card. On a normal gaming PC you won't notice a difference.
 
