@@ -4,6 +4,10 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.12.1 (2026-10-21)
+
+- Symbol-Set „Apple“: neues Musik-Icon im Stil von iOS 27.2 – schwarze Note auf Weiß, im Symbolstil „Dunkel“ weiße Note auf Schwarz. Die Note ist nach Apples Vorbild gezeichnet (geneigte ovale Notenköpfe, schlanke Hälse, kräftiger Balken)
+
 ## 1.12.0 (2026-10-21)
 
 - Neues Plugin-Menü im Spiel im CarPlay-Stil: Status, GPS-Display (Auflösung und Bilder pro Sekunde zum Antippen), Touch, Tastenkürzel und Start auf einen Blick. Änderungen gelten und speichern sofort
