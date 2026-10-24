@@ -4,6 +4,10 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.13.3 (2026-10-24)
+
+- Softwareupdate sichtbar: Beim Aktualisieren zeigt ein kleines Fenster „CabPlay wird aktualisiert …“ mit Laufbalken, was gerade passiert (App wird beendet, neue Version wird installiert, Plugin wird aktualisiert). Am Ende steht „CabPlay ist aktualisiert“ – oder, falls etwas nicht geklappt hat, ein Hinweis. Vorher schloss sich die App und man sah eine halbe Minute lang nichts
+
 ## 1.13.2 (2026-10-24)
 
 - Softwareupdate: Wer CabPlay „für alle Benutzer“ installiert hat, bekam beim Aktualisieren aus der App heraus kein Update – die App schloss sich nur. Jetzt fragt Windows einmal nach Administratorrechten, und das Update läuft durch. Klappt etwas nicht, startet die App trotzdem wieder, und ein Protokoll (`update\einspielen.log`) zeigt, woran es lag
