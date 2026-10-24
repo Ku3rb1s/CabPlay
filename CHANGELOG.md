@@ -4,6 +4,11 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.13.5 (2026-10-25)
+
+- CabPlay aus Versehen geschlossen? Im Ingame-Menü (F8) steht bei „CabPlay-App“ dann ein Knopf „Starten“: Er startet CabPlay im Hintergrund wie beim Spielstart, ohne Fenster – nach ein, zwei Sekunden ist das Display wieder da
+- Plugin 1.9.2
+
 ## 1.13.4 (2026-10-25)
 
 - Karte: Die Abgabestelle deines Auftrags steht jetzt als rote Fahne mit dem Firmennamen auf der CabPlay-Karte – wie die Fahne auf der Karte im Spiel. Mit Navi-Route sitzt sie am Routenende, nach dem Ankommen bleibt sie stehen. Ohne Auftrag zeigt die Nadel wie bisher das Ziel der Route
