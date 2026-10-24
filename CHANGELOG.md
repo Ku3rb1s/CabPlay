@@ -4,6 +4,10 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.13.4 (2026-10-25)
+
+- Karte: Die Abgabestelle deines Auftrags steht jetzt als rote Fahne mit dem Firmennamen auf der CabPlay-Karte – wie die Fahne auf der Karte im Spiel. Mit Navi-Route sitzt sie am Routenende, nach dem Ankommen bleibt sie stehen. Ohne Auftrag zeigt die Nadel wie bisher das Ziel der Route
+
 ## 1.13.3 (2026-10-24)
 
 - Softwareupdate sichtbar: Beim Aktualisieren zeigt ein kleines Fenster „CabPlay wird aktualisiert …“ mit Laufbalken, was gerade passiert (App wird beendet, neue Version wird installiert, Plugin wird aktualisiert). Am Ende steht „CabPlay ist aktualisiert“ – oder, falls etwas nicht geklappt hat, ein Hinweis. Vorher schloss sich die App und man sah eine halbe Minute lang nichts
