@@ -4,6 +4,12 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.13.1 (2026-10-24)
+
+- Der Ordner mit den Platzhalter-Texturen fürs Navi-Display heißt jetzt `Dokumente\Euro Truck Simulator 2\CabPlay-Display` (vorher `ETS2CarPlay`). Das Plugin legt ihn beim Spielstart selbst an, stellt deine Einstellungen darauf um und räumt den alten Ordner weg
+- Plugin 1.9.1: Die nicht mehr gebrauchten Dashboard-Platzhalter fallen weg
+- Deinstallieren entfernt beide Ordnernamen
+
 ## 1.13.0 (2026-10-24)
 
 - Neuer Name: Aus „ETS2 CarPlay“ wird **CabPlay** – App, Desktop-Symbol, Installer, Plugin und Menü im Spiel. Die Oberfläche im Truck bleibt, wie sie ist

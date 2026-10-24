@@ -236,7 +236,7 @@ No, only with Euro Truck Simulator 2.
 
 Either through Windows under Settings › Apps (if you used the installer), in the app under Settings › General › Uninstall CabPlay, or for the ZIP version with `Deinstallieren.exe` in the program folder.
 
-This removes the plugin from the game, the placeholders in `Documents\Euro Truck Simulator 2\ETS2CarPlay` and the program folder. Your settings (`%APPDATA%\CabPlay`) only if you want. The game itself stays exactly as it was.
+This removes the plugin from the game, the placeholders in `Documents\Euro Truck Simulator 2\CabPlay-Display` and the program folder. Your settings (`%APPDATA%\CabPlay`) only if you want. The game itself stays exactly as it was.
 
 ## Licenses and thanks
 
