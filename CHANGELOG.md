@@ -4,6 +4,12 @@ Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](.
 
 All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
 
+## 1.12.3 (2026-10-24)
+
+- Sprachassistent: Die App lädt die lokale KI erst, wenn das Spiel fertig geladen ist und läuft – nicht mehr mitten im Ladebildschirm, wo Spiel und Sprachmodell gleichzeitig auf die Grafikkarte luden
+- Beim Beenden stürzte die App ab, wenn die KI-Stimme gerade geladen war (für dich unsichtbar, hinterließ aber jedes Mal einen großen Absturzbericht) – die Stimme wird jetzt vorher sauber freigegeben
+- Neues Protokoll `app.log` im Datenordner (`%APPDATA%\ETS2 CarPlay`): Start, Verbindung zum Spiel, Fehler und Abstürze von Teilprozessen. Bei Problemen hilft es beim Melden. Absturzberichte bleiben auf dem PC und werden nirgends hochgeladen
+
 ## 1.12.2 (2026-10-21)
 
 - Licht: Die App erkennt bei Lichtautomatik wieder richtig, ob es dunkel ist. Die Armaturenbeleuchtung wird im Spiel nachts nur gedimmt (tagsüber 1,0, nachts etwa 0,8) und galt deshalb immer als „Licht an“ – „Nach Scheinwerfer“, die Licht-Kontrollleuchte und „Nachts dunkler“ waren dadurch auch tagsüber im Nachtmodus
