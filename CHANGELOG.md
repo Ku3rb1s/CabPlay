@@ -1,8 +1,16 @@
 # Änderungen / Changelog
 
-Alle Versionen von ETS2 CarPlay. Die aktuelle Version gibt es unter [Releases](../../releases/latest).
+Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
-All versions of ETS2 CarPlay. Get the current version from [Releases](../../releases/latest).
+All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
+
+## 1.13.0 (2026-10-24)
+
+- Neuer Name: Aus „ETS2 CarPlay“ wird **CabPlay** – App, Desktop-Symbol, Installer, Plugin und Menü im Spiel. Die Oberfläche im Truck bleibt, wie sie ist
+- Deine Einstellungen, Kartendaten, KI-Modelle, Logos und Spotify-Anmeldung ziehen beim ersten Start automatisch mit um (von `%APPDATA%\ETS2 CarPlay` nach `%APPDATA%\CabPlay`)
+- Das Plugin heißt jetzt `cabplay.dll` (Version 1.9.0). Die App ersetzt das alte `ets2_carplay.dll` selbst, sobald das Spiel beendet ist, und übernimmt Tastenkürzel, Bildschirm- und Touch-Einstellungen
+- Der Installer heißt jetzt `CabPlay-Setup-<Version>.exe`, die ZIP `CabPlay-<Version>.zip`. Die Programmdatei heißt `CabPlay.exe`
+- Gesicherte Einstellungen (Einstellungen › Allgemein › Einstellungen sichern) aus älteren Versionen lassen sich weiter laden
 
 ## 1.12.3 (2026-10-24)
 

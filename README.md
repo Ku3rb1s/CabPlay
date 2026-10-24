@@ -1,8 +1,10 @@
-# ETS2 CarPlay
+# CabPlay
 
 Deutsch · [English](README.en.md)
 
-Apple CarPlay für das Navi-Display in Euro Truck Simulator 2. Auf dem Bildschirm im Cockpit läuft eine echte Navigation mit Spurempfehlung und Wegweisern, dazu Spotify, Radio, Live-Fußball, dein Auftrag, Fahrzeugdaten mit Kontrollleuchten, ein Blitzerwarner und mehr. Die Karte entsteht aus deinen eigenen Spieldateien, mit allen DLCs. Bedient wird mit der Maus direkt auf dem Display, über Tastenkürzel, Lenkrad-Tasten oder vom Handy aus.
+CabPlay bringt eine Oberfläche im Stil von Apple CarPlay auf das Navi-Display in Euro Truck Simulator 2. Auf dem Bildschirm im Cockpit läuft eine echte Navigation mit Spurempfehlung und Wegweisern, dazu Spotify, Radio, Live-Fußball, dein Auftrag, Fahrzeugdaten mit Kontrollleuchten, ein Blitzerwarner und mehr. Die Karte entsteht aus deinen eigenen Spieldateien, mit allen DLCs. Bedient wird mit der Maus direkt auf dem Display, über Tastenkürzel, Lenkrad-Tasten oder vom Handy aus.
+
+> Bis Version 1.12 hieß CabPlay „ETS2 CarPlay“. Das Update aus der App heraus klappt wie gewohnt, Einstellungen und Daten ziehen mit um.
 
 ![Dashboard](bilder/dashboard-dunkel.png)
 
@@ -60,7 +62,7 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 
 ### Bedienung
 
-- Touch-Modus im Spiel: CarPlay als Fenster oder direkt auf dem Display im Cockpit anklicken. Kopf- und Kabinenbewegungen rechnet die App heraus
+- Touch-Modus im Spiel: CabPlay als Fenster oder direkt auf dem Display im Cockpit anklicken. Kopf- und Kabinenbewegungen rechnet die App heraus
 - Tastenkürzel für alles Wichtige, auch für Lenkrad-Tasten
 - Handy-Steuerung im WLAN, verbunden per QR-Code
 - Ein Editor-Fenster am PC zum Einrichten
@@ -100,14 +102,14 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 ## Installieren
 
 1. Euro Truck Simulator 2 beenden.
-2. Unter [Releases](../../releases) die neueste Version herunterladen. Entweder den Installer `ETS2-CarPlay-Setup-<Version>.exe` (Ordner frei wählbar) oder die ZIP, die du nur entpackst und dann `ETS2 CarPlay.exe` startest.
+2. Unter [Releases](../../releases) die neueste Version herunterladen. Entweder den Installer `CabPlay-Setup-<Version>.exe` (Ordner frei wählbar) oder die ZIP, die du nur entpackst und dann `CabPlay.exe` startest.
 3. Die App sucht ETS2 über Steam und kopiert das Plugin selbst ins Spiel. Ob das geklappt hat, steht in der App unter Einstellungen › Allgemein › Plugin & Spiel.
 
 ## Erster Start
 
 1. ETS2 starten. Beim ersten Mal fragt das Spiel, ob es SDK-Plugins laden darf. Mit OK bestätigen. Ab dann startet das Spiel die App von selbst mit.
-2. In einen Truck mit Navi-Bildschirm steigen. CarPlay erscheint auf dem Display.
-3. Mit F8 öffnest du das CarPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
+2. In einen Truck mit Navi-Bildschirm steigen. CabPlay erscheint auf dem Display.
+3. Mit F8 öffnest du das CabPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
 4. Für die Navigation ein Ziel im Spiel-Navi setzen oder einen Auftrag annehmen.
 
 Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauert ein, zwei Minuten und läuft im Hintergrund.
@@ -116,18 +118,18 @@ Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauer
 
 | Tasten | Was passiert |
 |---|---|
-| F8 | CarPlay-Menü im Spiel (Status, GPS-Display, Touch) |
-| Strg + Alt + M | Touch-Modus an oder aus, dann geht CarPlay mit der Maus |
+| F8 | CabPlay-Menü im Spiel (Status, GPS-Display, Touch) |
+| Strg + Alt + M | Touch-Modus an oder aus, dann geht CabPlay mit der Maus |
 | Strg + Alt + E | Editor-Fenster am PC |
 | Strg + Alt + P | Musik abspielen oder pausieren |
 | Strg + Alt + Bild↑ / Bild↓ | Vorheriger oder nächster Titel |
-| Strg + Alt + Pfeiltasten, Enter, Rücktaste | Durch CarPlay blättern, auswählen, zurück |
+| Strg + Alt + Pfeiltasten, Enter, Rücktaste | Durch CabPlay blättern, auswählen, zurück |
 | Strg + Alt + H | Home-Bildschirm |
 | Strg + Alt + V | Sprachbefehl |
 
 Alle Kürzel kannst du in der App ändern.
 
-Im Touch-Modus gibt es zwei Varianten. Entweder liegt CarPlay als Fenster über dem Spiel, das du verschieben und vergrößern kannst. Oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck.
+Im Touch-Modus gibt es zwei Varianten. Entweder liegt CabPlay als Fenster über dem Spiel, das du verschieben und vergrößern kannst. Oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck.
 
 Fürs Handy schaltest du in den Einstellungen die Handy-Steuerung ein und scannst den QR-Code. Handy und PC müssen im selben WLAN sein.
 
@@ -152,15 +154,15 @@ ETS2 staucht Europa ziemlich zusammen, Dover und Calais liegen zum Beispiel nur 
 
 ### Spotify
 
-Ohne Einrichtung zeigt CarPlay, was in der Spotify-App am PC läuft (Titel, Interpret, Cover), und steuert Abspielen, Pause und Titelwechsel.
+Ohne Einrichtung zeigt CabPlay, was in der Spotify-App am PC läuft (Titel, Interpret, Cover), und steuert Abspielen, Pause und Titelwechsel.
 
 Für die Mediathek mit Playlists, zuletzt gehörten Titeln, Lieblingssongs, Suche und Warteschlange verbindest du einmal dein eigenes Spotify-Konto:
 1. Auf [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) mit deinem Spotify-Konto anmelden und „Create app“ wählen. Name ist egal, als API „Web API“ ankreuzen.
 2. Als Redirect URI genau `http://127.0.0.1:8724/callback` eintragen und speichern.
 3. Die Client ID der App kopieren.
-4. In CarPlay im Editor-Fenster unter Einstellungen › Musik › Spotify-Mediathek die Client ID einfügen, auf Verbinden klicken und im Browser zustimmen.
+4. In CabPlay im Editor-Fenster unter Einstellungen › Musik › Spotify-Mediathek die Client ID einfügen, auf Verbinden klicken und im Browser zustimmen.
 
-Die Anmeldung bleibt auf deinem PC (`%APPDATA%\ETS2 CarPlay`), es läuft nichts über fremde Server. Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App. Die Songtexte kommen von LRCLIB und laufen mit, wenn es für den Titel synchronisierte Texte gibt.
+Die Anmeldung bleibt auf deinem PC (`%APPDATA%\CabPlay`), es läuft nichts über fremde Server. Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App. Die Songtexte kommen von LRCLIB und laufen mit, wenn es für den Titel synchronisierte Texte gibt.
 
 ### Radio
 
@@ -194,7 +196,7 @@ Karten-Mods gehen nicht: Die App baut ihre Karte nur aus der originalen Karte de
 
 ### Kartenfehler melden
 
-Stimmt die Karte an einer Stelle nicht, etwa Wasser, wo Land ist, wählst du im Kartenmenü „Fehler auf der Karte melden“. Position und ein Bild landen in `%APPDATA%\ETS2 CarPlay\map-reports`. Gern hier auf GitHub als Issue anhängen.
+Stimmt die Karte an einer Stelle nicht, etwa Wasser, wo Land ist, wählst du im Kartenmenü „Fehler auf der Karte melden“. Position und ein Bild landen in `%APPDATA%\CabPlay\map-reports`. Gern hier auf GitHub als Issue anhängen.
 
 ### Einstellungen sichern
 
@@ -210,10 +212,10 @@ Bei jedem Start schaut die App nach einer neuen Version (höchstens alle drei St
 Die Programmdatei ist nicht digital signiert, deshalb kennt Windows den Herausgeber nicht. Auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken. Wer sichergehen will, vergleicht die Prüfsumme mit der `SHA256SUMS.txt` im Release:
 
 ```powershell
-Get-FileHash .\ETS2-CarPlay-Setup-*.exe -Algorithm SHA256
+Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
-**CarPlay erscheint nicht im Spiel.**
+**CabPlay erscheint nicht im Spiel.**
 ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit F8 das Menü öffnen und Anwenden drücken.
 
 **Die Karte ist leer oder alt.**
@@ -230,9 +232,9 @@ Nein, nur mit Euro Truck Simulator 2.
 
 ## Deinstallieren
 
-Entweder über Windows unter Einstellungen › Apps (wenn du den Installer benutzt hast), in der App unter Einstellungen › Allgemein › ETS2 CarPlay deinstallieren, oder bei der ZIP-Version mit `Deinstallieren.exe` im Programmordner.
+Entweder über Windows unter Einstellungen › Apps (wenn du den Installer benutzt hast), in der App unter Einstellungen › Allgemein › CabPlay deinstallieren, oder bei der ZIP-Version mit `Deinstallieren.exe` im Programmordner.
 
-Entfernt werden das Plugin im Spiel, die Platzhalter in `Dokumente\Euro Truck Simulator 2\ETS2CarPlay` und der Programmordner. Deine Einstellungen (`%APPDATA%\ETS2 CarPlay`) nur, wenn du das willst. Am Spiel selbst bleibt alles, wie es war.
+Entfernt werden das Plugin im Spiel, die Platzhalter in `Dokumente\Euro Truck Simulator 2\ETS2CarPlay` und der Programmordner. Deine Einstellungen (`%APPDATA%\CabPlay`) nur, wenn du das willst. Am Spiel selbst bleibt alles, wie es war.
 
 ## Lizenzen und Danke
 
