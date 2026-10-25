@@ -1,125 +1,149 @@
+<div align="center">
+
+<img src="bilder/icon.png" width="112" alt="CabPlay">
+
 # CabPlay
+
+**Dein Truck bekommt CarPlay.**<br>
+Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
+
+[![Version](https://img.shields.io/github/v/release/Ku3rb1s/CabPlay?label=Version&color=0a84ff)](../../releases/latest)
+![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
+![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
+![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
+
+### [⬇&nbsp; CabPlay herunterladen](../../releases/latest)
 
 Deutsch · [English](README.en.md)
 
-CabPlay bringt eine Oberfläche im Stil von Apple CarPlay auf das Navi-Display in Euro Truck Simulator 2 und American Truck Simulator. Auf dem Bildschirm im Cockpit läuft eine echte Navigation mit Spurempfehlung und Wegweisern, dazu Spotify, Radio, Live-Fußball, dein Auftrag, Fahrzeugdaten mit Kontrollleuchten, ein Blitzerwarner und mehr. Die Karte entsteht aus deinen eigenen Spieldateien, mit allen DLCs. Bedient wird mit der Maus direkt auf dem Display, über Tastenkürzel, Lenkrad-Tasten oder vom Handy aus.
+<img src="bilder/dashboard-dunkel.png" alt="CabPlay im Truck: Dashboard mit Navi, Musik und Auftrag" width="900">
 
-> Bis Version 1.12 hieß CabPlay „ETS2 CarPlay“. Wer noch 1.12 oder älter hat, installiert einmal `CabPlay-Setup` aus den Releases von Hand – Einstellungen und Daten ziehen mit um, danach aktualisiert sich CabPlay wieder selbst.
+</div>
 
-![Dashboard](bilder/dashboard-dunkel.png)
+## Was dich erwartet
 
-Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die Marken gehören ihren Inhabern.
+🧭 **Navigation wie im echten Auto** – Abbiegehinweise, die passende Spur vor jeder Kreuzung, Wegweiser wie „Ausfahrt rechts · A1 Richtung Linz“, Ampeln mit Restzeit und Ansagen, auf Wunsch mit natürlich klingender KI-Stimme.
 
-## Inhalt
+🗺️ **Eine Karte aus deinem Spiel** – gebaut aus deinen eigenen Spieldateien, mit allen DLCs: Straßen mit ihren Spuren, Brücken, Gebäude, Wasser, Wälder, Firmengelände. Im Stil von Google Maps oder Apple Karten, hell und dunkel.
 
-- [Was es kann](#was-es-kann)
-- [Bilder](#bilder)
-- [Voraussetzungen](#voraussetzungen)
-- [Installieren](#installieren)
-- [Erster Start](#erster-start)
-- [Bedienung im Spiel](#bedienung-im-spiel)
-- [Die Karte](#die-karte)
-- [Einzelne Funktionen genauer](#einzelne-funktionen-genauer)
-- [Updates](#updates)
-- [Häufige Fragen](#häufige-fragen)
-- [Deinstallieren](#deinstallieren)
-- [Lizenzen und Danke](#lizenzen-und-danke)
+🎵 **Musik** – Spotify mit Cover, Mediathek und mitlaufenden Songtexten, dazu über 110 Radiosender und die Sender aus deinem Spiel.
 
-## Was es kann
+🚚 **Alles rund um die Tour** – Auftrag mit Lieferfrist und Puffer, Disponent per Nachricht und Anruf, Fahrzeugdaten mit Kontrollleuchten, Blitzer- und Waagenwarner, Tanken & Rasten, Wetter.
 
-### Navigation wie im echten Auto
+⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, YouTube und Twitch, ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
 
-- Die Route kommt aus dem Navi des Spiels. Abbiegungen erkennt die App aus den Kreuzungsdaten des Spiels, also so, wie das Spiel selbst abbiegt
-- Spurempfehlung: Welche Spur du brauchst, siehst du vor jeder Kreuzung und Ausfahrt. Ein Marker zeigt, auf welcher Spur du gerade fährst
-- Wegweiser: „Ausfahrt rechts · A1 Richtung Linz“ mit Straßennummer und Ziel von den echten Schildern
-- Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise zu Grenzen und Steigungen
-- Ansagen auf Deutsch, Englisch, Polnisch oder Türkisch, auch mit natürlich klingenden KI-Stimmen. Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
-- Optional: Warnung vor engen Kurven, wenn du zu schnell bist
+🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus.
 
-### Eine Karte aus deinem Spiel
+## In 3 Schritten startklar
 
-- Gebaut aus deinen Spieldateien, mit allen DLCs. Nach Spiel-Updates baut die App sie selbst neu
-- Straßen so breit, wie sie Spuren haben, Brücken über den Straßen darunter, nah herangezoomt Fahrbahnmarkierungen und Abbiegepfeile
-- Gebäude, Wasser, Wälder, Felder, Fels und Sand, Firmengelände mit Hof- und Parkflächen
-- Zwei Stile wie Google Maps und Apple Karten, hell und dunkel, flach oder schräg von hinten. Im Google-Stil haben die Straßen dieselben Farben wie Google Maps in CarPlay
-- Optional: 3D-Gebäude, kleine Orte, Aussichtspunkte, versteckte Straßen und geheime Abkürzungen
+1. **[Herunterladen](../../releases/latest)**, `CabPlay-Setup-….exe` installieren und CabPlay starten – es legt sein Plugin selbst in ETS2 und ATS.
+2. **Spiel starten** und einmal bestätigen, dass es SDK-Plugins laden darf.
+3. **Einsteigen** – CabPlay erscheint auf dem Navi-Display. Ziel im Spiel-Navi setzen oder Auftrag annehmen, los geht’s.
 
-### Apps
-
-- **Spotify** mit Cover, Steuerung, Mediathek, Warteschlange und mitlaufenden Songtexten. Geht auch, wenn das Spiel gerade nicht läuft
-- **Radio** mit über 90 Sendern (deutsche, englische, I LOVE RADIO und die Sender aus deinem Spiel), dazu eigene Sender
-- **Sport** mit Live-Spielständen, Torschützen und Tabellen: Bundesliga bis 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga, Serie A und weitere Ligen, NFL und Formel 1. Für Lieblingsteams und einzelne Spiele gibt es einen Live-Ticker als Mitteilung
-- **Auftrag**: Strecke, Lieferfrist, Puffer, Lohn, Kosten unterwegs und wann die nächste Pause fällig ist
-- **Fahrzeug**: Tempo, Gang, Tank, AdBlue, Zustand von Zugmaschine und Anhänger, dazu Kontrollleuchten wie im Cockpit (Blinker, Licht, Fernlicht, Retarder) und Warnlampen für Bremsdruck, Öldruck, Motortemperatur und Batterie
-- **Blitzer**, Waagen und Mautstellen mit Warnton. Blitzer, die dich erwischt haben, merkt sich die App
-- **Wetter** für den Ort, an dem du gerade bist
-- Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos von YouTube und Twitch
-- Ein Dashboard mit Widgets, das du dir selbst zusammenstellst (zum Beispiel Navi, Musik oder der Live-Ticker), dazu eigene Hintergründe und Symbole
-
-### Sprachassistent (optional)
-
-Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung noch?“ oder „Spiel was von AC/DC“. Das Sprachmodell läuft komplett auf deinem PC, kostet nichts und braucht kein Konto. Es wird nur geladen, wenn du es in den Einstellungen anforderst (etwa 1,5 bis 3 GB), und lässt sich jederzeit wieder entfernen. Ohne den Download gibt es feste Sprachbefehle.
-
-### Bedienung
-
-- Touch-Modus im Spiel: CabPlay als Fenster oder direkt auf dem Display im Cockpit anklicken. Kopf- und Kabinenbewegungen rechnet die App heraus
-- Tastenkürzel für alles Wichtige, auch für Lenkrad-Tasten
-- Handy-Steuerung im WLAN, verbunden per QR-Code
-- Ein Editor-Fenster am PC zum Einrichten
-
-### Sonst noch
-
-- Deutsch und Englisch, metrische und US/UK-Einheiten, 12- oder 24-Stunden-Uhr
-- Updates kommen automatisch. Nach einem Spiel-Update baut die App die Karte selbst neu
-- Am Spiel wird nichts verändert: keine Mods in den Spieldateien, keine Änderung an der `config.cfg`
+Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell. Am Spiel selbst wird nichts verändert.
 
 ## Bilder
 
 | | |
 |---|---|
 | ![Navi hell](bilder/navi-hell.png) | ![Navi dunkel](bilder/navi-dunkel.png) |
-| Navi im Google-Stil mit Spurempfehlung, hell | Navi im Google-Stil, dunkel |
+| Navi mit Spurempfehlung | Navi bei Nacht |
 | ![Apple-Stil dunkel](bilder/karte-apple-dunkel.png) | ![Dashboard hell](bilder/dashboard-hell.png) |
-| Navi im Apple-Stil, dunkel | Dashboard, hell |
+| Karte im Apple-Stil | Dashboard, hell |
 | ![3D-Gebäude](bilder/karte-3d.png) | ![Gelände](bilder/karte-gelaende.png) |
-| 3D-Gebäude und Firmengelände (Option) | Wälder, Fels und Serpentinen |
+| 3D-Gebäude und Firmengelände | Wälder, Fels und Serpentinen |
 | ![Sport](bilder/sport.png) | ![Home](bilder/home.png) |
-| Sport mit Live-Spielständen | Home-Bildschirm |
+| Live-Spielstände | Home-Bildschirm |
 | ![Fahrzeug](bilder/fahrzeug.png) | ![Auftrag](bilder/auftrag.png) |
 | Fahrzeug mit Kontrollleuchten | Auftrag |
 | ![Radio](bilder/radio.png) | ![Wetter](bilder/wetter.png) |
 | Radio | Wetter |
-| ![Blitzer](bilder/blitzer.png) | |
-| Blitzer | |
 
 ## Voraussetzungen
 
-- Windows 10 oder 11, 64 Bit
-- Euro Truck Simulator 2 und/oder American Truck Simulator in der aktuellen Version (Steam), DirectX 11
-- Die originale Karte des Spiels (mit allen DLCs). Karten-Mods wie ProMods oder RPM (Rheinland-Pfalz 1:1) werden nicht unterstützt
-- Etwa 350 MB Platz, mit Sprachassistent entsprechend mehr
+- Windows 10 oder 11 (64 Bit)
+- Euro Truck Simulator 2 und/oder American Truck Simulator in der aktuellen Version über Steam, DirectX 11
+- Die originale Karte des Spiels mit deinen DLCs – Karten-Mods wie ProMods oder RPM werden nicht unterstützt
+- Etwa 350 MB Platz (mit Sprachassistent mehr)
 
-## Installieren
+---
 
-1. Das Spiel beenden.
-2. Unter [Releases](../../releases) die neueste Version herunterladen. Entweder den Installer `CabPlay-Setup-<Version>.exe` (Ordner frei wählbar) oder die ZIP, die du nur entpackst und dann `CabPlay.exe` startest.
-3. Die App sucht ETS2 und ATS über Steam und kopiert das Plugin selbst in jedes gefundene Spiel. Kaufst du ATS später dazu, bekommt es das Plugin beim nächsten Start der App. Ob das geklappt hat, steht in der App unter Einstellungen › Allgemein › Plugin & Spiel.
+## Alles im Detail
 
-## Erster Start
+<details>
+<summary><b>Navigation</b></summary>
 
-1. Das Spiel starten. Beim ersten Mal fragt es, ob es SDK-Plugins laden darf. Mit OK bestätigen. Ab dann startet das Spiel die App von selbst mit.
-2. In einen Truck mit Navi-Bildschirm steigen. CabPlay erscheint auf dem Display.
-3. Mit Strg+F8 öffnest du das CabPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
-4. Für die Navigation ein Ziel im Spiel-Navi setzen oder einen Auftrag annehmen.
+- Die Route kommt aus dem Navi des Spiels. Abbiegungen erkennt CabPlay aus den Kreuzungsdaten des Spiels – so, wie das Spiel selbst abbiegt
+- Spurempfehlung vor jeder Kreuzung und Ausfahrt, ein Marker zeigt, auf welcher Spur du gerade fährst
+- Wegweiser mit Straßennummer und Ziel von den echten Schildern
+- Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise vor Grenzen und Steigungen
+- Ansagen auf Deutsch, Englisch, Polnisch oder Türkisch, mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
+- Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
-Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauert ein, zwei Minuten und läuft im Hintergrund. Für American Truck Simulator passiert das beim ersten Start mit ATS (etwa fünf Minuten).
+Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Straße. Das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19), deshalb weichen die Zahlen dort voneinander ab. Restkilometer, Ankunftszeit und Abstände zu Tankstellen rechnet CabPlay passend zum Spiel.
 
-## Bedienung im Spiel
+</details>
+
+<details>
+<summary><b>Die Karte</b></summary>
+
+CabPlay liest die Karte aus den Dateien deines Spiels, mit allen DLCs, und baut sie nach Spiel-Updates selbst neu.
+
+- Straßen so breit, wie sie Spuren haben, Brücken über den Straßen darunter, Einbahnpfeile, nah herangezoomt Fahrbahnmarkierungen und aufgemalte Abbiegepfeile
+- Gebäude, Wasser, Wälder, Wiesen, Felder, Fels und Sand, Firmengelände mit Hof- und Parkflächen
+- Zwei Stile wie Google Maps und Apple Karten, hell und dunkel, flach oder schräg von hinten
+- Ab Werk aus, jederzeit einschaltbar: 3D-Gebäude, kleine Orte, Aussichtspunkte, versteckte Straßen und geheime Abkürzungen
+
+Flüsse und Seen sind noch nicht überall genau. Stimmt die Karte irgendwo nicht, wählst du im Kartenmenü „Fehler auf der Karte melden“ – gern hier als Issue anhängen.
+
+</details>
+
+<details>
+<summary><b>American Truck Simulator</b></summary>
+
+CabPlay erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwählen.
+
+- Eigene Karte der USA, beim ersten ATS-Start aus deinen Spieldateien gebaut (etwa fünf Minuten im Hintergrund)
+- Tempolimit als US-Schild „SPEED LIMIT“, Straßennummern als Interstate-, US-Highway- und State-Route-Schilder
+- Bundesstaaten statt Länder: „Willkommen in Nevada“ mit den Lkw-Tempolimits des Staates
+- Einheiten und Uhr wie im Spiel eingestellt, Geld in Dollar
+- Statt Blitzern (gibt es in ATS nicht) Warnungen vor Waagen und Mautstellen
+- Radio mit eigener Liste US-Sender und dem Online-Radio aus ATS
+- Road Trip: Kurieraufträge mit dem Auto, Bronco und F-150 mit ihrem eigenen Display-Format
+
+Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt CabPlay unverzerrt.
+
+</details>
+
+<details>
+<summary><b>Apps</b></summary>
+
+- **Spotify**: Ohne Einrichtung zeigt und steuert CabPlay, was in der Spotify-App am PC läuft. Für Mediathek, Playlists, Suche und Warteschlange verbindest du einmal dein Konto (siehe unten). Songtexte laufen mit, wenn es synchronisierte gibt (LRCLIB)
+- **Radio**: über 110 Sender (Deutsch, Englisch, USA, I LOVE RADIO) plus die Sender aus dem Online-Radio deines Spiels und eigene Sender
+- **Sport**: Live-Spielstände, Torschützen und Tabellen – Bundesliga bis 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga, Serie A und mehr, NFL und Formel 1. Lieblingsteams bekommen einen Live-Ticker als Mitteilung
+- **Auftrag**: Strecke, Lieferfrist, Puffer, Lohn, Kosten unterwegs, nächste Pause
+- **Fahrzeug**: Tempo, Gang, Tank, AdBlue, Zustand von Zugmaschine und Anhänger, Kontrollleuchten und Warnlampen wie im Cockpit
+- **Blitzer**, Waagen und Mautstellen mit Warnton – Blitzer, die dich erwischt haben, merkt sich CabPlay
+- **Wetter** für den Ort, an dem du gerade bist (Open-Meteo, ohne Konto)
+- Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos von YouTube und Twitch
+- Reisebus aus dem Coach-DLC: Fahrt statt Fracht, Ankunftsfrist, Bushaltestellen auf der Karte
+
+</details>
+
+<details>
+<summary><b>Sprachassistent (optional)</b></summary>
+
+Home-Knopf gedrückt halten (oder Strg + Alt + V) und einfach reden, zum Beispiel „Schaffe ich die Lieferung noch?“ oder „Spiel was von AC/DC“. Das Sprachmodell läuft komplett auf deinem PC, kostet nichts und braucht kein Konto. Es wird nur geladen, wenn du es in den Einstellungen anforderst (etwa 1,5 bis 3 GB), und lässt sich jederzeit wieder entfernen. Ohne den Download versteht CabPlay feste Befehle wie „Nächste Tankstelle“ oder „Wie weit noch“.
+
+</details>
+
+<details>
+<summary><b>Bedienung im Spiel</b></summary>
 
 | Tasten | Was passiert |
 |---|---|
-| Strg+F8 | CabPlay-Menü im Spiel (Status, GPS-Display, Touch) |
-| Strg + Alt + M | Touch-Modus an oder aus, dann geht CabPlay mit der Maus |
+| Strg + F8 | CabPlay-Menü im Spiel (Status, Display, Touch) |
+| Strg + Alt + M | Touch-Modus: CabPlay mit der Maus bedienen |
 | Strg + Alt + E | Editor-Fenster am PC |
 | Strg + Alt + P | Musik abspielen oder pausieren |
 | Strg + Alt + Bild↑ / Bild↓ | Vorheriger oder nächster Titel |
@@ -127,130 +151,68 @@ Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauer
 | Strg + Alt + H | Home-Bildschirm |
 | Strg + Alt + V | Sprachbefehl |
 
-Alle Kürzel kannst du in der App ändern.
+Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
 
-Im Touch-Modus gibt es zwei Varianten. Entweder liegt CabPlay als Fenster über dem Spiel, das du verschieben und vergrößern kannst. Oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck.
+**Touch:** Entweder liegt CabPlay als Fenster über dem Spiel, oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck – Kopf- und Kabinenbewegungen rechnet CabPlay heraus. Die Kalibrierung merkt sich CabPlay für jeden Truck und jedes Auto.
 
-Fürs Handy schaltest du in den Einstellungen die Handy-Steuerung ein und scannst den QR-Code. Handy und PC müssen im selben WLAN sein.
+**Handy:** In den Einstellungen die Handy-Steuerung einschalten und den QR-Code scannen – Handy und PC im selben WLAN.
 
-## Die Karte
+</details>
 
-Die App liest die Karte aus den Dateien deines Spiels und baut sie nach Spiel-Updates neu. Was angezeigt wird, stellst du in den Karten-Einstellungen ein: Grünflächen, Wald, Wiesen, Felder, Fels und Sand, Wasser, Gebäude, Firmengelände, Straßennummern, Fahrbahnmarkierungen und so weiter.
+<details>
+<summary><b>Spotify-Mediathek einrichten</b></summary>
 
-Brücken und Überführungen liegen sichtbar über den Straßen darunter. Straßen sind so breit, wie sie Spuren haben, Einbahnstraßen und Auffahrten bekommen Pfeile. Nah herangezoomt siehst du Fahrbahnmarkierungen, vor Kreuzungen durchgezogen, und die aufgemalten Abbiegepfeile auf den Spuren. Firmengelände, Tankstellen und Rastplätze zeigen ihre Teilflächen wie die Spielkarte.
-
-Ab Werk aus, aber jederzeit einschaltbar:
-- 3D-Gebäude: in der geneigten Ansicht als Klötze mit der Höhe aus dem Spiel
-- Kleine Orte: Dörfer und Kulissenorte, die im Spiel keine eigene Stadt sind. Fürs Navi nutzt die App sie immer, um die Richtung mit den Wegweisern abzugleichen
-- Aussichtspunkte: die Aussichten, die man im Spiel entdecken kann
-- Versteckte Straßen: Straßen, die das Spiel auf seiner eigenen Karte nicht zeigt. Meist Kulisse oder nur für den KI-Verkehr
-- Geheime Abkürzungen: die Strecken, die man im Spiel erst entdecken muss
-
-Das Wasser für Meer, Flüsse und Seen kommt aus dem Spiel selbst, das offene Meer aus Natural Earth. Flüsse und Seen sind noch nicht überall genau.
-
-ETS2 staucht Europa ziemlich zusammen, Dover und Calais liegen zum Beispiel nur ein paar Kilometer auseinander. Die Karte zeigt die Welt so, wie sie im Spiel ist.
-
-### American Truck Simulator
-
-CabPlay erkennt von selbst, welches Spiel läuft, und stellt sich darauf ein:
-
-- eigene Karte der USA (beim ersten ATS-Start aus deinen Spieldateien gebaut)
-- Tempolimit als US-Schild „SPEED LIMIT“, Straßennummern als Interstate-, US-Highway- und State-Route-Schilder
-- Bundesstaaten statt Länder: „Willkommen in Nevada“ mit den Lkw-Tempolimits des Staates
-- Einheiten und Uhr wie im Spiel eingestellt (Meilen oder Kilometer, 12 oder 24 Stunden), Geld in Dollar
-- statt Blitzern (gibt es in ATS nicht) Warnungen vor Waagen und Mautstellen
-- Radio: Sender aus dem Online-Radio von ATS und eine eigene Liste mit US-Sendern
-- „Road Trip“: Bronco und F-150 haben ein eigenes Display-Format, das CabPlay berücksichtigt
-
-Breitere Displays (z. B. im Freightliner Cascadia oder Western Star 57X) zeigt CabPlay unverzerrt.
-
-## Einzelne Funktionen genauer
-
-### Spotify
-
-Ohne Einrichtung zeigt CabPlay, was in der Spotify-App am PC läuft (Titel, Interpret, Cover), und steuert Abspielen, Pause und Titelwechsel.
-
-Für die Mediathek mit Playlists, zuletzt gehörten Titeln, Lieblingssongs, Suche und Warteschlange verbindest du einmal dein eigenes Spotify-Konto:
-1. Auf [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) mit deinem Spotify-Konto anmelden und „Create app“ wählen. Name ist egal, als API „Web API“ ankreuzen.
+1. Auf [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) mit deinem Spotify-Konto anmelden und „Create app“ wählen. Name egal, als API „Web API“ ankreuzen.
 2. Als Redirect URI genau `http://127.0.0.1:8724/callback` eintragen und speichern.
-3. Die Client ID der App kopieren.
+3. Die Client ID kopieren.
 4. In CabPlay im Editor-Fenster unter Einstellungen › Musik › Spotify-Mediathek die Client ID einfügen, auf Verbinden klicken und im Browser zustimmen.
 
-Die Anmeldung bleibt auf deinem PC (`%APPDATA%\CabPlay`), es läuft nichts über fremde Server. Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App. Die Songtexte kommen von LRCLIB und laufen mit, wenn es für den Titel synchronisierte Texte gibt.
+Die Anmeldung bleibt auf deinem PC (`%APPDATA%\CabPlay`). Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App.
 
-### Radio
+</details>
 
-Die Sender sind nach Deutsch, Englisch, USA, I LOVE RADIO, ETS2, ATS und Eigene sortiert. Unter ETS2 und ATS stehen die Sender aus dem Online-Radio des jeweiligen Spiels. Eigene Sender fügst du im Editor-Fenster mit „+ Sender“ hinzu: Namen suchen (Senderverzeichnis radio-browser.info) oder eine Stream-Adresse eintragen. Radio und Spotify stoppen sich gegenseitig, und mit den Lenkrad-Tasten wechselst du den Sender.
+<details>
+<summary><b>Updates, Mods und Datensicherung</b></summary>
 
-### Sport
+- **Updates**: CabPlay schaut beim Start nach einer neuen Version, lädt sie und installiert sie beim Beenden – das Plugin gleich mit. Jede Datei wird per SHA-256 geprüft, Einstellungen bleiben erhalten. Ob es eine Desktop-Verknüpfung gibt, stellst du unter Softwareupdate ein
+- **Mods**: Firmen- und Städtenamen aus eingeschalteten Mods erscheinen auch auf der Karte. Karten-Mods (ProMods, RPM …) gehen nicht – dort passen Karte und Navi nicht, alles andere funktioniert
+- **Datensicherung**: Einstellungen › Allgemein › „Einstellungen sichern …“ schreibt Einstellungen, gelernte Blitzer und Videos in eine Datei
 
-Spielstände, Torschützen, Tabellen und Formel 1 ohne Konto. Lieblingsteams wählst du in der Tabelle mit einem Tipp auf den Verein, einzelne Spiele verfolgst du mit einem Tipp auf das Spiel. Bei Anpfiff, Toren, Halbzeit und Abpfiff kommt dann eine Mitteilung. Die Ligen sortierst du per Ziehen und blendest aus, was dich nicht interessiert. Als Widget zeigt der Live-Ticker dein Spiel direkt auf dem Dashboard.
+</details>
 
-### Video
-
-YouTube- und Twitch-Links laufen auf dem Display im Truck. Link kopieren und in der Video-App einfügen oder vom Handy schicken. Wenn du willst, pausiert das Video während der Fahrt.
-
-### Sprachbefehle und Ansagen
-
-Strg + Alt + V (oder den Home-Knopf gedrückt halten) startet einen Sprachbefehl, zum Beispiel „Nächste Tankstelle“, „Wie weit noch“, „Wetter“, „Disponent anrufen“ oder „Nächster Titel“. Ohne Sprachassistent erkennt die Windows-Spracherkennung feste Befehle, mit Sprachassistent kannst du frei reden. Navi-Ansagen sprechen die Windows-Stimmen oder eine der zehn zusätzlichen AI-Stimmen (zum Beispiel Olivia). Die laufen direkt in der App auf dem Prozessor, auch auf mittleren PCs, und werden nur auf Wunsch geladen (etwa 400 MB). Die Lautstärke ist für Ansagen und Warntöne getrennt einstellbar.
-
-### Auftrag, Fahrzeug und Bus
-
-Der Disponent meldet sich mit Nachrichten und Anrufen. Fährst du einen Reisebus aus dem Coach-DLC, merkt das die App: kein Anhänger, Fahrt statt Fracht, Ankunftsfrist und Bushaltestellen auf der Karte.
-
-### Wetter
-
-Das echte Wetter der Stadt, durch die du gerade fährst. Es kommt von Open-Meteo, bei Ausfällen von MET Norway. Übertragen wird nur der Ort, ein Konto braucht es nicht.
-
-### Mods
-
-Firmen- und Städtenamen aus Mods, die im Spiel eingeschaltet sind (zum Beispiel echte Firmennamen), erscheinen auch auf der Karte. Die App liest dafür nur die Namensdateien. Abschaltbar unter Einstellungen › Karten.
-
-Karten-Mods gehen nicht: Die App baut ihre Karte nur aus der originalen Karte des Spiels und deinen DLCs. Mit ProMods fehlen die zusätzlichen und umgebauten Straßen, dort stimmen Karte, Navi und Spurhinweise nicht. RPM (Rheinland-Pfalz 1:1) und andere eigenständige Karten sind eine eigene Welt – darauf passen Karte und Navi der App gar nicht. Alles andere (Spotify, Radio, Auftrag, Fahrzeug, Sport …) funktioniert auch mit Karten-Mods.
-
-### Kartenfehler melden
-
-Stimmt die Karte an einer Stelle nicht, etwa Wasser, wo Land ist, wählst du im Kartenmenü „Fehler auf der Karte melden“. Position und ein Bild landen in `%APPDATA%\CabPlay\map-reports`. Gern hier auf GitHub als Issue anhängen.
-
-### Einstellungen sichern
-
-Unter Einstellungen › Allgemein › „Einstellungen sichern …“ schreibst du alle Einstellungen, gelernten Blitzer und Videos in eine Datei. Praktisch, wenn du den PC wechselst.
-
-## Updates
-
-Bei jedem Start schaut die App nach einer neuen Version (höchstens alle drei Stunden, Einstellungen › Allgemein › Softwareupdate). Sie lädt das Update und installiert es beim Beenden, das Plugin gleich mit. Deine Einstellungen bleiben erhalten. Jede Datei wird vorher per SHA-256 geprüft. Was neu ist, steht nach dem Update unter Softwareupdate, frühere Versionen gleich darunter.
-
-## Häufige Fragen
+<details>
+<summary><b>Häufige Fragen</b></summary>
 
 **Windows warnt beim Start („Der Computer wurde durch Windows geschützt“).**
-Die Programmdatei ist nicht digital signiert, deshalb kennt Windows den Herausgeber nicht. Auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken. Wer sichergehen will, vergleicht die Prüfsumme mit der `SHA256SUMS.txt` im Release:
+Die Programmdatei ist nicht digital signiert. Auf „Weitere Informationen“ und „Trotzdem ausführen“ klicken. Wer sichergehen will, vergleicht die Prüfsumme mit der `SHA256SUMS.txt` im Release:
 
 ```powershell
 Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay erscheint nicht im Spiel.**
-ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg+F8 das Menü öffnen und Anwenden drücken.
+Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg + F8 das Menü öffnen und Anwenden drücken.
 
 **Die Karte ist leer oder alt.**
-Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht die App das von selbst.
-
-**Die Entfernungen bei Abbiegungen und Spurhinweisen passen nicht zum Navi im Spiel.**
-Das ist so gewollt. ETS2 staucht die Welt: Auf dem Land ist sie etwa 1:19 verkleinert, in Städten etwa 1:3. Das Navi des Spiels rechnet in diesen gestauchten Spielkilometern. Die App zeigt bei Abbiegungen, Spurhinweisen, Ampeln, engen Kurven, Steigungen und Grenzen dagegen die echte Strecke auf der Straße vor dir. „In 300 m rechts“ heißt also: nach 300 m, die du wirklich fährst. Deshalb liegen die Zahlen von App und Spiel-Navi oft weit auseinander. Restkilometer, Ankunftszeit und die Abstände zu Tankstellen, Rastplätzen und Werkstätten rechnet die App dagegen in Spielkilometer um, damit sie zum Spiel passen.
+Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht CabPlay das von selbst.
 
 **Kostet das Leistung?**
-Kaum. Die App zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel. Auf einem normalen Spiele-PC merkt man keinen Unterschied.
+Kaum. CabPlay zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel.
 
-**Geht das auch mit American Truck Simulator?**
-Ja, seit Version 1.14. CabPlay erkennt das Spiel von selbst, eine Auswahl gibt es nicht. Siehe [American Truck Simulator](#american-truck-simulator).
+**Ich habe noch „ETS2 CarPlay“ (1.12 oder älter).**
+Einmal `CabPlay-Setup` aus den [Releases](../../releases/latest) von Hand installieren – Einstellungen und Daten ziehen mit um, danach aktualisiert sich CabPlay wieder selbst.
 
-## Deinstallieren
+</details>
 
-Entweder über Windows unter Einstellungen › Apps (wenn du den Installer benutzt hast), in der App unter Einstellungen › Allgemein › CabPlay deinstallieren, oder bei der ZIP-Version mit `Deinstallieren.exe` im Programmordner.
+<details>
+<summary><b>Deinstallieren</b></summary>
 
-Entfernt werden das Plugin in beiden Spielen, die Platzhalter in `Dokumente\Euro Truck Simulator 2\CabPlay-Display` (bzw. `American Truck Simulator`) und der Programmordner. Deine Einstellungen (`%APPDATA%\CabPlay`) nur, wenn du das willst. Am Spiel selbst bleibt alles, wie es war.
+Über Windows › Einstellungen › Apps, in CabPlay unter Einstellungen › Allgemein › CabPlay deinstallieren oder bei der ZIP-Version mit `Deinstallieren.exe`. Entfernt werden das Plugin in beiden Spielen, die Platzhalter in `Dokumente\Euro Truck Simulator 2\CabPlay-Display` (bzw. `American Truck Simulator`) und der Programmordner. Deine Einstellungen (`%APPDATA%\CabPlay`) nur, wenn du das willst. Am Spiel bleibt alles, wie es war.
 
-## Lizenzen und Danke
+</details>
+
+<details>
+<summary><b>Lizenzen und Danke</b></summary>
 
 - Teile des Spielplugins stammen aus dem [ETS2LA-Plugin](https://github.com/ETS2LA/plugin) (MIT).
 - Die Kartendaten liest der [TruckSim-Kartenparser](https://github.com/truckermudgeon/maps) (GPL-3.0) aus den Spieldateien. Der Quellcode liegt jedem Paket bei (`resources/mapdata/parser/QUELLE.txt`).
@@ -258,5 +220,10 @@ Entfernt werden das Plugin in beiden Spielen, die Platzhalter in `Dokumente\Euro
 - Sport: [OpenLigaDB](https://www.openligadb.de/) (deutsche Ligen), ESPN (weitere Ligen, NFL), [Jolpica](https://jolpi.ca/) (Formel 1). Markenlogos der Trucks: Wikimedia Commons.
 - Radiosender: [radio-browser.info](https://www.radio-browser.info/), Songtexte: [LRCLIB](https://lrclib.net/), Wetter: [Open-Meteo](https://open-meteo.com/) und MET Norway.
 - Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT).
-- Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1).
-- Gebaut mit [Electron](https://www.electronjs.org/).
+- Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1). Gebaut mit [Electron](https://www.electronjs.org/).
+
+</details>
+
+---
+
+<sub>Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die Marken gehören ihren Inhabern. Alle Änderungen: [CHANGELOG](CHANGELOG.md)</sub>
