@@ -4,6 +4,28 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.0 (25.10.2026)
+
+- CabPlay läuft jetzt auch in **American Truck Simulator**. Die App erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwählen. Das Plugin kommt automatisch in jedes Spiel, das über Steam installiert ist
+- Eigene **Karte der USA**: Beim ersten Start mit ATS baut CabPlay sie aus deinen Spieldateien (dauert etwa fünf Minuten, läuft im Hintergrund)
+- **US-Schilder**: Tempolimit als weißes „SPEED LIMIT“-Schild, Straßennummern als Interstate-, US-Highway- und State-Route-Schilder auf der Karte
+- **Bundesstaaten** statt Länder: „Willkommen in Nevada“ mit den Lkw-Tempolimits des Staates, Hinweis vor der Staatsgrenze
+- **Einheiten und Uhr wie im Spiel** (neue Einstellung „Wie im Spiel“, jetzt Standard): Meilen oder Kilometer, 12 oder 24 Stunden – so, wie du es in den Spieloptionen eingestellt hast. Geld in Dollar
+- In ATS statt Blitzern (gibt es dort nicht) Warnungen vor **Waagen** und Mautstellen
+- **Radio**: neue Liste **USA** mit 26 Sendern (viel Country, dazu Rock, Pop, Hip-Hop, NPR) und die Sender aus dem Online-Radio von ATS
+- **Breite Displays unverzerrt**: Im Freightliner Cascadia, Western Star 57X, MAN TGX 2020 (ETS2) und weiteren Lkw mit breiterem oder schmalerem Navi-Bildschirm war das Bild verzogen – CabPlay zeichnet jetzt im richtigen Format
+- **Road Trip**: Kurieraufträge mit dem Auto werden richtig angezeigt (Ladung in kg, kein Anhänger, an Staatsgrenzen keine Lkw-Tempolimits); Bronco und F-150 haben ein eigenes Display-Format, das CabPlay berücksichtigt; Ford-Logo als Fahrzeug-Icon
+- **Kartenfehler und Spurdaten je Spiel getrennt**: Meldungen aus ATS verbessern die ATS-Karte, Meldungen aus ETS2 die ETS2-Karte – nichts wird vermischt
+- Deinstallieren entfernt das Plugin aus beiden Spielen
+- **Einheiten bei Steam-Cloud-Profilen**: Die Einstellungen werden jetzt aus dem Cloud-Profil bei Steam bzw. dem laufenden Spiel gelesen (vorher kam bei Cloud-Profilen eine veraltete Kopie zum Zug – auch beim automatischen Licht in ETS2)
+- **Touch direkt am Display**: Klicks landen bei breiten Displays jetzt an der richtigen Stelle (vorher z. B. Home statt Einstellungen)
+- **Radio**: Bei US-Sendern (KISS FM, Z100 …) erscheinen keine Zeichen wie text="…" song_spot=… mehr im Titel; Titel mit Apostroph („Don't Stop“) werden nicht mehr abgeschnitten; auf breiten Displays bleibt die Bedienung sichtbar
+- **Ampeln auf der Karte**: ein Symbol je Kreuzung in deren Mitte (in ATS lagen sie neben bzw. hinter der Kreuzung)
+- Die Fahne an der Abgabestelle (seit 1.13.4) ist wieder entfernt – am Ziel steht wie früher die rote Nadel, Firmennamen wie gewohnt
+- **Keine falschen Kreisverkehre mehr**: Große Kreuzungen, Tankstellen und Mautstellen bekamen auf der Karte eine grüne Insel wie ein Kreisverkehr – in ATS an vielen Kreuzungen, in ETS2 an rund 100 Stellen. Erkannt werden jetzt nur noch echte Kreisverkehre. Eine schon erstellte ATS-Karte baut CabPlay dafür einmal neu
+- **Kein falsches Wasser in ATS**: Fels- und Kiesboden galt als Wasser (große Seen z. B. bei Las Cruces, North Platte und Emporia), und europäische Küstenlinien lagen als „Meer“ mitten in Texas und Kansas. Beides ist behoben, dazu stimmen Geländeformen und Bodenarten jetzt für ATS
+- **Karte aufgeräumt**: kleine Orte ohne Schild-Formatierung im Namen und ohne Kreuzungen oder Staatsgrenzen als Ort („Jct I-25“, „State Line“); Nationalstraßen (z. B. französische N-, kroatische D-Straßen) nicht mehr als Autobahn; Mautstellen zählen zum richtigen Land; Grenzhinweise auf der Route werden zuverlässiger erkannt
+
 ## 1.13.6 (2026-10-25)
 
 - Softwareupdate repariert: „Jetzt aktualisieren“ schloss CabPlay, ohne etwas zu installieren. Windows beendete das Update-Programm sofort wieder, bevor es anfing – das Update aus der App lief deshalb bisher nie. Jetzt startet es über einen anderen Weg, zeigt das Fenster „CabPlay wird aktualisiert …“ und installiert die neue Version

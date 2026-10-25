@@ -2,9 +2,9 @@
 
 [Deutsch](README.md) · English
 
-CabPlay brings an Apple CarPlay-style interface to the navigation display in Euro Truck Simulator 2. The screen in your cab runs real navigation with lane guidance and signposts, plus Spotify, radio, live football, your job, truck data with indicator lights, a speed camera warner and more. The map is built from your own game files, including every DLC. You control it with the mouse right on the display, with hotkeys, steering wheel buttons or from your phone.
+CabPlay brings an Apple CarPlay-style interface to the navigation display in Euro Truck Simulator 2 and American Truck Simulator. The screen in your cab runs real navigation with lane guidance and signposts, plus Spotify, radio, live football, your job, truck data with indicator lights, a speed camera warner and more. The map is built from your own game files, including every DLC. You control it with the mouse right on the display, with hotkeys, steering wheel buttons or from your phone.
 
-> Up to version 1.12, CabPlay was called "ETS2 CarPlay". Updating from within the app works as usual, and your settings and data move along.
+> Up to version 1.12, CabPlay was called "ETS2 CarPlay". If you still have 1.12 or older, install `CabPlay-Setup` from the releases by hand once – your settings and data move along, and after that CabPlay updates itself again.
 
 ![Dashboard](bilder/dashboard-dunkel.png)
 
@@ -97,24 +97,24 @@ The screenshots show the German interface. English can be switched on in the set
 ## Requirements
 
 - Windows 10 or 11, 64 bit
-- Euro Truck Simulator 2, current version (Steam), DirectX 11
+- Euro Truck Simulator 2 and/or American Truck Simulator, current version (Steam), DirectX 11
 - The game's original map (with all DLCs). Map mods such as ProMods or RPM (Rheinland-Pfalz 1:1) are not supported
 - About 350 MB of disk space, more with the voice assistant
 
 ## Installation
 
-1. Close Euro Truck Simulator 2.
+1. Close the game.
 2. Download the latest version from [Releases](../../releases). Either the installer `CabPlay-Setup-<version>.exe` (you pick the folder) or the ZIP, which you just unpack before starting `CabPlay.exe`.
-3. The app finds ETS2 through Steam and copies the plugin into the game by itself. You can check that it worked under Settings › General › Plugin & game.
+3. The app finds ETS2 and ATS through Steam and copies the plugin into every game it finds. If you buy ATS later, it gets the plugin the next time the app starts. You can check that it worked under Settings › General › Plugin & game.
 
 ## First start
 
-1. Start ETS2. The first time, the game asks whether it may load SDK plugins. Confirm with OK. From then on the game starts the app by itself.
+1. Start the game. The first time, it asks whether it may load SDK plugins. Confirm with OK. From then on the game starts the app by itself.
 2. Get into a truck with a navigation screen. CabPlay appears on the display.
 3. F8 opens the CabPlay menu in the game. It shows the status, lets you set resolution and touch, and Apply reloads the display if needed.
 4. For navigation, set a destination in the game's navigation or take a job.
 
-On the very first start the app builds the map from your game files. That takes a minute or two and runs in the background.
+On the very first start the app builds the map from your game files. That takes a minute or two and runs in the background. For American Truck Simulator this happens the first time you play ATS with CabPlay (about five minutes).
 
 ## Using it in the game
 
@@ -152,6 +152,20 @@ Water for sea, rivers and lakes comes from the game itself, the open sea from Na
 
 ETS2 squeezes Europe quite a lot, Dover and Calais are only a few kilometres apart for example. The map shows the world the way it is in the game.
 
+### American Truck Simulator
+
+CabPlay detects which game is running and adapts by itself:
+
+- its own map of the USA (built from your game files the first time you play ATS)
+- the speed limit as a US "SPEED LIMIT" sign, road numbers as Interstate, US Highway and State Route shields
+- states instead of countries: "Welcome to Nevada" with the state's truck speed limits
+- units and clock as set in the game (miles or kilometres, 12 or 24 hours), money in dollars
+- instead of speed cameras (ATS has none), warnings for weigh stations and toll booths
+- radio: the stations from the ATS online radio and a list of US stations
+- "Road Trip": the Bronco and F-150 have their own display shape, which CabPlay takes into account
+
+Wider displays (e.g. in the Freightliner Cascadia or Western Star 57X) are shown without distortion.
+
 ## Features in more detail
 
 ### Spotify
@@ -168,7 +182,7 @@ The login stays on your PC (`%APPDATA%\CabPlay`), nothing goes through third-par
 
 ### Radio
 
-Stations are sorted into German, English, I LOVE RADIO, ETS2 and Own. ETS2 lists the stations you added in the game. You add your own in the editor window with "+ Station": search by name (radio-browser.info directory) or enter a stream address. Radio and Spotify stop each other, and the steering wheel buttons switch stations.
+Stations are sorted into German, English, USA, I LOVE RADIO, ETS2, ATS and Own. ETS2 and ATS list the stations from the online radio of each game. You add your own in the editor window with "+ Station": search by name (radio-browser.info directory) or enter a stream address. Radio and Spotify stop each other, and the steering wheel buttons switch stations.
 
 ### Sports
 
@@ -230,13 +244,13 @@ That's on purpose. ETS2 compresses the world: about 1:19 in the countryside and 
 Hardly. The app only redraws what changes and hands the picture to the game through the graphics card. On a normal gaming PC you won't notice a difference.
 
 **Does it work with American Truck Simulator?**
-No, only with Euro Truck Simulator 2.
+Yes, since version 1.14. CabPlay detects the game by itself, there's nothing to choose. See [American Truck Simulator](#american-truck-simulator).
 
 ## Uninstalling
 
 Either through Windows under Settings › Apps (if you used the installer), in the app under Settings › General › Uninstall CabPlay, or for the ZIP version with `Deinstallieren.exe` in the program folder.
 
-This removes the plugin from the game, the placeholders in `Documents\Euro Truck Simulator 2\CabPlay-Display` and the program folder. Your settings (`%APPDATA%\CabPlay`) only if you want. The game itself stays exactly as it was.
+This removes the plugin from both games, the placeholders in `Documents\Euro Truck Simulator 2\CabPlay-Display` (or `American Truck Simulator`) and the program folder. Your settings (`%APPDATA%\CabPlay`) only if you want. The game itself stays exactly as it was.
 
 ## Licenses and thanks
 
