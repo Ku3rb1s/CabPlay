@@ -4,6 +4,13 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.2 (25.10.2026)
+
+- **Road Trip: Kurieraufträge werden angezeigt**: ATS meldet Aufträge mit dem Auto anders als Lkw-Aufträge – CabPlay zeigte deshalb „Kein Auftrag“. Jetzt erscheinen Ladung, Start, Ziel, Lohn und Lieferfrist in der Auftrags-App, im Navi und beim Disponenten; die Ablieferung zählt wie bei Lkw-Aufträgen
+- **Direkt-Touch je Fahrzeug**: Die Kalibrierung „Direkt am Display“ wird für jeden Lkw und jedes Auto einzeln gespeichert – gemeinsam für ETS2 und ATS (`%APPDATA%\CabPlay\touch-vehicles.ini`). Beim Einsteigen gilt automatisch die passende; ein Fahrzeug ohne eigene Kalibrierung öffnet den Touch im Fenster. Deine bisherige Kalibrierung gehört ab jetzt zu dem Fahrzeug, in dem du beim ersten Start mit 1.14.2 sitzt
+- **Meilen**: Die Tempo-Warnung („Ab +5“) gilt bei mph jetzt in mph und heißt auch so (vorher wurde in km/h gerechnet); die Sprachauskunft „Hier gilt Tempo …“ nennt das Limit in mph statt in km/h
+- Zeitangaben wie „1 Std. 60 Min.“ gibt es nicht mehr – richtig gerundet heißt es „2 Std. 0 Min.“
+
 ## 1.14.1 (25.10.2026)
 
 - **Ingame-Menü wieder mit Strg+F8**: Das CabPlay-Menü im Spiel öffnet mit Strg+F8 (vorher F8 allein). Die bisherige Belegung F8 stellt das Plugin selbst um; eine andere Taste lässt sich weiter im Menü unter „Tastenkürzel“ wählen
