@@ -4,6 +4,10 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.3 (25.10.2026)
+
+- **Keine neue Desktop-Verknüpfung bei jedem Update**: Updates legen die Verknüpfung nicht mehr neu an – eine gelöschte bleibt weg. Ob es eine gibt, entscheidest du unter Einstellungen › Softwareupdate › „Verknüpfung auf dem Desktop“. (Das Update auf 1.14.3 läuft noch über den alten Weg und legt sie ein letztes Mal an.)
+
 ## 1.14.2 (25.10.2026)
 
 - **Road Trip: Kurieraufträge werden angezeigt**: ATS meldet Aufträge mit dem Auto anders als Lkw-Aufträge – CabPlay zeigte deshalb „Kein Auftrag“. Jetzt erscheinen Ladung, Start, Ziel, Lohn und Lieferfrist in der Auftrags-App, im Navi und beim Disponenten; die Ablieferung zählt wie bei Lkw-Aufträgen
