@@ -50,6 +50,8 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 | Navigation with lane guidance | Navigation at night |
 | ![Apple style dark](bilder/karte-apple-dunkel.png) | ![Dashboard light](bilder/dashboard-hell.png) |
 | Map in Apple style | Dashboard, light |
+| ![ATS navigation](bilder/ats-navi.png) | ![ATS dashboard](bilder/ats-dashboard.png) |
+| American Truck Simulator: miles, US signs, 12-hour clock | ATS dashboard at night |
 | ![3D buildings](bilder/karte-3d.png) | ![Terrain](bilder/karte-gelaende.png) |
 | 3D buildings and company yards | Forests, rock and hairpin bends |
 | ![Sports](bilder/sport.png) | ![Home](bilder/home.png) |

@@ -50,6 +50,8 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 | Navi mit Spurempfehlung | Navi bei Nacht |
 | ![Apple-Stil dunkel](bilder/karte-apple-dunkel.png) | ![Dashboard hell](bilder/dashboard-hell.png) |
 | Karte im Apple-Stil | Dashboard, hell |
+| ![ATS-Navi](bilder/ats-navi.png) | ![ATS-Dashboard](bilder/ats-dashboard.png) |
+| American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr | ATS-Dashboard bei Nacht |
 | ![3D-Gebäude](bilder/karte-3d.png) | ![Gelände](bilder/karte-gelaende.png) |
 | 3D-Gebäude und Firmengelände | Wälder, Fels und Serpentinen |
 | ![Sport](bilder/sport.png) | ![Home](bilder/home.png) |
