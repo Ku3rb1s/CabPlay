@@ -111,7 +111,7 @@ The screenshots show the German interface. English can be switched on in the set
 
 1. Start the game. The first time, it asks whether it may load SDK plugins. Confirm with OK. From then on the game starts the app by itself.
 2. Get into a truck with a navigation screen. CabPlay appears on the display.
-3. F8 opens the CabPlay menu in the game. It shows the status, lets you set resolution and touch, and Apply reloads the display if needed.
+3. Ctrl+F8 opens the CabPlay menu in the game. It shows the status, lets you set resolution and touch, and Apply reloads the display if needed.
 4. For navigation, set a destination in the game's navigation or take a job.
 
 On the very first start the app builds the map from your game files. That takes a minute or two and runs in the background. For American Truck Simulator this happens the first time you play ATS with CabPlay (about five minutes).
@@ -120,7 +120,7 @@ On the very first start the app builds the map from your game files. That takes 
 
 | Keys | What happens |
 |---|---|
-| F8 | CabPlay menu in the game (status, GPS display, touch) |
+| Ctrl+F8 | CabPlay menu in the game (status, GPS display, touch) |
 | Ctrl + Alt + M | Touch mode on or off, then CabPlay works with the mouse |
 | Ctrl + Alt + E | Editor window on the PC |
 | Ctrl + Alt + P | Play or pause music |
@@ -232,7 +232,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay doesn't show up in the game.**
-Close ETS2 completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with F8 and press Apply.
+Close ETS2 completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with Ctrl+F8 and press Apply.
 
 **The map is empty or outdated.**
 Settings › About › Rebuild map. After game updates the app does this by itself.

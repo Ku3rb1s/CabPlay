@@ -4,6 +4,12 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.1 (25.10.2026)
+
+- **Ingame-Menü wieder mit Strg+F8**: Das CabPlay-Menü im Spiel öffnet mit Strg+F8 (vorher F8 allein). Die bisherige Belegung F8 stellt das Plugin selbst um; eine andere Taste lässt sich weiter im Menü unter „Tastenkürzel“ wählen
+- **Kleine Kreisverkehre auf der Karte**: Schmale Kreisverkehre (z. B. in Rijeka) wurden wie normale Kreuzungen gezeichnet – jetzt haben sie ihre grüne Insel, in ETS2 an fast 1.000 Stellen. Bei zweispurigen Kreisverkehren reicht die Insel nicht mehr über die innere Spur. Eine selbst erneuerte Karte wird dafür einmal neu gebaut
+- Tastenkürzel heißen auf Englisch, Polnisch und Türkisch jetzt „Ctrl“ statt „Strg“ (App und Ingame-Menü)
+
 ## 1.14.0 (25.10.2026)
 
 - CabPlay läuft jetzt auch in **American Truck Simulator**. Die App erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwählen. Das Plugin kommt automatisch in jedes Spiel, das über Steam installiert ist

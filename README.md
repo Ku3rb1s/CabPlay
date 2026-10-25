@@ -109,7 +109,7 @@ Home-Knopf gedrückt halten und reden, zum Beispiel „Schaffe ich die Lieferung
 
 1. Das Spiel starten. Beim ersten Mal fragt es, ob es SDK-Plugins laden darf. Mit OK bestätigen. Ab dann startet das Spiel die App von selbst mit.
 2. In einen Truck mit Navi-Bildschirm steigen. CabPlay erscheint auf dem Display.
-3. Mit F8 öffnest du das CabPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
+3. Mit Strg+F8 öffnest du das CabPlay-Menü im Spiel. Dort siehst du den Status, stellst Auflösung und Touch ein und drückst bei Bedarf Anwenden.
 4. Für die Navigation ein Ziel im Spiel-Navi setzen oder einen Auftrag annehmen.
 
 Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauert ein, zwei Minuten und läuft im Hintergrund. Für American Truck Simulator passiert das beim ersten Start mit ATS (etwa fünf Minuten).
@@ -118,7 +118,7 @@ Beim allerersten Start baut die App die Karte aus deinen Spieldateien. Das dauer
 
 | Tasten | Was passiert |
 |---|---|
-| F8 | CabPlay-Menü im Spiel (Status, GPS-Display, Touch) |
+| Strg+F8 | CabPlay-Menü im Spiel (Status, GPS-Display, Touch) |
 | Strg + Alt + M | Touch-Modus an oder aus, dann geht CabPlay mit der Maus |
 | Strg + Alt + E | Editor-Fenster am PC |
 | Strg + Alt + P | Musik abspielen oder pausieren |
@@ -230,7 +230,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay erscheint nicht im Spiel.**
-ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit F8 das Menü öffnen und Anwenden drücken.
+ETS2 einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg+F8 das Menü öffnen und Anwenden drücken.
 
 **Die Karte ist leer oder alt.**
 Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht die App das von selbst.
