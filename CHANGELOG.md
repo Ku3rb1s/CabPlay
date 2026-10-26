@@ -4,6 +4,16 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.4 (26.10.2026)
+
+- **Abbiegungen genauer**: kein „Wenden“ oder „Scharf abbiegen“ mehr mitten in Rampen-Schleifen, keine Abbiegung mehr bei bloßen Straßenkurven neben einer Kreuzung, keine doppelten Ansagen für dieselbe Ausfahrt. Blinkt die KI des Spiels zur anderen Seite als ein kurzer Schlenker der Spur, gilt der Blinker.
+- **Fähren**: eigene Ansage „Fähre nehmen“ mit Schiff-Symbol statt falscher Abbiegungen am Anleger.
+- **Richtung vom Wegweiser**: Schilder der Gegenrichtung zählen nicht mehr (es hieß z. B. „Richtung München“ statt „Richtung Nürnberg“). In ATS sind Schilderwörter wie MAXIMUM, EXIT, SOUTH und Schilder auf Firmengeländen kein Ziel mehr, ebenso Bundesstaaten und Höhenangaben.
+- **Spurempfehlung**: Eine Abbiegespur, die erst kurz vor der Ausfahrt dazukommt, erscheint erst dort – nicht schon 1,5 km vorher über Tankstellen und andere Ausfahrten hinweg. An Kreuzungen mit Straßenbahngleisen oder gesperrten Spuren stimmen Spurzahl und markierte Spur jetzt (ETS2 und ATS).
+- **Karte**: Häuser über Tunneln und Gebäude, deren Hof oder Parkplatz eine Straße abdeckte, stehen nicht mehr auf der Straße. In ATS sind Interstate-Rampen als Autobahn gezeichnet.
+- **Kartenprüfung**: Jeder Neubau der Karte wird jetzt zusätzlich auf Spurdaten, Kreuzungen, Gebäude und Wegweiser geprüft und mit der bisherigen Karte verglichen – fällt etwas durch, bleibt die alte Karte.
+- **Dashboard**: Ob der Stapel bei Strafen, Maut und Aufträgen zum Mitteilungen-Widget springt, lässt sich abschalten (Einstellungen › Dashboard).
+
 ## 1.14.3 (25.10.2026)
 
 - **Keine neue Desktop-Verknüpfung bei jedem Update**: Updates legen die Verknüpfung nicht mehr neu an – eine gelöschte bleibt weg. Ob es eine gibt, entscheidest du unter Einstellungen › Softwareupdate › „Verknüpfung auf dem Desktop“. (Das Update auf 1.14.3 läuft noch über den alten Weg und legt sie ein letztes Mal an.)

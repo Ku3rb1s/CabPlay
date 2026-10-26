@@ -77,6 +77,7 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 
 - The route comes from the game's navigation. CabPlay detects turns from the game's junction data – the same way the game itself turns
 - Lane guidance before every junction and exit, a marker shows which lane you're in
+- Ferries with their own "Take the ferry" announcement; direction from signposts only from signs facing your way
 - Signposts with road number and destination from the real signs
 - Traffic lights with countdown, speed limit, arrival time, rest stops along the route, notices before borders and steep grades
 - Voice guidance in German, English, Polish or Turkish, with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you

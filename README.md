@@ -77,6 +77,7 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 
 - Die Route kommt aus dem Navi des Spiels. Abbiegungen erkennt CabPlay aus den Kreuzungsdaten des Spiels – so, wie das Spiel selbst abbiegt
 - Spurempfehlung vor jeder Kreuzung und Ausfahrt, ein Marker zeigt, auf welcher Spur du gerade fährst
+- Fähren mit eigener Ansage „Fähre nehmen“; Richtung vom Wegweiser nur von Schildern deiner Fahrtrichtung
 - Wegweiser mit Straßennummer und Ziel von den echten Schildern
 - Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise vor Grenzen und Steigungen
 - Ansagen auf Deutsch, Englisch, Polnisch oder Türkisch, mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
