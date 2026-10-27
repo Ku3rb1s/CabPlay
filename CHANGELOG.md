@@ -4,6 +4,13 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.5 (27.10.2026)
+
+- **Karten ohne laufendes Spiel erneuern**: Startest du die App ohne Spiel (z. B. nach einem Update), erneuert sie veraltete Karten aller installierten Spiele im Hintergrund – die ATS-Karte ist dann schon fertig, bevor du ATS startest. Startest du währenddessen ein Spiel, wird der Bau für das andere Spiel abgebrochen (damit nichts ruckelt) und später nachgeholt. Die bisherige Karte bleibt dabei immer unberührt.
+- **Einstellungen › Kartendaten** zeigen beide Spiele mit Stand und Datum, mit je einem Knopf „Karte jetzt neu erzeugen“.
+- **Lange Aufträge**: Die Route im Navi reicht jetzt bis etwa 3.000 km (bisher endete sie nach rund 650 km). Lange Routen werden etwa zehnmal schneller berechnet – die Oberfläche hängt nicht mehr und die Karte bleibt flüssig.
+- **Stabiler**: drei mögliche Spielabstürze im Plugin behoben (Bildübertragung, leere Fahrzeugdaten); im Touch-Modus können Tastatur und Lenkrad nicht mehr versehentlich blockiert werden. Einstellungen, Tastenkürzel und Spotify-Anmeldung gehen bei einem Absturz während des Speicherns nicht mehr verloren; eine beschädigte Konfigurations- oder Orte-Datei verhindert nicht mehr den Start bzw. die Karte.
+
 ## 1.14.4 (26.10.2026)
 
 - **Abbiegungen genauer**: kein „Wenden“ oder „Scharf abbiegen“ mehr mitten in Rampen-Schleifen, keine Abbiegung mehr bei bloßen Straßenkurven neben einer Kreuzung, keine doppelten Ansagen für dieselbe Ausfahrt. Blinkt die KI des Spiels zur anderen Seite als ein kurzer Schlenker der Spur, gilt der Blinker.
