@@ -112,7 +112,7 @@ CabPlay erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwählen
 - Einheiten und Uhr wie im Spiel eingestellt, Geld in Dollar
 - Statt Blitzern (gibt es in ATS nicht) Warnungen vor Waagen und Mautstellen
 - Radio mit eigener Liste US-Sender und dem Online-Radio aus ATS
-- Road Trip: Kurieraufträge mit dem Auto, Bronco und F-150 mit ihrem eigenen Display-Format
+- Road Trip: Kurieraufträge mit dem Auto, Bronco und F-150 mit ihrem eigenen Display-Format – im Rückwärtsgang zeigen sie die Parkkamera des Spiels
 
 Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt CabPlay unverzerrt.
 

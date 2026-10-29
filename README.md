@@ -112,7 +112,7 @@ CabPlay detects which game is running by itself – there's nothing to choose.
 - Units and clock as set in the game, money in dollars
 - Instead of speed cameras (ATS has none), alerts for weigh stations and toll booths
 - Radio with its own list of US stations and the ATS online radio
-- Road Trip: courier jobs by car, the Bronco and F-150 with their own display shape
+- Road Trip: courier jobs by car, the Bronco and F-150 with their own display shape – when reversing, they show the game's parking camera
 
 Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown without distortion.
 

@@ -4,6 +4,10 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.6 (29.10.2026)
+
+- **Rückfahrkamera der Road-Trip-Autos**: Im Ford F-150 2023 und im Ford Bronco 2024 (ATS) zeigt der Navi-Bildschirm im Rückwärtsgang wieder die Parkkamera des Spiels – mit Hilfslinien und 360°-Ansicht. Beim Vorwärtsfahren ist CabPlay sofort wieder da. In Lkw bleibt CabPlay auch im Rückwärtsgang. Abschaltbar im Ingame-Menü (Strg+F8) unter „Rückfahrkamera des Spiels“.
+
 ## 1.14.5 (27.10.2026)
 
 - **Karten ohne laufendes Spiel erneuern**: Startest du die App ohne Spiel (z. B. nach einem Update), erneuert sie veraltete Karten aller installierten Spiele im Hintergrund – die ATS-Karte ist dann schon fertig, bevor du ATS startest. Startest du währenddessen ein Spiel, wird der Bau für das andere Spiel abgebrochen (damit nichts ruckelt) und später nachgeholt. Die bisherige Karte bleibt dabei immer unberührt.
