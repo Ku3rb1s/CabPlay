@@ -4,6 +4,10 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.7 (30.10.2026)
+
+- **ETS2 1.62 (Beta)**: Das Navi im Cockpit zeigte manchmal nur den roten „GPS“-Platzhalter statt CabPlay. ETS2 1.62 lädt die Navi-Textur teils schon beim Spielstart, bevor das Plugin läuft. CabPlay erkennt das jetzt und lässt das Spiel die Textur kurz nach dem Einsteigen neu laden – nach etwa 2 Sekunden ist CabPlay im Navi. Danke an KamsatoAyaka für die ausführliche Meldung (#2).
+
 ## 1.14.6 (29.10.2026)
 
 - **Rückfahrkamera der Road-Trip-Autos**: Im Ford F-150 2023 und im Ford Bronco 2024 (ATS) zeigt der Navi-Bildschirm im Rückwärtsgang wieder die Parkkamera des Spiels – mit Hilfslinien und 360°-Ansicht. Beim Vorwärtsfahren ist CabPlay sofort wieder da. In Lkw bleibt CabPlay auch im Rückwärtsgang. Abschaltbar im Ingame-Menü (Strg+F8) unter „Rückfahrkamera des Spiels“.
