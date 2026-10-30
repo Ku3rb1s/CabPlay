@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/github/v/release/Ku3rb1s/CabPlay?label=Version&color=0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/github/v/release/Ku3rb1s/CabPlay?label=Version&color=0a84ff&cacheSeconds=600)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)

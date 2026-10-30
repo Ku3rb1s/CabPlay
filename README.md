@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/github/v/release/Ku3rb1s/CabPlay?label=version&color=0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/github/v/release/Ku3rb1s/CabPlay?label=version&color=0a84ff&cacheSeconds=600)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
