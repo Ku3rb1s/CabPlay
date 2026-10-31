@@ -229,4 +229,4 @@ Einmal `CabPlay-Setup` aus den [Releases](../../releases/latest) von Hand instal
 
 ---
 
-<sub>Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die Marken gehören ihren Inhabern. Alle Änderungen: [CHANGELOG](CHANGELOG.md)</sub>
+<sub>Fan-Projekt, nicht verbunden mit SCS Software, Apple, Google oder Spotify. Die Marken gehören ihren Inhabern. Alle Änderungen: [CHANGELOG](CHANGELOG.de.md)</sub>

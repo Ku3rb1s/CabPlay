@@ -1,0 +1,398 @@
+# Änderungen
+
+[English](CHANGELOG.md) · Deutsch
+
+Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
+
+## 1.14.8 (30.10.2026)
+
+- **Rückfahrkamera unter ETS2/ATS 1.62**: Wenn CabPlay die Navi-Textur nachladen musste (siehe 1.14.7), sprang das Display der Road-Trip-Autos im Rückwärtsgang nicht mehr auf die Parkkamera. Behoben – die Kamera erscheint wieder wie gewohnt.
+
+## 1.14.7 (30.10.2026)
+
+- **ETS2 1.62 (Beta)**: Das Navi im Cockpit zeigte manchmal nur den roten „GPS“-Platzhalter statt CabPlay. ETS2 1.62 lädt die Navi-Textur teils schon beim Spielstart, bevor das Plugin läuft. CabPlay erkennt das jetzt und lässt das Spiel die Textur kurz nach dem Einsteigen neu laden – nach etwa 2 Sekunden ist CabPlay im Navi. Danke an KamsatoAyaka für die ausführliche Meldung (#2).
+
+## 1.14.6 (29.10.2026)
+
+- **Rückfahrkamera der Road-Trip-Autos**: Im Ford F-150 2023 und im Ford Bronco 2024 (ATS) zeigt der Navi-Bildschirm im Rückwärtsgang wieder die Parkkamera des Spiels – mit Hilfslinien und 360°-Ansicht. Beim Vorwärtsfahren ist CabPlay sofort wieder da. In Lkw bleibt CabPlay auch im Rückwärtsgang. Abschaltbar im Ingame-Menü (Strg+F8) unter „Rückfahrkamera des Spiels“.
+
+## 1.14.5 (27.10.2026)
+
+- **Karten ohne laufendes Spiel erneuern**: Startest du die App ohne Spiel (z. B. nach einem Update), erneuert sie veraltete Karten aller installierten Spiele im Hintergrund – die ATS-Karte ist dann schon fertig, bevor du ATS startest. Startest du währenddessen ein Spiel, wird der Bau für das andere Spiel abgebrochen (damit nichts ruckelt) und später nachgeholt. Die bisherige Karte bleibt dabei immer unberührt.
+- **Einstellungen › Kartendaten** zeigen beide Spiele mit Stand und Datum, mit je einem Knopf „Karte jetzt neu erzeugen“.
+- **Lange Aufträge**: Die Route im Navi reicht jetzt bis etwa 3.000 km (bisher endete sie nach rund 650 km). Lange Routen werden etwa zehnmal schneller berechnet – die Oberfläche hängt nicht mehr und die Karte bleibt flüssig.
+- **Stabiler**: drei mögliche Spielabstürze im Plugin behoben (Bildübertragung, leere Fahrzeugdaten); im Touch-Modus können Tastatur und Lenkrad nicht mehr versehentlich blockiert werden. Einstellungen, Tastenkürzel und Spotify-Anmeldung gehen bei einem Absturz während des Speicherns nicht mehr verloren; eine beschädigte Konfigurations- oder Orte-Datei verhindert nicht mehr den Start bzw. die Karte.
+
+## 1.14.4 (26.10.2026)
+
+- **Abbiegungen genauer**: kein „Wenden“ oder „Scharf abbiegen“ mehr mitten in Rampen-Schleifen, keine Abbiegung mehr bei bloßen Straßenkurven neben einer Kreuzung, keine doppelten Ansagen für dieselbe Ausfahrt. Blinkt die KI des Spiels zur anderen Seite als ein kurzer Schlenker der Spur, gilt der Blinker.
+- **Fähren**: eigene Ansage „Fähre nehmen“ mit Schiff-Symbol statt falscher Abbiegungen am Anleger.
+- **Richtung vom Wegweiser**: Schilder der Gegenrichtung zählen nicht mehr (es hieß z. B. „Richtung München“ statt „Richtung Nürnberg“). In ATS sind Schilderwörter wie MAXIMUM, EXIT, SOUTH und Schilder auf Firmengeländen kein Ziel mehr, ebenso Bundesstaaten und Höhenangaben.
+- **Spurempfehlung**: Eine Abbiegespur, die erst kurz vor der Ausfahrt dazukommt, erscheint erst dort – nicht schon 1,5 km vorher über Tankstellen und andere Ausfahrten hinweg. An Kreuzungen mit Straßenbahngleisen oder gesperrten Spuren stimmen Spurzahl und markierte Spur jetzt (ETS2 und ATS).
+- **Karte**: Häuser über Tunneln und Gebäude, deren Hof oder Parkplatz eine Straße abdeckte, stehen nicht mehr auf der Straße. In ATS sind Interstate-Rampen als Autobahn gezeichnet.
+- **Kartenprüfung**: Jeder Neubau der Karte wird jetzt zusätzlich auf Spurdaten, Kreuzungen, Gebäude und Wegweiser geprüft und mit der bisherigen Karte verglichen – fällt etwas durch, bleibt die alte Karte.
+- **Dashboard**: Ob der Stapel bei Strafen, Maut und Aufträgen zum Mitteilungen-Widget springt, lässt sich abschalten (Einstellungen › Dashboard).
+
+## 1.14.3 (25.10.2026)
+
+- **Keine neue Desktop-Verknüpfung bei jedem Update**: Updates legen die Verknüpfung nicht mehr neu an – eine gelöschte bleibt weg. Ob es eine gibt, entscheidest du unter Einstellungen › Softwareupdate › „Verknüpfung auf dem Desktop“. (Das Update auf 1.14.3 läuft noch über den alten Weg und legt sie ein letztes Mal an.)
+
+## 1.14.2 (25.10.2026)
+
+- **Road Trip: Kurieraufträge werden angezeigt**: ATS meldet Aufträge mit dem Auto anders als Lkw-Aufträge – CabPlay zeigte deshalb „Kein Auftrag“. Jetzt erscheinen Ladung, Start, Ziel, Lohn und Lieferfrist in der Auftrags-App, im Navi und beim Disponenten; die Ablieferung zählt wie bei Lkw-Aufträgen
+- **Direkt-Touch je Fahrzeug**: Die Kalibrierung „Direkt am Display“ wird für jeden Lkw und jedes Auto einzeln gespeichert – gemeinsam für ETS2 und ATS (`%APPDATA%\CabPlay\touch-vehicles.ini`). Beim Einsteigen gilt automatisch die passende; ein Fahrzeug ohne eigene Kalibrierung öffnet den Touch im Fenster. Deine bisherige Kalibrierung gehört ab jetzt zu dem Fahrzeug, in dem du beim ersten Start mit 1.14.2 sitzt
+- **Meilen**: Die Tempo-Warnung („Ab +5“) gilt bei mph jetzt in mph und heißt auch so (vorher wurde in km/h gerechnet); die Sprachauskunft „Hier gilt Tempo …“ nennt das Limit in mph statt in km/h
+- Zeitangaben wie „1 Std. 60 Min.“ gibt es nicht mehr – richtig gerundet heißt es „2 Std. 0 Min.“
+
+## 1.14.1 (25.10.2026)
+
+- **Ingame-Menü wieder mit Strg+F8**: Das CabPlay-Menü im Spiel öffnet mit Strg+F8 (vorher F8 allein). Die bisherige Belegung F8 stellt das Plugin selbst um; eine andere Taste lässt sich weiter im Menü unter „Tastenkürzel“ wählen
+- **Kleine Kreisverkehre auf der Karte**: Schmale Kreisverkehre (z. B. in Rijeka) wurden wie normale Kreuzungen gezeichnet – jetzt haben sie ihre grüne Insel, in ETS2 an fast 1.000 Stellen. Bei zweispurigen Kreisverkehren reicht die Insel nicht mehr über die innere Spur. Eine selbst erneuerte Karte wird dafür einmal neu gebaut
+- Tastenkürzel heißen auf Englisch, Polnisch und Türkisch jetzt „Ctrl“ statt „Strg“ (App und Ingame-Menü)
+
+## 1.14.0 (25.10.2026)
+
+- CabPlay läuft jetzt auch in **American Truck Simulator**. Die App erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwählen. Das Plugin kommt automatisch in jedes Spiel, das über Steam installiert ist
+- Eigene **Karte der USA**: Beim ersten Start mit ATS baut CabPlay sie aus deinen Spieldateien (dauert etwa fünf Minuten, läuft im Hintergrund)
+- **US-Schilder**: Tempolimit als weißes „SPEED LIMIT“-Schild, Straßennummern als Interstate-, US-Highway- und State-Route-Schilder auf der Karte
+- **Bundesstaaten** statt Länder: „Willkommen in Nevada“ mit den Lkw-Tempolimits des Staates, Hinweis vor der Staatsgrenze
+- **Einheiten und Uhr wie im Spiel** (neue Einstellung „Wie im Spiel“, jetzt Standard): Meilen oder Kilometer, 12 oder 24 Stunden – so, wie du es in den Spieloptionen eingestellt hast. Geld in Dollar
+- In ATS statt Blitzern (gibt es dort nicht) Warnungen vor **Waagen** und Mautstellen
+- **Radio**: neue Liste **USA** mit 26 Sendern (viel Country, dazu Rock, Pop, Hip-Hop, NPR) und die Sender aus dem Online-Radio von ATS
+- **Breite Displays unverzerrt**: Im Freightliner Cascadia, Western Star 57X, MAN TGX 2020 (ETS2) und weiteren Lkw mit breiterem oder schmalerem Navi-Bildschirm war das Bild verzogen – CabPlay zeichnet jetzt im richtigen Format
+- **Road Trip**: Kurieraufträge mit dem Auto werden richtig angezeigt (Ladung in kg, kein Anhänger, an Staatsgrenzen keine Lkw-Tempolimits); Bronco und F-150 haben ein eigenes Display-Format, das CabPlay berücksichtigt; Ford-Logo als Fahrzeug-Icon
+- **Kartenfehler und Spurdaten je Spiel getrennt**: Meldungen aus ATS verbessern die ATS-Karte, Meldungen aus ETS2 die ETS2-Karte – nichts wird vermischt
+- Deinstallieren entfernt das Plugin aus beiden Spielen
+- **Einheiten bei Steam-Cloud-Profilen**: Die Einstellungen werden jetzt aus dem Cloud-Profil bei Steam bzw. dem laufenden Spiel gelesen (vorher kam bei Cloud-Profilen eine veraltete Kopie zum Zug – auch beim automatischen Licht in ETS2)
+- **Touch direkt am Display**: Klicks landen bei breiten Displays jetzt an der richtigen Stelle (vorher z. B. Home statt Einstellungen)
+- **Radio**: Bei US-Sendern (KISS FM, Z100 …) erscheinen keine Zeichen wie text="…" song_spot=… mehr im Titel; Titel mit Apostroph („Don't Stop“) werden nicht mehr abgeschnitten; auf breiten Displays bleibt die Bedienung sichtbar
+- **Ampeln auf der Karte**: ein Symbol je Kreuzung in deren Mitte (in ATS lagen sie neben bzw. hinter der Kreuzung)
+- Die Fahne an der Abgabestelle (seit 1.13.4) ist wieder entfernt – am Ziel steht wie früher die rote Nadel, Firmennamen wie gewohnt
+- **Keine falschen Kreisverkehre mehr**: Große Kreuzungen, Tankstellen und Mautstellen bekamen auf der Karte eine grüne Insel wie ein Kreisverkehr – in ATS an vielen Kreuzungen, in ETS2 an rund 100 Stellen. Erkannt werden jetzt nur noch echte Kreisverkehre. Eine schon erstellte ATS-Karte baut CabPlay dafür einmal neu
+- **Kein falsches Wasser in ATS**: Fels- und Kiesboden galt als Wasser (große Seen z. B. bei Las Cruces, North Platte und Emporia), und europäische Küstenlinien lagen als „Meer“ mitten in Texas und Kansas. Beides ist behoben, dazu stimmen Geländeformen und Bodenarten jetzt für ATS
+- **Karte aufgeräumt**: kleine Orte ohne Schild-Formatierung im Namen und ohne Kreuzungen oder Staatsgrenzen als Ort („Jct I-25“, „State Line“); Nationalstraßen (z. B. französische N-, kroatische D-Straßen) nicht mehr als Autobahn; Mautstellen zählen zum richtigen Land; Grenzhinweise auf der Route werden zuverlässiger erkannt
+
+## 1.13.6 (25.10.2026)
+
+- Softwareupdate repariert: „Jetzt aktualisieren“ schloss CabPlay, ohne etwas zu installieren. Windows beendete das Update-Programm sofort wieder, bevor es anfing – das Update aus der App lief deshalb bisher nie. Jetzt startet es über einen anderen Weg, zeigt das Fenster „CabPlay wird aktualisiert …“ und installiert die neue Version
+- Deinstallieren aus der App (Einstellungen › Allgemein) hatte denselben Fehler und funktioniert jetzt auch; bei einer Installation „für alle Benutzer“ fragt Windows dabei nach Administratorrechten
+
+## 1.13.5 (25.10.2026)
+
+- CabPlay aus Versehen geschlossen? Im Ingame-Menü (F8) steht bei „CabPlay-App“ dann ein Knopf „Starten“: Er startet CabPlay im Hintergrund wie beim Spielstart, ohne Fenster – nach ein, zwei Sekunden ist das Display wieder da
+- Plugin 1.9.2
+
+## 1.13.4 (25.10.2026)
+
+- Karte: Die Abgabestelle deines Auftrags steht jetzt als rote Fahne mit dem Firmennamen auf der CabPlay-Karte – wie die Fahne auf der Karte im Spiel. Mit Navi-Route sitzt sie am Routenende, nach dem Ankommen bleibt sie stehen. Ohne Auftrag zeigt die Nadel wie bisher das Ziel der Route
+
+## 1.13.3 (24.10.2026)
+
+- Softwareupdate sichtbar: Beim Aktualisieren zeigt ein kleines Fenster „CabPlay wird aktualisiert …“ mit Laufbalken, was gerade passiert (App wird beendet, neue Version wird installiert, Plugin wird aktualisiert). Am Ende steht „CabPlay ist aktualisiert“ – oder, falls etwas nicht geklappt hat, ein Hinweis. Vorher schloss sich die App und man sah eine halbe Minute lang nichts
+
+## 1.13.2 (24.10.2026)
+
+- Softwareupdate: Wer CabPlay „für alle Benutzer“ installiert hat, bekam beim Aktualisieren aus der App heraus kein Update – die App schloss sich nur. Jetzt fragt Windows einmal nach Administratorrechten, und das Update läuft durch. Klappt etwas nicht, startet die App trotzdem wieder, und ein Protokoll (`update\einspielen.log`) zeigt, woran es lag
+- „Was ist neu“ zeigt **Hervorhebungen** und `Dateinamen` jetzt richtig statt mit Sternchen und Strichen
+
+## 1.13.1 (24.10.2026)
+
+- Der Ordner mit den Platzhalter-Texturen fürs Navi-Display heißt jetzt `Dokumente\Euro Truck Simulator 2\CabPlay-Display` (vorher `ETS2CarPlay`). Das Plugin legt ihn beim Spielstart selbst an, stellt deine Einstellungen darauf um und räumt den alten Ordner weg
+- Plugin 1.9.1: Die nicht mehr gebrauchten Dashboard-Platzhalter fallen weg
+- Deinstallieren entfernt beide Ordnernamen
+
+## 1.13.0 (24.10.2026)
+
+- Neuer Name: Aus „ETS2 CarPlay“ wird **CabPlay** – App, Desktop-Symbol, Installer, Plugin und Menü im Spiel. Die Oberfläche im Truck bleibt, wie sie ist
+- Deine Einstellungen, Kartendaten, KI-Modelle, Logos und Spotify-Anmeldung ziehen beim ersten Start automatisch mit um (von `%APPDATA%\ETS2 CarPlay` nach `%APPDATA%\CabPlay`)
+- Das Plugin heißt jetzt `cabplay.dll` (Version 1.9.0). Die App ersetzt das alte `ets2_carplay.dll` selbst, sobald das Spiel beendet ist, und übernimmt Tastenkürzel, Bildschirm- und Touch-Einstellungen
+- Der Installer heißt jetzt `CabPlay-Setup-<Version>.exe`, die ZIP `CabPlay-<Version>.zip`. Die Programmdatei heißt `CabPlay.exe`
+- Gesicherte Einstellungen (Einstellungen › Allgemein › Einstellungen sichern) aus älteren Versionen lassen sich weiter laden
+
+## 1.12.3 (24.10.2026)
+
+- Sprachassistent: Die App lädt die lokale KI erst, wenn das Spiel fertig geladen ist und läuft – nicht mehr mitten im Ladebildschirm, wo Spiel und Sprachmodell gleichzeitig auf die Grafikkarte luden
+- Beim Beenden stürzte die App ab, wenn die KI-Stimme gerade geladen war (für dich unsichtbar, hinterließ aber jedes Mal einen großen Absturzbericht) – die Stimme wird jetzt vorher sauber freigegeben
+- Neues Protokoll `app.log` im Datenordner (`%APPDATA%\ETS2 CarPlay`): Start, Verbindung zum Spiel, Fehler und Abstürze von Teilprozessen. Bei Problemen hilft es beim Melden. Absturzberichte bleiben auf dem PC und werden nirgends hochgeladen
+
+## 1.12.2 (21.10.2026)
+
+- Licht: Die App erkennt bei Lichtautomatik wieder richtig, ob es dunkel ist. Die Armaturenbeleuchtung wird im Spiel nachts nur gedimmt (tagsüber 1,0, nachts etwa 0,8) und galt deshalb immer als „Licht an“ – „Nach Scheinwerfer“, die Licht-Kontrollleuchte und „Nachts dunkler“ waren dadurch auch tagsüber im Nachtmodus
+- „Nachts dunkler“ dimmt jetzt in jedem Farbschema (mit „Hell“ tat der Schalter nichts), bei „Hell“ etwas stärker, und ist auch im Fenster am PC zu sehen
+- Formel 1: Ist der bisherige Datendienst (Jolpica) nicht erreichbar, kommen Kalender, Ergebnisse und WM-Stand automatisch von OpenF1 – statt „Keine Verbindung zum Sportdienst“
+- Navi-Einstellungen und README: Hinweis, dass Entfernungen bei Abbiegungen, Spuren und Ampeln die echte Strecke sind – das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19)
+- Weniger Last bei Monitoren mit hoher Bildwiederholrate: Das Fenster am PC fragt nur noch so oft nach einem Bild, wie die Karte zeichnet (vorher bei 540 Hz über 500-mal pro Sekunde)
+- Plugin 1.8.1: Reste der entfernten Dashboard- und eigenen Bildschirme ausgebaut (keine Warnung „Custom-Render-Patch nicht gefunden“ mehr im Spiel-Log)
+
+## 1.12.1 (21.10.2026)
+
+- Symbol-Set „Apple“: neues Musik-Icon im Stil von iOS 27.2 – schwarze Note auf Weiß, im Symbolstil „Dunkel“ weiße Note auf Schwarz. Die Note ist nach Apples Vorbild gezeichnet (geneigte ovale Notenköpfe, schlanke Hälse, kräftiger Balken)
+
+## 1.12.0 (21.10.2026)
+
+- Neues Plugin-Menü im Spiel im CarPlay-Stil: Status, GPS-Display (Auflösung und Bilder pro Sekunde zum Antippen), Touch, Tastenkürzel und Start auf einen Blick. Änderungen gelten und speichern sofort
+- Das Menü öffnet jetzt mit F8 (die einzige F-Taste, die das Spiel nicht belegt). Strg+F8 geht weiterhin
+- Plugin aufgeräumt: Dashboard- und eigene Bildschirme, Fenster als Quelle und die Fingerprint-Suche aus dem Vorgänger-Plugin sind entfernt – CarPlay läuft wie bisher auf dem GPS-Display
+- Neues App-Symbol im Stil des Startbilds, das Startbild selbst mit größerem Zeichen
+- Sport: Der Live-Ticker meldet Anpfiff und Tore schneller – während des Spiels wird alle 15 Sekunden nachgeschaut (vorher bis zu 5 Minuten)
+- Neue Einstellung „Logos“ (Allgemein): Vereinswappen und Lkw-Marken auf dem PC speichern (nach 30 Tagen ohne Anzeige gelöscht, höchstens 40 MB) oder nur laden. Der Zwischenspeicher der App wächst nicht mehr auf Hunderte MB
+- ZIP-Version: „Deinstallieren.exe“ statt der .cmd-Datei, mit Rückfragen in normalen Fenstern
+- Übersetzungen: „Geradeaus“ im Navi-Banner, „Autobahn“ am Tempolimit-Schild, „Tor“ im Sport-Widget, „Pannenhilfe“ und „An der Route“ in den Karteneinstellungen sind jetzt auch auf Englisch, Polnisch und Türkisch übersetzt; „Euro Truck Simulator“ wird nicht mehr zu „euros Truck Simulator“
+
+## 1.11.1 (20.10.2026)
+
+- Grenzübertritt: „Willkommen in …“ kommt jetzt erst an der echten Grenze – nicht mehr zu früh, mit dem falschen Land oder zwischendurch zufällig. Die App nimmt das Land der Straße, auf der du fährst, statt das der nächsten Stadt (die liegt in Grenznähe oft im Nachbarland)
+- Tanken & Rasten: Der Dieselpreis zeigt dadurch auch in Grenznähe das richtige Land
+
+## 1.11.0 (20.10.2026)
+
+- Neue Sprachen: Polnisch und Türkisch (Einstellungen › Allgemein › Sprache) – Oberfläche, Disponent, Navi-Ansagen und AI-Sprachassistent. Olivia und die anderen AI-Stimmen sprechen auch Polnisch und Türkisch
+- Installer auf Deutsch, Englisch, Polnisch und Türkisch; die App startet in der Sprache, die im Setup gewählt wurde
+- Bei einer anderen Sprache als Deutsch ist das Plugin-Menü im Spiel englisch
+- Englisch: Abbiege-Ansagen und Auftragsmeldungen werden jetzt vollständig auf Englisch vorgelesen, Ländernamen auf Englisch, fehlende Texte ergänzt
+- Home bearbeiten: Icons lassen sich über den Rand auf eine andere Seite ziehen und auf freie Stellen ablegen
+- Sport-Einstellungen: Lieblingsteams mit Name und Wappen, verfolgte Spiele lassen sich dort entfernen
+- Radio: neue Sender KIIS FM, Power 105.1, Q104.3, YOU FM, Antenne Bayern Top 40 und Radio Bollerwagen; I LOVE-Sender mit lesbaren Namen
+- Weniger Arbeitsspeicher: Sprachmodell auf der Grafikkarte braucht etwa 0,8 statt 2,9 GB, die AI-Stimme wird nach 10 Minuten ohne Sprechen entladen
+- Das Spiel schließt sich über Steam wieder ohne Verzögerung
+- App-Icons: das Dashboard steht nicht mehr in der Liste
+
+## 1.10.2 (20.10.2026)
+
+- Karte: Firmengelände, Häfen, Autohäuser und Tankstellen zeigen ihre Hallen und Gebäude (vorher oft leere Flächen), mit passender Höhe für die 3D-Ansicht
+- Karte: Bahnlinien als Option (Einstellungen › Karten › Karteninhalt)
+- Karte: „Straßen nach Art einfärben“ als Schalter, Standard aus – im Google-Stil sind dann alle Straßen einheitlich. Wer die weißen Stadtstraßen mag, schaltet ihn ein
+- Karte: Straßenbreite mit dem echten Mittelstreifen (vorher teils zu breit oder zu schmal), Hafenanlagen und Schiffe an der richtigen Stelle (bessere Wasserlinie in Häfen)
+- Spurempfehlung: noch genauer auf Straßen ohne gemessene Kreuzung
+- Einstellungen übersichtlicher: Karten aufgeteilt in „Karteninhalt“ und „Navigation & Hinweise“, eigene Seite „Fahrdaten & Kartenfehler“
+- Die GitHub-Knöpfe sagen jetzt dazu, dass ein GitHub-Konto nötig ist
+
+## 1.10.1 (19.10.2026)
+
+- Spurempfehlung: Der Punkt unter der aktuellen Spur stimmt jetzt. Die App hat die Breite des Mittelstreifens bisher aus dem Straßentyp geschätzt und lag damit oft einen halben Fahrstreifen daneben, so stand der Punkt links, obwohl du rechts gefahren bist. Jetzt wird der Mittelstreifen beim Kartenbau an den Kreuzungen gemessen. Auch die Routenlinie liegt dadurch genauer auf der Spur
+- Radio: Die Lautstärke folgt jetzt dem Gehör. Kleine Werte sind wirklich leise (1 % ist praktisch stumm), der Regler lässt sich über den ganzen Weg fein einstellen. Wer bisher eher leise gehört hat, muss etwas höher drehen
+- Beenden: Nach dem Spielende schließt sich die App sofort. Steam zeigt ETS2 dadurch nicht mehr fast eine Minute lang als „wird ausgeführt“ an
+- Sprachbefehl „Nächste Tankstelle“: nennt die Entfernung jetzt in Spiel-Kilometern, wie die Tank-App
+
+## 1.10.0 (19.10.2026)
+
+- Nacht: Die App lernt Sonnenauf- und -untergang vom Spiel. Mit Lichtautomatik merkt sie sich, wann das Licht morgens aus- und abends angeht, und nutzt diese Zeiten statt fester Uhrzeiten. Passt sich damit auch an Mods mit anderen Sonnenzeiten an
+- Musik: Der Lautstärkeregler für Spotify (Windows-Mixer) ist wieder entfernt. Falls du ihn benutzt hast: im Windows-Lautstärkemixer Spotify wieder auf 100 % stellen
+
+## 1.9.9 (19.10.2026)
+
+- Karte: Gebäude haben ihre echte Grundfläche aus den Modellen des Spiels (Anbauten, Ecken, runde Silos) statt eines Rechtecks und stehen an der richtigen Stelle. Vorher lagen manche bis zu 40 m daneben, etwa quer über einer Straße. Auch die 3D-Gebäude nutzen die echten Umrisse
+- Karte: Gebäude sind im dunklen Google-Stil klar zu erkennen, Firmengelände wirken nicht mehr wie ein grauer Schleier, 3D-Gebäude bleiben ruhig (Silos und Türme keine Riesenklötze)
+- Tanken & Rasten: Entfernungen in Spiel-Kilometern wie im Navi und bei der Reichweite (ETS2 staucht die Welt, der Maßstab wird live gemessen). Auch Uhrzeiten an Tankstellen und Rastplätzen stimmen besser
+- Navi: Wegweiser zeigen keine Spielkennungen mehr („traffic_rule…“)
+- Licht: Mit Lichtautomatik im Spiel erkennt die App, ob die Scheinwerfer wirklich brennen (über die Armaturenbeleuchtung). Wichtig für „Nach Scheinwerfer“, „Nachts dunkler“ und die Kontrollleuchte. Nacht nach Uhrzeit jetzt 20:30–5:00
+- Musik: Spotify-Lautstärke direkt in der Musik-App (Lautsprecher-Symbol antippen). Geht über den Windows-Mixer, ohne Spotify-Konto
+- Telefon und Nachrichten zeigen einen roten Zähler auf dem Symbol. Verpasste Anrufe zählen nur neue, bis du die Anrufliste öffnest
+- Bildkorrektur „Ausgewogen“ dimmt Weiß stärker, damit das Display im Cockpit nicht überstrahlt
+- Das Plugin wird nach Spielende jetzt sicher aktualisiert (vorher blieb manchmal das alte liegen)
+
+## 1.9.8 (19.10.2026)
+
+- Direkt-Touch: Die Maus gehört wieder dem Spiel, solange es pausiert (Esc-Menü, Vollbildkarte, Frachtmarkt) oder eine Außenkamera aktiv ist. Danach ist Touch von selbst wieder da. Abschaltbar in der Leiste des Direkt-Touch-Modus („Maus frei“)
+- Optional: Spotify und Radio halten an, solange das Spiel pausiert, und laufen danach weiter (Einstellungen › Musik › „Bei Spielpause anhalten“)
+- Optional: Das Display im Truck wird nachts gedimmt wie in einem echten Auto (Einstellungen › Anzeige & Helligkeit › „Nachts dunkler“)
+
+## 1.9.7 (19.10.2026)
+
+- Karte im Google-Stil: Straßenfarben je Art wie Google Maps in CarPlay. Stadtstraßen weiß mit grauem Rand, Landstraßen, mehrspurige Straßen und Autobahnen graublau
+- Karte: Autobahnkreuze sehen herausgezoomt ruhiger aus. Eng nebeneinander liegende Fahrbahnen verschmelzen zu einem Band statt dünner Streifen
+- Karte: Firmengelände, Tankstellen, Rastplätze und Kreuzungsinseln zeigen ihre Teilflächen wie die Spielkarte (Hof, Parkflächen, Grün)
+- Optional: 3D-Gebäude in der geneigten Ansicht (Einstellungen › Karten)
+- Optional: Aussichtspunkte des Spiels und kleine Orte auf der Karte (Einstellungen › Karten)
+- Navi: Kleine Orte helfen beim Abgleich mit den Wegweisern, die Richtung stimmt öfter mit dem Schild überein
+- Navi: Abbiegepfeile auf der Fahrbahn nur noch dort, wo jeder Pfeil sicher auf einer eigenen Spur liegt
+- Navi: Blinkst du schon zur richtigen Spur, kommt kein „Bitte einordnen“ mehr
+- Fahrzeug-App: Kontrollleuchten wie im Cockpit (Blinker, Warnblinker, Licht, Fernlicht, Rundumleuchte, Wischer, Retarder) und Warnlampen mit Messwert (Bremsdruck, Öldruck, Motor heiß, Batterie, AdBlue). Bei echten Problemen während der Fahrt kommt eine Mitteilung
+- Neues Widget „Live-Ticker“: das verfolgte Spiel oder ein Spiel deiner Lieblingsteams direkt auf dem Dashboard
+- Sport: Anstoßzeit mit Datum („Heute 18:30“, „Di 21.10. 18:45“)
+- Musik: Ein Tipp aufs Cover im Dashboard öffnet immer „Läuft gerade“
+- Softwareupdate zeigt jetzt alle Neuerungen der installierten Version und frühere Versionen. Nach Updates wird bei jedem Start gesucht (höchstens alle drei Stunden)
+- Schneller: Das Farbschema wird nicht mehr 20-mal pro Sekunde komplett neu berechnet. Dazu kleinere Aufräumarbeiten
+
+## 1.9.6 (18.10.2026)
+
+- Karte: Felder, Fels, Sand und Schnee aus dem Gelände des Spiels, mit runden, ruhigen Kanten. Im Google-Stil dezent wie bei Google Maps. Abschaltbar unter Einstellungen › Karten („Felder, Fels & Sand“)
+- Karte: Wälder entstehen jetzt auch aus dicht stehenden Baumgruppen. Einzelne Bäume an Straßen und in Gärten bleiben weg
+- Karte: Rastplätze und Parkreihen an der Autobahn werden gezeichnet
+- Nah herangezoomt: Richtungspfeile auf den Spuren vor Kreuzungen, wie aufgemalt. Vor Kreuzungen und Ausfahrten sind die Spurlinien durchgezogen statt gestrichelt
+- Navi: Kleeblatt- und Überflieger-Ausfahrten heißen jetzt „Ausfahrt rechts“ statt „Scharf rechts“. Die Spuranzeige ordnet Abzweige nach der Lage der Spuren (keine falschen Pfeile mehr bei Gabelungen)
+- Navi: Ansage „Bitte rechts/links einordnen“, die Zielanzeige ist zweizeilig wie die Abbiegungen
+- Optional: Kurvenwarnung bei zu hohem Tempo vor engen Kurven (Einstellungen › Karten)
+- Straßenbahngleise zählen nicht mehr als Fahrspur
+- Sport: 12 weitere Ligen: Frauen-Bundesliga, Europa League, Conference League, Championship, Serie A, Ligue 1, Eredivisie, Liga Portugal, Österreich, Schweiz, Süper Lig und die NFL. Premier League und LaLiga kommen jetzt aus aktuelleren Daten. Mit Live-Uhr, Torschützen und Tabellen
+- Sport: Ein Spiel antippen = Live-Ticker nur für dieses Spiel, nochmal antippen schaltet ihn aus
+- Sport: Ligen sortieren per Ziehen (in der App eine Liga kurz halten, in den Einstellungen am Griff ≡) und einzeln ausblenden
+- „Navi verbessern“ sammelt auf Wunsch Fahrdaten (Route, Spurwahl, Abbiegungen) als Grundlage für bessere Spurempfehlungen
+
+## 1.9.5 (18.10.2026)
+
+- Abbiegungen kommen jetzt aus den Kreuzungsdaten des Spiels (Richtung der Fahrspuren und Blinker der KI). Stadtabbiegungen, dicht aufeinanderfolgende Kreuzungen und die letzte Abbiegung vor dem Ziel fehlen nicht mehr
+- Wegweiser: Ausfahrten zeigen die Straßennummer als Schild und das Ziel von den echten Schildern, z. B. „Ausfahrt rechts · A1 Richtung Linz“. Die Ansage sagt es genauso
+- Einfahrt aufs Firmengelände: „Links abbiegen · aufs Gelände: Firma“, das Ziel zeigt den Firmennamen
+- Spurhinweise erscheinen nur noch, wenn die Spuren bis zu dir reichen. Auf Rastplatz, Rampe oder Beschleunigungsstreifen siehst du nicht mehr die Spuren der Autobahn dahinter
+- Die Linie wechselt früher auf die Spur, die du brauchst. Die übrigen Spuren zeigen ihre echte Richtung (Hauptfahrbahn geradeaus statt schräg)
+- Marker unter der Spur, auf der du gerade fährst: blau = richtig, orange = wechseln. Abschaltbar unter Einstellungen › Karten
+- Neue App „Sport“: Bundesliga, 2. und 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga und Formel 1, mit Live-Spielständen, Tabellen und WM-Stand. Lieblingsteams bekommen einen Live-Ticker als Mitteilung
+- Das Fahrzeug-Icon zeigt das Logo der Marke, die du fährst (in Farbe, Dunkel und Klar). Abschaltbar unter Einstellungen › App-Icons
+- Optional: Spurempfehlung verbessern. Die App merkt sich Stellen, an denen die Empfehlung nicht passt, und du kannst sie auf GitHub teilen
+- Behoben: Mitteilungen im Symbolstil „Klar“ hatten ein unsichtbares App-Icon
+
+## 1.9.4 (18.10.2026)
+
+- Routenlinie folgt in Kreisverkehren und an Auf- und Abfahrten der echten Fahrspur und liegt auf der Spur, die du brauchst
+- Spurempfehlung schaut wie das Spiel über mehrere Kreuzungen voraus. Spuren werden jetzt auch angezeigt, wo es geradeaus weitergeht und sich die Spuren teilen, die anderen Spuren zeigen ihre eigene Richtung
+- Ist die nächste Abbiegung weiter als 2 km weg, zeigt das Navi „Geradeaus“, die Abbiegung steht klein daneben
+- Hinweis vor Grenzen: Lkw-Tempolimits, Maut, Dieselpreis und Zeitzone des nächsten Landes
+- Hinweis vor Steigungen und Gefällen mit Höhenprofil und Rat je nach Gewicht
+- Beides erscheint im Navi und im Dashboard und lässt sich unter Einstellungen › Karten abschalten, auch mit oder ohne Ansage
+- Abbiegungen auf Wunsch selbst ansagen (Einstellungen › Karten), auf der Autobahn früher, in der Stadt später
+- Route verlassen: „Route wird neu berechnet“, bis das Spiel die neue Route schickt
+- Blitzer, Waagen und Mautstellen kommen als normale Mitteilung
+- Einrichtung beim ersten Start: Spiel und Plugin, Bedienung, Stimme, Karte
+- Aussprache: Kilometer, Kommazahlen und große Zahlen klingen natürlicher, dazu eine Liste für die englische Stimme. Olivia ist als empfohlene Stimme gekennzeichnet
+- Mehr Abwechslung bei Anrufen, dazu ein paar neue geheime Nummern
+- Schneller: Die Sprachausgabe rechnet in einem eigenen Thread, das Display ruckelt beim Sprechen nicht mehr. Kartendaten laden beim Start deutlich schneller
+- Behoben: Einstellungen und Listen sprangen nach Änderungen nach oben, Hell/Dunkel brauchte zwei Klicks, Video-Lautstärke und Twitch, Zurück im Karten-Menü
+
+## 1.9.3 (18.10.2026)
+
+- Twitch-Streams starten jetzt von selbst. Pause und Lautstärke funktionieren auch bei Twitch
+- Video-Lautstärke: Die Prozentanzeige war nach dem Tippen leer, und neue Videos starteten mit voller Lautstärke statt mit der eingestellten
+- Handy-Steuerung: Das Bild kommt jetzt deutlich flüssiger an (vorher teils nur 2 Bilder pro Sekunde)
+- Kreisverkehr: Die Anzeige bleibt nach der Einfahrt stehen und zählt bis zur Ausfahrt herunter
+- Tempo im Navi wird orange, sobald du über deiner eingestellten Tempo-Warnung fährst. Im Google-Stil blieb es vorher immer weiß
+- „Nach Scheinwerfer“ funktioniert jetzt auch mit dem automatischen Licht im Spiel
+- Kartenstil und Symbole gehören zusammen: Apple Karten bringt die Apple-Symbole mit, Google die von Google Maps und Spotify
+- Behoben: Hell/Dunkel brauchte zwei Klicks
+- Behoben: Im Karten-Menü führte Zurück nach „Mehr …“ in die Einstellungen statt zur Karte
+- Behoben: Einstellungen und Listen (Radio, Mitteilungen, Orte, Kalender, Video) sprangen nach jeder Änderung und während eines Downloads nach oben
+- Die Karte zeichnet nach dem Umstellen einer Einstellung nicht mehr alles neu und braucht dabei weniger Speicher
+
+## 1.9.2 (18.10.2026)
+
+- Behoben: Nach dem Antippen eines Treffers in der Einstellungs-Suche war das ganze Bild verschoben. Das konnte auch passieren, wenn man in einer langen Liste weit unten etwas umgeschaltet hat
+- Behoben: Version 1.9.1 startete nur mit leerem Bildschirm (1.9.1 wurde zurückgezogen)
+
+## 1.9.0 (18.10.2026)
+
+**Stimme**
+- Olivia und die anderen AI-Stimmen sprechen sauberer (mehr Rechenschritte, trotzdem unter einer halben Sekunde je Navi-Satz)
+- Aussprache-Liste: Zahlen, Uhrzeiten und Geldbeträge werden richtig gesprochen („ein Euro neunundsechzig“, „vierzehn Uhr dreißig“, „die zweite Ausfahrt“), Abkürzungen wie z. B., ca., GmbH oder ADR ausgeschrieben, Straßennummern als „A zehn“
+- Orte heißen wie in einem deutschen Navi (München, Köln, Kopenhagen, Danzig …), ausländische Orte und die Firmen aus dem Spiel klingen verständlicher. Geprüft wurden alle Städte und Firmen des Spiels
+- Stimmenauswahl aufgeräumt: die alte Stimme Kerstin ist raus (wer sie hatte, bekommt Olivia), die Windows-Stimmen heißen jetzt „Katja (Windows)“ usw.
+
+**Einstellungen**
+- Neue Suche oben in den Einstellungen: findet jede Option, auch in Unterseiten. Ein Treffer öffnet die Seite und markiert die Zeile
+- Auf dem Truck-Bildschirm gibt es dafür eine Bildschirmtastatur, unten angedockt wie bei CarPlay, mit Umlauten, Ziffern und Zeichen
+
+## 1.8.0 (17.10.2026)
+
+**Navi**
+- Kreisverkehre werden mit der Ausfahrt angesagt („Im Kreisverkehr 2. Ausfahrt“)
+- Weniger falsche Abbiegehinweise: Kurven und Auffahrtschleifen gelten nicht mehr als Abbiegen. Die App nutzt dafür die Blinker-Angaben der Kreuzungen aus den Spieldaten
+- Autobahnausfahrten heißen jetzt „Ausfahrt rechts/links“, Gabelungen weiter „Rechts/Links halten“
+- Die Routenlinie liegt auf der eigenen Fahrbahn und ist glatter, ohne Sprünge zur Straßenmitte
+- Ein abgekuppelter Anhänger wird auf der Karte angezeigt
+
+**Karte**
+- Wasser stimmt an vielen Stellen besser, unter anderem in Amsterdam. Die Bodendaten des Spiels wurden bisher falsch gelesen
+- Neu: „Beim Fahren dazulernen“. Fährst du irgendwo, wo die Karte Wasser zeigt (Hafen, Firmengelände), wird es beim nächsten Erneuern der Karte zu Land. Die Daten bleiben auf deinem PC
+- Kartenmenü: „Zurück“ springt nicht mehr zum Dashboard, klarere Auswahl bei „Fehler auf der Karte melden“, Ankunftszeit im selben Glas wie die Seitenleiste
+
+**Stimme**
+- Zehn neue Stimmen für Ansagen, Disponent und Assistent, zum Beispiel Olivia. Sie laufen direkt in der App auf dem Prozessor, auch auf mittleren PCs ohne starke Grafikkarte. Laden unter Einstellungen › Sprachassistent › Stimme (etwa 400 MB)
+
+**Sonstiges**
+- Video: Twitch-Links funktionieren, eigene Knöpfe für Pause, Spulen und Lautstärke
+- Touch-Modus: Der Mauszeiger verschwindet nach 3 Sekunden ohne Bewegung (Plugin 1.6.0, wird von der App selbst eingespielt)
+
+## 1.7.1 (17.10.2026)
+
+- Google-Kartenstil: Der Positionspfeil ist größer, und die weiße Scheibe darum ist leicht durchsichtig wie bei Google Maps, damit man die Straße darunter noch sieht
+
+## 1.7.0 (17.10.2026)
+
+- Radio-App mit über 90 Sendern: deutsche, englische, I LOVE RADIO, die Sender aus deinem Spiel und eigene. Zum laufenden Song gibt es Titel und Cover, die Lautstärke geht in kleinen Schritten (gedrückt halten für große), und die Lenkrad-Tasten wechseln den Sender. Radio und Spotify stoppen sich gegenseitig
+- Songtexte in der Musik-App, sie laufen mit dem Song mit
+- Spotify zeigt auch ohne laufendes Spiel, was gerade spielt, und lässt sich steuern
+- Karte: Brücken liegen sichtbar über den Straßen darunter, Straßen sind so breit wie ihre Spuren, Einbahnstraßen und Auffahrten haben Pfeile, und ganz nah gibt es Fahrbahnmarkierungen
+- Versteckte Straßen und geheime Abkürzungen kannst du einzeln einblenden. Beides ist ab Werk aus, Gleise und Gehwege werden nie als Straße gezeichnet
+- Neues dunkles Design für den Apple-Kartenstil
+- Die App braucht deutlich weniger Prozessor. Die GPU-Übertragung ist jetzt ab Werk an, und der Editor rechnet nicht mehr, wenn er minimiert oder hinter dem Spiel liegt
+- Einstellungen aufgeräumt, die Karten-Einstellungen sind jetzt in Gruppen sortiert
+- Behoben: Anrufe brachen sofort ab, die Tempo-Anzeige sprang, das Wetter lud manchmal nicht, Senderlogos wurden mitten im Wort umbrochen
+
+## 1.6.0 (17.10.2026)
+
+- AI-Sprachassistent (optional): Halte den Home-Knopf gedrückt und sprich einfach frei, zum Beispiel „Schaffe ich die Lieferung noch?“, „Spiel was von AC/DC“ oder „Ruf die Pannenhilfe an“. Die Antworten kommen aus deinen Spieldaten (Auftrag, Route, Tank, Pause, Wetter), dazu kann der Assistent Apps öffnen, Musik steuern und anrufen. Er versteht Deutsch und Englisch und antwortet in der App-Sprache
+- Telefonate mit AI: Disponent, Verkehrsfunk, Pannenhilfe & Co. reden mit dir. Tippe nach der Ansage auf das Mikrofon und frag einfach nach
+- Alles läuft auf deinem PC: kostenlos, ohne Konto und nach dem Download ohne Internet. Geladen wird nur, wenn du es willst (Einstellungen › Sprachassistent): Standard etwa 3 GB, Kompakt für schwächere PCs etwa 1,5 GB. Du kannst es jederzeit wieder entfernen
+- Natürliche Stimme „Kerstin“ (optional, etwa 150 MB): liest Disponent, Navi-Hinweise und Antworten vor und klingt natürlicher als die Windows-Stimmen. Sie funktioniert auch ohne das Sprachmodell und ist jederzeit wieder entfernbar
+- Neuer Anrufbildschirm wie bei CarPlay: großes Bild, Gesprächsdauer, Ton aus, Auflegen und bei AI-Gesprächen die Mitschrift. Ein eingehender Anruf erscheint als Pille unten und öffnet sich per Tipp, der Home-Knopf macht ihn wieder klein
+- Feste Sprachbefehle erweitert: mehr Formulierungen, dazu Uhrzeit, Tankinhalt, Lieferfrist, Kontakte anrufen und „Wiederholen“
+- Home-Bildschirm bearbeiten: Halte die Seitenpunkte unten gedrückt, dann wackeln die Icons wie auf dem iPhone. Das geht jetzt auch im Spiel und im Touch-Fenster
+
+## 1.5.1 (17.10.2026)
+
+- Karte: „Meer“ und „Flüsse & Seen“ getrennt schaltbar, mit eigenen Symbolen. „Flüsse & Seen“ ist als experimentell markiert, weil die Wasserdaten des Spiels lückenhaft sind
+- Karte: deutlich weniger falsches Wasser. Bäume, Gebäude, Tankstellen, Parkplätze, Firmen, Bushaltestellen, höher liegende Kais und Uferwege sowie Kaimauern, Piers und Hafenanlagen aus den Spielmodellen gelten jetzt als Land. Vlorë, Heraklion und Rotterdam stehen nicht mehr im Wasser, die Häfen von Göteborg, Frederikshavn und Palermo zeigen ihre Kais
+- Kartenfehler melden: Beim Melden wählst du, was falsch ist: „Hier ist Wasser, im Spiel aber Land“, „Hier ist Land, im Spiel aber Wasser“ oder „Etwas anderes“. Beim nächsten Kartenneubau werden die Meldungen mit den Spieldaten abgeglichen und eingearbeitet
+- Einstellungen > Kartenfehler: zeigt, wie viele Meldungen eingearbeitet sind. Dort kannst du die Karte mit den Meldungen neu erzeugen, den Ordner öffnen oder die letzte Meldung auf GitHub melden
+- Kartenprüfung nach Spiel-Updates: zusätzlich feste Prüfpunkte an früher fehlerhaften Stellen
+- Telefon: Es gibt ein paar geheime Nummern. Einfach mal wählen 😉
+
+## 1.5.0 (17.10.2026)
+
+- Karte: Bushaltestellen aus dem Spiel (abschaltbar)
+- Bus-Modus (Coach-DLC): Fahrzeug- und Auftrag-App erkennen Reisebusse – ohne Anhänger, „Fahrt“ statt Fracht, Ankunftsfrist, passende Disponenten-Nachrichten
+- Karte: Firmen- und Städtenamen aus aktiven Mods (z. B. echte Firmennamen) – abschaltbar
+- Karte deutlich flüssiger: Straßen und Flächen werden im Hintergrund gezeichnet, die Oberfläche blendet nur fertige Kacheln ein; Kartendatei kleiner (46 statt 49 MB), lädt schneller und braucht weniger Speicher
+- Karte: Wasserfehler behoben – keine falsche Wasserfläche mehr über Florenz, der Ort Borlänge steht nicht mehr im Fluss
+- Karte: „Fehler auf der Karte melden“ im Karten-Menü speichert Position und Bild – so lassen sich falsche Stellen gezielt korrigieren
+- Nach Spiel-Updates wird die neu erzeugte Karte automatisch geprüft; fällt sie durch, bleibt die bisherige Karte
+- Touch-Fenster (Strg+Alt+M): zeigt das Bild ohne die Cockpit-Bildkorrektur – nicht mehr zu dunkel, das Display im Cockpit bleibt korrigiert
+- Behoben: leeres Abbiege-Banner im Google-Kartenstil, wenn keine Route aktiv ist
+- Unter der Haube: Programmcode aufgeteilt und mit automatischen Tests für die Kartendaten abgesichert
+
+## 1.4.0 (17.10.2026)
+
+- Karte: Firmen-, Werkstatt- und Händlergelände sowie Steinbrüche, Firmennamen beim Heranzoomen (beides abschaltbar)
+- Karte: Flüsse, Seen, Kanäle, Häfen und Meeresflächen direkt aus dem Spiel; Küsten aus den Geländehöhen des Spiels – deutlich genauer
+- Karte: befahrbare Straßen, die das Spiel auf seiner eigenen Karte versteckt (Wohngebiete, Zufahrten), werden jetzt gezeichnet; reine Kulissenstraßen optional gestrichelt
+- Karte: Grünflächen zusammenhängender, Gebäude ohne sich kreuzende Ränder, Google-Farben (hell und dunkel) wie in CarPlay, schmalere graue Straßen
+- Navi: keine „abbiegen“-Ansage mehr in normalen Kurven; Richtung im Navi-Widget gut lesbar in eigener Zeile
+- Blitzer-Warnung als kräftige Warnkarte
+- Direkt-Touch: genauer in Kurven (Neigung der Kabine wird ausgeglichen), Leiste oben immer/klein/unsichtbar, Messung schaltbar
+- Behoben: Empfangsbalken im Spiel blieben leer; leeres Abbiege-Banner beim Öffnen der Karte
+- Kartendatei kompakter
+
+## 1.3.0 (17.10.2026)
+
+- Karte: Gebäude-Umrisse, Meer und Seen, Wälder, Wiesen & Büsche (einzeln abschaltbar), Kreisverkehre als Ring, Fähr- und Zuglinien
+- Ampeln wie bei Google Maps: Symbol an Kreuzungen entlang der Route, Ampel-Hinweis mit Restzeit im Navi
+- Kartensymbole als Piktogramme (Werkstatt, Händler, Waage, Fähre, Zug, Tankstelle)
+- Navi: richtiger Pfeil direkt nach dem Routenstart, Navi-Widget mit Abbiegen und Richtung in eigenen Zeilen, lange Texte werden kleiner statt abgeschnitten
+- Updates laden automatisch und werden beim Beenden installiert (Plugin gleich mit), „Was ist neu“ in den Einstellungen, Prüfsumme (SHA-256)
+- Mitteilungen je Art als Banner abschaltbar, Handy-Steuerung mit QR-Code
+- Ingame-Menü neu gestaltet und auf Englisch
+- Direkt-Touch: ruhiger in Kurven, Leiste oben immer / klein / unsichtbar, Messung zum Testen ein- und ausschaltbar
+- Statusleiste: Ladeblitz wie in iOS, kräftigere Empfangsbalken
+- Neues App-Logo
+
+## 1.2.0 (16.10.2026)
+
+- Installer (Setup): Programmordner frei wählbar, Deutsch/Englisch, Deinstallation über Windows „Apps“
+- App auf Englisch (Einstellungen › Allgemein › Sprache), inkl. englischer Ansagen
+- Einheiten metrisch / US / UK (mph, mi, °F, gal, lb) und 12-/24-Stunden-Uhr
+- Google-Maps-Stil wie in CarPlay: Abbiegekarte oben links, Ankunft unten links, Tempo oben rechts; neue Farben hell/dunkel
+- Apple Karten dunkel überarbeitet, Mitteilungen wie in CarPlay (breiter, unten, mit Häkchen)
+- Deinstallieren aus der App, aufgeräumte Einstellungen
+
+## 1.1.0 (16.10.2026)
+
+Erste veröffentlichte Version.
