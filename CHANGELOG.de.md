@@ -4,6 +4,13 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.14.10 (31.10.2026)
+
+- **Viel mehr Flüsse und Seen auf der Karte**: Viele Gewässer fehlten bisher ganz oder waren unterbrochen – zum Beispiel der Rhein an der Brücke bei Duisburg. Das Spiel zeichnet sie mit älteren Wassermaterialien, die die Karte nicht als Wasser erkannt hat. Jetzt liest die App alle Wassermaterialien direkt aus den Spieldaten. In ETS2 kommt dadurch gut doppelt so viel Wasser aus dem Spiel auf die Karte (u. a. Rhein bei Köln, Garonne, Loire, Douro, Albufera bei Valencia), in ATS etwa dreimal so viel (u. a. Columbia River, Missouri bei Great Falls, Spokane River, Rio Grande).
+- **Saubere Ufer und Orte**: Straßen und Häuser auf Höhe des Wasserspiegels liegen nicht mehr im Wasser (Kaimauern, Piers, Uferstraßen), und Orte über einer Wasserebene des Spiels – etwa Málaga, Villa San Giovanni oder Newport (ATS) – stehen auf festem Boden.
+- **Kartenerneuerung auch mit weniger DLCs**: Wer nicht alle Karten-DLCs besitzt, bekam bisher keine eigene, aktuelle Karte – die Prüfung verglich mit der mitgelieferten Karte aller DLCs und hielt die kleinere Karte für fehlerhaft. Jetzt erkennt die Prüfung fehlende DLCs.
+- Die Karte wird dafür nach dem Update einmal im Hintergrund neu erzeugt (ein paar Minuten, die bisherige Karte bleibt bis dahin).
+
 ## 1.14.9 (31.10.2026)
 
 - **Falsche Richtung nach dem Laden**: Fuhr man nach dem Spielstart auf der Autobahn in die falsche Richtung, zeigte das Navi „Der Route folgen“ und die Entfernung wurde immer größer, statt der neuen Route zu folgen. Die App hatte den Lkw auf den Rückweg der Route auf der Gegenfahrbahn gesetzt. Jetzt zählen in Fahrt nur noch Routenstücke in Fahrtrichtung – das Navi zeigt die neue Route des Spiels mit der nächsten Wendemöglichkeit.

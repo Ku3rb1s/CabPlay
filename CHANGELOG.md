@@ -4,6 +4,13 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.14.10 (2026-10-31)
+
+- **Many more rivers and lakes on the map**: many waters were missing or cut off so far – for example the Rhine at the bridge near Duisburg. The game draws them with older water materials that the map did not recognise as water. The app now reads all water materials straight from the game data. In ETS2 this puts more than twice as much of the game's water on the map (e.g. the Rhine at Cologne, the Garonne, Loire and Douro, the Albufera near Valencia), in ATS about three times as much (e.g. the Columbia River, the Missouri at Great Falls, the Spokane River, the Rio Grande).
+- **Cleaner shores and towns**: roads and houses at water level are no longer drawn in the water (quays, piers, shore roads), and towns above one of the game's water planes – such as Málaga, Villa San Giovanni or Newport (ATS) – stand on solid ground.
+- **Map updates with fewer DLCs**: if you don't own all map DLCs, you previously never got your own up-to-date map – the check compared it with the bundled map of all DLCs and took the smaller map for broken. The check now recognises missing DLCs.
+- For this, the map is rebuilt once in the background after the update (a few minutes; your current map stays until then).
+
 ## 1.14.9 (2026-10-31)
 
 - **Wrong direction after loading**: if you drove the wrong way on the motorway after starting the game, the navigation showed "Follow the route" and the distance kept growing instead of following the new route. The app had matched the truck to the route's way back on the opposite carriageway. Now, while driving, only route parts in your driving direction count – the navigation shows the game's new route with the next place to turn around.
