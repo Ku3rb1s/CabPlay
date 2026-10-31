@@ -4,6 +4,10 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.14.9 (31.10.2026)
+
+- **Falsche Richtung nach dem Laden**: Fuhr man nach dem Spielstart auf der Autobahn in die falsche Richtung, zeigte das Navi „Der Route folgen“ und die Entfernung wurde immer größer, statt der neuen Route zu folgen. Die App hatte den Lkw auf den Rückweg der Route auf der Gegenfahrbahn gesetzt. Jetzt zählen in Fahrt nur noch Routenstücke in Fahrtrichtung – das Navi zeigt die neue Route des Spiels mit der nächsten Wendemöglichkeit.
+
 ## 1.14.8 (30.10.2026)
 
 - **Rückfahrkamera unter ETS2/ATS 1.62**: Wenn CabPlay die Navi-Textur nachladen musste (siehe 1.14.7), sprang das Display der Road-Trip-Autos im Rückwärtsgang nicht mehr auf die Parkkamera. Behoben – die Kamera erscheint wieder wie gewohnt.
