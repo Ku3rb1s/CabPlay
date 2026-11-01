@@ -127,7 +127,7 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Speed cameras**, weigh stations and toll booths with alert sound – cameras that caught you are remembered
 - **Weather** for where you are right now (Open-Meteo, no account)
 - Phone with dispatcher and roadside assistance, messages, calendar, logbook, fuel & rest stops, videos from YouTube and Twitch
-- Coach from the bus DLC: trip instead of cargo, arrival deadline, bus stops on the map
+- Ready for the upcoming bus DLC (not released yet): trip instead of cargo, arrival deadline, bus stops on the map
 
 </details>
 

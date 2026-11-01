@@ -127,7 +127,7 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Blitzer**, Waagen und Mautstellen mit Warnton – Blitzer, die dich erwischt haben, merkt sich CabPlay
 - **Wetter** für den Ort, an dem du gerade bist (Open-Meteo, ohne Konto)
 - Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos von YouTube und Twitch
-- Reisebus aus dem Coach-DLC: Fahrt statt Fracht, Ankunftsfrist, Bushaltestellen auf der Karte
+- Vorbereitet auf das kommende Bus-DLC (noch nicht erschienen): Fahrt statt Fracht, Ankunftsfrist, Bushaltestellen auf der Karte
 
 </details>
 
