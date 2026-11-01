@@ -16,7 +16,7 @@ Real navigation with lane guidance, Spotify, radio, your job and the dispatcher 
 
 English · [Deutsch](README.de.md)
 
-<img src="bilder/dashboard-dunkel.png" alt="CabPlay in the truck: dashboard with navigation, music and job" width="900">
+<img src="bilder/en/dashboard-dark.png" alt="CabPlay in the truck: dashboard with navigation, music and job" width="900">
 
 </div>
 
@@ -46,20 +46,18 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 
 | | |
 |---|---|
-| ![Navigation light](bilder/navi-hell.png) | ![Navigation dark](bilder/navi-dunkel.png) |
-| Navigation with lane guidance | Navigation at night |
-| ![Apple style dark](bilder/karte-apple-dunkel.png) | ![Dashboard light](bilder/dashboard-hell.png) |
-| Map in Apple style | Dashboard, light |
-| ![ATS navigation](bilder/ats-navi.png) | ![ATS dashboard](bilder/ats-dashboard.png) |
+| ![Exit right with lane guidance – and what changes at the border](bilder/en/nav-light.png) | ![Keep left onto the A10, the lanes to take are lit](bilder/en/nav-dark.png) |
+| Exit right with lane guidance – and what changes at the border | Keep left onto the A10, the lanes to take are lit |
+| ![Map in Apple style with junction overview](bilder/en/apple-dark.png) | ![Dashboard, light](bilder/en/dashboard-light.png) |
+| Map in Apple style with junction overview | Dashboard, light |
+| ![American Truck Simulator: miles, US signs, 12-hour clock](bilder/en/ats-nav.png) | ![ATS dashboard at night](bilder/en/ats-dashboard.png) |
 | American Truck Simulator: miles, US signs, 12-hour clock | ATS dashboard at night |
-| ![3D buildings](bilder/karte-3d.png) | ![Terrain](bilder/karte-gelaende.png) |
-| 3D buildings and company yards | Forests, rock and hairpin bends |
-| ![Sports](bilder/sport.png) | ![Home](bilder/home.png) |
-| Live scores | Home screen |
-| ![Vehicle](bilder/fahrzeug.png) | ![Job](bilder/auftrag.png) |
-| Vehicle with warning lights | Job |
-| ![Radio](bilder/radio.png) | ![Weather](bilder/wetter.png) |
-| Radio | Weather |
+| ![Spotify](bilder/en/music.png) | ![More than 110 radio stations](bilder/en/radio.png) |
+| Spotify | More than 110 radio stations |
+| ![Job with deadline, buffer and next break](bilder/en/job.png) | ![Vehicle with condition and warning lights](bilder/en/truck.png) |
+| Job with deadline, buffer and next break | Vehicle with condition and warning lights |
+| ![Weather where you are](bilder/en/weather.png) | ![Live scores](bilder/en/sports.png) |
+| Weather where you are | Live scores |
 
 ## Requirements
 
@@ -97,7 +95,7 @@ CabPlay reads the map from your game files, with all your DLCs, and rebuilds it 
 - Two styles like Google Maps and Apple Maps, light and dark, flat or tilted from behind
 - Off by default, switch on any time: 3D buildings, small towns, viewpoints, hidden roads and secret shortcuts
 
-Rivers and lakes aren't accurate everywhere yet. If the map is wrong somewhere, choose "Report a map error" in the map menu – feel free to attach it here as an issue.
+Rivers, lakes, canals and the sea come straight from the game's terrain – from the Rhine to the fjords. Small spots can still be off: if the map is wrong somewhere, choose "Report a map error" in the map menu – feel free to attach it here as an issue.
 
 </details>
 

@@ -16,7 +16,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 [English](README.md) · Deutsch
 
-<img src="bilder/dashboard-dunkel.png" alt="CabPlay im Truck: Dashboard mit Navi, Musik und Auftrag" width="900">
+<img src="bilder/de/dashboard-dark.png" alt="CabPlay im Truck: Dashboard mit Navi, Musik und Auftrag" width="900">
 
 </div>
 
@@ -46,20 +46,18 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 
 | | |
 |---|---|
-| ![Navi hell](bilder/navi-hell.png) | ![Navi dunkel](bilder/navi-dunkel.png) |
-| Navi mit Spurempfehlung | Navi bei Nacht |
-| ![Apple-Stil dunkel](bilder/karte-apple-dunkel.png) | ![Dashboard hell](bilder/dashboard-hell.png) |
-| Karte im Apple-Stil | Dashboard, hell |
-| ![ATS-Navi](bilder/ats-navi.png) | ![ATS-Dashboard](bilder/ats-dashboard.png) |
+| ![Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert](bilder/de/nav-light.png) | ![Links halten auf die A10, die richtigen Spuren leuchten](bilder/de/nav-dark.png) |
+| Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert | Links halten auf die A10, die richtigen Spuren leuchten |
+| ![Karte im Apple-Stil mit Kreuzungsübersicht](bilder/de/apple-dark.png) | ![Dashboard, hell](bilder/de/dashboard-light.png) |
+| Karte im Apple-Stil mit Kreuzungsübersicht | Dashboard, hell |
+| ![American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr](bilder/de/ats-nav.png) | ![ATS-Dashboard bei Nacht](bilder/de/ats-dashboard.png) |
 | American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr | ATS-Dashboard bei Nacht |
-| ![3D-Gebäude](bilder/karte-3d.png) | ![Gelände](bilder/karte-gelaende.png) |
-| 3D-Gebäude und Firmengelände | Wälder, Fels und Serpentinen |
-| ![Sport](bilder/sport.png) | ![Home](bilder/home.png) |
-| Live-Spielstände | Home-Bildschirm |
-| ![Fahrzeug](bilder/fahrzeug.png) | ![Auftrag](bilder/auftrag.png) |
-| Fahrzeug mit Kontrollleuchten | Auftrag |
-| ![Radio](bilder/radio.png) | ![Wetter](bilder/wetter.png) |
-| Radio | Wetter |
+| ![Spotify](bilder/de/music.png) | ![Über 110 Radiosender](bilder/de/radio.png) |
+| Spotify | Über 110 Radiosender |
+| ![Auftrag mit Lieferfrist, Puffer und nächster Pause](bilder/de/job.png) | ![Fahrzeug mit Zustand und Kontrollleuchten](bilder/de/truck.png) |
+| Auftrag mit Lieferfrist, Puffer und nächster Pause | Fahrzeug mit Zustand und Kontrollleuchten |
+| ![Wetter dort, wo du gerade bist](bilder/de/weather.png) | ![Live-Spielstände](bilder/de/sports.png) |
+| Wetter dort, wo du gerade bist | Live-Spielstände |
 
 ## Voraussetzungen
 
@@ -97,7 +95,7 @@ CabPlay liest die Karte aus den Dateien deines Spiels, mit allen DLCs, und baut 
 - Zwei Stile wie Google Maps und Apple Karten, hell und dunkel, flach oder schräg von hinten
 - Ab Werk aus, jederzeit einschaltbar: 3D-Gebäude, kleine Orte, Aussichtspunkte, versteckte Straßen und geheime Abkürzungen
 
-Flüsse und Seen sind noch nicht überall genau. Stimmt die Karte irgendwo nicht, wählst du im Kartenmenü „Fehler auf der Karte melden“ – gern hier als Issue anhängen.
+Flüsse, Seen, Kanäle und Meer kommen direkt aus dem Gelände des Spiels – vom Rhein bis zu den Fjorden. An kleinen Stellen kann es noch abweichen: Stimmt die Karte irgendwo nicht, wählst du im Kartenmenü „Fehler auf der Karte melden“ – gern hier als Issue anhängen.
 
 </details>
 
