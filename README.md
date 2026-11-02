@@ -16,7 +16,7 @@ Real navigation with lane guidance, Spotify, radio, your job and the dispatcher 
 
 English · [Deutsch](README.de.md)
 
-<img src="bilder/en/dashboard-dark.png" alt="CabPlay in the truck: dashboard with navigation, music and job" width="900">
+<img src="bilder/cockpit.jpg" alt="CabPlay on the navigation display of a Volvo FH in Euro Truck Simulator 2" width="900"><br><sub>In the game: CabPlay on the display of a Volvo FH</sub>
 
 </div>
 
@@ -50,8 +50,8 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 |---|---|
 | ![Exit right with lane guidance – and what changes at the border](bilder/en/nav-light.png) | ![Almost there: exit right to the company yard](bilder/en/nav-dark.png) |
 | Exit right with lane guidance – and what changes at the border | Almost there: exit right to the company yard |
-| ![Apple style, with Apple Maps and Music icons](bilder/en/apple-dark.png) | ![Dashboard, light](bilder/en/dashboard-light.png) |
-| Apple style, with Apple Maps and Music icons | Dashboard, light |
+| ![Apple style, with Apple Maps and Music icons](bilder/en/apple-dark.png) | ![Dashboard at night](bilder/en/dashboard-dark.png) |
+| Apple style, with Apple Maps and Music icons | Dashboard at night: navigation and music side by side |
 | ![American Truck Simulator: miles, US signs, 12-hour clock](bilder/en/ats-nav.png) | ![ATS dashboard at night](bilder/en/ats-dashboard.png) |
 | American Truck Simulator: miles, US signs, 12-hour clock | ATS dashboard at night |
 | ![The dispatcher calls](bilder/en/call.png) | ![Voice assistant – runs entirely on your PC](bilder/en/voice.png) |

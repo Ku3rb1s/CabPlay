@@ -16,7 +16,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 [English](README.md) · Deutsch
 
-<img src="bilder/de/dashboard-dark.png" alt="CabPlay im Truck: Dashboard mit Navi, Musik und Auftrag" width="900">
+<img src="bilder/cockpit.jpg" alt="CabPlay auf dem Navi-Display eines Volvo FH in Euro Truck Simulator 2" width="900"><br><sub>Im Spiel: CabPlay auf dem Display eines Volvo FH</sub>
 
 </div>
 
@@ -50,8 +50,8 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 |---|---|
 | ![Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert](bilder/de/nav-light.png) | ![Fast da: rechts ab aufs Firmengelände](bilder/de/nav-dark.png) |
 | Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert | Fast da: rechts ab aufs Firmengelände |
-| ![Apple-Stil, mit Symbolen von Apple Karten und Musik](bilder/de/apple-dark.png) | ![Dashboard, hell](bilder/de/dashboard-light.png) |
-| Apple-Stil, mit Symbolen von Apple Karten und Musik | Dashboard, hell |
+| ![Apple-Stil, mit Symbolen von Apple Karten und Musik](bilder/de/apple-dark.png) | ![Dashboard bei Nacht](bilder/de/dashboard-dark.png) |
+| Apple-Stil, mit Symbolen von Apple Karten und Musik | Dashboard bei Nacht: Navi und Musik nebeneinander |
 | ![American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr](bilder/de/ats-nav.png) | ![ATS-Dashboard bei Nacht](bilder/de/ats-dashboard.png) |
 | American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr | ATS-Dashboard bei Nacht |
 | ![Der Disponent ruft an](bilder/de/call.png) | ![Sprachassistent – läuft komplett auf deinem PC](bilder/de/voice.png) |
