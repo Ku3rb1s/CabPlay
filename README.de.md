@@ -44,14 +44,18 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 
 ## Bilder
 
+<p align="center"><img src="bilder/de/fahrt.gif" alt="Eine Fahrt durch Amsterdam mit CabPlay" width="800"><br><sub>Durch Amsterdam bis aufs Firmengelände: Spurempfehlung, Abbiegung für Abbiegung</sub></p>
+
 | | |
 |---|---|
-| ![Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert](bilder/de/nav-light.png) | ![Links halten auf die A10, die richtigen Spuren leuchten](bilder/de/nav-dark.png) |
-| Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert | Links halten auf die A10, die richtigen Spuren leuchten |
-| ![Karte im Apple-Stil mit Kreuzungsübersicht](bilder/de/apple-dark.png) | ![Dashboard, hell](bilder/de/dashboard-light.png) |
-| Karte im Apple-Stil mit Kreuzungsübersicht | Dashboard, hell |
+| ![Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert](bilder/de/nav-light.png) | ![Fast da: rechts ab aufs Firmengelände](bilder/de/nav-dark.png) |
+| Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert | Fast da: rechts ab aufs Firmengelände |
+| ![Apple-Stil, mit Symbolen von Apple Karten und Musik](bilder/de/apple-dark.png) | ![Dashboard, hell](bilder/de/dashboard-light.png) |
+| Apple-Stil, mit Symbolen von Apple Karten und Musik | Dashboard, hell |
 | ![American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr](bilder/de/ats-nav.png) | ![ATS-Dashboard bei Nacht](bilder/de/ats-dashboard.png) |
 | American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr | ATS-Dashboard bei Nacht |
+| ![Der Disponent ruft an](bilder/de/call.png) | ![Sprachassistent – läuft komplett auf deinem PC](bilder/de/voice.png) |
+| Der Disponent ruft an | Sprachassistent – läuft komplett auf deinem PC |
 | ![Spotify](bilder/de/music.png) | ![Über 110 Radiosender](bilder/de/radio.png) |
 | Spotify | Über 110 Radiosender |
 | ![Auftrag mit Lieferfrist, Puffer und nächster Pause](bilder/de/job.png) | ![Fahrzeug mit Zustand und Kontrollleuchten](bilder/de/truck.png) |

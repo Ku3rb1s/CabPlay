@@ -44,14 +44,18 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 
 ## Screenshots
 
+<p align="center"><img src="bilder/en/fahrt.gif" alt="A drive through Amsterdam with CabPlay" width="800"><br><sub>Through Amsterdam to the company yard: lane guidance, turn after turn</sub></p>
+
 | | |
 |---|---|
-| ![Exit right with lane guidance – and what changes at the border](bilder/en/nav-light.png) | ![Keep left onto the A10, the lanes to take are lit](bilder/en/nav-dark.png) |
-| Exit right with lane guidance – and what changes at the border | Keep left onto the A10, the lanes to take are lit |
-| ![Map in Apple style with junction overview](bilder/en/apple-dark.png) | ![Dashboard, light](bilder/en/dashboard-light.png) |
-| Map in Apple style with junction overview | Dashboard, light |
+| ![Exit right with lane guidance – and what changes at the border](bilder/en/nav-light.png) | ![Almost there: exit right to the company yard](bilder/en/nav-dark.png) |
+| Exit right with lane guidance – and what changes at the border | Almost there: exit right to the company yard |
+| ![Apple style, with Apple Maps and Music icons](bilder/en/apple-dark.png) | ![Dashboard, light](bilder/en/dashboard-light.png) |
+| Apple style, with Apple Maps and Music icons | Dashboard, light |
 | ![American Truck Simulator: miles, US signs, 12-hour clock](bilder/en/ats-nav.png) | ![ATS dashboard at night](bilder/en/ats-dashboard.png) |
 | American Truck Simulator: miles, US signs, 12-hour clock | ATS dashboard at night |
+| ![The dispatcher calls](bilder/en/call.png) | ![Voice assistant – runs entirely on your PC](bilder/en/voice.png) |
+| The dispatcher calls | Voice assistant – runs entirely on your PC |
 | ![Spotify](bilder/en/music.png) | ![More than 110 radio stations](bilder/en/radio.png) |
 | Spotify | More than 110 radio stations |
 | ![Job with deadline, buffer and next break](bilder/en/job.png) | ![Vehicle with condition and warning lights](bilder/en/truck.png) |
