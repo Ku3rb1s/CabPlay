@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.15.0 (2026-11-03)
+
+- **Mirror camera when indicating**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, undistorted in 16:9. If a video is playing as picture in picture, the camera can take its place. Options under Settings › Video: wide angle or main mirror, 20, 30 or 60 frames per second, indicator arrow in the picture. Works in the Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way and Renault T, in ATS in the Volvo VNL, Kenworth T680 and Freightliner Cascadia; untested in the MAN TGX.
+- **Video as picture in picture**: switch to another app and the video keeps playing small in a corner. Drag it to another corner, three sizes, the buttons appear when you hover over it. On the dashboard, the music widget then shows the video with its buttons.
+- **Better Video app**: a timeline to tap and drag, seeking by holding (faster and faster), speed from 0.75× to 2×, videos continue where you left off and pause during calls.
+- **TikTok** – including short links from the TikTok app. If you like, **other websites** with a built-in player too (Settings › Video, off by default): tapping the video acts as a click in the page, pop-ups are blocked. Also new there: "Clear history" and "Clear cookies".
+- **Logbook with map** (Settings › Apps › Logbook, off by default): every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit and a mini map –, distance per country and all your driven routes as a purple layer on the map. Stored only on your PC.
+- **Map updates after game updates now finish**: they took longer than a short drive and started over on every launch. The app now finishes the map after you quit the game (at most 10 minutes).
+- The phone remote speaks the app's language, so do the video players. Plus many fixes and more complete translations (English, Polish, Turkish).
+
 ## 1.14.10 (2026-10-31)
 
 - **Many more rivers and lakes on the map**: many waters were missing or cut off so far – for example the Rhine at the bridge near Duisburg. The game draws them with older water materials that the map did not recognise as water. The app now reads all water materials straight from the game data. In ETS2 this puts more than twice as much of the game's water on the map (e.g. the Rhine at Cologne, the Garonne, Loire and Douro, the Albufera near Valencia), in ATS about three times as much (e.g. the Columbia River, the Missouri at Great Falls, the Spokane River, the Rio Grande).

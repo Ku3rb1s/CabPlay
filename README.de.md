@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.14.10-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.15.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -28,9 +28,9 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 🎵 **Musik** – Spotify mit Cover, Mediathek und mitlaufenden Songtexten, dazu über 110 Radiosender und die Sender aus deinem Spiel.
 
-🚚 **Alles rund um die Tour** – Auftrag mit Lieferfrist und Puffer, Disponent per Nachricht und Anruf, Fahrzeugdaten mit Kontrollleuchten, Blitzer- und Waagenwarner, Tanken & Rasten, Wetter.
+🚚 **Alles rund um die Tour** – Auftrag mit Lieferfrist und Puffer, Disponent per Nachricht und Anruf, Fahrzeugdaten mit Kontrollleuchten, Blitzer- und Waagenwarner, Tanken & Rasten, Wetter, ein Fahrtenbuch mit Karte deiner Strecken – und beim Blinken die Spiegelkamera als Totwinkel-Bild.
 
-⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, YouTube und Twitch, ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
+⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
 
 🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus.
 
@@ -130,7 +130,10 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Fahrzeug**: Tempo, Gang, Tank, AdBlue, Zustand von Zugmaschine und Anhänger, Kontrollleuchten und Warnlampen wie im Cockpit
 - **Blitzer**, Waagen und Mautstellen mit Warnton – Blitzer, die dich erwischt haben, merkt sich CabPlay
 - **Wetter** für den Ort, an dem du gerade bist (Open-Meteo, ohne Konto)
-- Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Fahrtenbuch, Tanken & Rasten, Videos von YouTube und Twitch
+- **Video**: YouTube, Twitch und TikTok, auf Wunsch auch andere Webseiten mit eingebautem Player. Wechselst du die App, läuft das Video als Bild im Bild weiter – in jede Ecke ziehbar, in drei Größen. Zeitleiste, Spulen, Geschwindigkeit bis 2×, Weiterschauen, wo du aufgehört hast, Pause bei Anrufen und die Steuerung im Musik-Widget des Dashboards
+- **Spiegelkamera**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, wahlweise an Stelle eines laufenden Videos. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (ungetestet); ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
+- **Fahrtenbuch**: auf Wunsch jede Fahrt mit Strecke – von, nach, Ladung, Kilometer, Lohn, Maut und Strafen, Gewinn, Mini-Karte –, dazu Kilometer je Land und alle gefahrenen Strecken als Ebene auf der Karte. Gespeichert nur auf deinem PC
+- Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Tanken & Rasten
 - Vorbereitet auf das kommende Bus-DLC (noch nicht erschienen): Fahrt statt Fracht, Ankunftsfrist, Bushaltestellen auf der Karte
 
 </details>
@@ -181,7 +184,7 @@ Die Anmeldung bleibt auf deinem PC (`%APPDATA%\CabPlay`). Zum Abspielen aus der 
 
 - **Updates**: CabPlay schaut beim Start nach einer neuen Version, lädt sie und installiert sie beim Beenden – das Plugin gleich mit. Jede Datei wird per SHA-256 geprüft, Einstellungen bleiben erhalten. Ob es eine Desktop-Verknüpfung gibt, stellst du unter Softwareupdate ein
 - **Mods**: Firmen- und Städtenamen aus eingeschalteten Mods erscheinen auch auf der Karte. Karten-Mods (ProMods, RPM …) gehen nicht – dort passen Karte und Navi nicht, alles andere funktioniert
-- **Datensicherung**: Einstellungen › Allgemein › „Einstellungen sichern …“ schreibt Einstellungen, gelernte Blitzer und Videos in eine Datei
+- **Datensicherung**: Einstellungen › Allgemein › „Einstellungen sichern …“ schreibt Einstellungen, gelernte Blitzer und Videos in eine Datei. Verlauf und Cookies der Video-Seiten löschst du unter Einstellungen › Video
 
 </details>
 

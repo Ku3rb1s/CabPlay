@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.15.0 (03.11.2026)
+
+- **Spiegelkamera beim Blinken**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, unverzerrt im 16:9-Format. Läuft gerade ein Video als Bild im Bild, erscheint die Kamera auf Wunsch an seiner Stelle. Einstellbar unter Einstellungen › Video: Weitwinkel oder Hauptspiegel, 20, 30 oder 60 Bilder pro Sekunde, Blinkerpfeil im Bild. Geht im Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way und Renault T, in ATS im Volvo VNL, Kenworth T680 und Freightliner Cascadia; im MAN TGX noch ungetestet.
+- **Video als Bild im Bild**: Wechselst du in eine andere App, läuft das Video klein in einer Ecke weiter. Ziehen schiebt es in eine andere Ecke, drei Größen, die Knöpfe erscheinen, wenn du darüber fährst. Im Dashboard zeigt das Musik-Widget dann das Video mit seinen Knöpfen.
+- **Bessere Video-App**: Zeitleiste zum Antippen und Ziehen, Spulen mit Halten (immer schneller), Geschwindigkeit 0,75× bis 2×, Videos machen dort weiter, wo du aufgehört hast, und halten bei Anrufen an.
+- **TikTok** – auch Kurzlinks aus der TikTok-App. Auf Wunsch auch **andere Webseiten** mit eingebautem Player (Einstellungen › Video, ab Werk aus): Antippen im Video wirkt wie ein Klick in der Seite, Pop-ups sind gesperrt. Neu dort auch „Verlauf löschen“ und „Cookies löschen“.
+- **Fahrtenbuch mit Karte** (Einstellungen › Apps › Fahrtenbuch, ab Werk aus): jede Fahrt mit Strecke – von, nach, Ladung, Kilometer, Lohn, Maut und Strafen, Gewinn und Mini-Karte –, Kilometer je Land und alle gefahrenen Strecken als lila Ebene auf der Karte. Gespeichert nur auf deinem PC.
+- **Kartenerneuerung nach Spiel-Updates wird fertig**: Sie dauerte länger als eine kurze Fahrt und begann bei jedem Start von vorn. Jetzt baut die App die Karte nach dem Spielende fertig (höchstens 10 Minuten).
+- Die Handy-Fernbedienung spricht die Sprache der App, Video-Player auch. Dazu viele Fehlerbehebungen und vollständigere Übersetzungen (Englisch, Polnisch, Türkisch).
+
 ## 1.14.10 (31.10.2026)
 
 - **Viel mehr Flüsse und Seen auf der Karte**: Viele Gewässer fehlten bisher ganz oder waren unterbrochen – zum Beispiel der Rhein an der Brücke bei Duisburg. Das Spiel zeichnet sie mit älteren Wassermaterialien, die die Karte nicht als Wasser erkannt hat. Jetzt liest die App alle Wassermaterialien direkt aus den Spieldaten. In ETS2 kommt dadurch gut doppelt so viel Wasser aus dem Spiel auf die Karte (u. a. Rhein bei Köln, Garonne, Loire, Douro, Albufera bei Valencia), in ATS etwa dreimal so viel (u. a. Columbia River, Missouri bei Great Falls, Spokane River, Rio Grande).

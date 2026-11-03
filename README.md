@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.14.10-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.15.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -28,9 +28,9 @@ English · [Deutsch](README.de.md)
 
 🎵 **Music** – Spotify with cover art, library and synced lyrics, plus more than 110 radio stations and the stations from your game.
 
-🚚 **Everything for the trip** – your job with deadline and buffer, a dispatcher who texts and calls, vehicle data with warning lights, speed camera and weigh station alerts, fuel & rest stops, weather.
+🚚 **Everything for the trip** – your job with deadline and buffer, a dispatcher who texts and calls, vehicle data with warning lights, speed camera and weigh station alerts, fuel & rest stops, weather, a logbook with a map of your routes – and the mirror camera as a blind spot view when you indicate.
 
-⚽ **And more** – live football, NFL and Formula 1, YouTube and Twitch, a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
+⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
 
 🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone.
 
@@ -130,7 +130,10 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Vehicle**: speed, gear, fuel, AdBlue, condition of truck and trailer, warning lights like in the cab
 - **Speed cameras**, weigh stations and toll booths with alert sound – cameras that caught you are remembered
 - **Weather** for where you are right now (Open-Meteo, no account)
-- Phone with dispatcher and roadside assistance, messages, calendar, logbook, fuel & rest stops, videos from YouTube and Twitch
+- **Video**: YouTube, Twitch and TikTok, and if you like other websites with a built-in player. Switch apps and the video keeps playing as picture in picture – drag it to any corner, in three sizes. Timeline, seeking, speed up to 2×, resume where you left off, pause during calls and controls in the dashboard's music widget
+- **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested); ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
+- **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
+- Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
 - Ready for the upcoming bus DLC (not released yet): trip instead of cargo, arrival deadline, bus stops on the map
 
 </details>
@@ -181,7 +184,7 @@ The sign-in stays on your PC (`%APPDATA%\CabPlay`). Playing from the library nee
 
 - **Updates**: CabPlay checks for a new version at start, downloads it and installs it when you close the app – the plugin too. Every file is checked with SHA-256, your settings stay. Whether there's a desktop shortcut is up to you under Software update
 - **Mods**: company and city names from enabled mods also appear on the map. Map mods (ProMods, RPM …) don't work – map and navigation won't match there, everything else works
-- **Backup**: Settings › General › "Back up settings …" writes settings, learned speed cameras and videos to a file
+- **Backup**: Settings › General › "Back up settings …" writes settings, learned speed cameras and videos to a file. Clear the video sites' history and cookies under Settings › Video
 
 </details>
 
