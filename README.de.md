@@ -32,7 +32,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 ⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
 
-🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus.
+🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus. Die Oberfläche gibt es auf Deutsch, Englisch, Polnisch und Türkisch.
 
 ## In 3 Schritten startklar
 
@@ -92,7 +92,7 @@ Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Stra�
 <details>
 <summary><b>Die Karte</b></summary>
 
-CabPlay liest die Karte aus den Dateien deines Spiels, mit allen DLCs, und baut sie nach Spiel-Updates selbst neu.
+CabPlay liest die Karte aus den Dateien deines Spiels, mit allen DLCs, und baut sie nach Spiel-Updates selbst neu. Beendest du das Spiel währenddessen, macht CabPlay den Bau fertig (höchstens 10 Minuten) und zeigt das unten rechts im Infobereich von Windows.
 
 - Straßen so breit, wie sie Spuren haben, Brücken über den Straßen darunter, Einbahnpfeile, nah herangezoomt Fahrbahnmarkierungen und aufgemalte Abbiegepfeile
 - Gebäude, Wasser, Wälder, Wiesen, Felder, Fels und Sand, Firmengelände mit Hof- und Parkflächen
@@ -203,6 +203,9 @@ Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In d
 
 **Die Karte ist leer oder alt.**
 Einstellungen › Info › Karte neu erzeugen. Nach Spiel-Updates macht CabPlay das von selbst.
+
+**Steam zeigt das Spiel nach dem Beenden noch als laufend.**
+Dann baut CabPlay gerade die Karte fertig, das zeigt das CabPlay-Symbol im Infobereich von Windows. Danach beendet es sich von selbst. Über das Symbol kannst du auch sofort beenden, der Bau beginnt dann beim nächsten Mal neu.
 
 **Kostet das Leistung?**
 Kaum. CabPlay zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel.

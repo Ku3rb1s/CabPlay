@@ -32,7 +32,7 @@ English · [Deutsch](README.de.md)
 
 ⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
 
-🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone.
+🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone. The interface comes in English, German, Polish and Turkish.
 
 ## Ready in 3 steps
 
@@ -92,7 +92,7 @@ Distances for turns and lanes are the real distance on the road. The game's navi
 <details>
 <summary><b>The map</b></summary>
 
-CabPlay reads the map from your game files, with all your DLCs, and rebuilds it by itself after game updates.
+CabPlay reads the map from your game files, with all your DLCs, and rebuilds it by itself after game updates. If you quit the game while that's running, CabPlay finishes the build (10 minutes at most) and shows this in the Windows notification area.
 
 - Roads as wide as their lanes, bridges above the roads below, one-way arrows, and up close lane markings and painted turn arrows
 - Buildings, water, forests, meadows, fields, rock and sand, company yards with their lots
@@ -203,6 +203,9 @@ Quit the game completely, start it again and confirm the SDK prompt. In the app,
 
 **The map is empty or outdated.**
 Settings › About › Rebuild map. CabPlay does this by itself after game updates.
+
+**Steam still shows the game as running after I quit.**
+CabPlay is finishing the map then, which the CabPlay icon in the Windows notification area shows. It closes by itself afterwards. You can also quit right away from the icon, the build then starts over next time.
 
 **Does it cost performance?**
 Hardly. CabPlay only redraws what changes and passes the picture to the game via the graphics card.
