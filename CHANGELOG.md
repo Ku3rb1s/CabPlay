@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.15.1 (2026-11-04)
+
+- **Map building is visible**: if the map is still being built after you quit the game, CabPlay shows this in the Windows notification area – with a message, progress in the tooltip and "Quit now".
+- **Fewer crashes**: broken requests to the phone remote or the Spotify sign-in and a full disk during an update no longer crash the app.
+- **Logbook**: the current trip stays up to date in the list, and free drives with a truck change are no longer lost.
+- **Settings**: loading and resetting now apply fully, for example to the language of the in-game menu. Changing settings no longer sends the wallpapers along, and your own images may have spaces in their names.
+- **Spotify and radio**: the Spotify sign-in is no longer lost when several requests run at once. Radio stations without title info no longer keep a second connection open.
+- **Update info**: "New in …" now appears in full and in English. Old update packages are removed.
+- Also: the editor shows the route and connection again after a map build or game switch, radio stations and lane learning data survive a crash while saving, and the app is called CabPlay in Windows notifications and Task Manager.
+
 ## 1.15.0 (2026-11-03)
 
 - **Mirror camera when indicating**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, undistorted in 16:9. If a video is playing as picture in picture, the camera can take its place. Options under Settings › Video: wide angle or main mirror, 20, 30 or 60 frames per second, indicator arrow in the picture. Works in the Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way and Renault T, in ATS in the Volvo VNL, Kenworth T680 and Freightliner Cascadia; untested in the MAN TGX.

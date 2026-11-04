@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.15.1 (04.11.2026)
+
+- **Kartenbau sichtbar**: Läuft nach dem Spielende noch der Kartenbau, zeigt CabPlay das im Infobereich von Windows an – mit Meldung, Fortschritt im Tooltip und „Jetzt beenden“.
+- **Weniger Abstürze**: Kaputte Anfragen an die Handy-Fernbedienung oder die Spotify-Anmeldung und eine volle Platte beim Update bringen die App nicht mehr zum Absturz.
+- **Fahrtenbuch**: Die laufende Fahrt bleibt in der Liste aktuell, freie Fahrten mit Truckwechsel gehen nicht mehr verloren.
+- **Einstellungen**: Laden und Zurücksetzen wirken jetzt vollständig, zum Beispiel auf die Sprache im Ingame-Menü. Beim Ändern werden keine Hintergrundbilder mehr mitgeschickt, und eigene Bilder dürfen Leerzeichen im Namen haben.
+- **Spotify und Radio**: Die Spotify-Anmeldung geht bei mehreren gleichzeitigen Abrufen nicht mehr verloren. Radiosender ohne Titelanzeige halten keine zweite Verbindung mehr offen.
+- **Update-Hinweise**: „Neu in …“ erscheint vollständig und auf Englisch. Alte Update-Pakete werden entfernt.
+- Dazu: Der Editor zeigt nach einem Kartenbau oder Spielwechsel wieder Route und Verbindung, Radiosender und Spur-Lerndaten überstehen einen Absturz beim Speichern, und die App heißt in Windows-Meldungen und im Task-Manager CabPlay.
+
 ## 1.15.0 (03.11.2026)
 
 - **Spiegelkamera beim Blinken**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, unverzerrt im 16:9-Format. Läuft gerade ein Video als Bild im Bild, erscheint die Kamera auf Wunsch an seiner Stelle. Einstellbar unter Einstellungen › Video: Weitwinkel oder Hauptspiegel, 20, 30 oder 60 Bilder pro Sekunde, Blinkerpfeil im Bild. Geht im Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way und Renault T, in ATS im Volvo VNL, Kenworth T680 und Freightliner Cascadia; im MAN TGX noch ungetestet.
