@@ -26,7 +26,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 🗺️ **Eine Karte aus deinem Spiel** – gebaut aus deinen eigenen Spieldateien, mit allen DLCs: Straßen mit ihren Spuren, Brücken, Gebäude, Wasser, Wälder, Firmengelände. Im Stil von Google Maps oder Apple Karten, hell und dunkel.
 
-🚘 **CarPlay Ultra im Kombiinstrument** – CabPlay auch hinter dem Lenkrad: Tacho und Drehzahl, Navi, Musik oder Karte, und die Fahrassistenz-Ansicht mit dem Verkehr ringsum wie in einem Tesla.
+🚘 **CabPlay Ultra im Kombiinstrument** – CabPlay auch hinter dem Lenkrad: Tacho und Drehzahl, Navi, Musik oder Karte, und die Fahrassistenz-Ansicht mit dem Verkehr ringsum wie in einem Tesla.
 
 🎵 **Musik** – Spotify mit Cover, Mediathek und mitlaufenden Songtexten, dazu über 110 Radiosender und die Sender aus deinem Spiel.
 
@@ -65,11 +65,11 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 | ![Wetter dort, wo du gerade bist](bilder/de/weather.png) | ![Live-Spielstände](bilder/de/sports.png) |
 | Wetter dort, wo du gerade bist | Live-Spielstände |
 
-## CarPlay Ultra im Kombiinstrument
+## CabPlay Ultra im Kombiinstrument
 
 <p align="center"><img src="bilder/kombi-cockpit.jpg" alt="Fahrassistenz im Kombiinstrument eines Volvo FH, daneben CabPlay auf dem Navi-Display" width="900"><br><sub>Im Spiel: Fahrassistenz im Kombiinstrument, CabPlay auf dem Navi-Display</sub></p>
 
-Wie Apples CarPlay Ultra übernimmt CabPlay auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad. Die **Fahrassistenz** zeigt die Straße vor dir aus der Karte deines Spiels – mit Spuren, Kreuzungen, Höhen und Brücken – und den Verkehr ringsum als Fahrzeugmodelle mit Bremslichtern. Die blaue Spur zeigt deinen Weg, der Abstandstempomat markiert den Vordermann, dazu Ampeln, Tempolimits und Baustellen.
+Mit CabPlay Ultra übernimmt CabPlay auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad. Die **Fahrassistenz** zeigt die Straße vor dir aus der Karte deines Spiels – mit Spuren, Kreuzungen, Höhen und Brücken – und den Verkehr ringsum als Fahrzeugmodelle mit Bremslichtern. Die blaue Spur zeigt deinen Weg, der Abstandstempomat markiert den Vordermann, dazu Ampeln, Tempolimits und Baustellen.
 
 | | |
 |---|---|
@@ -80,7 +80,7 @@ Wie Apples CarPlay Ultra übernimmt CabPlay auf Wunsch auch das digitale Kombiin
 | ![Design „Musik“ mit großem Cover](bilder/kombi-musik.jpg) | ![Rundinstrumente mit Navi und Musik](bilder/kombi-rund.jpg) |
 | Musik mit großem Cover | Rundinstrumente mit Navi und Musik, Hintergrund Nachtblau |
 
-Einschalten: im CabPlay-Menü im Spiel unter **Kombiinstrument · Beta** → „CarPlay im Kombiinstrument“ (Trucks mit voll digitalem Kombiinstrument, z. B. Volvo FH). Acht Designs stellst du in der App unter Einstellungen › Kombiinstrument ein, die Displaytaste des Spiels (ab Werk **I**) schaltet durch die ausgewählten.
+Einschalten: im CabPlay-Menü im Spiel unter **Kombiinstrument · Beta** (Trucks mit voll digitalem Kombiinstrument, z. B. Volvo FH). Acht Designs stellst du in der App unter Einstellungen › Kombiinstrument ein, die Displaytaste des Spiels (ab Werk **I**) schaltet durch die ausgewählten.
 
 ## Voraussetzungen
 
@@ -109,7 +109,7 @@ Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Stra�
 </details>
 
 <details>
-<summary><b>CarPlay Ultra im Kombiinstrument (Beta)</b></summary>
+<summary><b>CabPlay Ultra im Kombiinstrument (Beta)</b></summary>
 
 - Acht Designs: Rundinstrumente, Balken, Musik mit großem Cover, Karte, Karte mit Rundinstrumenten, Service (Fahrzeugzustand), Bordcomputer und Fahrassistenz – Farbe und Hintergrund nach Wahl, hell oder dunkel
 - Die Displaytaste des Spiels (ab Werk I) schaltet durch die Designs, die du ausgewählt hast

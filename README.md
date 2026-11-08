@@ -26,7 +26,7 @@ English · [Deutsch](README.de.md)
 
 🗺️ **A map built from your game** – made from your own game files with all your DLCs: roads with their lanes, bridges, buildings, water, forests, company yards. In the style of Google Maps or Apple Maps, light and dark.
 
-🚘 **CarPlay Ultra in the instrument cluster** – CabPlay behind the steering wheel too: speed and revs, navigation, music or the map, and a driver assistance view with the traffic around you like in a Tesla.
+🚘 **CabPlay Ultra in the instrument cluster** – CabPlay behind the steering wheel too: speed and revs, navigation, music or the map, and a driver assistance view with the traffic around you like in a Tesla.
 
 🎵 **Music** – Spotify with cover art, library and synced lyrics, plus more than 110 radio stations and the stations from your game.
 
@@ -65,11 +65,11 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 | ![Weather where you are](bilder/en/weather.png) | ![Live scores](bilder/en/sports.png) |
 | Weather where you are | Live scores |
 
-## CarPlay Ultra in the instrument cluster
+## CabPlay Ultra in the instrument cluster
 
 <p align="center"><img src="bilder/kombi-cockpit.jpg" alt="Driver assistance view in the instrument cluster of a Volvo FH, CabPlay on the navigation display next to it" width="900"><br><sub>In the game: driver assistance in the instrument cluster, CabPlay on the navigation display</sub></p>
 
-Like Apple's CarPlay Ultra, CabPlay can also take over the digital instrument cluster behind the steering wheel. The **driver assistance** view shows the road ahead from your game's map – with lanes, junctions, elevation and bridges – and the traffic around you as vehicle models with brake lights. The blue lane shows your route, adaptive cruise control marks the vehicle ahead, plus traffic lights, speed limits and roadworks.
+With CabPlay Ultra, CabPlay can also take over the digital instrument cluster behind the steering wheel. The **driver assistance** view shows the road ahead from your game's map – with lanes, junctions, elevation and bridges – and the traffic around you as vehicle models with brake lights. The blue lane shows your route, adaptive cruise control marks the vehicle ahead, plus traffic lights, speed limits and roadworks.
 
 | | |
 |---|---|
@@ -80,7 +80,7 @@ Like Apple's CarPlay Ultra, CabPlay can also take over the digital instrument cl
 | ![Music design with large cover art](bilder/kombi-musik.jpg) | ![Dials with navigation and music](bilder/kombi-rund.jpg) |
 | Music with large cover art | Dials with navigation and music, night blue background |
 
-To switch it on: in the CabPlay menu in the game under **Instrument cluster · Beta** → "CarPlay in the instrument cluster" (trucks with a fully digital cluster, e.g. Volvo FH). You pick from eight designs in the app under Settings › Instrument cluster, and the game's display key (**I** by default) cycles through the ones you selected.
+To switch it on: in the CabPlay menu in the game under **Instrument cluster · Beta** (trucks with a fully digital cluster, e.g. Volvo FH). You pick from eight designs in the app under Settings › Instrument cluster, and the game's display key (**I** by default) cycles through the ones you selected.
 
 ## Requirements
 
@@ -109,7 +109,7 @@ Distances for turns and lanes are the real distance on the road. The game's navi
 </details>
 
 <details>
-<summary><b>CarPlay Ultra in the instrument cluster (beta)</b></summary>
+<summary><b>CabPlay Ultra in the instrument cluster (beta)</b></summary>
 
 - Eight designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer and driver assistance – colour and background of your choice, light or dark
 - The game's display key (I by default) cycles through the designs you selected

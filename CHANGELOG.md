@@ -6,7 +6,7 @@ All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from
 
 ## 1.16.0 (2026-11-08)
 
-- **CarPlay Ultra in the instrument cluster (beta)**: CabPlay can now also take over the digital instrument cluster behind the steering wheel – with eight designs from dials and music with large cover art to the map. Switch it on in the CabPlay menu in the game under "Instrument cluster · Beta", the display key (I by default) cycles through the designs.
+- **CabPlay Ultra in the instrument cluster (beta)**: CabPlay can now also take over the digital instrument cluster behind the steering wheel – with eight designs from dials and music with large cover art to the map. Switch it on in the CabPlay menu in the game under "Instrument cluster · Beta", the display key (I by default) cycles through the designs.
 - **Driver assistance**: the road ahead from your game's map – with lanes, junctions, elevation and bridges – and the traffic around you as cars, vans, trucks and buses with brake lights. The blue lane shows your route, adaptive cruise control marks the vehicle ahead, plus traffic lights with countdown, speed limits and roadworks. In ATS with yellow lines and US signs, also for the Road Trip cars.
 - **More accurate map**: roads as wide as in the game (narrow country roads narrower), junctions in their real shape, smooth curves and slopes, plus town streets that are missing from the game map but can be driven. The map rebuilds once after the update.
 - **No more frozen screen**: with the mirror camera or picture in picture the app could freeze after a while – this is fixed.

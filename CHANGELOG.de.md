@@ -6,7 +6,7 @@ Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt e
 
 ## 1.16.0 (08.11.2026)
 
-- **CarPlay Ultra im Kombiinstrument (Beta)**: CabPlay übernimmt auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad – mit acht Designs von Rundinstrumenten über Musik mit großem Cover bis zur Karte. Einschalten im CabPlay-Menü im Spiel unter „Kombiinstrument · Beta“, die Displaytaste (ab Werk I) schaltet durch die Designs.
+- **CabPlay Ultra im Kombiinstrument (Beta)**: CabPlay übernimmt auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad – mit acht Designs von Rundinstrumenten über Musik mit großem Cover bis zur Karte. Einschalten im CabPlay-Menü im Spiel unter „Kombiinstrument · Beta“, die Displaytaste (ab Werk I) schaltet durch die Designs.
 - **Fahrassistenz**: Die Straße vor dir aus der Karte deines Spiels – mit Spuren, Kreuzungen, Höhen und Brücken – und der Verkehr ringsum als Pkw, Transporter, Lkw und Busse mit Bremslichtern. Die blaue Spur zeigt deinen Weg, der Abstandstempomat markiert den Vordermann, dazu Ampeln mit Restzeit, Tempolimits und Baustellen. In ATS mit gelben Linien und US-Schildern, auch für die Road-Trip-Autos.
 - **Karte genauer**: Straßen so breit wie im Spiel (schmale Landstraßen schmaler), Kreuzungsflächen in ihrer echten Form, weiche Kurven und Steigungen, dazu Ortsstraßen, die auf der Spielkarte fehlen, aber befahrbar sind. Die Karte baut sich nach dem Update einmal neu.
 - **Kein Standbild mehr**: Mit Spiegelkamera oder Bild im Bild konnte die App nach einer Weile einfrieren – das ist behoben.
