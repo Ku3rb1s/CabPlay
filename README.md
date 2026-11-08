@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.15.1-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.16.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -25,6 +25,8 @@ English · [Deutsch](README.de.md)
 🧭 **Navigation like in a real car** – turn-by-turn directions, the right lane before every junction, signposts like "Exit right · A1 towards Linz", traffic lights with countdown and voice guidance, optionally with a natural-sounding AI voice.
 
 🗺️ **A map built from your game** – made from your own game files with all your DLCs: roads with their lanes, bridges, buildings, water, forests, company yards. In the style of Google Maps or Apple Maps, light and dark.
+
+🚘 **CarPlay Ultra in the instrument cluster** – CabPlay behind the steering wheel too: speed and revs, navigation, music or the map, and a driver assistance view with the traffic around you like in a Tesla.
 
 🎵 **Music** – Spotify with cover art, library and synced lyrics, plus more than 110 radio stations and the stations from your game.
 
@@ -63,6 +65,23 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 | ![Weather where you are](bilder/en/weather.png) | ![Live scores](bilder/en/sports.png) |
 | Weather where you are | Live scores |
 
+## CarPlay Ultra in the instrument cluster
+
+<p align="center"><img src="bilder/kombi-cockpit.jpg" alt="Driver assistance view in the instrument cluster of a Volvo FH, CabPlay on the navigation display next to it" width="900"><br><sub>In the game: driver assistance in the instrument cluster, CabPlay on the navigation display</sub></p>
+
+Like Apple's CarPlay Ultra, CabPlay can also take over the digital instrument cluster behind the steering wheel. The **driver assistance** view shows the road ahead from your game's map – with lanes, junctions, elevation and bridges – and the traffic around you as vehicle models with brake lights. The blue lane shows your route, adaptive cruise control marks the vehicle ahead, plus traffic lights, speed limits and roadworks.
+
+| | |
+|---|---|
+| ![Driver assistance: blue lane, vehicle ahead with distance, traffic in every lane](bilder/kombi-fahrassistenz.png) | ![American Truck Simulator: yellow lines, US signs, miles](bilder/kombi-ats.png) |
+| Driver assistance: your lane in blue, the vehicle ahead with its distance | In ATS with yellow lines, US signs and miles |
+| ![Map design in the game](bilder/kombi-karte.jpg) | ![Driver assistance in the game](bilder/kombi-spiel.jpg) |
+| Map with dials in the game | Driver assistance in the game |
+| ![Music design with large cover art](bilder/kombi-musik.jpg) | ![Dials with navigation and music](bilder/kombi-rund.jpg) |
+| Music with large cover art | Dials with navigation and music, night blue background |
+
+To switch it on: in the CabPlay menu in the game under **Instrument cluster · Beta** → "CarPlay in the instrument cluster" (trucks with a fully digital cluster, e.g. Volvo FH). You pick from eight designs in the app under Settings › Instrument cluster, and the game's display key (**I** by default) cycles through the ones you selected.
+
 ## Requirements
 
 - Windows 10 or 11 (64-bit)
@@ -86,6 +105,19 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 - Optional: a warning before tight curves if you're too fast
 
 Distances for turns and lanes are the real distance on the road. The game's navigation counts in compressed game kilometers (about 1:19 in the countryside), so the numbers differ there. Remaining distance, arrival time and distances to fuel stations are converted to match the game.
+
+</details>
+
+<details>
+<summary><b>CarPlay Ultra in the instrument cluster (beta)</b></summary>
+
+- Eight designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer and driver assistance – colour and background of your choice, light or dark
+- The game's display key (I by default) cycles through the designs you selected
+- Driver assistance: roads with their real widths and junctions from your map, bridges and underpasses only on your level, traffic as cars, vans, trucks, semis and buses with brake lights
+- Blue lane along the route, turn arrows on the road, adaptive cruise control and lane keeping from the game
+- Traffic lights with countdown, barriers, speed limit signs and roadworks, buildings if you like
+- American Truck Simulator with yellow centre lines and US signs; Road Trip cars (F-150, Bronco, Crown Victoria, Mustang) with their own vehicle model
+- Only in trucks with a fully digital instrument cluster; when it's off, the game shows its own cluster
 
 </details>
 

@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.15.1-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.16.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -25,6 +25,8 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 🧭 **Navigation wie im echten Auto** – Abbiegehinweise, die passende Spur vor jeder Kreuzung, Wegweiser wie „Ausfahrt rechts · A1 Richtung Linz“, Ampeln mit Restzeit und Ansagen, auf Wunsch mit natürlich klingender KI-Stimme.
 
 🗺️ **Eine Karte aus deinem Spiel** – gebaut aus deinen eigenen Spieldateien, mit allen DLCs: Straßen mit ihren Spuren, Brücken, Gebäude, Wasser, Wälder, Firmengelände. Im Stil von Google Maps oder Apple Karten, hell und dunkel.
+
+🚘 **CarPlay Ultra im Kombiinstrument** – CabPlay auch hinter dem Lenkrad: Tacho und Drehzahl, Navi, Musik oder Karte, und die Fahrassistenz-Ansicht mit dem Verkehr ringsum wie in einem Tesla.
 
 🎵 **Musik** – Spotify mit Cover, Mediathek und mitlaufenden Songtexten, dazu über 110 Radiosender und die Sender aus deinem Spiel.
 
@@ -63,6 +65,23 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 | ![Wetter dort, wo du gerade bist](bilder/de/weather.png) | ![Live-Spielstände](bilder/de/sports.png) |
 | Wetter dort, wo du gerade bist | Live-Spielstände |
 
+## CarPlay Ultra im Kombiinstrument
+
+<p align="center"><img src="bilder/kombi-cockpit.jpg" alt="Fahrassistenz im Kombiinstrument eines Volvo FH, daneben CabPlay auf dem Navi-Display" width="900"><br><sub>Im Spiel: Fahrassistenz im Kombiinstrument, CabPlay auf dem Navi-Display</sub></p>
+
+Wie Apples CarPlay Ultra übernimmt CabPlay auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad. Die **Fahrassistenz** zeigt die Straße vor dir aus der Karte deines Spiels – mit Spuren, Kreuzungen, Höhen und Brücken – und den Verkehr ringsum als Fahrzeugmodelle mit Bremslichtern. Die blaue Spur zeigt deinen Weg, der Abstandstempomat markiert den Vordermann, dazu Ampeln, Tempolimits und Baustellen.
+
+| | |
+|---|---|
+| ![Fahrassistenz: blaue Spur, Vordermann mit Abstand, Verkehr auf allen Spuren](bilder/kombi-fahrassistenz.png) | ![American Truck Simulator: gelbe Linien, US-Schilder, Meilen](bilder/kombi-ats.png) |
+| Fahrassistenz: deine Spur in Blau, der Vordermann mit Abstand | In ATS mit gelben Linien, US-Schildern und Meilen |
+| ![Design „Karte“ im Spiel](bilder/kombi-karte.jpg) | ![Fahrassistenz im Spiel](bilder/kombi-spiel.jpg) |
+| Karte mit Rundinstrumenten im Spiel | Fahrassistenz im Spiel |
+| ![Design „Musik“ mit großem Cover](bilder/kombi-musik.jpg) | ![Rundinstrumente mit Navi und Musik](bilder/kombi-rund.jpg) |
+| Musik mit großem Cover | Rundinstrumente mit Navi und Musik, Hintergrund Nachtblau |
+
+Einschalten: im CabPlay-Menü im Spiel unter **Kombiinstrument · Beta** → „CarPlay im Kombiinstrument“ (Trucks mit voll digitalem Kombiinstrument, z. B. Volvo FH). Acht Designs stellst du in der App unter Einstellungen › Kombiinstrument ein, die Displaytaste des Spiels (ab Werk **I**) schaltet durch die ausgewählten.
+
 ## Voraussetzungen
 
 - Windows 10 oder 11 (64 Bit)
@@ -86,6 +105,19 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 - Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
 Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Straße. Das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19), deshalb weichen die Zahlen dort voneinander ab. Restkilometer, Ankunftszeit und Abstände zu Tankstellen rechnet CabPlay passend zum Spiel.
+
+</details>
+
+<details>
+<summary><b>CarPlay Ultra im Kombiinstrument (Beta)</b></summary>
+
+- Acht Designs: Rundinstrumente, Balken, Musik mit großem Cover, Karte, Karte mit Rundinstrumenten, Service (Fahrzeugzustand), Bordcomputer und Fahrassistenz – Farbe und Hintergrund nach Wahl, hell oder dunkel
+- Die Displaytaste des Spiels (ab Werk I) schaltet durch die Designs, die du ausgewählt hast
+- Fahrassistenz: Straßen mit echten Breiten und Kreuzungen aus deiner Karte, Brücken und Unterführungen nur auf deiner Ebene, Verkehr als Pkw, Transporter, Lkw, Sattelzug und Bus mit Bremslichtern
+- Blaue Spur entlang der Route, Abbiegepfeile auf der Straße, Abstandstempomat und Spurhalteassistent aus dem Spiel
+- Ampeln mit Restzeit, Schranken, Tempolimit-Schilder und Baustellen, auf Wunsch Gebäude
+- American Truck Simulator mit gelben Mittellinien und US-Schildern; Road-Trip-Autos (F-150, Bronco, Crown Victoria, Mustang) mit eigenem Fahrzeugmodell
+- Nur in Trucks mit voll digitalem Kombiinstrument; ausgeschaltet zeigt das Spiel sein eigenes Instrument
 
 </details>
 
