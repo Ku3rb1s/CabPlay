@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.16.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.17.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -232,6 +232,9 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 
 **CabPlay doesn't show up in the game.**
 Quit the game completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with Ctrl + F8 and press Apply.
+
+**Do I need to keep the CabPlay window open while playing?**
+No. CabPlay starts with the game and runs in the background – everything works on the truck display, the window is for settings. Leaving it open only costs extra performance. If you close it while playing, CabPlay keeps running; to quit or open the window again, use the CabPlay icon in the notification area at the bottom right.
 
 **The map is empty or outdated.**
 Settings › About › Rebuild map. CabPlay does this by itself after game updates.

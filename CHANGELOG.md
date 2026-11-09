@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.17.0 (2026-11-09)
+
+- **Reversing aid**: in reverse gear, driver assistance shows where your rear end is going – curved by your steering angle, calculated with the real dimensions of truck and trailer. Plus the trailer angle with a jackknife warning. If a vehicle is in the way, the lines end there and the distance is shown. Also without a trailer.
+- **Blind spot warning and speed limit ahead**: if you indicate while someone is driving next to you, the adjacent lane turns red. Below the speed limit you see the next limit with its distance, and your trailer articulates on screen just like in the game.
+- **More accurate blue lane**: it now follows the real lanes of the map, runs through junctions and turns and stays on the lane even when you stand next to it.
+- **More Apple style in the instrument cluster**: cruise control as a dot on the speedometer, shift indicator with manual gearbox, gauges thin, thick or with a needle, more colours including "Multicolour", Apple-style indicators and, if you like, "hello" in handwriting at start-up.
+- **New backgrounds**: solid colour, gradient, mountains and contour lines in a background colour of your choice, or the navigation wallpaper, softly blurred. In the settings with preview tiles and colour circles.
+- **CabPlay window while playing**: while the game is running, the CabPlay window is relieved so nothing stutters. You can quit CabPlay at any time from the icon in the notification area.
+- Also: long labels in the service design are no longer cut off, the end of the rev counter ring is clean, and the bar design shows the red zone fixed on the track.
+
 ## 1.16.0 (2026-11-08)
 
 - **CabPlay Ultra in the instrument cluster (beta)**: CabPlay can now also take over the digital instrument cluster behind the steering wheel – with eight designs from dials and music with large cover art to the map. Switch it on in the CabPlay menu in the game under "Instrument cluster · Beta", the display key (I by default) cycles through the designs.

@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.17.0 (09.11.2026)
+
+- **Rangierhilfe**: Im Rückwärtsgang zeigt die Fahrassistenz, wohin dein Heck fährt – gekrümmt nach deinem Lenkeinschlag, berechnet mit den echten Maßen von Truck und Auflieger. Dazu der Knickwinkel mit Warnung vor dem Einknicken. Steht ein Fahrzeug im Weg, enden die Linien dort und der Abstand wird angezeigt. Auch ohne Auflieger.
+- **Totwinkel-Warnung und Tempolimit voraus**: Blinkst du, während jemand neben dir fährt, wird die Nebenspur rot. Unter dem Tempolimit steht das nächste Limit mit Entfernung, und dein Auflieger knickt im Bild so ein wie im Spiel.
+- **Blaue Spur genauer**: Sie liegt jetzt auf den echten Fahrspuren der Karte, läuft durch Kreuzungen und Abbiegungen und bleibt auf der Spur, auch wenn du daneben stehst.
+- **Mehr Apple-Stil im Kombiinstrument**: Tempomat als Punkt auf dem Tacho, Schaltempfehlung bei Handschaltung, Instrumente dünn, breit oder mit Zeiger, mehr Farben inklusive „Bunt“, Blinker im Apple-Stil und auf Wunsch „hello“ in Schreibschrift beim Start.
+- **Neue Hintergründe**: Farbfläche, Farbverlauf, Berge und Höhenlinien in einer wählbaren Hintergrundfarbe oder das Hintergrundbild des Navis, weichgezeichnet. In den Einstellungen mit Vorschau-Kacheln und Farbkreisen.
+- **CabPlay-Fenster beim Spielen**: Läuft das Spiel, wird das CabPlay-Fenster entlastet, damit nichts ruckelt. Über das Symbol im Infobereich lässt sich CabPlay jederzeit beenden.
+- Dazu: Lange Beschriftungen im Service-Design werden nicht mehr abgeschnitten, das Ende des Drehzahl-Rings ist sauber, und das Balken-Design zeigt den roten Bereich fest auf der Spur.
+
 ## 1.16.0 (08.11.2026)
 
 - **CabPlay Ultra im Kombiinstrument (Beta)**: CabPlay übernimmt auf Wunsch auch das digitale Kombiinstrument hinter dem Lenkrad – mit acht Designs von Rundinstrumenten über Musik mit großem Cover bis zur Karte. Einschalten im CabPlay-Menü im Spiel unter „Kombiinstrument · Beta“, die Displaytaste (ab Werk I) schaltet durch die Designs.
