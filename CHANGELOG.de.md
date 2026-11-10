@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.0 (10.11.2026)
+
+- **Chinesisch (vereinfacht)**: CabPlay gibt es jetzt auch auf 简体中文 – mit Navi, Kombiinstrument, Einstellungen und Ansagetexten. Die Übersetzung stammt von KloseY, vielen Dank! Wählbar unter Einstellungen › Allgemein › Sprache, bei Windows auf Chinesisch automatisch.
+- **Fahrassistenz wie bei Tesla**: Fahrzeuge in deinem geplanten Weg werden blau (abschaltbar unter „Vordermann blau markieren“), geparkte Fahrzeuge am Straßenrand erscheinen jetzt auch, und der Weg wird beim Beschleunigen kräftiger und beim Bremsen blasser. Die Straße ist ruhiger, an der roten Ampel liegt ein breiter roter Balken.
+- **Gebäude werden durchsichtig**, wenn sie deinen Weg verdecken – etwa an einer Abbiegung in der Stadt.
+- **Übergänge wie bei Apple**: Designs blenden weich ineinander, Abbiegehinweis, Musik und Warnungen gleiten herein, und im Rückwärtsgang rücken die Instrumente zur Seite und machen Platz für die Rangierhilfe.
+- **Totwinkel-Warnung genauer**: Sie warnt nur noch vor Fahrzeugen in deiner Richtung, nicht vor dem Gegenverkehr, und färbt nur das Fahrzeug rot.
+- **Behoben**: Die Spiegelkamera im Kombiinstrument zeigt nicht mehr zeitweise ein falsches Bild, die Ampel verschwindet beim Warten nicht mehr, die Haltelinie sitzt an der Ampel, Fahrzeuge dicht hintereinander überlappen sich nicht mehr, und der Abbiegepfeil hat wieder die richtige Größe.
+- Dazu: Der Kalender zeigt das Datum in deiner Sprache, und der Lenkwinkel für die Rangierhilfe erzeugt keine Fehlermeldungen mehr im Spiel-Log.
+
 ## 1.17.0 (09.11.2026)
 
 - **Rangierhilfe**: Im Rückwärtsgang zeigt die Fahrassistenz, wohin dein Heck fährt – gekrümmt nach deinem Lenkeinschlag, berechnet mit den echten Maßen von Truck und Auflieger. Dazu der Knickwinkel mit Warnung vor dem Einknicken. Steht ein Fahrzeug im Weg, enden die Linien dort und der Abstand wird angezeigt. Auch ohne Auflieger.

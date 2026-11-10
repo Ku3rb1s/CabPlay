@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.0 (2026-11-10)
+
+- **Chinese (Simplified)**: CabPlay is now also available in 简体中文 – navigation, instrument cluster, settings and announcement texts. The translation is by KloseY, many thanks! Choose it under Settings › General › Language; with Windows set to Chinese it is picked automatically.
+- **Tesla-style driver assistance**: vehicles in your planned path turn blue (can be switched off with "Highlight vehicle ahead in blue"), parked vehicles at the roadside now appear too, and the path gets stronger when accelerating and fainter when braking. The road looks calmer, and at a red light a wide red bar marks the stop line.
+- **Buildings turn see-through** when they hide your path – for example at a turn in town.
+- **Apple-style transitions**: designs blend softly into each other, turn instructions, music and warnings slide in, and in reverse the gauges move aside to make room for the reversing aid.
+- **More accurate blind spot warning**: it only warns about vehicles going your way, not oncoming traffic, and only the vehicle turns red.
+- **Fixed**: the mirror camera in the instrument cluster no longer shows a wrong image at times, the traffic light no longer disappears while waiting, the stop line sits at the light, vehicles close behind each other no longer overlap, and the turn arrow has the right size again.
+- Also: the calendar shows the date in your language, and the steering angle for the reversing aid no longer causes error messages in the game log.
+
 ## 1.17.0 (2026-11-09)
 
 - **Reversing aid**: in reverse gear, driver assistance shows where your rear end is going – curved by your steering angle, calculated with the real dimensions of truck and trailer. Plus the trailer angle with a jackknife warning. If a vehicle is in the way, the lines end there and the distance is shown. Also without a trailer.

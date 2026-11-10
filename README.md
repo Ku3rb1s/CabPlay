@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.17.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.18.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -34,7 +34,7 @@ English · [Deutsch](README.de.md)
 
 ⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
 
-🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone. The interface comes in English, German, Polish and Turkish.
+🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone. The interface comes in English, German, Polish, Turkish and Simplified Chinese.
 
 ## Ready in 3 steps
 
