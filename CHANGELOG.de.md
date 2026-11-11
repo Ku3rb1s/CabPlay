@@ -4,6 +4,11 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.2 (11.11.2026)
+
+- **Behoben**: Im Kartenstil „Apple Karten“ stand ohne Route oben ein leerer Abbiegehinweis mit nur „Dann“ – jetzt verschwindet er wieder, solange keine Route aktiv ist.
+- **Behoben**: Auf Chinesisch heißt der Zoom-Knopf „Auto“ jetzt richtig „自动“ (automatisch) statt „汽车“.
+
 ## 1.18.1 (11.11.2026)
 
 - **Nächstes Tempolimit im Navi**: Wie bei Mercedes MBUX steht das kommende Limit klein neben dem aktuellen Schild, mit Entfernung – wahlweise als Leiste darunter (Einstellungen › Navigation & Hinweise). In ATS als US-Schild. Idee von KloseY, danke!

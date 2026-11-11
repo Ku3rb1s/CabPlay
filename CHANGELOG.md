@@ -4,6 +4,11 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.2 (2026-11-11)
+
+- **Fixed**: with the "Apple Maps" map style, an empty turn card showing only "Then" appeared at the top without a route – it is hidden again while no route is active.
+- **Fixed**: in Chinese, the zoom button "Auto" is now correctly "自动" (automatic) instead of "汽车" (car).
+
 ## 1.18.1 (2026-11-11)
 
 - **Next speed limit in the navigation**: like Mercedes MBUX, the upcoming limit appears small next to the current sign, with the distance – or as a bar below it (Settings › Navigation & Hints). In ATS as a US sign. Idea by KloseY, thanks!
