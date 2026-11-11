@@ -4,6 +4,15 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.1 (2026-11-11)
+
+- **Next speed limit in the navigation**: like Mercedes MBUX, the upcoming limit appears small next to the current sign, with the distance – or as a bar below it (Settings › Navigation & Hints). In ATS as a US sign. Idea by KloseY, thanks!
+- **Apple Maps style like in CarPlay**: lane arrows at the top of the turn card with small dividers, turn arrow on a grey junction (only with the roads that really exist), speed limit sign at the top right, compass with the heading (can be switched off), arrival at the bottom left and a glass navigation card on the dashboard.
+- **More Chinese**: KloseY's new translation with city, place and sign names (Iceland too), club names in sports and Chinese units. Song titles, licence plates and vehicle names stay as they are. The in-game menu (Ctrl+F8) is now available in Chinese as well.
+- **More accurate map**: at motorway interchanges and junctions the map no longer draws false bridges over the road (reported by KloseY near Felixstowe). CabPlay rebuilds the map once for this.
+- **Fixed**: traffic lights for the opposite direction no longer show as yours, the blue lane no longer ends up on the opposite side after junctions, three-digit speed limits fit into the sign, and the map menu sits cleanly next to the app bar.
+- Also: logs and error reports to GitHub are now in English so everyone can read them.
+
 ## 1.18.0 (2026-11-10)
 
 - **Chinese (Simplified)**: CabPlay is now also available in 简体中文 – navigation, instrument cluster, settings and announcement texts. The translation is by KloseY, many thanks! Choose it under Settings › General › Language; with Windows set to Chinese it is picked automatically.

@@ -4,6 +4,15 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.1 (11.11.2026)
+
+- **Nächstes Tempolimit im Navi**: Wie bei Mercedes MBUX steht das kommende Limit klein neben dem aktuellen Schild, mit Entfernung – wahlweise als Leiste darunter (Einstellungen › Navigation & Hinweise). In ATS als US-Schild. Idee von KloseY, danke!
+- **Apple-Karten-Stil wie in CarPlay**: Spurpfeile oben im Abbiegehinweis mit kleinen Trennstrichen, Abbiegepfeil auf grauer Kreuzung (nur mit den Armen, die es wirklich gibt), Tempolimit-Schild oben rechts, Kompass mit Himmelsrichtung (abschaltbar), Ankunft unten links und die Navi-Karte im Dashboard aus Glas.
+- **Chinesisch erweitert**: KloseYs neue Übersetzung mit Städte-, Orts- und Schildernamen (auch Island), Vereinsnamen im Sport und chinesischen Einheiten. Songtitel, Kennzeichen und Fahrzeugnamen bleiben im Original. Auch das Spielmenü (Strg+F8) gibt es jetzt auf Chinesisch.
+- **Karte genauer**: In Autobahnkreuzen und an Anschlussstellen zeichnet die Karte keine falschen Brücken mehr über die Fahrbahn (gemeldet von KloseY bei Felixstowe). CabPlay baut die Karte dafür einmal neu.
+- **Behoben**: Ampeln der Gegenrichtung erscheinen nicht mehr als deine, die blaue Spur landet nach Kreuzungen nicht mehr auf der Gegenseite, dreistellige Tempolimits passen ins Schild, und das Kartenmenü liegt sauber neben der App-Leiste.
+- Dazu: Protokolle und Fehlermeldungen an GitHub sind jetzt auf Englisch, damit alle sie lesen können.
+
 ## 1.18.0 (10.11.2026)
 
 - **Chinesisch (vereinfacht)**: CabPlay gibt es jetzt auch auf 简体中文 – mit Navi, Kombiinstrument, Einstellungen und Ansagetexten. Die Übersetzung stammt von KloseY, vielen Dank! Wählbar unter Einstellungen › Allgemein › Sprache, bei Windows auf Chinesisch automatisch.
