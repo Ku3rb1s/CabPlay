@@ -101,6 +101,8 @@ To switch it on: in the CabPlay menu in the game under **Instrument cluster · B
 - Ferries with their own "Take the ferry" announcement; direction from signposts only from signs facing your way
 - Signposts with road number and destination from the real signs
 - Traffic lights with countdown, speed limit, arrival time, rest stops along the route, notices before borders and steep grades
+- The next speed limit ahead, small next to the current sign with its distance (like Mercedes MBUX)
+- Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route
 - Voice guidance in German, English, Polish or Turkish, with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you
 - Optional: a warning before tight curves if you're too fast
 
@@ -158,15 +160,15 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Spotify**: without any setup, CabPlay shows and controls what's playing in the Spotify app on your PC. For library, playlists, search and queue, connect your account once (see below). Lyrics scroll along when synced ones exist (LRCLIB)
 - **Radio**: more than 110 stations (German, English, USA, I LOVE RADIO) plus your game's online radio and your own stations
 - **Sports**: live scores, goal scorers and tables – Bundesliga down to 3. Liga, DFB Cup, Champions League, Premier League, LaLiga, Serie A and more, NFL and Formula 1. Favorite teams get a live ticker as notifications
-- **Job**: distance, deadline, buffer, pay, costs on the way, next break
+- **Job**: distance, deadline, buffer, pay, costs on the way, next break. On bus lines: every stop with its timetable, passengers boarding and leaving, and "on time" or "+N min" like in the game
 - **Vehicle**: speed, gear, fuel, AdBlue, condition of truck and trailer, warning lights like in the cab
 - **Speed cameras**, weigh stations and toll booths with alert sound – cameras that caught you are remembered
 - **Weather** for where you are right now (Open-Meteo, no account)
 - **Video**: YouTube, Twitch and TikTok, and if you like other websites with a built-in player. Switch apps and the video keeps playing as picture in picture – drag it to any corner, in three sizes. Timeline, seeking, speed up to 2×, resume where you left off, pause during calls and controls in the dashboard's music widget
-- **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested); ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
+- **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
 - **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
 - Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
-- Ready for the upcoming bus DLC (not released yet): trip instead of cargo, arrival deadline, bus stops on the map
+- **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster
 
 </details>
 
@@ -235,6 +237,9 @@ Quit the game completely, start it again and confirm the SDK prompt. In the app,
 
 **Do I need to keep the CabPlay window open while playing?**
 No. CabPlay starts with the game and runs in the background – everything works on the truck display, the window is for settings. Leaving it open only costs extra performance. If you close it while playing, CabPlay keeps running; to quit or open the window again, use the CabPlay icon in the notification area at the bottom right.
+
+**The picture on the display in the cab is cut off or stretched.**
+Older trucks like the Scania R or MAN TGX only show part of the navigation image, or their display has a different shape. Get in, then under Settings › Display & brightness choose the format of the display and set the visible area (margin top, bottom, left, right) until everything fits. Scania R and Streamline are already set up.
 
 **The map is empty or outdated.**
 Settings › About › Rebuild map. CabPlay does this by itself after game updates.
