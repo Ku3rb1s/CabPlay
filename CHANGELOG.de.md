@@ -4,6 +4,15 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.3 (12.11.2026)
+
+- **Bus-DLC (Coaches)**: CabPlay erkennt MAN Lion's Coach, Scania Touring und Volvo 9700 als Bus. Das Navi-Bild passt ins Display des Lion's Coach, die Blinker-Kamera nutzt die Kameraspiegel von Volvo 9700 und Lion's Coach (der Touring hat nur Glasspiegel), und das Kombiinstrument zeigt den Bus in echter Länge.
+- **Buslinie in der Auftrags-App**: alle Halte mit Fahrplanzeiten, ein- und aussteigenden Fahrgästen und wie viele an Bord sind. Für erreichte Halte und den nächsten steht „pünktlich“ oder „+N Min.“ wie im Spiel.
+- **Zwischenhalte im Navi**: Die Ankunft zeigt Zeit und Strecke bis zum nächsten Halt („Ankunft Osnabrück“), die Halte stehen als nummerierte Punkte an der Route, und kurz davor kündigt die Navi-Karte „Halt · Osnabrück“ an.
+- **Displayformat je Lkw** (Einstellungen › Anzeige & Helligkeit): Bei älteren Lkw wie Scania R oder MAN TGX lässt sich das Format des Cockpit-Displays wählen und der sichtbare Bereich einstellen, damit nichts verzerrt oder abgeschnitten ist. Für Scania R und Streamline ist der Bereich schon eingestellt. Dazu gibt es die Textgröße „Klein“. Danke an yzget für die Meldung!
+- **Behoben**: Die Spurführung zeigt an Kreuzungen nicht mehr zu viele Pfeile, das nächste Tempolimit erscheint nicht mehr zu früh, Touch (Strg+Alt+M und direkt im Cockpit) trifft auch bei Lkw mit Ausschnitt und im Bus, und in der klassischen Karte liegt die Ankunft nicht mehr unter dem Tacho.
+- Dazu: Der automatische Kartenbau nach Spiel-Updates und neuen DLCs läuft zuverlässiger und hebt bei einem Fehler das Protokoll auf.
+
 ## 1.18.2 (11.11.2026)
 
 - **Behoben**: Im Kartenstil „Apple Karten“ stand ohne Route oben ein leerer Abbiegehinweis mit nur „Dann“ – jetzt verschwindet er wieder, solange keine Route aktiv ist.

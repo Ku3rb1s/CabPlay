@@ -4,6 +4,15 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.3 (2026-11-12)
+
+- **Bus DLC (Coaches)**: CabPlay recognises the MAN Lion's Coach, Scania Touring and Volvo 9700 as buses. The navigation image fits the Lion's Coach display, the blinker camera uses the camera mirrors of the Volvo 9700 and Lion's Coach (the Touring only has glass mirrors), and the instrument cluster shows the bus at its real length.
+- **Bus line in the job app**: all stops with timetable times, boarding and leaving passengers and how many are on board. Reached stops and the next one show "on time" or "+N min" like in the game.
+- **Intermediate stops in the navigation**: the arrival shows the time and distance to the next stop ("Arrival Osnabrück"), the stops appear as numbered dots along the route, and shortly before a stop the turn card announces "Stop · Osnabrück".
+- **Display format per truck** (Settings › Display & brightness): for older trucks like the Scania R or MAN TGX you can choose the format of the cab display and set the visible area, so nothing is stretched or cut off. The area is already set for the Scania R and Streamline. There is also a new "Small" text size. Thanks to yzget for the report!
+- **Fixed**: lane guidance no longer shows too many arrows at junctions, the next speed limit no longer appears too early, touch (Ctrl+Alt+M and directly in the cab) also hits the right spot in trucks with a cut-off display and in buses, and in the classic map the arrival no longer sits under the speedometer.
+- Also: the automatic map rebuild after game updates and new DLCs is more reliable and keeps its log when something goes wrong.
+
 ## 1.18.2 (2026-11-11)
 
 - **Fixed**: with the "Apple Maps" map style, an empty turn card showing only "Then" appeared at the top without a route – it is hidden again while no route is active.
