@@ -4,6 +4,15 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.4 (12.11.2026)
+
+- **Meer um Island**: Island hat auf der Karte jetzt eine echte Küste mit offenem Meer drumherum. Vorher war rundherum alles Land, und es blieben nur rechteckige Wasserstücke an der Küste. CabPlay baut die Karte dafür einmal neu.
+- **Spiegelkamera im Bus**: Beim Blinken zeigt CabPlay jetzt auch im Volvo 9700 und im MAN Lion's Coach die Kameraspiegel. Vorher erschien dort manchmal die Karte des Spiels oder gar nichts.
+- **CabPlay Ultra im Bus**: Das Kombiinstrument ist jetzt auch im Volvo 9700 und im MAN Lion's Coach einschaltbar. Beim Lion's Coach rücken Blinkerpfeile und die Leiste unten aus den abgerundeten Ecken des Displays.
+- **Sichtbarer Bereich im Kombiinstrument** (Einstellungen › Kombiinstrument): Fehlt bei einem Fahrzeug am Rand etwas, lässt sich der Rand oben, unten, links und rechts je Fahrzeug einstellen.
+- **Song-Titel im Kombiinstrument**: Lange Titel bleiben kurz stehen und laufen dann wie bei CarPlay gleichmäßig nach links durch, ohne zurückzuspringen.
+- **Behoben**: Ein automatischer Kartenbau konnte abbrechen, wenn gleichzeitig eine zweite CabPlay-Instanz startete. Bei einem Fehler bleibt das Protokoll jetzt als `map-update-failed.log` erhalten.
+
 ## 1.18.3 (12.11.2026)
 
 - **Bus-DLC (Coaches)**: CabPlay erkennt MAN Lion's Coach, Scania Touring und Volvo 9700 als Bus. Das Navi-Bild passt ins Display des Lion's Coach, die Blinker-Kamera nutzt die Kameraspiegel von Volvo 9700 und Lion's Coach (der Touring hat nur Glasspiegel), und das Kombiinstrument zeigt den Bus in echter Länge.

@@ -4,6 +4,15 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.4 (2026-11-12)
+
+- **Sea around Iceland**: Iceland now has a real coastline with open sea around it on the map. Before, everything around it was land, with only rectangular bits of water along the coast. CabPlay rebuilds the map once for this.
+- **Mirror camera in buses**: when you indicate, CabPlay now also shows the camera mirrors in the Volvo 9700 and the MAN Lion's Coach. Before, the game's map or nothing at all sometimes appeared there.
+- **CabPlay Ultra in buses**: the instrument cluster can now be switched on in the Volvo 9700 and the MAN Lion's Coach as well. In the Lion's Coach, the turn signal arrows and the bottom bar move away from the rounded corners of the display.
+- **Visible area in the instrument cluster** (Settings › Instrument cluster): if something is cut off at the edge in a vehicle, you can set the margin at the top, bottom, left and right per vehicle.
+- **Song titles in the instrument cluster**: long titles pause briefly and then scroll smoothly to the left like in CarPlay, without jumping back.
+- **Fixed**: an automatic map rebuild could break off when a second CabPlay instance started at the same time. If something goes wrong, the log is now kept as `map-update-failed.log`.
+
 ## 1.18.3 (2026-11-12)
 
 - **Bus DLC (Coaches)**: CabPlay recognises the MAN Lion's Coach, Scania Touring and Volvo 9700 as buses. The navigation image fits the Lion's Coach display, the blinker camera uses the camera mirrors of the Volvo 9700 and Lion's Coach (the Touring only has glass mirrors), and the instrument cluster shows the bus at its real length.
