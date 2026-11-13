@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.5 (2026-11-13)
+
+- **Navigation image fits 20 more trucks on its own**: in many older trucks the cab display only shows part of the navigation image. CabPlay now calculates the visible area from the game's cab models, among others for the DAF XF, Iveco Stralis and Hi-Way, MAN TGX, Mercedes Actros 2014, Scania S 2024e and Volvo FH (2012). In ATS this also covers Kenworth, Peterbilt, Mack, International, Volvo VNL and Western Star. Your own settings still take priority. Thanks to yzget!
+- **Chinese automatically**: with "Automatic (like Windows)", CabPlay now appears in Chinese on a Chinese Windows instead of English. Thanks to 782553362!
+- **Sea west of Iceland**: west of the Westfjords and off Reykjavík, a slanted land edge ran through the sea on the map. It is water everywhere there now. CabPlay rebuilds the map once for this.
+- **CabPlay Ultra in the MAN TGX 2020**: the bottom bar with temperature, range and AdBlue was hidden by the display frame. Like in the Lion's Coach, it now sits higher, and the turn signal arrows and the ends of the bar move away from the slanted corners.
+- **Indicators in the display** (Settings › Instrument cluster): automatic, on or off. Automatic follows the original display. The MAN TGX, Lion's Coach, DAF, Iveco S-Way, Kenworth T680, Volvo VNL and Ford Bronco have real indicator lights next to the display, so the arrows in CabPlay Ultra stay off there.
+- **Fixed**: in the touch window (Ctrl+Alt+M), clicks landed too low in trucks with a set visible area (e.g. the Scania R). Also, the Scania R/S 2016 no longer gets a preset area: with Smartdash, the image otherwise sat as a strip at the top of the large display.
+- **In-game menu**: at the dealer and in the main menu, "Game data" now shows a gray "Not available right now" instead of a red "Doesn't match the game version".
+
 ## 1.18.4 (2026-11-12)
 
 - **Sea around Iceland**: Iceland now has a real coastline with open sea around it on the map. Before, everything around it was land, with only rectangular bits of water along the coast. CabPlay rebuilds the map once for this.

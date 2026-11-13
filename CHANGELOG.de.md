@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.5 (13.11.2026)
+
+- **Navi-Bild passt bei 20 weiteren Lkw von selbst**: Bei vielen älteren Lkw zeigt das Cockpit-Display nur einen Ausschnitt des Navi-Bilds. CabPlay hat den sichtbaren Bereich jetzt aus den Cockpit-Modellen des Spiels berechnet, unter anderem für DAF XF, Iveco Stralis und Hi-Way, MAN TGX, Mercedes Actros 2014, Scania S 2024e und Volvo FH (2012). In ATS gilt das auch für Kenworth, Peterbilt, Mack, International, Volvo VNL und Western Star. Eigene Einstellungen gehen weiter vor. Danke an yzget!
+- **Chinesisch automatisch**: Mit „Automatisch (wie Windows)“ erscheint CabPlay bei chinesischem Windows jetzt auf Chinesisch statt Englisch. Danke an 782553362!
+- **Meer westlich von Island**: Westlich der Westfjorde und vor Reykjavík lief auf der Karte eine schräge Landkante durchs Meer. Dort ist jetzt überall Wasser. CabPlay baut die Karte dafür einmal neu.
+- **CabPlay Ultra im MAN TGX 2020**: Die Leiste unten mit Temperatur, Reichweite und AdBlue war vom Rahmen des Displays verdeckt. Sie sitzt jetzt wie beim Lion's Coach höher, und Blinkerpfeile und Leistenenden rücken aus den schrägen Ecken.
+- **Blinker im Display** (Einstellungen › Kombiinstrument): Automatisch, an oder aus. Automatisch richtet sich nach dem Original-Display. Beim MAN TGX, Lion's Coach, DAF, Iveco S-Way, Kenworth T680, Volvo VNL und Ford Bronco sitzen echte Blinkerleuchten neben dem Display, dort bleiben die Pfeile in CabPlay Ultra aus.
+- **Behoben**: Im Touch-Fenster (Strg+Alt+M) landeten Klicks bei Lkw mit eingestelltem Bereich (z. B. Scania R) zu weit unten. Außerdem bekommt der Scania R/S 2016 keinen voreingestellten Bereich mehr: Mit Smartdash lag das Bild sonst als Streifen oben im großen Display.
+- **Ingame-Menü**: Beim Händler und im Hauptmenü steht unter „Spieldaten“ jetzt grau „Gerade nicht verfügbar“ statt rot „Passt nicht zur Spielversion“.
+
 ## 1.18.4 (12.11.2026)
 
 - **Meer um Island**: Island hat auf der Karte jetzt eine echte Küste mit offenem Meer drumherum. Vorher war rundherum alles Land, und es blieben nur rechteckige Wasserstücke an der Küste. CabPlay baut die Karte dafür einmal neu.
