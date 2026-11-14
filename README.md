@@ -115,11 +115,14 @@ Distances for turns and lanes are the real distance on the road. The game's navi
 
 - Eight designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer and driver assistance – colour and background of your choice, light or dark
 - The game's display key (I by default) cycles through the designs you selected
+- CabPlay Ultra app on the navigation screen: live preview, then design, background, colour and the main switches with a tap – when you switch designs, speed, gear and navigation glide to their new place
+- Widgets between the dials like in CarPlay Ultra: break, delivery deadline, range and consumption in turn – whatever gets tight jumps to the front in orange or red
+- Gauge styles default, thin, thick, with needle, classic and sporty; backgrounds such as mountains, waves, aurora and starry sky in the colour you choose; navigation notifications as cards if you like
 - Driver assistance: roads with their real widths and junctions from your map, bridges and underpasses only on your level, traffic as cars, vans, trucks, semis and buses with brake lights
 - Blue lane along the route, turn arrows on the road, adaptive cruise control and lane keeping from the game
 - Traffic lights with countdown, barriers, speed limit signs and roadworks, buildings if you like
 - American Truck Simulator with yellow centre lines and US signs; Road Trip cars (F-150, Bronco, Crown Victoria, Mustang) with their own vehicle model
-- Only in trucks with a fully digital instrument cluster; when it's off, the game shows its own cluster
+- Only in trucks with a fully digital instrument cluster – CabPlay reads which interior is installed (e.g. Scania with Smartdash or with gauges, Renault T, Cascadia); when it's off, the game shows its own cluster
 
 </details>
 
@@ -168,7 +171,7 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
 - **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
 - Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
-- **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster
+- **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster, and when reversing the navigation display shows the bus's rear camera like in the game
 
 </details>
 

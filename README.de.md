@@ -115,11 +115,14 @@ Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Stra�
 
 - Acht Designs: Rundinstrumente, Balken, Musik mit großem Cover, Karte, Karte mit Rundinstrumenten, Service (Fahrzeugzustand), Bordcomputer und Fahrassistenz – Farbe und Hintergrund nach Wahl, hell oder dunkel
 - Die Displaytaste des Spiels (ab Werk I) schaltet durch die Designs, die du ausgewählt hast
+- App CabPlay Ultra im Navi: Live-Vorschau, dazu Design, Hintergrund, Farbe und die wichtigsten Schalter per Tipp – beim Design-Wechsel gleiten Tempo, Gang und Navi an ihren neuen Platz
+- Widgets zwischen den Instrumenten wie bei CarPlay Ultra: Pause, Lieferfrist, Reichweite und Verbrauch der Reihe nach – was knapp wird, springt orange oder rot nach vorn
+- Instrumente Standard, Dünn, Breit, Mit Zeiger, Klassisch und Sportlich; Hintergründe wie Berge, Wellen, Polarlicht und Sternenhimmel in deiner Farbe; auf Wunsch Mitteilungen des Navis als Hinweis-Karte
 - Fahrassistenz: Straßen mit echten Breiten und Kreuzungen aus deiner Karte, Brücken und Unterführungen nur auf deiner Ebene, Verkehr als Pkw, Transporter, Lkw, Sattelzug und Bus mit Bremslichtern
 - Blaue Spur entlang der Route, Abbiegepfeile auf der Straße, Abstandstempomat und Spurhalteassistent aus dem Spiel
 - Ampeln mit Restzeit, Schranken, Tempolimit-Schilder und Baustellen, auf Wunsch Gebäude
 - American Truck Simulator mit gelben Mittellinien und US-Schildern; Road-Trip-Autos (F-150, Bronco, Crown Victoria, Mustang) mit eigenem Fahrzeugmodell
-- Nur in Trucks mit voll digitalem Kombiinstrument; ausgeschaltet zeigt das Spiel sein eigenes Instrument
+- Nur in Trucks mit voll digitalem Kombiinstrument – CabPlay liest, welche Innenausstattung eingebaut ist (z. B. Scania mit Smartdash oder mit Zeigern, Renault T, Cascadia); ausgeschaltet zeigt das Spiel sein eigenes Instrument
 
 </details>
 
@@ -168,7 +171,7 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Spiegelkamera**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, wahlweise an Stelle eines laufenden Videos. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (ungetestet), die Busse Volvo 9700 und MAN Lion's Coach; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
 - **Fahrtenbuch**: auf Wunsch jede Fahrt mit Strecke – von, nach, Ladung, Kilometer, Lohn, Maut und Strafen, Gewinn, Mini-Karte –, dazu Kilometer je Land und alle gefahrenen Strecken als Ebene auf der Karte. Gespeichert nur auf deinem PC
 - Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Tanken & Rasten
-- **Bus-DLC (Coaches)**: MAN Lion's Coach, Scania Touring und Volvo 9700 werden als Bus erkannt – Buslinie mit Halten in der Auftrags-App und im Navi, der Bus in echter Länge im Kombiinstrument
+- **Bus-DLC (Coaches)**: MAN Lion's Coach, Scania Touring und Volvo 9700 werden als Bus erkannt – Buslinie mit Halten in der Auftrags-App und im Navi, der Bus in echter Länge im Kombiinstrument, und im Rückwärtsgang zeigt das Navi wie im Spiel die Rückfahrkamera des Busses
 
 </details>
 
