@@ -101,9 +101,9 @@ To switch it on: in the CabPlay menu in the game under **Instrument cluster · B
 - Ferries with their own "Take the ferry" announcement; direction from signposts only from signs facing your way
 - Signposts with road number and destination from the real signs
 - Traffic lights with countdown, speed limit, arrival time, rest stops along the route, notices before borders and steep grades
-- The next speed limit ahead, small next to the current sign with its distance (like Mercedes MBUX)
-- Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route
-- Voice guidance in German, English, Polish or Turkish, with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you
+- The next speed limit ahead, small next to the current sign with its distance (like Mercedes MBUX) – in the UK in mph like the signs
+- Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route; optional stop announcements with a chime that stay at their speaker at the back of the bus when you turn your head in the interior camera
+- Voice guidance in German, English, Polish, Turkish or Chinese (with a Chinese Windows voice), with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you
 - Optional: a warning before tight curves if you're too fast
 
 Distances for turns and lanes are the real distance on the road. The game's navigation counts in compressed game kilometers (about 1:19 in the countryside), so the numbers differ there. Remaining distance, arrival time and distances to fuel stations are converted to match the game.
@@ -116,7 +116,8 @@ Distances for turns and lanes are the real distance on the road. The game's navi
 - Eight designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer and driver assistance – colour and background of your choice, light or dark
 - The game's display key (I by default) cycles through the designs you selected
 - CabPlay Ultra app on the navigation screen: live preview, then design, background, colour and the main switches with a tap – when you switch designs, speed, gear and navigation glide to their new place
-- Widgets between the dials like in CarPlay Ultra: break, delivery deadline, range and consumption in turn – whatever gets tight jumps to the front in orange or red
+- Widgets between the dials like in CarPlay Ultra: break, delivery deadline, range and consumption in turn – whatever gets tight jumps to the front in orange or red. On bus lines the next stop with its deviation stays in front
+- Warning lights like in the truck, plus the yellow check engine light once the engine has 10 % damage
 - Gauge styles default, thin, thick, with needle, classic and sporty; backgrounds such as mountains, waves, aurora and starry sky in the colour you choose; navigation notifications as cards if you like
 - Driver assistance: roads with their real widths and junctions from your map, bridges and underpasses only on your level, traffic as cars, vans, trucks, semis and buses with brake lights
 - Blue lane along the route, turn arrows on the road, adaptive cruise control and lane keeping from the game
@@ -163,7 +164,7 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Spotify**: without any setup, CabPlay shows and controls what's playing in the Spotify app on your PC. For library, playlists, search and queue, connect your account once (see below). Lyrics scroll along when synced ones exist (LRCLIB)
 - **Radio**: more than 110 stations (German, English, USA, I LOVE RADIO) plus your game's online radio and your own stations
 - **Sports**: live scores, goal scorers and tables – Bundesliga down to 3. Liga, DFB Cup, Champions League, Premier League, LaLiga, Serie A and more, NFL and Formula 1. Favorite teams get a live ticker as notifications
-- **Job**: distance, deadline, buffer, pay, costs on the way, next break. On bus lines: every stop with its timetable, passengers boarding and leaving, and "on time" or "+N min" like in the game
+- **Job**: distance, deadline, buffer, pay, costs on the way, next break. On bus lines like the driver display in a real bus: next stop with its schedule and "on time" or "+N min", the departure with time left at the stop, and the whole line as a timeline with passengers boarding and leaving – also in the job widget on the dashboard
 - **Vehicle**: speed, gear, fuel, AdBlue, condition of truck and trailer, warning lights like in the cab
 - **Speed cameras**, weigh stations and toll booths with alert sound – cameras that caught you are remembered
 - **Weather** for where you are right now (Open-Meteo, no account)
@@ -197,6 +198,8 @@ Hold the Home button (or Ctrl + Alt + V) and just talk, for example "Will I make
 | Ctrl + Alt + V | Voice command |
 
 All shortcuts can be changed, including to steering wheel buttons.
+
+**Customise:** the app bar sits on the left, right, top or bottom (Settings › Home screen & app icons). Volumes are set with sliders, in the map menu too. If you play with HDR, the menu and touch mode adapt to the brightness.
 
 **Touch:** either CabPlay sits as a window over the game, or you calibrate the display in the cab once (click its four corners) and then click right on the screen in the truck – CabPlay compensates for head and cab movement. The calibration is remembered for every truck and car.
 
@@ -236,7 +239,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay doesn't show up in the game.**
-Quit the game completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with Ctrl + F8 and press Apply.
+Quit the game completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with Ctrl + F8 and press Apply. What the plugin does in the game is written to `cabplay.log` next to `cabplay.dll` in the game's `bin\win_x64\plugins` folder.
 
 **Do I need to keep the CabPlay window open while playing?**
 No. CabPlay starts with the game and runs in the background – everything works on the truck display, the window is for settings. Leaving it open only costs extra performance. If you close it while playing, CabPlay keeps running; to quit or open the window again, use the CabPlay icon in the notification area at the bottom right.

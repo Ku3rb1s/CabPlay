@@ -101,9 +101,9 @@ Einschalten: im CabPlay-Menü im Spiel unter **Kombiinstrument · Beta** (Trucks
 - Fähren mit eigener Ansage „Fähre nehmen“; Richtung vom Wegweiser nur von Schildern deiner Fahrtrichtung
 - Wegweiser mit Straßennummer und Ziel von den echten Schildern
 - Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise vor Grenzen und Steigungen
-- Das nächste Tempolimit voraus, klein neben dem aktuellen Schild mit Entfernung (wie bei Mercedes MBUX)
-- Buslinien: Ankunftszeit und Strecke bis zum nächsten Halt („Ankunft Osnabrück“), nummerierte Halte an der Route
-- Ansagen auf Deutsch, Englisch, Polnisch oder Türkisch, mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
+- Das nächste Tempolimit voraus, klein neben dem aktuellen Schild mit Entfernung (wie bei Mercedes MBUX) – in Großbritannien in mph wie auf den Schildern
+- Buslinien: Ankunftszeit und Strecke bis zum nächsten Halt („Ankunft Osnabrück“), nummerierte Halte an der Route; auf Wunsch Haltestellen-Durchsagen mit Gong, die in der Innenkamera beim Kopfdrehen an ihrem Lautsprecher hinten im Bus bleiben
+- Ansagen auf Deutsch, Englisch, Polnisch, Türkisch oder Chinesisch (mit chinesischer Windows-Stimme), mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
 - Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
 Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Straße. Das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19), deshalb weichen die Zahlen dort voneinander ab. Restkilometer, Ankunftszeit und Abstände zu Tankstellen rechnet CabPlay passend zum Spiel.
@@ -116,7 +116,8 @@ Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Stra�
 - Acht Designs: Rundinstrumente, Balken, Musik mit großem Cover, Karte, Karte mit Rundinstrumenten, Service (Fahrzeugzustand), Bordcomputer und Fahrassistenz – Farbe und Hintergrund nach Wahl, hell oder dunkel
 - Die Displaytaste des Spiels (ab Werk I) schaltet durch die Designs, die du ausgewählt hast
 - App CabPlay Ultra im Navi: Live-Vorschau, dazu Design, Hintergrund, Farbe und die wichtigsten Schalter per Tipp – beim Design-Wechsel gleiten Tempo, Gang und Navi an ihren neuen Platz
-- Widgets zwischen den Instrumenten wie bei CarPlay Ultra: Pause, Lieferfrist, Reichweite und Verbrauch der Reihe nach – was knapp wird, springt orange oder rot nach vorn
+- Widgets zwischen den Instrumenten wie bei CarPlay Ultra: Pause, Lieferfrist, Reichweite und Verbrauch der Reihe nach – was knapp wird, springt orange oder rot nach vorn. Auf Buslinien steht der nächste Halt mit Abweichung vorn
+- Kontrollleuchten wie im Truck, dazu die gelbe Motorkontrollleuchte, sobald der Motor 10 % Schaden hat
 - Instrumente Standard, Dünn, Breit, Mit Zeiger, Klassisch und Sportlich; Hintergründe wie Berge, Wellen, Polarlicht und Sternenhimmel in deiner Farbe; auf Wunsch Mitteilungen des Navis als Hinweis-Karte
 - Fahrassistenz: Straßen mit echten Breiten und Kreuzungen aus deiner Karte, Brücken und Unterführungen nur auf deiner Ebene, Verkehr als Pkw, Transporter, Lkw, Sattelzug und Bus mit Bremslichtern
 - Blaue Spur entlang der Route, Abbiegepfeile auf der Straße, Abstandstempomat und Spurhalteassistent aus dem Spiel
@@ -163,7 +164,7 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Spotify**: Ohne Einrichtung zeigt und steuert CabPlay, was in der Spotify-App am PC läuft. Für Mediathek, Playlists, Suche und Warteschlange verbindest du einmal dein Konto (siehe unten). Songtexte laufen mit, wenn es synchronisierte gibt (LRCLIB)
 - **Radio**: über 110 Sender (Deutsch, Englisch, USA, I LOVE RADIO) plus die Sender aus dem Online-Radio deines Spiels und eigene Sender
 - **Sport**: Live-Spielstände, Torschützen und Tabellen – Bundesliga bis 3. Liga, DFB-Pokal, Champions League, Premier League, LaLiga, Serie A und mehr, NFL und Formel 1. Lieblingsteams bekommen einen Live-Ticker als Mitteilung
-- **Auftrag**: Strecke, Lieferfrist, Puffer, Lohn, Kosten unterwegs, nächste Pause. Bei Buslinien: jeder Halt mit Fahrplan, ein- und aussteigenden Fahrgästen und „pünktlich“ oder „+N Min.“ wie im Spiel
+- **Auftrag**: Strecke, Lieferfrist, Puffer, Lohn, Kosten unterwegs, nächste Pause. Bei Buslinien wie das Fahrerdisplay im echten Bus: nächster Halt mit Plan und „pünktlich“ oder „+N Min.“, an der Haltestelle die Abfahrt mit Restzeit, die ganze Linie als Zeitleiste mit ein- und aussteigenden Fahrgästen – auch im Auftrags-Widget auf dem Dashboard
 - **Fahrzeug**: Tempo, Gang, Tank, AdBlue, Zustand von Zugmaschine und Anhänger, Kontrollleuchten und Warnlampen wie im Cockpit
 - **Blitzer**, Waagen und Mautstellen mit Warnton – Blitzer, die dich erwischt haben, merkt sich CabPlay
 - **Wetter** für den Ort, an dem du gerade bist (Open-Meteo, ohne Konto)
@@ -197,6 +198,8 @@ Home-Knopf gedrückt halten (oder Strg + Alt + V) und einfach reden, zum Beispie
 | Strg + Alt + V | Sprachbefehl |
 
 Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
+
+**Anpassen:** Die App-Leiste sitzt links, rechts, oben oder unten (Einstellungen › Home-Bildschirm & App-Icons). Lautstärken stellst du mit Schiebereglern ein, auch im Kartenmenü. Spielst du mit HDR, passen sich das Menü und der Touch-Modus der Helligkeit an.
 
 **Touch:** Entweder liegt CabPlay als Fenster über dem Spiel, oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck – Kopf- und Kabinenbewegungen rechnet CabPlay heraus. Die Kalibrierung merkt sich CabPlay für jeden Truck und jedes Auto.
 
@@ -236,7 +239,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay erscheint nicht im Spiel.**
-Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg + F8 das Menü öffnen und Anwenden drücken.
+Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg + F8 das Menü öffnen und Anwenden drücken. Was das Plugin im Spiel macht, steht in `cabplay.log` neben `cabplay.dll` im Ordner `bin\win_x64\plugins` des Spiels.
 
 **Muss ich das CabPlay-Fenster beim Spielen offen haben?**
 Nein. CabPlay startet mit dem Spiel und läuft im Hintergrund – alles ist auf dem Display im Truck bedienbar, das Fenster ist für die Einstellungen. Offen gelassen kostet es nur zusätzlich Rechenleistung. Schließt du es während des Spiels, läuft CabPlay weiter; beenden oder das Fenster wieder öffnen geht über das CabPlay-Symbol im Infobereich unten rechts.
