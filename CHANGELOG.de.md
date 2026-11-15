@@ -4,6 +4,19 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.7 (15.11.2026)
+
+- **Auftrags-App und -Widget für Buslinien**: Fährst du eine Linie mit dem Bus-DLC, zeigt das Auftrags-Widget wie das Fahrerdisplay im echten Bus den nächsten Halt mit Plan, Abweichung („+3 Min.“ / „pünktlich“) und den Halt danach, an der Haltestelle die Abfahrt mit Restzeit und wie viele ein- und aussteigen. Die Auftrags-App zeigt die ganze Linie als Zeitleiste, dazu Fahrgäste an Bord, Pünktlichkeit und die Strecke bis zum nächsten Halt. Auch im Kombiinstrument steht der nächste Halt als Widget – nur die Abweichung ist farbig, orange erst ab 5 Minuten Verspätung.
+- **Haltestellen-Durchsagen mit 3D-Klang**: Auf Wunsch (Einstellungen › Navigation & Hinweise, nur im Bus) sagt CabPlay „Nächster Halt“ und „Wir erreichen gleich …“ als Durchsage mit Gong an – sie klingt aus einem Lautsprecher hinten im Bus und bleibt dort, wenn du in der Innenkamera den Kopf drehst. Lautstärke getrennt einstellbar, mit „Durchsage testen“ zum Anhören.
+- **Lautstärke mit Schiebereglern**: In Töne & Lautstärke und im Kartenmenü stellst du die Lautstärken jetzt mit Reglern in 5er-Schritten ein, per Tippen oder Ziehen – auch im Spiel per Touch. Der Gong ist leiser, und ab Werk sind Ansagen und Durchsagen leiser eingestellt.
+- **App-Leiste oben oder unten**: Die Leiste mit den Apps lässt sich jetzt auch oben oder unten anordnen (Einstellungen › Home-Bildschirm & App-Icons › Seitenleiste). Karte, Musik und Hintergründe laufen unter der Leiste durch.
+- **Ingame-Menü in HDR**: Spielst du mit HDR, erscheint das Ingame-Menü (Strg+F8) jetzt in der richtigen Helligkeit statt blass oder grell. Im Menü lässt sich das HDR-Menü bei Bedarf umstellen.
+- **Großbritannien**: Das nächste Tempolimit zeigt in Großbritannien mph wie auf den Schildern, und die Spurhinweise im Kombiinstrument rechnen mit Linksverkehr – auch nach Autobahnen und Auffahrten.
+- **Ruhigere Spurhinweise**: An Rastplätzen und Ausfahrten, an denen du nicht abfährst, springt der Spurhinweis nicht mehr hin und her. Ausfahrten mit zwei Abfahrspuren werden jetzt auch richtig gezeigt.
+- **Chinesische Ansagen mit chinesischer Stimme**: Ist die Oberfläche auf Chinesisch und eine chinesische Windows-Stimme installiert, liest diese die Ansagen jetzt wieder vor – ohne Buchstabieren. Abbiegungen, Lieferfrist, Pausen, Blitzer, Wetter und Telefon sind in allen Sprachen vollständig übersetzt. Danke an KloseY, YaYu-87 und yzget für die Hinweise!
+- **Motorkontrollleuchte in CabPlay Ultra**: Hat der Motor 10 % Schaden oder mehr, leuchtet im Kombiinstrument die gelbe Motorkontrollleuchte – Zeit für die Werkstatt.
+- **Weitere Verbesserungen**: Startet die App mit dem Spiel nicht beim ersten Mal, versucht das Plugin es bis zu dreimal. Das Plugin schreibt sein Protokoll jetzt in `cabplay.log` neben der DLL. Bei Google und Apple Karten lassen sich Abbiegehinweis, Ankunftszeit und Tempo-Anzeige wieder ausblenden. Der Live-Ticker zeigt jetzt auch Länderspiele (Nations League, Freundschaftsspiele).
+
 ## 1.18.6 (14.11.2026)
 
 - **CabPlay erkennt das Cockpit**: Manche Lkw gibt es mit verschiedenen Innenausstattungen. CabPlay liest jetzt aus dem Spiel, welche eingebaut ist, und stellt das Navi-Bild passend ein. Beim Scania R/S 2016 füllt es mit Smartdash das große Display und liegt bei der normalen Ausstattung im sichtbaren Streifen. Genauso beim Renault T (2019 / 2024) und beim Freightliner Cascadia (mit Zeigern / digital). Touch trifft in beiden Fällen.

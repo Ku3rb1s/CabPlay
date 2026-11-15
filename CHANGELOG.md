@@ -4,6 +4,19 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.7 (2026-11-15)
+
+- **Job app and widget for bus lines**: when you drive a line with the bus DLC, the job widget shows the next stop like the driver display in a real bus, with the timetable, the deviation ("+3 min" / "on time") and the stop after that; at the stop it shows the departure with time left and how many passengers get on and off. The job app shows the whole line as a timeline, plus passengers on board, punctuality and the distance to the next stop. The instrument cluster shows the next stop as a widget too – only the deviation is coloured, orange from 5 minutes late.
+- **Stop announcements with 3D sound**: if you like (Settings › Navigation & alerts, only in a bus), CabPlay announces "Next stop" and "We are arriving at …" with a chime – it sounds from a speaker at the back of the bus and stays there when you turn your head in the interior camera. The volume has its own setting, with "Test bus announcement" to listen to it.
+- **Volume sliders**: in Sounds & volume and in the map menu you now set volumes with sliders in steps of 5, by tapping or dragging – touch in the game included. The chime is quieter, and announcements are set quieter by default.
+- **App bar at the top or bottom**: the app bar can now also sit at the top or the bottom (Settings › Home screen & app icons › Sidebar). Map, music and backgrounds run underneath the bar.
+- **Ingame menu in HDR**: if you play with HDR, the ingame menu (Ctrl+F8) now shows at the right brightness instead of washed out or glaring. The HDR menu setting can be changed in the menu if needed.
+- **United Kingdom**: in the UK the next speed limit shows mph like the signs, and the lane hints in the instrument cluster use left-hand traffic – also after motorways and slip roads.
+- **Calmer lane hints**: at rest areas and exits you don't take, the lane hint no longer jumps back and forth. Exits with two exit lanes are now shown correctly too.
+- **Chinese announcements with a Chinese voice**: with the interface in Chinese and a Chinese Windows voice installed, it reads the announcements again – without spelling them out. Turns, delivery deadline, breaks, speed cameras, weather and phone are fully translated in every language. Thanks to KloseY, YaYu-87 and yzget for the reports!
+- **Check engine light in CabPlay Ultra**: once the engine has 10 % damage or more, the yellow check engine light comes on in the instrument cluster – time for the workshop.
+- **More improvements**: if the app doesn't start with the game the first time, the plugin tries up to three times. The plugin now writes its log to `cabplay.log` next to the DLL. With Google and Apple Maps, the turn instruction, arrival time and speed display can be hidden again. The live ticker now also shows national team matches (Nations League, friendlies).
+
 ## 1.18.6 (2026-11-14)
 
 - **CabPlay recognises the cab**: some trucks come with different interiors. CabPlay now reads from the game which one is installed and adjusts the navigation image to match. In the Scania R/S 2016 it fills the large display with Smartdash and sits in the visible strip with the standard interior. The same goes for the Renault T (2019 / 2024) and the Freightliner Cascadia (gauges / digital). Touch hits the right spot in both cases.
