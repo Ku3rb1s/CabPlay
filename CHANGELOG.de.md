@@ -4,6 +4,15 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.18.8 (15.11.2026)
+
+- **Lange Songtitel wie bei Apple CarPlay**: Passt ein Titel nicht ganz hin, steht er linksbündig, läuft nach einer kurzen Pause weich bis zu seinem Ende, wartet dort und beginnt dann von vorn – im Navi und in CabPlay Ultra. Interpret und Album enden einfach mit „…“. Im Kombiinstrument läuft ein langer Titel nicht mehr über die Instrumente, und der Lauftext zittert nicht mehr.
+- **Blinker-Kamera im MAN Lion's Coach und Iveco S-Way**: Beide zeichnen die Trennlinie zwischen den Spiegeln nicht schwarz, sondern grau bzw. braun-grau – CabPlay erkennt sie jetzt und zeigt beim Blinken die Kamera, auch bei grauem Himmel.
+- **Keine falsche Blinker-Kamera mehr**: Fahrzeuge ohne Kameraspiegel im Spiel – etwa alle Scania, Mercedes Actros oder ältere Volvo und DAF – zeigten beim Blinken teils ein Bild mit der Karte. Die Blinker-Kamera gibt es jetzt nur noch bei Fahrzeugen, die im Spiel wirklich Kameraspiegel haben.
+- **Fahrassistenz in CabPlay Ultra**: In ATS liegt kein roter Haltebalken mehr unter dem eigenen Truck, wenn er schon in der Kreuzung steht, und die Restzeit der Ampel steht neben der Ampel statt über der eigenen Spur. Der Abstand zum Vordermann zählt ab der eigenen Front, im Bus also richtig. In Großbritannien steht das angedeutete Tempolimit-Schild am linken Rand.
+- **Ampeln im Navi**: In Großbritannien zeigt das Navi die Ampel der eigenen Fahrbahn statt der des Gegenverkehrs. In ATS zeigt es an Kreuzungen, an denen die Route abbiegt, keine Ampel des Gegen- oder Querverkehrs mehr.
+- **Stabiler und sicherer**: Ein seltener Spielabsturz beim Wechsel der Bildgröße (z. B. Lkw-Wechsel mit anderem Displayformat) ist behoben. Eine von Hand bearbeitete Einstellungsdatei setzt nicht mehr alle Einstellungen zurück – ist sie wirklich kaputt, bleibt eine Sicherung erhalten. Die Handy-Steuerung nimmt nur noch Verbindungen aus dem Heimnetz an, und das App-Protokoll läuft auch in langen Sitzungen weiter.
+
 ## 1.18.7 (15.11.2026)
 
 - **Auftrags-App und -Widget für Buslinien**: Fährst du eine Linie mit dem Bus-DLC, zeigt das Auftrags-Widget wie das Fahrerdisplay im echten Bus den nächsten Halt mit Plan, Abweichung („+3 Min.“ / „pünktlich“) und den Halt danach, an der Haltestelle die Abfahrt mit Restzeit und wie viele ein- und aussteigen. Die Auftrags-App zeigt die ganze Linie als Zeitleiste, dazu Fahrgäste an Bord, Pünktlichkeit und die Strecke bis zum nächsten Halt. Auch im Kombiinstrument steht der nächste Halt als Widget – nur die Abweichung ist farbig, orange erst ab 5 Minuten Verspätung.

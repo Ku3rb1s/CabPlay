@@ -4,6 +4,15 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.18.8 (2026-11-15)
+
+- **Long song titles like Apple CarPlay**: if a title doesn't fit, it sits left-aligned, scrolls smoothly to its end after a short pause, waits there and then starts again – on the navigation screen and in CabPlay Ultra. Artist and album simply end with "…". In the instrument cluster a long title no longer runs over the gauges, and the scrolling no longer jitters.
+- **Indicator camera in the MAN Lion's Coach and Iveco S-Way**: both draw the divider between the mirrors in grey or brownish grey instead of black – CabPlay now recognises it and shows the camera when you indicate, even under a grey sky.
+- **No more wrong indicator camera**: vehicles without camera mirrors in the game – such as all Scania, the Mercedes Actros or older Volvo and DAF trucks – sometimes showed an image with the map when indicating. The indicator camera is now only available in vehicles that really have camera mirrors in the game.
+- **Driver assist in CabPlay Ultra**: in ATS, no red stop bar appears under your own truck any more once it is already in the junction, and the light's remaining time sits next to the light instead of above your own lane. The distance to the vehicle ahead is measured from your own front, so it is correct in a bus too. In the UK, the speed limit sign hint appears on the left edge.
+- **Traffic lights on the navigation screen**: in the UK the navigation shows the light for your own carriageway instead of the oncoming one. In ATS it no longer shows the light of oncoming or crossing traffic at junctions where the route turns.
+- **More stable and secure**: a rare game crash when the image size changes (e.g. switching to a truck with a different display format) is fixed. A settings file edited by hand no longer resets all settings – if it is really broken, a backup is kept. Phone control now only accepts connections from your home network, and the app log keeps going in long sessions.
+
 ## 1.18.7 (2026-11-15)
 
 - **Job app and widget for bus lines**: when you drive a line with the bus DLC, the job widget shows the next stop like the driver display in a real bus, with the timetable, the deviation ("+3 min" / "on time") and the stop after that; at the stop it shows the departure with time left and how many passengers get on and off. The job app shows the whole line as a timeline, plus passengers on board, punctuality and the distance to the next stop. The instrument cluster shows the next stop as a widget too – only the deviation is coloured, orange from 5 minutes late.
