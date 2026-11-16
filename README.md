@@ -80,7 +80,7 @@ With CabPlay Ultra, CabPlay can also take over the digital instrument cluster be
 | ![Music design with large cover art](bilder/kombi-musik.jpg) | ![Dials with navigation and music](bilder/kombi-rund.jpg) |
 | Music with large cover art | Dials with navigation and music, night blue background |
 
-To switch it on: in the CabPlay menu in the game under **Instrument cluster · Beta** (trucks with a fully digital cluster, e.g. Volvo FH). You pick from eight designs in the app under Settings › Instrument cluster, and the game's display key (**I** by default) cycles through the ones you selected.
+To switch it on: in the CabPlay menu in the game under **Instrument cluster · Beta** (trucks with a fully digital cluster, e.g. Volvo FH). You pick from nine designs in the app under Settings › Instrument cluster, and the game's display key (**I** by default) cycles through the ones you selected.
 
 ## Requirements
 
@@ -102,7 +102,7 @@ To switch it on: in the CabPlay menu in the game under **Instrument cluster · B
 - Signposts with road number and destination from the real signs
 - Traffic lights with countdown, speed limit, arrival time, rest stops along the route, notices before borders and steep grades
 - The next speed limit ahead, small next to the current sign with its distance (like Mercedes MBUX) – in the UK in mph like the signs
-- Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route; optional stop announcements with a chime that stay at their speaker at the back of the bus when you turn your head in the interior camera
+- Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route; optional stop announcements with a chime – "Next stop" when pulling away – that stay at their speaker at the back of the bus when you turn your head in the interior camera
 - Voice guidance in German, English, Polish, Turkish or Chinese (with a Chinese Windows voice), with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you
 - Optional: a warning before tight curves if you're too fast
 
@@ -113,7 +113,7 @@ Distances for turns and lanes are the real distance on the road. The game's navi
 <details>
 <summary><b>CabPlay Ultra in the instrument cluster (beta)</b></summary>
 
-- Eight designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer and driver assistance – colour and background of your choice, light or dark
+- Nine designs: dials, bars, music with large cover art, map, map with dials, service (vehicle condition), trip computer, job (route, distance left, delivery time and pay – the bus line in a bus) and driver assistance – colour and background of your choice, light or dark
 - The game's display key (I by default) cycles through the designs you selected
 - CabPlay Ultra app on the navigation screen: live preview, then design, background, colour and the main switches with a tap – when you switch designs, speed, gear and navigation glide to their new place
 - Widgets between the dials like in CarPlay Ultra: break, delivery deadline, range and consumption in turn – whatever gets tight jumps to the front in orange or red. On bus lines the next stop with its deviation stays in front
@@ -134,7 +134,7 @@ CabPlay reads the map from your game files, with all your DLCs, and rebuilds it 
 
 - Roads as wide as their lanes, bridges above the roads below, one-way arrows, and up close lane markings and painted turn arrows
 - Buildings, water, forests, meadows, fields, rock and sand, company yards with their lots
-- Two styles like Google Maps and Apple Maps, light and dark, flat or tilted from behind
+- Two styles like Google Maps and Apple Maps, light and dark, flat or tilted from behind – the turn banner and speed display stay as in the original or go into a corner of your choice
 - Off by default, switch on any time: 3D buildings, small towns, viewpoints, hidden roads and secret shortcuts
 
 Rivers, lakes, canals and the sea come straight from the game's terrain – from the Rhine to the fjords. Small spots can still be off: if the map is wrong somewhere, choose "Report a map error" in the map menu – feel free to attach it here as an issue.
@@ -169,7 +169,7 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Speed cameras**, weigh stations and toll booths with alert sound – cameras that caught you are remembered
 - **Weather** for where you are right now (Open-Meteo, no account)
 - **Video**: YouTube, Twitch and TikTok, and if you like other websites with a built-in player. Switch apps and the video keeps playing as picture in picture – drag it to any corner, in three sizes. Timeline, seeking, speed up to 2×, resume where you left off, pause during calls and controls in the dashboard's music widget
-- **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia
+- **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia. Camera mirrors from a mod can be enabled per truck under Settings › Mirror camera
 - **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
 - Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
 - **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster, and when reversing the navigation display shows the bus's rear camera like in the game
@@ -224,7 +224,7 @@ The sign-in stays on your PC (`%APPDATA%\CabPlay`). Playing from the library nee
 
 - **Updates**: CabPlay checks for a new version at start, downloads it and installs it when you close the app – the plugin too. Every file is checked with SHA-256, your settings stay. Whether there's a desktop shortcut is up to you under Software update
 - **Mods**: company and city names from enabled mods also appear on the map. Map mods (ProMods, RPM …) don't work – map and navigation won't match there, everything else works
-- **Backup**: Settings › General › "Back up settings …" writes settings, learned speed cameras and videos to a file. Clear the video sites' history and cookies under Settings › Video
+- **Backup**: Settings › General › "Back up settings …" writes settings, learned speed cameras and videos to a file. Under Settings › General › Reset you can reset single areas (map overlays, dashboard, app names, leagues) or everything. Clear the video sites' history and cookies under Settings › Video
 
 </details>
 
@@ -245,10 +245,13 @@ Quit the game completely, start it again and confirm the SDK prompt. In the app,
 No. CabPlay starts with the game and runs in the background – everything works on the truck display, the window is for settings. Leaving it open only costs extra performance. If you close it while playing, CabPlay keeps running; to quit or open the window again, use the CabPlay icon in the notification area at the bottom right.
 
 **The picture on the display in the cab is cut off or stretched.**
-Older trucks like the Scania R or MAN TGX only show part of the navigation image, or their display has a different shape. Get in, then under Settings › Display & brightness choose the format of the display and set the visible area (margin top, bottom, left, right) until everything fits. Scania R and Streamline are already set up.
+Older trucks like the Scania R or MAN TGX only show part of the navigation image, or their display has a different shape. Get in, then under Settings › Display & brightness › Display in the truck choose the format of the display and set the visible area (margin top, bottom, left, right) until everything fits. Scania R and Streamline are already set up.
 
 **The map is empty or outdated.**
-Settings › About › Rebuild map. CabPlay does this by itself after game updates.
+Settings › General › Map data › Rebuild map now. CabPlay does this by itself after game updates.
+
+**The navigation display in the truck stays black or only shows "GPS".**
+CabPlay can't find its placeholder in the game then. Set the game's texture quality to the highest level and turn off mods that replace the navigation (e.g. GPS/PC). If it still doesn't work, attach `cabplay.log` (see above) and `game.log.txt` from `Documents\Euro Truck Simulator 2` to an issue.
 
 **Steam still shows the game as running after I quit.**
 CabPlay is finishing the map then, which the CabPlay icon in the Windows notification area shows. It closes by itself afterwards. You can also quit right away from the icon, the build then starts over next time.
