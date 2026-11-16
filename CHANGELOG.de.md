@@ -4,6 +4,17 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.19.0 (16.11.2026)
+
+- **Einstellungen aufgeräumt wie bei Apple**: Jede Einstellung hat jetzt genau einen Platz. Neu sind eigene Seiten für die Spiegelkamera, für das Display im Truck sowie für Instrumente und Fahrassistenz im Kombiinstrument. Unter Allgemein › Zurücksetzen lassen sich einzelne Bereiche oder alles zurücksetzen. Die Hinweistexte sind kürzer, und alle Lautstärkeregler laufen in 1er-Schritten.
+- **Neues Kombi-Design „Auftrag“**: Rundinstrumente links und rechts, dazwischen der Auftrag mit Strecke, Ladung, Restweg, Lieferfrist, Lohn und Fortschritt – im Bus die Buslinie mit nächstem Halt, Abweichung und Fahrgästen.
+- **Google- und Apple-Kartenstil frei anordnen**: Abbiegehinweis und Tempo-Anzeige lassen sich dort jetzt in eine Ecke legen – das Aussehen bleibt wie im Original. Ein Knopf setzt alle Positionen zurück.
+- **Buslinien**: Die Auftrags-App zeigt die Halte übersichtlicher, mit Pfeilen für Ein- und Aussteiger. „Nächster Halt“ kommt erst, wenn der Bus losfährt, und Navi-Ansagen unterbrechen eine Durchsage nicht mehr.
+- **Navi genauer**: Bei zwei Abbiegungen kurz hintereinander zeigt der Pfeil die richtige an, falsche Spurpfeile der vorigen Kreuzung sind weg, und das nächste Tempolimit beachtet nur noch Schilder der eigenen Route.
+- **Karte**: Die Insel unter der A16-Brücke in Rotterdam und das Autobahnkreuz an der A12 bei Antwerpen sind jetzt Land statt Wasser.
+- **Blinker-Kamera mit Mods**: Hat ein Lkw Kameraspiegel aus einer Mod, lässt sich die Blinker-Kamera für ihn unter Einstellungen › Spiegelkamera einschalten.
+- **Fehler behoben**: CabPlay startet mit dem Spiel auch, wenn es als Administrator eingestellt ist. Bei reduzierter Texturqualität bleibt das Navi-Display nicht mehr schwarz. Im Scania mit Smartdash ist der farbige Rand ums Display weg. Ohne Zugriff auf Wikimedia erscheint kein kaputtes Logo mehr, und KI-Stimmen laden bei gesperrtem Hugging Face über einen Spiegel.
+
 ## 1.18.8 (15.11.2026)
 
 - **Lange Songtitel wie bei Apple CarPlay**: Passt ein Titel nicht ganz hin, steht er linksbündig, läuft nach einer kurzen Pause weich bis zu seinem Ende, wartet dort und beginnt dann von vorn – im Navi und in CabPlay Ultra. Interpret und Album enden einfach mit „…“. Im Kombiinstrument läuft ein langer Titel nicht mehr über die Instrumente, und der Lauftext zittert nicht mehr.

@@ -4,6 +4,17 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.19.0 (2026-11-16)
+
+- **Settings tidied up the Apple way**: every setting now has exactly one place. There are new pages for the mirror camera, the display in the truck, and gauges and driver assist in the instrument cluster. Under General › Reset you can reset single areas or everything. Notes are shorter, and all volume sliders move in steps of 1.
+- **New cluster design "Job"**: round gauges left and right, in between the job with route, cargo, distance left, delivery time, pay and progress – in a bus the bus line with next stop, delay and passengers.
+- **Arrange the Google and Apple map styles**: the turn banner and the speed display can now be placed in a corner there – the look stays like the original. A button resets all positions.
+- **Bus lines**: the Job app shows the stops more clearly, with arrows for boarding and alighting passengers. "Next stop" only comes once the bus pulls away, and navigation announcements no longer cut off a stop announcement.
+- **More accurate navigation**: with two turns close together the arrow shows the right one, wrong lane arrows from the previous junction are gone, and the next speed limit only uses signs on your own route.
+- **Map**: the island under the A16 bridge in Rotterdam and the A12 interchange near Antwerp are now land instead of water.
+- **Indicator camera with mods**: if a truck has camera mirrors from a mod, you can turn on the indicator camera for it under Settings › Mirror camera.
+- **Fixes**: CabPlay starts with the game even when it's set to run as administrator. With reduced texture quality the navigation display no longer stays black. In the Scania with Smartdash the coloured border around the display is gone. Without access to Wikimedia no broken logo appears, and AI voices download via a mirror when Hugging Face is blocked.
+
 ## 1.18.8 (2026-11-15)
 
 - **Long song titles like Apple CarPlay**: if a title doesn't fit, it sits left-aligned, scrolls smoothly to its end after a short pause, waits there and then starts again – on the navigation screen and in CabPlay Ultra. Artist and album simply end with "…". In the instrument cluster a long title no longer runs over the gauges, and the scrolling no longer jitters.
