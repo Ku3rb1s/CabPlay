@@ -4,6 +4,17 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.20.0 (17.11.2026)
+
+- **Natürliche chinesische Stimme**: Chinesische Ansagen liest jetzt auf Wunsch die AI-Stimme Xiaoyu (Kokoro) vor – direkt in der App, ohne Internet. Laden unter Einstellungen › Sprachassistent, sobald die Ansagen auf Chinesisch stehen. Orts- und Straßennamen werden dafür ins Chinesische übertragen; drei weitere Stimmen stehen zur Wahl.
+- **Sprache der Ansagen frei wählbar**: Navi, Disponent, Blitzer und Durchsagen können eine andere Sprache haben als die Oberfläche. Die Sprachauswahl zeigt jede Sprache auch in deiner, etwa „Chinesisch, vereinfacht (简体中文)“.
+- **Ruhigere Spuranzeige**: Auffahrten und Beschleunigungsstreifen erscheinen nicht mehr als zusätzliche Spur. Die Spuren einer Ausfahrt kommen etwa 300 m vorher und bleiben stehen, und vor Kreisverkehren zeigt jede Spur das Kreisverkehr-Symbol mit ihrer Ausfahrt.
+- **Blinker-Kamera**: Nach einem Wechsel in die Außenansicht und zurück bleibt das Bild nicht mehr stehen.
+- **Kombiinstrument**: Uhrzeit und Temperatur weichen aus, wenn viele Kontrollleuchten leuchten. Die Displaytaste schaltet jetzt auch zum Design „Auftrag“. In der Fahrassistenz ist der Abbiegehinweis über der Straße besser lesbar.
+- **Mit Grafik-Mods**: Mit einer `dxgi.dll` im Spielordner (z. B. TAA-/DLSS-Mods oder ReShade) erkennt CabPlay das Navi-Display jetzt auch dann, und das Spiel stürzt beim Ändern der Grafikeinstellungen nicht mehr ab.
+- **Buslinien**: Die englische Durchsage an der Endhaltestelle klingt freundlicher, und vor dem letzten Halt bleibt das Buslinien-Widget mittig.
+- **Aufgeräumt**: Die alte Stimme Kerstin ist entfernt – ihre Dateien löscht CabPlay selbst, an ihre Stelle tritt Olivia. Hinweise ohne Karte nennen keinen Dateipfad mehr, sondern den Weg zur Einstellung.
+
 ## 1.19.0 (16.11.2026)
 
 - **Einstellungen aufgeräumt wie bei Apple**: Jede Einstellung hat jetzt genau einen Platz. Neu sind eigene Seiten für die Spiegelkamera, für das Display im Truck sowie für Instrumente und Fahrassistenz im Kombiinstrument. Unter Allgemein › Zurücksetzen lassen sich einzelne Bereiche oder alles zurücksetzen. Die Hinweistexte sind kürzer, und alle Lautstärkeregler laufen in 1er-Schritten.

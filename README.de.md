@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.19.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.20.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -103,7 +103,7 @@ Einschalten: im CabPlay-Menü im Spiel unter **Kombiinstrument · Beta** (Trucks
 - Ampeln mit Restzeit, Tempolimit, Ankunftszeit, Rastplätze entlang der Strecke, Hinweise vor Grenzen und Steigungen
 - Das nächste Tempolimit voraus, klein neben dem aktuellen Schild mit Entfernung (wie bei Mercedes MBUX) – in Großbritannien in mph wie auf den Schildern
 - Buslinien: Ankunftszeit und Strecke bis zum nächsten Halt („Ankunft Osnabrück“), nummerierte Halte an der Route; auf Wunsch Haltestellen-Durchsagen mit Gong – „Nächster Halt“ beim Losfahren –, die in der Innenkamera beim Kopfdrehen an ihrem Lautsprecher hinten im Bus bleiben
-- Ansagen auf Deutsch, Englisch, Polnisch, Türkisch oder Chinesisch (mit chinesischer Windows-Stimme), mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
+- Ansagen auf Deutsch, Englisch, Polnisch, Türkisch oder Chinesisch – auch in einer anderen Sprache als die Oberfläche –, mit Windows-Stimmen oder zehn KI-Stimmen (etwa 400 MB, nur auf Wunsch); auf Chinesisch mit der natürlichen KI-Stimme Xiaoyu (etwa 185 MB, nur auf Wunsch). Wer schon zur richtigen Spur blinkt, wird nicht unnötig ermahnt
 - Optional: Warnung vor engen Kurven, wenn du zu schnell bist
 
 Die Entfernungen bei Abbiegungen und Spuren sind die echte Strecke auf der Straße. Das Navi des Spiels rechnet in gestauchten Spielkilometern (auf dem Land etwa 1:19), deshalb weichen die Zahlen dort voneinander ab. Restkilometer, Ankunftszeit und Abstände zu Tankstellen rechnet CabPlay passend zum Spiel.
@@ -279,7 +279,7 @@ Einmal `CabPlay-Setup` aus den [Releases](../../releases/latest) von Hand instal
 - Meeresflächen: [Natural Earth](https://www.naturalearthdata.com/) (gemeinfrei). Liste der Dörfer im Spiel: krmarci, aus dem TruckSim-Kartenparser.
 - Sport: [OpenLigaDB](https://www.openligadb.de/) (deutsche Ligen), ESPN (weitere Ligen, NFL), [Jolpica](https://jolpi.ca/) (Formel 1). Markenlogos der Trucks: Wikimedia Commons.
 - Radiosender: [radio-browser.info](https://www.radio-browser.info/), Songtexte: [LRCLIB](https://lrclib.net/), Wetter: [Open-Meteo](https://open-meteo.com/) und MET Norway.
-- Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT).
+- Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT), chinesische Stimme Kokoro (Apache 2.0) über sherpa-onnx (Apache 2.0).
 - Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1). Gebaut mit [Electron](https://www.electronjs.org/).
 
 </details>

@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.19.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.20.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -103,7 +103,7 @@ To switch it on: in the CabPlay menu in the game under **Instrument cluster · B
 - Traffic lights with countdown, speed limit, arrival time, rest stops along the route, notices before borders and steep grades
 - The next speed limit ahead, small next to the current sign with its distance (like Mercedes MBUX) – in the UK in mph like the signs
 - Bus lines: arrival time and distance to the next stop ("Arrival Osnabrück"), numbered stops along the route; optional stop announcements with a chime – "Next stop" when pulling away – that stay at their speaker at the back of the bus when you turn your head in the interior camera
-- Voice guidance in German, English, Polish, Turkish or Chinese (with a Chinese Windows voice), with Windows voices or ten AI voices (about 400 MB, only if you want them). If you're already signaling for the right lane, it won't nag you
+- Voice guidance in German, English, Polish, Turkish or Chinese – also in a different language than the interface –, with Windows voices or ten AI voices (about 400 MB, only if you want them); in Chinese with the natural AI voice Xiaoyu (about 185 MB, only if you want it). If you're already signaling for the right lane, it won't nag you
 - Optional: a warning before tight curves if you're too fast
 
 Distances for turns and lanes are the real distance on the road. The game's navigation counts in compressed game kilometers (about 1:19 in the countryside), so the numbers differ there. Remaining distance, arrival time and distances to fuel stations are converted to match the game.
@@ -279,7 +279,7 @@ Via Windows › Settings › Apps, in CabPlay under Settings › General › Uni
 - Sea areas: [Natural Earth](https://www.naturalearthdata.com/) (public domain). List of villages in the game: krmarci, from the TruckSim map parser.
 - Sports: [OpenLigaDB](https://www.openligadb.de/) (German leagues), ESPN (other leagues, NFL), [Jolpica](https://jolpi.ca/) (Formula 1). Truck brand logos: Wikimedia Commons.
 - Radio stations: [radio-browser.info](https://www.radio-browser.info/), lyrics: [LRCLIB](https://lrclib.net/), weather: [Open-Meteo](https://open-meteo.com/) and MET Norway.
-- Voice assistant: whisper.cpp and llama.cpp (MIT), language model Qwen (Apache 2.0), Supertonic 3 voices by Supertone (OpenRAIL-M) via ONNX Runtime (MIT).
+- Voice assistant: whisper.cpp and llama.cpp (MIT), language model Qwen (Apache 2.0), Supertonic 3 voices by Supertone (OpenRAIL-M) via ONNX Runtime (MIT), Chinese voice Kokoro (Apache 2.0) via sherpa-onnx (Apache 2.0).
 - Font: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1). Built with [Electron](https://www.electronjs.org/).
 
 </details>

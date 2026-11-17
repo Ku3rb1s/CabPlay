@@ -4,6 +4,17 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.20.0 (2026-11-17)
+
+- **Natural Chinese voice**: Chinese announcements can now be read by the AI voice Xiaoyu (Kokoro) – right in the app, without internet. Download it under Settings › Voice assistant as soon as announcements are set to Chinese. Place and road names are converted to Chinese for it; three more voices are available.
+- **Choose the announcement language**: navigation, dispatcher, speed cameras and announcements can use a different language than the interface. The language list also shows each language in yours, e.g. "Chinese, Simplified (简体中文)".
+- **Calmer lane guidance**: on-ramps and acceleration lanes no longer appear as an extra lane. The lanes of an exit appear about 300 m ahead and stay, and before roundabouts every lane shows the roundabout symbol with its exit.
+- **Indicator camera**: after switching to the outside view and back, the picture no longer freezes.
+- **Instrument cluster**: clock and temperature move aside when many warning lights are on. The display key now also switches to the "Job" design. In driver assist the turn banner over the road is easier to read.
+- **With graphics mods**: with a `dxgi.dll` in the game folder (e.g. TAA/DLSS mods or ReShade) CabPlay now also finds the navigation display, and the game no longer crashes when changing graphics settings.
+- **Bus lines**: the English announcement at the final stop sounds friendlier, and before the last stop the bus line widget stays centred.
+- **Tidied up**: the old voice Kerstin is removed – CabPlay deletes her files itself, Olivia takes her place. Notes without a map no longer show a file path but the way to the setting.
+
 ## 1.19.0 (2026-11-16)
 
 - **Settings tidied up the Apple way**: every setting now has exactly one place. There are new pages for the mirror camera, the display in the truck, and gauges and driver assist in the instrument cluster. Under General › Reset you can reset single areas or everything. Notes are shorter, and all volume sliders move in steps of 1.
