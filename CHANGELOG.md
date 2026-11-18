@@ -4,6 +4,14 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.20.1 (2026-11-18)
+
+- **With OptiScaler**: the game no longer crashes while loading when OptiScaler (also together with other graphics mods) is in the game folder.
+- **Graphics settings and Alt+Tab**: CabPlay no longer interferes when the game re-creates its back buffer – this mainly affected systems with the NVIDIA driver in fullscreen.
+- **Quitting with other plugins**: when other plugins run alongside (e.g. BeyondCab), the game no longer crashes on exit.
+- **Navigation in buses**: after loading, the display shows CabPlay right away instead of the old game navigation – before, only after shifting into reverse once.
+- **Traditional Chinese**: if no Taiwan voice is installed, a Hong Kong voice (e.g. Tracy) now reads the announcements instead of the Simplified Chinese voice – just as the settings show.
+
 ## 1.20.0 (2026-11-17)
 
 - **Natural Chinese voice**: Chinese announcements can now be read by the AI voice Xiaoyu (Kokoro) – right in the app, without internet. Download it under Settings › Voice assistant as soon as announcements are set to Chinese. Place and road names are converted to Chinese for it; three more voices are available.

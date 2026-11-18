@@ -4,6 +4,14 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.20.1 (18.11.2026)
+
+- **Mit OptiScaler**: Das Spiel stürzt beim Laden nicht mehr ab, wenn OptiScaler (auch zusammen mit anderen Grafik-Mods) im Spielordner liegt.
+- **Grafikeinstellungen und Alt+Tab**: CabPlay mischt sich nicht mehr ein, wenn das Spiel seinen Bildpuffer neu anlegt – das betraf vor allem Systeme mit NVIDIA-Treiber und Vollbild.
+- **Beenden mit anderen Plugins**: Laufen weitere Plugins mit (z. B. BeyondCab), stürzt das Spiel beim Beenden nicht mehr ab.
+- **Navi im Bus**: Nach dem Laden zeigt das Display sofort CabPlay statt des alten Spiel-Navis – vorher erst nach einmal Rückwärtsgang.
+- **Traditionelles Chinesisch**: Ist keine Taiwan-Stimme installiert, liest jetzt eine Hongkong-Stimme (z. B. Tracy) vor statt der Stimme für vereinfachtes Chinesisch – so wie es die Einstellungen anzeigen.
+
 ## 1.20.0 (17.11.2026)
 
 - **Natürliche chinesische Stimme**: Chinesische Ansagen liest jetzt auf Wunsch die AI-Stimme Xiaoyu (Kokoro) vor – direkt in der App, ohne Internet. Laden unter Einstellungen › Sprachassistent, sobald die Ansagen auf Chinesisch stehen. Orts- und Straßennamen werden dafür ins Chinesische übertragen; drei weitere Stimmen stehen zur Wahl.
