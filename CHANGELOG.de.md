@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.20.2 (20.11.2026)
+
+- **Menüs in hohen Auflösungen**: Das Menü (Strg+F8) und das Touch-Fenster wachsen mit der Auflösung mit – in 1440p und 4K sind sie nicht mehr winzig, die Schrift bleibt scharf. Die Größe lässt sich auch selbst wählen: Strg+F8 › Start & Darstellung › Menügröße.
+- **Großes Zweit-Display**: Das Touch-Fenster (Strg+Alt+M) kann CabPlay jetzt auch nur anzeigen – praktisch bei Trucks mit kleinem Navi. Die Maus bleibt dabei beim Spiel, du kannst dich weiter umschauen; bedienen lässt es sich bei geöffnetem Menü. Einschalten unter Strg+F8 › Touch › Fenster nur anzeigen.
+- **Kartenelemente je Kartenstil**: Jeder Kartenstil merkt sich die Positionen von Abbiegehinweis, Tempo-Anzeige und Co. – nach einem Stilwechsel stehen sie wieder dort, wo du sie für diesen Stil eingestellt hast.
+- **Größe des Truck-Symbols**: Einstellungen › Karten › Truck-Symbol: Klein, Mittel oder Groß.
+- **CabPlay Ultra**: Beim Anlassen des Motors erscheint nicht mehr jedes Mal die Warnung „Öldruck niedrig“, solange sich der Druck noch aufbaut.
+- **Karte für ATS**: Fehlen einige Staats-DLCs, bricht der Kartenbau nicht mehr ab – die Karte zeigt dann die Staaten, die du besitzt.
+- **Stabilität**: CabPlay legt beim Start keine Hilfs-Swapchain mehr an. Das betraf Systeme, auf denen das Spiel beim Ändern der Grafikeinstellungen oder bei Alt+Tab abstürzte.
+
 ## 1.20.1 (18.11.2026)
 
 - **Mit OptiScaler**: Das Spiel stürzt beim Laden nicht mehr ab, wenn OptiScaler (auch zusammen mit anderen Grafik-Mods) im Spielordner liegt.
