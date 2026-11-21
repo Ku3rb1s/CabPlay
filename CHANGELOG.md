@@ -4,6 +4,16 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.21.0 (2026-11-21)
+
+- **New "Assist" app**: the map on the left, the driver assist view from the instrument cluster on the right – the road with its lanes, your route as a blue band, traffic around you, traffic lights and signs. Tap it to show only the scene, with the turn banner and arrival on top. The gear opens the driver assist settings directly; background and settings are the same as in the instrument cluster.
+- **Sites in the driver assist view**: fuel stations, company yards, rest areas, ports and quarries now show up as ground – your truck no longer stands in the dark when you drive in.
+- **Lights at night**: oncoming vehicles have headlights, and with low beam a warm light cone falls in front of your own truck (further with high beam).
+- **Calmer picture**: vehicles fade in smoothly at the edge of the visible range instead of popping up, distant roads fade out towards the horizon, and the blue band shows a subtle shimmer while driving. In the light design, vehicles stand out more clearly.
+- **Smoother**: new map sections are built in smaller steps – fewer short stutters in the driver assist view.
+- **ATS**: on- and off-ramps have the yellow left edge like in the game.
+- **ATS map**: without the Oregon and Washington DLCs the map could be built, but the map check failed and the old map stayed. Fixed.
+
 ## 1.20.2 (2026-11-20)
 
 - **Menus at high resolutions**: the menu (Ctrl+F8) and the touch window now scale with your resolution – no longer tiny in 1440p and 4K, with sharp text. You can also pick the size yourself: Ctrl+F8 › Start & display › Menu size.

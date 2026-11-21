@@ -4,6 +4,16 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.21.0 (21.11.2026)
+
+- **Neue App „Assistenz“**: links die Karte, rechts die Fahrassistenz wie im Kombiinstrument – Straße mit Spuren, Route als blaues Band, Verkehr ringsum, Ampeln und Schilder. Antippen zeigt nur die Szene, mit Abbiegehinweis und Ankunft darüber. Das Zahnrad führt direkt zu den Einstellungen der Fahrassistenz; Hintergrund und Einstellungen sind dieselben wie im Kombiinstrument.
+- **Gelände in der Fahrassistenz**: Tankstellen, Firmengelände, Rastplätze, Häfen und Steinbrüche erscheinen als Fläche – beim Einfahren steht der Truck nicht mehr im Schwarzen.
+- **Licht bei Nacht**: Entgegenkommende Fahrzeuge haben Scheinwerfer, und mit Abblendlicht fällt ein warmer Lichtkegel vor den eigenen Truck (mit Fernlicht weiter).
+- **Ruhigeres Bild**: Fahrzeuge blenden am Rand der Sichtweite weich ein statt plötzlich aufzutauchen, ferne Straßen laufen zum Horizont sanft aus, und das blaue Band zeigt während der Fahrt einen feinen Lichtschimmer. Im hellen Design heben sich die Fahrzeuge deutlicher ab.
+- **Flüssiger**: Neue Kartenausschnitte werden in kleineren Portionen aufgebaut – weniger kurze Ruckler in der Fahrassistenz.
+- **ATS**: Auffahrten und Abfahrten haben links den gelben Rand wie im Spiel.
+- **Karte für ATS**: Ohne die DLCs Oregon und Washington ließ sich die Karte zwar bauen, die Kartenprüfung schlug aber fehl und die alte Karte blieb. Behoben.
+
 ## 1.20.2 (20.11.2026)
 
 - **Menüs in hohen Auflösungen**: Das Menü (Strg+F8) und das Touch-Fenster wachsen mit der Auflösung mit – in 1440p und 4K sind sie nicht mehr winzig, die Schrift bleibt scharf. Die Größe lässt sich auch selbst wählen: Strg+F8 › Start & Darstellung › Menügröße.
