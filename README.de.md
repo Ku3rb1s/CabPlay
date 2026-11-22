@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.21.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.22.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -33,6 +33,10 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 🚚 **Alles rund um die Tour** – Auftrag mit Lieferfrist und Puffer, Disponent per Nachricht und Anruf, Fahrzeugdaten mit Kontrollleuchten, Blitzer- und Waagenwarner, Tanken & Rasten, Wetter, ein Fahrtenbuch mit Karte deiner Strecken – und beim Blinken die Spiegelkamera als Totwinkel-Bild.
 
 ⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
+
+🌐 **Ein Browser wie Safari** – Webseiten direkt im Truck: Tabs, Favoriten, privates Surfen, Werbe- und Pop-up-Blocker von Ghostery, dazu eine Bildschirmtastatur in vier Sprachen mit Wortvorschlägen.
+
+✨ **Im Design von iOS 27** – Liquid Glass mit echter Lichtbrechung an den Kanten, eine gleitende Auswahl in jeder Leiste, Menüs und Einstellungen wie auf dem iPhone.
 
 🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus. Die Oberfläche gibt es auf Deutsch, Englisch, Polnisch, Türkisch und Chinesisch (vereinfacht und traditionell).
 
@@ -64,6 +68,10 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 | Auftrag mit Lieferfrist, Puffer und nächster Pause | Fahrzeug mit Zustand und Kontrollleuchten |
 | ![Wetter dort, wo du gerade bist](bilder/de/weather.png) | ![Live-Spielstände](bilder/de/sports.png) |
 | Wetter dort, wo du gerade bist | Live-Spielstände |
+| ![Browser wie Safari: Favoriten und Datenschutzbericht](bilder/de/browser.png) | ![Bildschirmtastatur mit Wortvorschlägen](bilder/de/keyboard.png) |
+| Browser wie Safari: Favoriten, Datenschutzbericht, Werbeblocker | Bildschirmtastatur mit Wortvorschlägen, in vier Sprachen |
+| ![Einstellungen im Liquid-Glass-Design von iOS 27](bilder/de/settings.png) | ![App CabPlay Ultra: Kombiinstrument mit Live-Vorschau](bilder/de/ultra.png) |
+| Einstellungen im Liquid-Glass-Design von iOS 27 | App CabPlay Ultra: Kombiinstrument mit Live-Vorschau |
 
 ## CabPlay Ultra im Kombiinstrument
 
@@ -172,6 +180,8 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Spiegelkamera**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, wahlweise an Stelle eines laufenden Videos. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (ungetestet), die Busse Volvo 9700 und MAN Lion's Coach; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia. Kameraspiegel aus einer Mod schaltest du je Lkw unter Einstellungen › Spiegelkamera frei
 - **Fahrtenbuch**: auf Wunsch jede Fahrt mit Strecke – von, nach, Ladung, Kilometer, Lohn, Maut und Strafen, Gewinn, Mini-Karte –, dazu Kilometer je Land und alle gefahrenen Strecken als Ebene auf der Karte. Gespeichert nur auf deinem PC
 - Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Tanken & Rasten
+- **Browser**: Webseiten auf dem Display im Truck, gebaut wie Safari – Startseite mit Favoriten, zuletzt besuchten Seiten und Datenschutzbericht, bis zu fünf Tabs, privates Surfen, Werbe- und Pop-up-Blocker (Ghostery), Videos und Livestreams. Adresse antippen zeigt sie markiert, vom Rand wischen geht zurück, ein Link gedrückt gehalten öffnet ein Menü, lange auf Zurück zeigt den Verlauf. Beim Fahren auf Wunsch nur Ton
+- **Assistenz**: links die Karte, rechts die Fahrassistenz wie im Kombiinstrument, mit Abbiegehinweis und Ankunft
 - **Bus-DLC (Coaches)**: MAN Lion's Coach, Scania Touring und Volvo 9700 werden als Bus erkannt – Buslinie mit Halten in der Auftrags-App und im Navi, der Bus in echter Länge im Kombiinstrument, und im Rückwärtsgang zeigt das Navi wie im Spiel die Rückfahrkamera des Busses
 
 </details>
@@ -198,6 +208,8 @@ Home-Knopf gedrückt halten (oder Strg + Alt + V) und einfach reden, zum Beispie
 | Strg + Alt + V | Sprachbefehl |
 
 Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
+
+**Bildschirmtastatur:** Deutsch, Englisch, Polnisch und Türkisch (Weltkugel-Taste), Sonderzeichen durch Gedrückthalten, Wortvorschläge, Autokorrektur und Großschreibung am Satzanfang wie beim iPhone – einstellbar unter Einstellungen › Allgemein › Tastatur. Gelernte Wörter bleiben auf deinem PC.
 
 **Anpassen:** Die App-Leiste sitzt links, rechts, oben oder unten (Einstellungen › Home-Bildschirm & App-Icons). Lautstärken stellst du mit Schiebereglern ein, auch im Kartenmenü. Spielst du mit HDR, passen sich das Menü und der Touch-Modus der Helligkeit an.
 
@@ -257,7 +269,7 @@ CabPlay findet dann seinen Platzhalter im Spiel nicht. Die Texturqualität im Sp
 Dann baut CabPlay gerade die Karte fertig, das zeigt das CabPlay-Symbol im Infobereich von Windows. Danach beendet es sich von selbst. Über das Symbol kannst du auch sofort beenden, der Bau beginnt dann beim nächsten Mal neu.
 
 **Kostet das Leistung?**
-Kaum. CabPlay zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel.
+Kaum. CabPlay zeichnet nur neu, was sich ändert, und gibt das Bild über die Grafikkarte ans Spiel. Dafür muss unter Einstellungen › Allgemein › Plugin & Spiel die „GPU-Übertragung“ an sein (ab Werk an) – ausgeschaltet braucht CabPlay etwa doppelt so viel Rechenzeit.
 
 **Ich habe noch „ETS2 CarPlay“ (1.12 oder älter).**
 Einmal `CabPlay-Setup` aus den [Releases](../../releases/latest) von Hand installieren – Einstellungen und Daten ziehen mit um, danach aktualisiert sich CabPlay wieder selbst.

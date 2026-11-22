@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.21.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.22.0-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -33,6 +33,10 @@ English · [Deutsch](README.de.md)
 🚚 **Everything for the trip** – your job with deadline and buffer, a dispatcher who texts and calls, vehicle data with warning lights, speed camera and weigh station alerts, fuel & rest stops, weather, a logbook with a map of your routes – and the mirror camera as a blind spot view when you indicate.
 
 ⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
+
+🌐 **A browser like Safari** – web pages right in the truck: tabs, favorites, private browsing, ad and pop-up blocking by Ghostery, plus an on-screen keyboard in four languages with word suggestions.
+
+✨ **In the design of iOS 27** – Liquid Glass with real light refraction at the edges, a sliding selection in every bar, menus and settings like on the iPhone.
 
 🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone. The interface comes in English, German, Polish, Turkish and Chinese (Simplified and Traditional).
 
@@ -64,6 +68,10 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 | Job with deadline, buffer and next break | Vehicle with condition and warning lights |
 | ![Weather where you are](bilder/en/weather.png) | ![Live scores](bilder/en/sports.png) |
 | Weather where you are | Live scores |
+| ![Browser like Safari: favorites and privacy report](bilder/en/browser.png) | ![On-screen keyboard with word suggestions](bilder/en/keyboard.png) |
+| Browser like Safari: favorites, privacy report, ad blocker | On-screen keyboard with word suggestions, in four languages |
+| ![Settings in the Liquid Glass design of iOS 27](bilder/en/settings.png) | ![CabPlay Ultra app: the instrument cluster with live preview](bilder/en/ultra.png) |
+| Settings in the Liquid Glass design of iOS 27 | CabPlay Ultra app: the instrument cluster with live preview |
 
 ## CabPlay Ultra in the instrument cluster
 
@@ -172,6 +180,8 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia. Camera mirrors from a mod can be enabled per truck under Settings › Mirror camera
 - **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
 - Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
+- **Browser**: web pages on the display in the truck, built like Safari – start page with favorites, recently visited and a privacy report, up to five tabs, private browsing, ad and pop-up blocking (Ghostery), videos and live streams. Tap the address to see it selected, swipe from the edge to go back, press and hold a link for a menu, press and hold Back for the history. While driving, sound only if you like
+- **Assist**: the map on the left, the driver assistance view from the instrument cluster on the right, with turn banner and arrival
 - **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster, and when reversing the navigation display shows the bus's rear camera like in the game
 
 </details>
@@ -198,6 +208,8 @@ Hold the Home button (or Ctrl + Alt + V) and just talk, for example "Will I make
 | Ctrl + Alt + V | Voice command |
 
 All shortcuts can be changed, including to steering wheel buttons.
+
+**On-screen keyboard:** English, German, Polish and Turkish (globe key), special characters by pressing and holding, word suggestions, auto-correction and auto-capitalization like on the iPhone – set it up under Settings › General › Keyboard. Learned words stay on your PC.
 
 **Customise:** the app bar sits on the left, right, top or bottom (Settings › Home screen & app icons). Volumes are set with sliders, in the map menu too. If you play with HDR, the menu and touch mode adapt to the brightness.
 
@@ -257,7 +269,7 @@ CabPlay can't find its placeholder in the game then. Set the game's texture qual
 CabPlay is finishing the map then, which the CabPlay icon in the Windows notification area shows. It closes by itself afterwards. You can also quit right away from the icon, the build then starts over next time.
 
 **Does it cost performance?**
-Hardly. CabPlay only redraws what changes and passes the picture to the game via the graphics card.
+Hardly. CabPlay only redraws what changes and passes the picture to the game via the graphics card. For that, "GPU transfer" under Settings › General › Plugin & game must be on (it is by default) – switched off, CabPlay needs about twice the CPU time.
 
 **I still have "ETS2 CarPlay" (1.12 or older).**
 Install `CabPlay-Setup` from the [releases](../../releases/latest) by hand once – settings and data move over, after that CabPlay updates itself again.

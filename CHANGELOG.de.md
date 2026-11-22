@@ -4,6 +4,18 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.22.0 (22.11.2026)
+
+- **Neue App „Browser“**: Webseiten direkt auf dem Display im Truck, gebaut wie Safari – Startseite mit Favoriten, zuletzt besuchten Seiten und Datenschutzbericht, bis zu fünf Tabs mit Übersicht, privates Surfen und Videos samt Livestreams. Beim Fahren zeigt er auf Wunsch nur Ton.
+- **Werbe- und Pop-up-Blocker**: Werbung, Tracker und viele Cookie-Hinweise blockiert der Browser mit den Filterlisten von Ghostery. Fenster, die eine Seite ohne dein Tippen öffnet, werden blockiert – mit „Öffnen“, falls du sie doch willst.
+- **Bedienung wie Safari**: Adresse antippen zeigt sie markiert (ⓧ leert sie), vom Rand wischen geht zurück oder vor, ein Link gedrückt gehalten öffnet ein Menü (Öffnen, In neuem Tab, Link kopieren), lange auf Zurück zeigt den Verlauf und lange auf Tabs bietet neuen oder privaten Tab und Schließen an.
+- **Bildschirmtastatur in vier Sprachen**: Deutsch, Englisch, Polnisch und Türkisch mit Weltkugel-Taste, Sonderzeichen durch Gedrückthalten, Wortvorschläge über den Tasten, vorsichtige Autokorrektur, Großschreibung am Satzanfang und zweimal Leertaste für einen Punkt. Alles unter Einstellungen › Allgemein › Tastatur; gelernte Wörter bleiben auf deinem PC.
+- **Im Design von iOS 27**: Liquid Glass mit echter Lichtbrechung an den Kanten, Lichtkante auf Symbolen, eine Glaslinse, die in jeder Leiste zur Auswahl gleitet – und die du auch mit dem Finger ziehen kannst. Einstellungen mit Kopfleiste, Suche als Kapsel unten und größeren Schaltern; Regler „Tönung“ für das Glas.
+- **Neue Symbole** für Assistenz, Browser, CabPlay Ultra, Fahrzeug, Mitteilungen und Dashboard; Musik, Radio und Blitzer sind im hellen Design besser lesbar.
+- **Suche in den Einstellungen** findet jetzt auch auf Englisch, Polnisch, Türkisch und Chinesisch die passenden Einträge – vorher nur mit deutschen Wörtern.
+- **Schneller**: Bei Installationen von vor dem 17. Oktober war die GPU-Übertragung noch aus – CabPlay lief dann ohne Grafikkarte und brauchte etwa doppelt so viel Rechenzeit. Sie wird mit diesem Update einmal eingeschaltet (Einstellungen › Allgemein › Plugin & Spiel).
+- **Kartenbau sparsamer**: Die Karte braucht beim Bauen deutlich weniger Arbeitsspeicher, wartet bei knappem Speicher und versucht es nach einem Speicherfehler erneut – besonders bei ATS mit vielen DLCs.
+
 ## 1.21.0 (21.11.2026)
 
 - **Neue App „Assistenz“**: links die Karte, rechts die Fahrassistenz wie im Kombiinstrument – Straße mit Spuren, Route als blaues Band, Verkehr ringsum, Ampeln und Schilder. Antippen zeigt nur die Szene, mit Abbiegehinweis und Ankunft darüber. Das Zahnrad führt direkt zu den Einstellungen der Fahrassistenz; Hintergrund und Einstellungen sind dieselben wie im Kombiinstrument.

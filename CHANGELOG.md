@@ -4,6 +4,18 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.22.0 (2026-11-22)
+
+- **New "Browser" app**: web pages right on the display in your truck, built like Safari – a start page with favorites, recently visited sites and a privacy report, up to five tabs with an overview, private browsing, and videos including live streams. While driving it can play sound only, if you like.
+- **Ad and pop-up blocker**: the browser blocks ads, trackers and many cookie banners with Ghostery's filter lists. Windows a page opens without your tap are blocked – with "Open" in case you do want them.
+- **Works like Safari**: tap the address to see it selected (ⓧ clears it), swipe from the edge to go back or forward, press and hold a link for a menu (Open, Open in New Tab, Copy Link), press and hold Back for the history and press and hold Tabs for a new or private tab and closing.
+- **On-screen keyboard in four languages**: English, German, Polish and Turkish with a globe key, special characters by pressing and holding, word suggestions above the keys, careful auto-correction, auto-capitalization and a double space for a period. All under Settings › General › Keyboard; learned words stay on your PC.
+- **In the design of iOS 27**: Liquid Glass with real light refraction at the edges, a light rim on icons, and a glass lens that glides to the selection in every bar – which you can also drag with your finger. Settings with a header bar, search as a capsule at the bottom and larger switches; a "Tint" slider for the glass.
+- **New icons** for Assist, Browser, CabPlay Ultra, Vehicle, Notifications and Dashboard; Music, Radio and Speed cameras are easier to read in the light design.
+- **Settings search** now finds the right entries in English, Polish, Turkish and Chinese too – before, only German words worked.
+- **Faster**: installations from before October 17 still had GPU transfer switched off – CabPlay then ran without the graphics card and needed about twice the CPU time. This update switches it on once (Settings › General › Plugin & game).
+- **Leaner map building**: building the map needs much less memory, waits when memory is low and tries again after a memory error – especially for ATS with many DLCs.
+
 ## 1.21.0 (2026-11-21)
 
 - **New "Assist" app**: the map on the left, the driver assist view from the instrument cluster on the right – the road with its lanes, your route as a blue band, traffic around you, traffic lights and signs. Tap it to show only the scene, with the turn banner and arrival on top. The gear opens the driver assist settings directly; background and settings are the same as in the instrument cluster.
