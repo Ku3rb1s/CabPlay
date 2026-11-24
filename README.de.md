@@ -7,7 +7,7 @@
 **Dein Truck bekommt CarPlay.**<br>
 Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – direkt auf dem Navi-Display im Cockpit von **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.22.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.22.1-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -34,7 +34,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 ⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
 
-🌐 **Ein Browser wie Safari** – Webseiten direkt im Truck: Tabs, Favoriten, privates Surfen, Werbe- und Pop-up-Blocker von Ghostery, dazu eine Bildschirmtastatur in vier Sprachen mit Wortvorschlägen.
+🌐 **Ein Browser wie Safari** – Webseiten direkt im Truck: Tabs, Favoriten, privates Surfen, Werbe- und Pop-up-Blocker von Ghostery, dazu eine Bildschirmtastatur mit Wortvorschlägen – auch Chinesisch mit Pinyin.
 
 ✨ **Im Design von iOS 27** – Liquid Glass mit echter Lichtbrechung an den Kanten, eine gleitende Auswahl in jeder Leiste, Menüs und Einstellungen wie auf dem iPhone.
 
@@ -209,7 +209,7 @@ Home-Knopf gedrückt halten (oder Strg + Alt + V) und einfach reden, zum Beispie
 
 Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
 
-**Bildschirmtastatur:** Deutsch, Englisch, Polnisch und Türkisch (Weltkugel-Taste), Sonderzeichen durch Gedrückthalten, Wortvorschläge, Autokorrektur und Großschreibung am Satzanfang wie beim iPhone – einstellbar unter Einstellungen › Allgemein › Tastatur. Gelernte Wörter bleiben auf deinem PC.
+**Bildschirmtastatur:** Deutsch, Englisch, Polnisch und Türkisch (Weltkugel-Taste), Chinesisch mit Pinyin-Eingabe in Kurz- und Langzeichen, Sonderzeichen durch Gedrückthalten, Wortvorschläge, Autokorrektur und Großschreibung am Satzanfang wie beim iPhone – einstellbar unter Einstellungen › Allgemein › Tastatur. Gelernte Wörter bleiben auf deinem PC.
 
 **Anpassen:** Die App-Leiste sitzt links, rechts, oben oder unten (Einstellungen › Home-Bildschirm & App-Icons). Lautstärken stellst du mit Schiebereglern ein, auch im Kartenmenü. Spielst du mit HDR, passen sich das Menü und der Touch-Modus der Helligkeit an.
 
@@ -292,6 +292,7 @@ Einmal `CabPlay-Setup` aus den [Releases](../../releases/latest) von Hand instal
 - Sport: [OpenLigaDB](https://www.openligadb.de/) (deutsche Ligen), ESPN (weitere Ligen, NFL), [Jolpica](https://jolpi.ca/) (Formel 1). Markenlogos der Trucks: Wikimedia Commons.
 - Radiosender: [radio-browser.info](https://www.radio-browser.info/), Songtexte: [LRCLIB](https://lrclib.net/), Wetter: [Open-Meteo](https://open-meteo.com/) und MET Norway.
 - Sprachassistent: whisper.cpp und llama.cpp (MIT), Sprachmodell Qwen (Apache 2.0), Stimmen Supertonic 3 von Supertone (OpenRAIL-M) über ONNX Runtime (MIT), chinesische Stimme Kokoro (Apache 2.0) über sherpa-onnx (Apache 2.0).
+- Chinesische Übersetzung (vereinfacht und traditionell), Pinyin-Eingabe und chinesische Ortsnamen: KloseY ([@782553362](https://github.com/782553362)). Das Pinyin-Wörterbuch stammt aus [pypinyin](https://github.com/mozillazg/python-pinyin) (MIT).
 - Schrift: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1). Gebaut mit [Electron](https://www.electronjs.org/).
 
 </details>

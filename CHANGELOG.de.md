@@ -4,6 +4,14 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.22.1 (24.11.2026)
+
+- **Chinesisch mit Pinyin**: Die Bildschirmtastatur tippt Chinesisch jetzt wie auf dem iPhone – Pinyin eingeben, das Schriftzeichen in der Leiste über den Tasten antippen (Leertaste nimmt den ersten Vorschlag). Für vereinfachtes und traditionelles Chinesisch, Wörterbuch von KloseY. Dazu weitere chinesische Ortsnamen.
+- **Absturz mit NVIDIA-Funktionen behoben**: Mit NVIDIA Smooth Motion, Spielfiltern oder Grafik-Mods wie Snowy Moon stürzte das Spiel beim Ändern der Grafik oder Fenstergröße ab. CabPlay findet das Bild des Spiels jetzt auch hinter solchen Schichten.
+- **Anrufe am PC**: Nimmst du einen Anruf im CabPlay-Fenster auf dem PC an, hörst du den Anrufer jetzt auch – vorher kam dort nur der Text.
+- **App Assistenz schneller**: Die Straßenszene folgt der „Bildrate der Karte“ und zeichnet zusammen mit der Karte. Bei 15 oder 20 Bildern braucht sie nur noch etwa halb so viel Rechenzeit, bei 30 ebenfalls etwas weniger.
+- **Bildrate 20 stimmt**: Die Einstellung „20“ lieferte bisher nur 15 Bilder pro Sekunde – jetzt wirklich 20.
+
 ## 1.22.0 (22.11.2026)
 
 - **Neue App „Browser“**: Webseiten direkt auf dem Display im Truck, gebaut wie Safari – Startseite mit Favoriten, zuletzt besuchten Seiten und Datenschutzbericht, bis zu fünf Tabs mit Übersicht, privates Surfen und Videos samt Livestreams. Beim Fahren zeigt er auf Wunsch nur Ton.

@@ -7,7 +7,7 @@
 **CarPlay for your truck.**<br>
 Real navigation with lane guidance, Spotify, radio, your job and the dispatcher – right on the navigation display in the cab of **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/version-v1.22.0-0a84ff)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.22.1-0a84ff)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -34,7 +34,7 @@ English · [Deutsch](README.de.md)
 
 ⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
 
-🌐 **A browser like Safari** – web pages right in the truck: tabs, favorites, private browsing, ad and pop-up blocking by Ghostery, plus an on-screen keyboard in four languages with word suggestions.
+🌐 **A browser like Safari** – web pages right in the truck: tabs, favorites, private browsing, ad and pop-up blocking by Ghostery, plus an on-screen keyboard with word suggestions – Chinese with pinyin, too.
 
 ✨ **In the design of iOS 27** – Liquid Glass with real light refraction at the edges, a sliding selection in every bar, menus and settings like on the iPhone.
 
@@ -209,7 +209,7 @@ Hold the Home button (or Ctrl + Alt + V) and just talk, for example "Will I make
 
 All shortcuts can be changed, including to steering wheel buttons.
 
-**On-screen keyboard:** English, German, Polish and Turkish (globe key), special characters by pressing and holding, word suggestions, auto-correction and auto-capitalization like on the iPhone – set it up under Settings › General › Keyboard. Learned words stay on your PC.
+**On-screen keyboard:** English, German, Polish and Turkish (globe key), Chinese with pinyin input in Simplified and Traditional characters, special characters by pressing and holding, word suggestions, auto-correction and auto-capitalization like on the iPhone – set it up under Settings › General › Keyboard. Learned words stay on your PC.
 
 **Customise:** the app bar sits on the left, right, top or bottom (Settings › Home screen & app icons). Volumes are set with sliders, in the map menu too. If you play with HDR, the menu and touch mode adapt to the brightness.
 
@@ -292,6 +292,7 @@ Via Windows › Settings › Apps, in CabPlay under Settings › General › Uni
 - Sports: [OpenLigaDB](https://www.openligadb.de/) (German leagues), ESPN (other leagues, NFL), [Jolpica](https://jolpi.ca/) (Formula 1). Truck brand logos: Wikimedia Commons.
 - Radio stations: [radio-browser.info](https://www.radio-browser.info/), lyrics: [LRCLIB](https://lrclib.net/), weather: [Open-Meteo](https://open-meteo.com/) and MET Norway.
 - Voice assistant: whisper.cpp and llama.cpp (MIT), language model Qwen (Apache 2.0), Supertonic 3 voices by Supertone (OpenRAIL-M) via ONNX Runtime (MIT), Chinese voice Kokoro (Apache 2.0) via sherpa-onnx (Apache 2.0).
+- Chinese translation (Simplified and Traditional), pinyin input and Chinese place names: KloseY ([@782553362](https://github.com/782553362)). The pinyin dictionary comes from [pypinyin](https://github.com/mozillazg/python-pinyin) (MIT).
 - Font: [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1). Built with [Electron](https://www.electronjs.org/).
 
 </details>
