@@ -4,6 +4,18 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.23.0 (2026-11-26)
+
+- **Widget page like CarPlay**: to the left of the Dashboard there is now a page of widgets – clock, date, weather, forecast, sunrise and sunset, Now Playing, levels, notifications, My Teams and more. Two or three stacks side by side, swipe up or down within a stack. Set it up under Settings › Widgets.
+- **Apple Maps like in the car**: the speed limit sits at the top right, and the buttons only appear after a tap on the map – route overview, sound (sound on, alerts only, sound off), report, pan with arrows and "Done", plus + and −. New location arrow, larger arrival display, and no empty display without a route.
+- **Icons**: the navigation and music icons no longer go together – the music icon follows the app playing on the PC (Spotify or Apple Music). "Customize Icons" with Standard, Dark and Clear like Apple, clearer app icons, page dots and settings in CarPlay style.
+- **Type with the PC keyboard**: in CabPlay text fields in the truck – browser, search, settings – you can now type directly with your PC keyboard. Can be switched off in the in-game menu under "PC keyboard in CabPlay".
+- **Browser**: in the address bar, a tap places the cursor, holding shows a magnifier, plus "Paste" and "Select All". The keyboard is solid and rounded like iOS, and a tap on the page closes it.
+- **Easier setup**: if the game isn't in your Steam library, just choose the game folder yourself – the plugin is installed right away. Settings are clearer, with widgets in their own row.
+- **Crash with NVIDIA features**: with NVIDIA Smooth Motion and similar layers, the plugin now looks for the game's picture in a separate helper process – the game itself is no longer touched for this.
+- **Safer and more reliable**: the Spotify sign-in is stored encrypted, the phone remote code can be renewed, the truck screen and the PC window no longer overwrite each other's settings when saving, and updates no longer overwrite anything while CabPlay is still running.
+- **Lots of fixes**: weather in °F and correct weekdays in the US, instrument cluster with UK units, fines and tolls after restarting the game, kilometres after switching trucks, speed camera tone in traffic jams, Steam folders with umlauts, Spotify after an expired sign-in and more.
+
 ## 1.22.1 (2026-11-24)
 
 - **Chinese with Pinyin**: the on-screen keyboard now types Chinese like on the iPhone – enter pinyin, then tap the character in the bar above the keys (the space bar takes the first suggestion). For Simplified and Traditional Chinese, dictionary by KloseY. Plus more Chinese place names.

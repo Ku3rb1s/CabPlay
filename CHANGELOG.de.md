@@ -4,6 +4,18 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.23.0 (26.11.2026)
+
+- **Widget-Seite wie bei CarPlay**: Links vom Dashboard liegt jetzt eine eigene Seite mit Widgets – Uhr, Datum, Wetter, Vorhersage, Sonnenaufgang und -untergang, Jetzt läuft, Füllstände, Mitteilungen, Meine Teams und mehr. Zwei oder drei Stapel nebeneinander, im Stapel nach oben oder unten wischen. Einstellen unter Einstellungen › Widgets.
+- **Apple Karten wie im Auto**: Oben rechts das Tempolimit, die Knöpfe erscheinen erst nach einem Tipp auf die Karte – Routenübersicht, Ton (Ton an, Nur Hinweise, Ton aus), Melden, Verschieben mit Pfeilen und „Fertig“, dazu + und −. Neuer Positionspfeil, größere Ankunftsanzeige, ohne Route keine leere Anzeige.
+- **Icons**: Navi- und Musik-Symbol hängen nicht mehr zusammen – das Musik-Symbol folgt der App, die am PC spielt (Spotify oder Apple Musik). „Symbole anpassen“ mit Standard, Dunkel und Klar wie bei Apple, klarere App-Icons, Seitenpunkte und Einstellungen im CarPlay-Stil.
+- **Mit der PC-Tastatur tippen**: In Textfelder von CabPlay im Truck – Browser, Suche, Einstellungen – tippst du jetzt direkt mit der Tastatur des PCs. Abschaltbar im Ingame-Menü unter „PC-Tastatur in CabPlay“.
+- **Browser**: In der Adresszeile setzt Antippen den Cursor an die Stelle, Gedrückthalten zeigt eine Lupe, dazu „Einsetzen“ und „Alles auswählen“. Die Tastatur ist deckend und rund wie bei iOS, ein Tipp auf die Seite schließt sie.
+- **Einfachere Einrichtung**: Liegt das Spiel nicht in der Steam-Bibliothek, wählst du den Spielordner einfach selbst – das Plugin wird gleich mit installiert. Einstellungen übersichtlicher, Widgets mit eigener Zeile.
+- **Absturz mit NVIDIA-Funktionen**: Mit NVIDIA Smooth Motion und ähnlichen Schichten sucht das Plugin das Bild des Spiels jetzt in einem eigenen Hilfsprozess – das Spiel selbst wird dabei nicht mehr angefasst.
+- **Sicherer und zuverlässiger**: Die Spotify-Anmeldung wird verschlüsselt gespeichert, der Code der Handy-Steuerung lässt sich neu erzeugen, Truck-Bildschirm und PC-Fenster überschreiben beim Speichern nicht mehr gegenseitig ihre Einstellungen, Updates überschreiben nichts mehr, solange CabPlay noch läuft.
+- **Viele Fehler behoben**: Wetter in °F und richtige Wochentage in den USA, Kombiinstrument mit britischen Einheiten, Strafen und Mauten nach einem Neustart des Spiels, Kilometer nach Lkw-Wechsel, Blitzer-Warnton im Stau, Steam-Ordner mit Umlauten, Spotify nach abgelaufener Anmeldung und mehr.
+
 ## 1.22.1 (24.11.2026)
 
 - **Chinesisch mit Pinyin**: Die Bildschirmtastatur tippt Chinesisch jetzt wie auf dem iPhone – Pinyin eingeben, das Schriftzeichen in der Leiste über den Tasten antippen (Leertaste nimmt den ersten Vorschlag). Für vereinfachtes und traditionelles Chinesisch, Wörterbuch von KloseY. Dazu weitere chinesische Ortsnamen.
