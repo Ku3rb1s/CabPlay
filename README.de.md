@@ -24,7 +24,7 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 🧭 **Navigation wie im echten Auto** – Abbiegehinweise, die passende Spur vor jeder Kreuzung, Wegweiser wie „Ausfahrt rechts · A1 Richtung Linz“, Ampeln mit Restzeit und Ansagen, auf Wunsch mit natürlich klingender KI-Stimme.
 
-🗺️ **Eine Karte aus deinem Spiel** – gebaut aus deinen eigenen Spieldateien, mit allen DLCs: Straßen mit ihren Spuren, Brücken, Gebäude, Wasser, Wälder, Firmengelände. Im Stil von Google Maps oder Apple Karten, hell und dunkel.
+🗺️ **Eine Karte aus deinem Spiel** – gebaut aus deinen eigenen Spieldateien, mit allen DLCs: Straßen mit ihren Spuren, Brücken, Gebäude, Wasser, Wälder, Firmengelände. Im Stil von Google Maps oder Apple Karten, hell und dunkel – Apple Karten mit Tempolimit oben rechts und Knöpfen, die erst nach einem Tipp erscheinen.
 
 🚘 **CabPlay Ultra im Kombiinstrument** – CabPlay auch hinter dem Lenkrad: Tacho und Drehzahl, Navi, Musik oder Karte, und die Fahrassistenz-Ansicht mit dem Verkehr ringsum wie in einem Tesla.
 
@@ -32,17 +32,17 @@ Echte Navigation mit Spurhinweisen, Spotify, Radio, Auftrag und Disponent – di
 
 🚚 **Alles rund um die Tour** – Auftrag mit Lieferfrist und Puffer, Disponent per Nachricht und Anruf, Fahrzeugdaten mit Kontrollleuchten, Blitzer- und Waagenwarner, Tanken & Rasten, Wetter, ein Fahrtenbuch mit Karte deiner Strecken – und beim Blinken die Spiegelkamera als Totwinkel-Bild.
 
-⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard mit Widgets nach deinem Geschmack und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
+⚽ **Und noch mehr** – Live-Fußball, NFL und Formel 1, Videos von YouTube, Twitch und TikTok (auch als Bild im Bild), ein Dashboard nach deinem Geschmack, links daneben eine Widget-Seite wie bei CarPlay mit Uhr, Wetter, Musik und mehr, und ein optionaler Sprachassistent, der komplett auf deinem PC läuft.
 
-🌐 **Ein Browser wie Safari** – Webseiten direkt im Truck: Tabs, Favoriten, privates Surfen, Werbe- und Pop-up-Blocker von Ghostery, dazu eine Bildschirmtastatur mit Wortvorschlägen – auch Chinesisch mit Pinyin.
+🌐 **Ein Browser wie Safari** – Webseiten direkt im Truck: Tabs, Favoriten, privates Surfen, Werbe- und Pop-up-Blocker von Ghostery, eine Adresszeile mit Lupe und Einsetzen wie auf dem iPhone, dazu eine Bildschirmtastatur mit Wortvorschlägen – auch Chinesisch mit Pinyin.
 
-✨ **Im Design von iOS 27** – Liquid Glass mit echter Lichtbrechung an den Kanten, eine gleitende Auswahl in jeder Leiste, Menüs und Einstellungen wie auf dem iPhone.
+✨ **Im Design von iOS 27** – Liquid Glass mit echter Lichtbrechung an den Kanten, eine gleitende Auswahl in jeder Leiste, Menüs und Einstellungen wie auf dem iPhone, App-Icons in Standard, Dunkel und Klar.
 
-🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus. Die Oberfläche gibt es auf Deutsch, Englisch, Polnisch, Türkisch und Chinesisch (vereinfacht und traditionell).
+🖱️ **Bedienung, wie du willst** – mit der Maus direkt auf dem Display im Cockpit, mit Lenkrad-Tasten, per Tastatur oder vom Handy aus – in Textfelder tippst du direkt mit der Tastatur des PCs. Die Oberfläche gibt es auf Deutsch, Englisch, Polnisch, Türkisch und Chinesisch (vereinfacht und traditionell).
 
 ## In 3 Schritten startklar
 
-1. **[Herunterladen](../../releases/latest)**, `CabPlay-Setup-….exe` installieren und CabPlay starten – es legt sein Plugin selbst in ETS2 und ATS.
+1. **[Herunterladen](../../releases/latest)**, `CabPlay-Setup-….exe` installieren und CabPlay starten – es legt sein Plugin selbst in ETS2 und ATS. Liegt ein Spiel nicht in deiner Steam-Bibliothek, wählst du den Spielordner einfach selbst aus.
 2. **Spiel starten** und einmal bestätigen, dass es SDK-Plugins laden darf.
 3. **Einsteigen** – CabPlay erscheint auf dem Navi-Display. Ziel im Spiel-Navi setzen oder Auftrag annehmen, los geht’s.
 
@@ -56,8 +56,10 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 |---|---|
 | ![Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert](bilder/de/nav-light.png) | ![Fast da: rechts ab aufs Firmengelände](bilder/de/nav-dark.png) |
 | Ausfahrt rechts mit Spurempfehlung – und was sich an der Grenze ändert | Fast da: rechts ab aufs Firmengelände |
-| ![Apple-Stil, mit Symbolen von Apple Karten und Musik](bilder/de/apple-dark.png) | ![Dashboard bei Nacht](bilder/de/dashboard-dark.png) |
-| Apple-Stil, mit Symbolen von Apple Karten und Musik | Dashboard bei Nacht: Navi und Musik nebeneinander |
+| ![Apple Karten wie im Auto: Tempolimit oben rechts, Knöpfe nach einem Tipp](bilder/de/apple-dark.png) | ![Dashboard bei Nacht](bilder/de/dashboard-dark.png) |
+| Apple Karten wie im Auto: Tempolimit oben rechts, Knöpfe nach einem Tipp | Dashboard bei Nacht: Navi und Musik nebeneinander |
+| ![Widget-Seite links vom Dashboard: Uhr und Wetter](bilder/de/widgets.png) | ![Symbole anpassen: Standard, Dunkel und Klar](bilder/de/icons.png) |
+| Widget-Seite links vom Dashboard, Stapel zum Durchwischen | Symbole anpassen: Standard, Dunkel und Klar |
 | ![American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr](bilder/de/ats-nav.png) | ![ATS-Dashboard bei Nacht](bilder/de/ats-dashboard.png) |
 | American Truck Simulator: Meilen, US-Schilder, 12-Stunden-Uhr | ATS-Dashboard bei Nacht |
 | ![Der Disponent ruft an](bilder/de/call.png) | ![Sprachassistent – läuft komplett auf deinem PC](bilder/de/voice.png) |
@@ -70,8 +72,8 @@ Ab dann startet CabPlay automatisch mit dem Spiel und hält sich selbst aktuell.
 | Wetter dort, wo du gerade bist | Live-Spielstände |
 | ![Browser wie Safari: Favoriten und Datenschutzbericht](bilder/de/browser.png) | ![Bildschirmtastatur mit Wortvorschlägen](bilder/de/keyboard.png) |
 | Browser wie Safari: Favoriten, Datenschutzbericht, Werbeblocker | Bildschirmtastatur mit Wortvorschlägen, in vier Sprachen |
-| ![Einstellungen im Liquid-Glass-Design von iOS 27](bilder/de/settings.png) | ![App CabPlay Ultra: Kombiinstrument mit Live-Vorschau](bilder/de/ultra.png) |
-| Einstellungen im Liquid-Glass-Design von iOS 27 | App CabPlay Ultra: Kombiinstrument mit Live-Vorschau |
+| ![Einstellungen im Design von iOS 27](bilder/de/settings.png) | ![App CabPlay Ultra: Kombiinstrument mit Live-Vorschau](bilder/de/ultra.png) |
+| Einstellungen im Design von iOS 27, Widgets mit eigener Zeile | App CabPlay Ultra: Kombiinstrument mit Live-Vorschau |
 
 ## CabPlay Ultra im Kombiinstrument
 
@@ -143,6 +145,7 @@ CabPlay liest die Karte aus den Dateien deines Spiels, mit allen DLCs, und baut 
 - Straßen so breit, wie sie Spuren haben, Brücken über den Straßen darunter, Einbahnpfeile, nah herangezoomt Fahrbahnmarkierungen und aufgemalte Abbiegepfeile
 - Gebäude, Wasser, Wälder, Wiesen, Felder, Fels und Sand, Firmengelände mit Hof- und Parkflächen
 - Zwei Stile wie Google Maps und Apple Karten, hell und dunkel, flach oder schräg von hinten – Abbiegehinweis und Tempo-Anzeige bleiben wie im Original oder kommen in eine Ecke deiner Wahl
+- Apple Karten wie im Auto: Tempolimit oben rechts, die Knöpfe erscheinen erst nach einem Tipp auf die Karte – Routenübersicht, Ton (Ton an, Nur Hinweise, Ton aus), Melden, Verschieben mit Pfeilen, + und −. Ohne Route keine leere Ankunftsanzeige
 - Ab Werk aus, jederzeit einschaltbar: 3D-Gebäude, kleine Orte, Aussichtspunkte, versteckte Straßen und geheime Abkürzungen
 
 Flüsse, Seen, Kanäle und Meer kommen direkt aus dem Gelände des Spiels – vom Rhein bis zu den Fjorden. An kleinen Stellen kann es noch abweichen: Stimmt die Karte irgendwo nicht, wählst du im Kartenmenü „Fehler auf der Karte melden“ – gern hier als Issue anhängen.
@@ -180,7 +183,8 @@ Breitere Displays, etwa im Freightliner Cascadia oder Western Star 57X, zeigt Ca
 - **Spiegelkamera**: In Trucks mit Kameraspiegeln zeigt das Display beim Blinken den Weitwinkelspiegel dieser Seite – wie eine Totwinkel-Kamera, wahlweise an Stelle eines laufenden Videos. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (ungetestet), die Busse Volvo 9700 und MAN Lion's Coach; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia. Kameraspiegel aus einer Mod schaltest du je Lkw unter Einstellungen › Spiegelkamera frei
 - **Fahrtenbuch**: auf Wunsch jede Fahrt mit Strecke – von, nach, Ladung, Kilometer, Lohn, Maut und Strafen, Gewinn, Mini-Karte –, dazu Kilometer je Land und alle gefahrenen Strecken als Ebene auf der Karte. Gespeichert nur auf deinem PC
 - Telefon mit Disponent und Pannenhilfe, Nachrichten, Kalender, Tanken & Rasten
-- **Browser**: Webseiten auf dem Display im Truck, gebaut wie Safari – Startseite mit Favoriten, zuletzt besuchten Seiten und Datenschutzbericht, bis zu fünf Tabs, privates Surfen, Werbe- und Pop-up-Blocker (Ghostery), Videos und Livestreams. Adresse antippen zeigt sie markiert, vom Rand wischen geht zurück, ein Link gedrückt gehalten öffnet ein Menü, lange auf Zurück zeigt den Verlauf. Beim Fahren auf Wunsch nur Ton
+- **Browser**: Webseiten auf dem Display im Truck, gebaut wie Safari – Startseite mit Favoriten, zuletzt besuchten Seiten und Datenschutzbericht, bis zu fünf Tabs, privates Surfen, Werbe- und Pop-up-Blocker (Ghostery), Videos und Livestreams. Adresse antippen zeigt sie markiert; in der Adresszeile setzt ein Tipp den Cursor, Gedrückthalten zeigt eine Lupe, dazu Einsetzen und Alles auswählen. Ein Tipp auf die Seite schließt die Tastatur, vom Rand wischen geht zurück, ein Link gedrückt gehalten öffnet ein Menü, lange auf Zurück zeigt den Verlauf. Beim Fahren auf Wunsch nur Ton
+- **Widgets**: links vom Dashboard eine eigene Seite wie bei CarPlay – Uhr, Datum, Wetter, Vorhersage, Sonnenauf- und -untergang, Jetzt läuft, Füllstände, Mitteilungen, Meine Teams und mehr, in zwei oder drei Stapeln, die du nach oben oder unten durchwischst. Einstellen unter Einstellungen › Widgets
 - **Assistenz**: links die Karte, rechts die Fahrassistenz wie im Kombiinstrument, mit Abbiegehinweis und Ankunft
 - **Bus-DLC (Coaches)**: MAN Lion's Coach, Scania Touring und Volvo 9700 werden als Bus erkannt – Buslinie mit Halten in der Auftrags-App und im Navi, der Bus in echter Länge im Kombiinstrument, und im Rückwärtsgang zeigt das Navi wie im Spiel die Rückfahrkamera des Busses
 
@@ -211,11 +215,13 @@ Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
 
 **Bildschirmtastatur:** Deutsch, Englisch, Polnisch und Türkisch (Weltkugel-Taste), Chinesisch mit Pinyin-Eingabe in Kurz- und Langzeichen, Sonderzeichen durch Gedrückthalten, Wortvorschläge, Autokorrektur und Großschreibung am Satzanfang wie beim iPhone – einstellbar unter Einstellungen › Allgemein › Tastatur. Gelernte Wörter bleiben auf deinem PC.
 
-**Anpassen:** Die App-Leiste sitzt links, rechts, oben oder unten (Einstellungen › Home-Bildschirm & App-Icons). Lautstärken stellst du mit Schiebereglern ein, auch im Kartenmenü. Spielst du mit HDR, passen sich das Menü und der Touch-Modus der Helligkeit an.
+**PC-Tastatur:** In Textfelder von CabPlay im Truck – Browser, Suche, Einstellungen – tippst du direkt mit der Tastatur des PCs. Abschaltbar im CabPlay-Menü im Spiel.
+
+**Anpassen:** Die App-Leiste sitzt links, rechts, oben oder unten (Einstellungen › Home-Bildschirm & App-Icons). Unter „Symbole anpassen“ wählst du App-Icons in Standard, Dunkel oder Klar. Zwischen Widget-Seite, Dashboard und Apps wischst du – auch mit dem Mausrad. Lautstärken stellst du mit Schiebereglern ein, auch im Kartenmenü. Spielst du mit HDR, passen sich das Menü und der Touch-Modus der Helligkeit an.
 
 **Touch:** Entweder liegt CabPlay als Fenster über dem Spiel, oder du kalibrierst einmal das Display im Cockpit (vier Ecken anklicken) und klickst danach direkt auf den Bildschirm im Truck – Kopf- und Kabinenbewegungen rechnet CabPlay heraus. Die Kalibrierung merkt sich CabPlay für jeden Truck und jedes Auto.
 
-**Handy:** In den Einstellungen die Handy-Steuerung einschalten und den QR-Code scannen – Handy und PC im selben WLAN.
+**Handy:** In den Einstellungen die Handy-Steuerung einschalten und den QR-Code scannen – Handy und PC im selben WLAN. Der Code lässt sich jederzeit neu erzeugen, dann gilt der alte nicht mehr.
 
 </details>
 
@@ -227,7 +233,7 @@ Alle Kürzel lassen sich ändern, auch auf Lenkrad-Tasten.
 3. Die Client ID kopieren.
 4. In CabPlay im Editor-Fenster unter Einstellungen › Musik › Spotify-Mediathek die Client ID einfügen, auf Verbinden klicken und im Browser zustimmen.
 
-Die Anmeldung bleibt auf deinem PC (`%APPDATA%\CabPlay`). Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App.
+Die Anmeldung bleibt verschlüsselt auf deinem PC (`%APPDATA%\CabPlay`). Zum Abspielen aus der Mediathek brauchst du Spotify Premium und eine offene Spotify-App.
 
 </details>
 
@@ -251,7 +257,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay erscheint nicht im Spiel.**
-Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist. Dann im Spiel mit Strg + F8 das Menü öffnen und Anwenden drücken. Was das Plugin im Spiel macht, steht in `cabplay.log` neben `cabplay.dll` im Ordner `bin\win_x64\plugins` des Spiels.
+Das Spiel einmal ganz beenden und neu starten, die SDK-Abfrage bestätigen. In der App unter Einstellungen › Allgemein › Plugin & Spiel nachsehen, ob das Plugin installiert ist – findet CabPlay das Spiel nicht, dort mit „Spielordner wählen …“ den Ordner des Spiels auswählen. Dann im Spiel mit Strg + F8 das Menü öffnen und Anwenden drücken. Was das Plugin im Spiel macht, steht in `cabplay.log` neben `cabplay.dll` im Ordner `bin\win_x64\plugins` des Spiels.
 
 **Muss ich das CabPlay-Fenster beim Spielen offen haben?**
 Nein. CabPlay startet mit dem Spiel und läuft im Hintergrund – alles ist auf dem Display im Truck bedienbar, das Fenster ist für die Einstellungen. Offen gelassen kostet es nur zusätzlich Rechenleistung. Schließt du es während des Spiels, läuft CabPlay weiter; beenden oder das Fenster wieder öffnen geht über das CabPlay-Symbol im Infobereich unten rechts.

@@ -24,7 +24,7 @@ English · [Deutsch](README.de.md)
 
 🧭 **Navigation like in a real car** – turn-by-turn directions, the right lane before every junction, signposts like "Exit right · A1 towards Linz", traffic lights with countdown and voice guidance, optionally with a natural-sounding AI voice.
 
-🗺️ **A map built from your game** – made from your own game files with all your DLCs: roads with their lanes, bridges, buildings, water, forests, company yards. In the style of Google Maps or Apple Maps, light and dark.
+🗺️ **A map built from your game** – made from your own game files with all your DLCs: roads with their lanes, bridges, buildings, water, forests, company yards. In the style of Google Maps or Apple Maps, light and dark – Apple Maps with the speed limit at the top right and buttons that only appear after a tap.
 
 🚘 **CabPlay Ultra in the instrument cluster** – CabPlay behind the steering wheel too: speed and revs, navigation, music or the map, and a driver assistance view with the traffic around you like in a Tesla.
 
@@ -32,17 +32,17 @@ English · [Deutsch](README.de.md)
 
 🚚 **Everything for the trip** – your job with deadline and buffer, a dispatcher who texts and calls, vehicle data with warning lights, speed camera and weigh station alerts, fuel & rest stops, weather, a logbook with a map of your routes – and the mirror camera as a blind spot view when you indicate.
 
-⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard with widgets the way you like it and an optional voice assistant that runs entirely on your PC.
+⚽ **And more** – live football, NFL and Formula 1, videos from YouTube, Twitch and TikTok (also as picture in picture), a dashboard the way you like it, with a widget page like CarPlay to its left – clock, weather, music and more – and an optional voice assistant that runs entirely on your PC.
 
-🌐 **A browser like Safari** – web pages right in the truck: tabs, favorites, private browsing, ad and pop-up blocking by Ghostery, plus an on-screen keyboard with word suggestions – Chinese with pinyin, too.
+🌐 **A browser like Safari** – web pages right in the truck: tabs, favorites, private browsing, ad and pop-up blocking by Ghostery, an address bar with a magnifier and Paste like on the iPhone, plus an on-screen keyboard with word suggestions – Chinese with pinyin, too.
 
-✨ **In the design of iOS 27** – Liquid Glass with real light refraction at the edges, a sliding selection in every bar, menus and settings like on the iPhone.
+✨ **In the design of iOS 27** – Liquid Glass with real light refraction at the edges, a sliding selection in every bar, menus and settings like on the iPhone, app icons in Default, Dark and Clear.
 
-🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone. The interface comes in English, German, Polish, Turkish and Chinese (Simplified and Traditional).
+🖱️ **Control it your way** – with the mouse right on the display in the cab, with steering wheel buttons, the keyboard or your phone – and you type into text fields straight from your PC keyboard. The interface comes in English, German, Polish, Turkish and Chinese (Simplified and Traditional).
 
 ## Ready in 3 steps
 
-1. **[Download](../../releases/latest)**, install `CabPlay-Setup-….exe` and start CabPlay – it puts its plugin into ETS2 and ATS by itself.
+1. **[Download](../../releases/latest)**, install `CabPlay-Setup-….exe` and start CabPlay – it puts its plugin into ETS2 and ATS by itself. If a game isn't in your Steam library, just choose the game folder yourself.
 2. **Start the game** and confirm once that it may load SDK plugins.
 3. **Get in** – CabPlay appears on the navigation display. Set a destination in the game's navigation or take a job, and off you go.
 
@@ -56,8 +56,10 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 |---|---|
 | ![Exit right with lane guidance – and what changes at the border](bilder/en/nav-light.png) | ![Almost there: exit right to the company yard](bilder/en/nav-dark.png) |
 | Exit right with lane guidance – and what changes at the border | Almost there: exit right to the company yard |
-| ![Apple style, with Apple Maps and Music icons](bilder/en/apple-dark.png) | ![Dashboard at night](bilder/en/dashboard-dark.png) |
-| Apple style, with Apple Maps and Music icons | Dashboard at night: navigation and music side by side |
+| ![Apple Maps like in the car: speed limit at the top right, buttons after a tap](bilder/en/apple-dark.png) | ![Dashboard at night](bilder/en/dashboard-dark.png) |
+| Apple Maps like in the car: speed limit at the top right, buttons after a tap | Dashboard at night: navigation and music side by side |
+| ![Widget page to the left of the dashboard: clock and weather](bilder/en/widgets.png) | ![Customize Icons: Default, Dark and Clear](bilder/en/icons.png) |
+| Widget page to the left of the dashboard, stacks to swipe through | Customize Icons: Default, Dark and Clear |
 | ![American Truck Simulator: miles, US signs, 12-hour clock](bilder/en/ats-nav.png) | ![ATS dashboard at night](bilder/en/ats-dashboard.png) |
 | American Truck Simulator: miles, US signs, 12-hour clock | ATS dashboard at night |
 | ![The dispatcher calls](bilder/en/call.png) | ![Voice assistant – runs entirely on your PC](bilder/en/voice.png) |
@@ -70,8 +72,8 @@ From then on CabPlay starts with the game and keeps itself up to date. Nothing i
 | Weather where you are | Live scores |
 | ![Browser like Safari: favorites and privacy report](bilder/en/browser.png) | ![On-screen keyboard with word suggestions](bilder/en/keyboard.png) |
 | Browser like Safari: favorites, privacy report, ad blocker | On-screen keyboard with word suggestions, in four languages |
-| ![Settings in the Liquid Glass design of iOS 27](bilder/en/settings.png) | ![CabPlay Ultra app: the instrument cluster with live preview](bilder/en/ultra.png) |
-| Settings in the Liquid Glass design of iOS 27 | CabPlay Ultra app: the instrument cluster with live preview |
+| ![Settings in the design of iOS 27](bilder/en/settings.png) | ![CabPlay Ultra app: the instrument cluster with live preview](bilder/en/ultra.png) |
+| Settings in the design of iOS 27, widgets in their own row | CabPlay Ultra app: the instrument cluster with live preview |
 
 ## CabPlay Ultra in the instrument cluster
 
@@ -143,6 +145,7 @@ CabPlay reads the map from your game files, with all your DLCs, and rebuilds it 
 - Roads as wide as their lanes, bridges above the roads below, one-way arrows, and up close lane markings and painted turn arrows
 - Buildings, water, forests, meadows, fields, rock and sand, company yards with their lots
 - Two styles like Google Maps and Apple Maps, light and dark, flat or tilted from behind – the turn banner and speed display stay as in the original or go into a corner of your choice
+- Apple Maps like in the car: speed limit at the top right, and the buttons only appear after a tap on the map – route overview, sound (all announcements, alerts only, off), report, pan with arrows, + and −. No empty arrival display without a route
 - Off by default, switch on any time: 3D buildings, small towns, viewpoints, hidden roads and secret shortcuts
 
 Rivers, lakes, canals and the sea come straight from the game's terrain – from the Rhine to the fjords. Small spots can still be off: if the map is wrong somewhere, choose "Report a map error" in the map menu – feel free to attach it here as an issue.
@@ -180,7 +183,8 @@ Wider displays, e.g. in the Freightliner Cascadia or Western Star 57X, are shown
 - **Mirror camera**: in trucks with camera mirrors, the display shows that side's wide-angle mirror when you indicate – like a blind spot camera, optionally in place of a playing video. ETS2: Volvo FH, DAF 2021/XD/XF Electric, Iveco S-Way, Renault T, MAN TGX (untested), the Volvo 9700 and MAN Lion's Coach buses; ATS: Volvo VNL, Kenworth T680, Freightliner Cascadia. Camera mirrors from a mod can be enabled per truck under Settings › Mirror camera
 - **Logbook**: if you like, every trip with its route – from, to, cargo, distance, pay, tolls and fines, profit, mini map – plus distance per country and all your driven routes as a layer on the map. Stored only on your PC
 - Phone with dispatcher and roadside assistance, messages, calendar, fuel & rest stops
-- **Browser**: web pages on the display in the truck, built like Safari – start page with favorites, recently visited and a privacy report, up to five tabs, private browsing, ad and pop-up blocking (Ghostery), videos and live streams. Tap the address to see it selected, swipe from the edge to go back, press and hold a link for a menu, press and hold Back for the history. While driving, sound only if you like
+- **Browser**: web pages on the display in the truck, built like Safari – start page with favorites, recently visited and a privacy report, up to five tabs, private browsing, ad and pop-up blocking (Ghostery), videos and live streams. Tap the address to see it selected; in the address bar a tap places the cursor, holding shows a magnifier, plus Paste and Select All. A tap on the page closes the keyboard, swipe from the edge to go back, press and hold a link for a menu, press and hold Back for the history. While driving, sound only if you like
+- **Widgets**: a page of its own to the left of the dashboard, like CarPlay – clock, date, weather, forecast, sunrise and sunset, Now Playing, levels, notifications, My Teams and more, in two or three stacks you swipe up or down. Set it up under Settings › Widgets
 - **Assist**: the map on the left, the driver assistance view from the instrument cluster on the right, with turn banner and arrival
 - **Bus DLC (Coaches)**: MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised as buses – bus line with stops in the job app and the navigation, the bus at its real length in the instrument cluster, and when reversing the navigation display shows the bus's rear camera like in the game
 
@@ -211,11 +215,13 @@ All shortcuts can be changed, including to steering wheel buttons.
 
 **On-screen keyboard:** English, German, Polish and Turkish (globe key), Chinese with pinyin input in Simplified and Traditional characters, special characters by pressing and holding, word suggestions, auto-correction and auto-capitalization like on the iPhone – set it up under Settings › General › Keyboard. Learned words stay on your PC.
 
-**Customise:** the app bar sits on the left, right, top or bottom (Settings › Home screen & app icons). Volumes are set with sliders, in the map menu too. If you play with HDR, the menu and touch mode adapt to the brightness.
+**PC keyboard:** in CabPlay text fields in the truck – browser, search, settings – you type straight from your PC keyboard. Can be switched off in the CabPlay menu in the game.
+
+**Customise:** the app bar sits on the left, right, top or bottom (Settings › Home screen & app icons). Under "Customize Icons" you pick app icons in Default, Dark or Clear. Swipe between the widget page, the dashboard and the apps – with the mouse wheel, too. Volumes are set with sliders, in the map menu too. If you play with HDR, the menu and touch mode adapt to the brightness.
 
 **Touch:** either CabPlay sits as a window over the game, or you calibrate the display in the cab once (click its four corners) and then click right on the screen in the truck – CabPlay compensates for head and cab movement. The calibration is remembered for every truck and car.
 
-**Phone:** switch on phone control in the settings and scan the QR code – phone and PC on the same Wi-Fi.
+**Phone:** switch on phone control in the settings and scan the QR code – phone and PC on the same Wi-Fi. You can renew the code at any time, the old one then stops working.
 
 </details>
 
@@ -227,7 +233,7 @@ All shortcuts can be changed, including to steering wheel buttons.
 3. Copy the Client ID.
 4. In CabPlay's editor window under Settings › Music › Spotify library, paste the Client ID, click Connect and agree in the browser.
 
-The sign-in stays on your PC (`%APPDATA%\CabPlay`). Playing from the library needs Spotify Premium and an open Spotify app.
+The sign-in stays encrypted on your PC (`%APPDATA%\CabPlay`). Playing from the library needs Spotify Premium and an open Spotify app.
 
 </details>
 
@@ -251,7 +257,7 @@ Get-FileHash .\CabPlay-Setup-*.exe -Algorithm SHA256
 ```
 
 **CabPlay doesn't show up in the game.**
-Quit the game completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed. Then open the menu in the game with Ctrl + F8 and press Apply. What the plugin does in the game is written to `cabplay.log` next to `cabplay.dll` in the game's `bin\win_x64\plugins` folder.
+Quit the game completely, start it again and confirm the SDK prompt. In the app, check under Settings › General › Plugin & game that the plugin is installed – if CabPlay can't find the game, use "Choose game folder …" there to select the game's folder. Then open the menu in the game with Ctrl + F8 and press Apply. What the plugin does in the game is written to `cabplay.log` next to `cabplay.dll` in the game's `bin\win_x64\plugins` folder.
 
 **Do I need to keep the CabPlay window open while playing?**
 No. CabPlay starts with the game and runs in the background – everything works on the truck display, the window is for settings. Leaving it open only costs extra performance. If you close it while playing, CabPlay keeps running; to quit or open the window again, use the CabPlay icon in the notification area at the bottom right.
