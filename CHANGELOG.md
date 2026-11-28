@@ -4,6 +4,15 @@ English · [Deutsch](CHANGELOG.de.md)
 
 All versions of CabPlay (up to 1.12: ETS2 CarPlay). Get the current version from [Releases](../../releases/latest).
 
+## 1.23.1 (2026-11-28)
+
+- **No more hangs with large mods**: CabPlay now reads company and city names from your mods in the background. With large mods the window used to show "Not responding" for minutes – even after every settings change. Mods are now only read again when they change, and much faster.
+- **Apple Maps**: in full screen a compass with the heading (N, NE, E …) at the top right while the buttons are hidden. All surfaces on the map – buttons, arrival, turn banner, sheets, map menu – now share the sidebar's glass. In 3D view the location arrow lies on the road like a disc.
+- **3D buildings**: rounded corners, lighter roofs and softly shaded walls – like Apple Maps.
+- **Liquid Glass**: the light rim shines in the diagonal corners with a fine colour fringe; switches and sliders split the light slightly at the edge. Glass buttons swell on tap depending on their size. App icons have real glass layers lit from above.
+- **Fixes**: with the app bar on the right, the map fills the whole screen again. The X in the "Sound" and "Report" sheets no longer jumps on tap. "Customize Icons" is centred. A custom position for the arrival card is now kept.
+- **Chinese**: updated translation by KloseY.
+
 ## 1.23.0 (2026-11-26)
 
 - **Widget page like CarPlay**: to the left of the Dashboard there is now a page of widgets – clock, date, weather, forecast, sunrise and sunset, Now Playing, levels, notifications, My Teams and more. Two or three stacks side by side, swipe up or down within a stack. Set it up under Settings › Widgets.

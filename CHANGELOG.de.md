@@ -4,6 +4,15 @@
 
 Alle Versionen von CabPlay (bis 1.12: ETS2 CarPlay). Die aktuelle Version gibt es unter [Releases](../../releases/latest).
 
+## 1.23.1 (28.11.2026)
+
+- **Keine Hänger mehr mit großen Mods**: CabPlay liest Firmen- und Städtenamen aus deinen Mods jetzt im Hintergrund. Bei großen Mods stand das Fenster vorher minutenlang auf „Keine Rückmeldung“ – auch nach jedem Speichern einer Einstellung. Gelesen wird nur noch, wenn sich deine Mods ändern, und deutlich schneller.
+- **Apple Karten**: Im Vollbild oben rechts ein Kompass mit Himmelsrichtung (N, NO, O …), solange die Knöpfe ausgeblendet sind. Alle Flächen auf der Karte – Knöpfe, Ankunft, Abbiegehinweis, Blätter, Kartenmenü – haben jetzt dasselbe Glas wie die Seitenleiste. Der Positionspfeil liegt in der 3D-Ansicht wie eine Scheibe auf der Straße.
+- **3D-Gebäude**: runde Ecken, hellere Dächer und weich schattierte Wände – wie bei Apple Karten.
+- **Liquid Glass**: Die Lichtkante leuchtet in den diagonalen Ecken, mit feinem Farbsaum; Schalter und Regler brechen das Licht an der Kante leicht farbig. Glasknöpfe wölben sich beim Antippen je nach Größe vor. Die App-Icons haben echte Glasschichten mit Glanz von oben.
+- **Fehler behoben**: Mit der App-Leiste rechts füllt die Karte wieder den ganzen Bildschirm. Das X in den Blättern „Ton“ und „Melden“ springt beim Antippen nicht mehr weg. „Symbole anpassen“ ist mittig. Eine eigene Position für die Ankunft bleibt gespeichert.
+- **Chinesisch**: aktualisierte Übersetzung von KloseY.
+
 ## 1.23.0 (26.11.2026)
 
 - **Widget-Seite wie bei CarPlay**: Links vom Dashboard liegt jetzt eine eigene Seite mit Widgets – Uhr, Datum, Wetter, Vorhersage, Sonnenaufgang und -untergang, Jetzt läuft, Füllstände, Mitteilungen, Meine Teams und mehr. Zwei oder drei Stapel nebeneinander, im Stapel nach oben oder unten wischen. Einstellen unter Einstellungen › Widgets.
